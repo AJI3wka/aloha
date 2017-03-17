@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* line 36, D:/верстка/project/src/desktop/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 37, D:/верстка/project/src/desktop/css/sass/style.scss */
+:after, :before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+/* line 38, D:/верстка/project/src/desktop/css/sass/style.scss */
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+  content: none; }
+
+/* line 39, D:/верстка/project/src/desktop/css/sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  letter-spacing: 0.01em; }
+
+/* line 40, D:/верстка/project/src/desktop/css/sass/style.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #141414; }
+
+/* line 41, D:/верстка/project/src/desktop/css/sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+/* line 42, D:/верстка/project/src/desktop/css/sass/style.scss */
+button, input, textarea {
+  outline: none; }
+
+/* line 43, D:/верстка/project/src/desktop/css/sass/style.scss */
+section {
+  width: 100%;
+  min-width: 1020px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  min-height: 600px;
+  height: 100vh;
+  background-size: cover !important; }
+  /* line 24, D:/верстка/project/src/desktop/css/sass/style.scss */
+  section > div {
+    max-width: 1020px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+
+/* line 47, D:/верстка/project/src/desktop/css/sass/style.scss */
+#maket {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: url(../maket.jpg) no-repeat top center;
+  height: 13200px;
+  opacity: 0.5;
+  z-index: 10; }
+
+/* line 57, D:/верстка/project/src/desktop/css/sass/style.scss */
+#sec1 {
+  background-image: url(../img/sec_bg1.png);
+  height: 760px;
+  color: white; }
+  /* line 63, D:/верстка/project/src/desktop/css/sass/style.scss */
+  #sec1 .logo {
+    margin: 30 auto 21px;
+    background-image: url(../img/logo.png);
+    width: 100%;
+    height: 175px;
+    display: block; }
+  /* line 71, D:/верстка/project/src/desktop/css/sass/style.scss */
+  #sec1 .menu {
+    display: block;
+    text-align: center;
+    list-style: none;
+    letter-spacing: 49px; }
+  /* line 79, D:/верстка/project/src/desktop/css/sass/style.scss */
+  #sec1 li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: normal;
+    position: relative; }
+    /* line 85, D:/верстка/project/src/desktop/css/sass/style.scss */
+    #sec1 li:after {
+      display: block;
+      background-image: url(../img/list-ico.png);
+      width: 20px;
+      height: 4px;
+      position: absolute;
+      right: -34px;
+      top: 8px; }
+    /* line 94, D:/верстка/project/src/desktop/css/sass/style.scss */
+    #sec1 li:last-of-type:after {
+      content: none; }
+
+/* line 102, D:/верстка/project/src/desktop/css/sass/style.scss */
+.phone {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 300;
+  margin-top: 272px; }
+
+/* line 112, D:/верстка/project/src/desktop/css/sass/style.scss */
+.button {
+  display: block;
+  background-image: url(../img/icon-button.png);
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  margin: 20px auto 0;
+  font-size: 15px;
+  color: #bc9c52; }
+
+/* line 130, D:/верстка/project/src/desktop/css/sass/style.scss */
+.address {
+  text-align: center;
+  margin-top: 52px; }
+  /* line 133, D:/верстка/project/src/desktop/css/sass/style.scss */
+  .address span {
+    display: inline-block;
+    padding-right: 22px;
+    border-right: 1px dotted;
+    font-size: 17px;
+    vertical-align: top;
+    line-height: 20px;
+    margin-right: 3px;
+    padding-left: 14px; }
+  /* line 146, D:/верстка/project/src/desktop/css/sass/style.scss */
+  .address a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 20px; }
+    /* line 155, D:/верстка/project/src/desktop/css/sass/style.scss */
+    .address a.vk {
+      background-image: url(../img/vk.png); }
+    /* line 159, D:/верстка/project/src/desktop/css/sass/style.scss */
+    .address a.instagram {
+      background-image: url(../img/instagram.png); }
+    /* line 167, D:/верстка/project/src/desktop/css/sass/style.scss */
+    .address a.facebook {
+      background-image: url(../img/facebook.png); }
+    /* line 180, D:/верстка/project/src/desktop/css/sass/style.scss */
+    .address a .mouse {
+      display: block;
+      background-image: url(../img/mouse.png); }
+
+/* line 188, D:/верстка/project/src/desktop/css/sass/style.scss */
+.italic {
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+  color: #c8a555;
+  display: block; }
+
+/* line 203, D:/верстка/project/src/desktop/css/sass/style.scss */
+#sec2 {
+  background-image: url(../img/sec_bg2);
+  height: 760px; }
+  /* line 209, D:/верстка/project/src/desktop/css/sass/style.scss */
+  #sec2 .info {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 103px;
+    letter-spacing: -1.7px;
+    color: #c8a555; }
+  /* line 218, D:/верстка/project/src/desktop/css/sass/style.scss */
+  #sec2 .orestorane {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 37px;
+    line-height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
