@@ -1,4 +1,4 @@
-/* line 36, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 33, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 37, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 40, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -14,11 +14,11 @@
   height: 0;
   clear: both; }
 
-/* line 38, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 47, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 39, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 50, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
@@ -27,23 +27,23 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
   letter-spacing: 0.01em; }
 
-/* line 40, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 58, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #141414; }
 
-/* line 41, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 42, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 68, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 button, input, textarea {
   outline: none; }
 
-/* line 43, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 71, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 section {
   width: 100%;
   min-width: 1020px;
@@ -53,7 +53,7 @@ section {
   min-height: 600px;
   height: 100vh;
   background-size: cover !important; }
-  /* line 24, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  /* line 23, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   section > div {
     max-width: 1020px;
     position: relative;
@@ -61,45 +61,54 @@ section {
     height: 100%;
     margin: 0 auto; }
 
-/* line 47, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 74, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
-  background: url(../maket.jpg) no-repeat top center;
+  background: url("../maket.jpg") no-repeat top center;
   height: 13200px;
   opacity: 0.5;
   z-index: 10; }
 
-/* line 57, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 84, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #sec1 {
   background-image: url(../img/sec_bg1.png);
   height: 760px;
   color: white; }
-  /* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  /* line 90, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .logo {
-    margin: 30 auto 21px;
+    margin: 0 auto 21px;
     background-image: url(../img/logo.png);
     width: 100%;
     height: 175px;
     display: block; }
-  /* line 71, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  /* line 97, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .menu {
     display: block;
     text-align: center;
     list-style: none;
     letter-spacing: 49px;
-    height: 26px; }
-  /* line 80, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    height: 30px;
+    position: relative;
+    margin-top: -24px; }
+  /* line 106, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 li {
     display: inline-block;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 20px;
     letter-spacing: normal;
-    position: relative; }
-    /* line 87, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    position: relative;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-bottom: 1px solid transparent; }
+    /* line 117, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 li:hover {
+      color: #bc9c52;
+      border-bottom: 1px solid #bc9c52; }
+    /* line 124, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 li:after {
       display: block;
       background-image: url(../img/list-ico.png);
@@ -108,89 +117,154 @@ section {
       position: absolute;
       right: -34px;
       top: 8px; }
-    /* line 96, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    /* line 133, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 li:last-of-type:after {
       content: none; }
-
-/* line 104, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-.phone {
-  text-align: center;
-  font-size: 44px;
-  font-weight: 300;
-  margin-top: 272px; }
-
-/* line 114, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-.button {
-  display: block;
-  background-image: url(../img/icon-button.png);
-  width: 250px;
-  height: 60px;
-  text-align: center;
-  line-height: 55px;
-  margin: 20px auto 0;
-  font-size: 15px;
-  color: #bc9c52; }
-
-/* line 132, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-.address {
-  text-align: center;
-  margin-top: 52px; }
-  /* line 135, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-  .address span {
-    display: inline-block;
-    padding-right: 22px;
-    border-right: 1px dotted;
-    font-size: 17px;
-    vertical-align: top;
-    line-height: 20px;
-    margin-right: 3px;
-    padding-left: 14px; }
-  /* line 148, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-  .address a {
-    display: inline-block;
+  /* line 137, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .phone {
+    text-align: center;
+    font-size: 44px;
+    height: 47px;
+    line-height: 44px;
+    font-weight: 300;
+    margin-top: 272px; }
+  /* line 145, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .button {
+    display: block;
+    background-image: url(../img/icon-button.png);
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    margin: 20px auto 0;
+    font-size: 15px;
+    color: #bc9c52;
+    position: relative;
+    transition: all 0.25s; }
+    /* line 158, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .button:hover {
+      color: white;
+      top: -2px; }
+  /* line 165, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .address {
+    text-align: center;
+    margin-top: 52px; }
+    /* line 168, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .address span {
+      display: inline-block;
+      padding-right: 22px;
+      border-right: 1px dotted;
+      font-size: 17px;
+      vertical-align: top;
+      line-height: 20px;
+      margin-right: 3px;
+      padding-left: 14px; }
+    /* line 179, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .address a {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+      vertical-align: top;
+      line-height: 20px;
+      transition: all 0.25s; }
+      /* line 190, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .address a:hover {
+        transform: scale(1.2); }
+      /* line 194, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .address a.vk {
+        background-image: url(../img/vk.png); }
+      /* line 197, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .address a.instagram {
+        background-image: url(../img/instagram.png); }
+      /* line 200, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .address a.facebook {
+        background-image: url(../img/facebook.png); }
+  /* line 205, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .mouse {
+    display: block;
+    background-image: url(../img/mouse.png);
+    cursor: pointer;
     width: 20px;
-    height: 20px;
-    margin-left: 10px;
-    vertical-align: top;
-    line-height: 20px; }
-    /* line 157, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-    .address a.vk {
-      background-image: url(../img/vk.png); }
-    /* line 161, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-    .address a.instagram {
-      background-image: url(../img/instagram.png); }
-    /* line 169, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-    .address a.facebook {
+    height: 30px;
+    margin: 26px auto 0;
+    transition: all 0.25s; }
+    /* line 215, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .mouse:hover {
+      transform: scale(1.2); }
+  /* line 219, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .italic {
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+    color: #c8a555;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 21px;
+    width: 263px;
+    line-height: 30px; }
+    /* line 230, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .italic span {
+      width: 1px;
+      height: 40px;
+      border-left: 1px dotted white;
+      position: absolute;
+      left: 32px;
+      top: -50px; }
+  /* line 239, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec1 .sec1_arr {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 2px solid white;
+    top: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.25s; }
+    /* line 250, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .sec1_arr.arr_left {
+      left: -105px;
       background-image: url(../img/facebook.png); }
-    /* line 182, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-    .address a .mouse {
-      display: block;
-      background-image: url(../img/mouse.png); }
+      /* line 253, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .sec1_arr.arr_left:hover {
+        left: -110px; }
+    /* line 260, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec1 .sec1_arr.arr_right {
+      right: -105px;
+      background-image: url(../img/instagram.png); }
+      /* line 263, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec1 .sec1_arr.arr_right:hover {
+        right: -110px; }
 
-/* line 190, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
-.italic {
-  font-size: 16px;
-  font-style: italic;
-  text-align: left;
-  color: #c8a555;
-  display: block; }
-
-/* line 205, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+/* line 271, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #sec2 {
   background-image: url(../img/sec_bg2);
   height: 760px; }
-  /* line 211, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  /* line 276, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec2 .info {
     text-align: center;
     font-size: 40px;
-    margin-top: 103px;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 106px;
     letter-spacing: -1.7px;
     color: #c8a555; }
-  /* line 220, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  /* line 285, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec2 .orestorane {
     text-align: center;
     font-size: 18px;
-    margin-top: 37px;
-    line-height: 30px; }
+    line-height: 30px;
+    margin-top: 43px;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+    vertical-align: top; }
+    /* line 293, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec2 .orestorane span {
+      vertical-align: top;
+      font-size: 24px;
+      line-height: 30px;
+      position: relative;
+      top: -1px; }
 
 /*# sourceMappingURL=style.css.map */
