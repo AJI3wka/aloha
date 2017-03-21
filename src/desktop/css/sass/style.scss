@@ -85,8 +85,7 @@ section {
     background-image: url(../img/sec_bg1.png);
     height: 760px;
     color: white;
-    .wrap {
-    }
+   
     .logo {
         margin: 0 auto 21px;
         background-image: url(../img/logo.png);
@@ -249,7 +248,7 @@ section {
         
         &.arr_left{
             left: -105px;
-            background-image: url(../img/facebook.png);
+            background-image: url(../img/arrleft.png);
             &:hover{
                 left: -110px;
                 
@@ -259,7 +258,7 @@ section {
         
         &.arr_right{
             right: -105px;
-            background-image: url(../img/instagram.png);
+            background-image: url(../img/arrright.png);
             &:hover{
                 right: -110px;
                 
@@ -271,8 +270,7 @@ section {
 #sec2 {
     background-image: url(../img/sec_bg2);
     height: 760px;
-    .wrap2 {
-    }
+   
     .info {
         text-align: center;
         font-size: 40px;
@@ -297,5 +295,111 @@ section {
             position: relative;
             top: -1px;
         }
+        
+        
     }
-}
+    .slider-wrap {
+        margin:110px auto 0;
+        height: 370px;
+        width:940px;
+        
+        .slides {
+            
+            .slide {
+                width: 470px;
+                float:left;
+                &[data-slide-id="1"]{
+                    .img   {
+                        background-image: url(../img/blydo2.png);
+                    }
+                }
+                
+                &[data-slide-id="2"]{
+                    .img   {
+                        background-image: url(../img/blydo3.png);
+                    }
+                }    
+                .img {
+                    display: block;
+                       width: 470px;
+                    height: 300px;
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                }
+                .text {
+                    text-align: center;
+                    font-size: 14px;
+                    margin-top: 18px;
+                    letter-spacing: -0.3px;
+                    
+        
+                    
+                }
+                
+            }
+        }
+        
+
+        .slider_arr {
+       width: 14px;
+	   height: 40px;
+      
+           
+		
+           
+        
+                        
+            
+            &.arr_left {  
+                background-image: url(../img/arrleft2.png);
+				
+                
+			}
+                          
+            
+       
+            &.arr_right {
+                background-image: url(../img/arrright2.png);
+			}
+		}
+	}
+	
+	#sec3 {
+		background-image:url(../img/sec_bg3.png);
+		height: 760px;
+		.brend {
+		}
+		.man {
+		}
+		.img {
+			background-image: url(../img/man.png);
+			height: 260px;
+			width: 410px;
+			
+		}
+		.text {
+		}
+		br {
+		}
+		.slide {
+		}
+		.text1 {
+		}
+		.text2 {
+		}
+	}
+	
+	
+	
+	
+	
+            
+        
+    
+	
