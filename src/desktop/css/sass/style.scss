@@ -77,7 +77,7 @@ section {
     left: 0;
     width: 100%;
     background: url('../maket.jpg') no-repeat top center;
-    height: 13200px;
+    height: 7125px;
     opacity: 0.5;
     z-index: 10;
 }
@@ -85,7 +85,6 @@ section {
     background-image: url(../img/sec_bg1.png);
     height: 760px;
     color: white;
-   
     .logo {
         margin: 0 auto 21px;
         background-image: url(../img/logo.png);
@@ -109,17 +108,13 @@ section {
         line-height: 20px;
         letter-spacing: normal;
         position: relative;
-        cursor:pointer;
+        cursor: pointer;
         transition: all 0.25s;
         border-bottom: 1px solid transparent;
-        
-        &:hover{
-            
+        &:hover {
             color: #bc9c52;
             border-bottom: 1px solid #bc9c52;
-
         }
-        
         &:after {
             display: block;
             background-image: url(../img/list-ico.png);
@@ -152,9 +147,8 @@ section {
         font-size: 15px;
         color: #bc9c52;
         position: relative;
-        
         transition: all 0.25s;
-        &:hover{
+        &:hover {
             color: white;
             top: -2px;
         }
@@ -183,13 +177,10 @@ section {
             margin-left: 10px;
             vertical-align: top;
             line-height: 20px;
-            
             transition: all 0.25s;
-            
             &:hover {
                 transform: scale(1.2);
             }
-            
             &.vk {
                 background-image: url(../img/vk.png);
             }
@@ -208,9 +199,7 @@ section {
         width: 20px;
         height: 30px;
         margin: 26px auto 0;
-        
         transition: all 0.25s;
-
         &:hover {
             transform: scale(1.2);
         }
@@ -235,8 +224,7 @@ section {
             top: -50px;
         }
     }
-    .sec1_arr{
-        
+    .sec1_arr {
         width: 40px;
         height: 40px;
         position: absolute;
@@ -245,32 +233,25 @@ section {
         border-radius: 20px;
         cursor: pointer;
         transition: all 0.25s;
-        
-        &.arr_left{
+        &.arr_left {
             left: -105px;
             background-image: url(../img/arrleft.png);
-            &:hover{
+            &:hover {
                 left: -110px;
-                
             }
-            
         }
-        
-        &.arr_right{
+        &.arr_right {
             right: -105px;
             background-image: url(../img/arrright.png);
-            &:hover{
+            &:hover {
                 right: -110px;
-                
             }
-            
         }
     }
 }
 #sec2 {
     background-image: url(../img/sec_bg2);
     height: 760px;
-   
     .info {
         text-align: center;
         font-size: 40px;
@@ -288,118 +269,117 @@ section {
         line-height: 30px;
         letter-spacing: -0.3px;
         vertical-align: top;
-        span{
+        span {
             vertical-align: top;
             font-size: 24px;
-            line-height:30px;
+            line-height: 30px;
             position: relative;
             top: -1px;
         }
-        
-        
     }
     .slider-wrap {
-        margin:110px auto 0;
+        margin: 110px auto 0;
         height: 370px;
-        width:940px;
-        
+        width: 940px;
+        position: relative;
         .slides {
-            
             .slide {
                 width: 470px;
-                float:left;
-                &[data-slide-id="1"]{
-                    .img   {
+                float: left;
+                &[data-slide-id="1"] {
+                    .img {
                         background-image: url(../img/blydo2.png);
                     }
                 }
-                
-                &[data-slide-id="2"]{
-                    .img   {
+                &[data-slide-id="2"] {
+                    .img {
                         background-image: url(../img/blydo3.png);
                     }
-                }    
+                }
                 .img {
                     display: block;
-                       width: 470px;
+                    width: 470px;
                     height: 300px;
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                 }
                 .text {
                     text-align: center;
                     font-size: 14px;
                     margin-top: 18px;
                     letter-spacing: -0.3px;
-                    
-        
-                    
                 }
-                
             }
         }
-        
-
         .slider_arr {
-       width: 14px;
-	   height: 40px;
-      
-           
-		
-           
-        
-                        
-            
-            &.arr_left {  
+            width: 40px;
+            height: 14px;
+            position: absolute;
+            top: 144px;
+            cursor: pointer;
+            transition: all 0.25s;
+            &.arr_left {
                 background-image: url(../img/arrleft2.png);
-				
-                
-			}
-                          
-            
-       
+                left: -30px;
+                &:hover {
+                    left: -38px;
+                }
+            }
             &.arr_right {
                 background-image: url(../img/arrright2.png);
-			}
-		}
-	}
-	
-	#sec3 {
-		background-image:url(../img/sec_bg3.png);
-		height: 760px;
-		.brend {
-		}
-		.man {
-		}
-		.img {
-			background-image: url(../img/man.png);
-			height: 260px;
-			width: 410px;
-			
-		}
-		.text {
-		}
-		br {
-		}
-		.slide {
-		}
-		.text1 {
-		}
-		.text2 {
-		}
-	}
-	
-	
-	
-	
-	
-            
-        
-    
-	
+                right: -30px;
+                &:hover {
+                    right: -38px;
+                }
+            }
+        }
+    }
+}
+#sec3 {
+    background-image: url(../img/sec_bg3.png);
+    height: 730px;
+    .left-part {
+        float: left;
+        width: 504px;
+        margin-top: 140px;
+        .img {
+            background-image: url(../img/man.png);
+            height: 260px;
+            width: 410px;
+            margin-left: 39px;
+        }
+        .text {
+            position: relative;
+            font-size: 23px;
+            margin-left: 88px;
+            line-height: 45px;
+            margin-top: 43px;
+            span{
+                position: absolute;
+                left: -47px;
+                top: 3px;
+                color:red;
+                font-size: 42px;
+                display: block;
+                line-height: 30px;
+                height: 30px;
+            }
+        }
+        br {
+        }
+    }
+    .right-part {
+        float: left;
+        margin-top: 140px;
+        .text1 {
+        }
+        .brend-text {
+        }
+        .after-line {
+        }
+        .boss {
+            span {
+            }
+        }
+        br {
+        }
+    }
+}

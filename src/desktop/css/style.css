@@ -1,4 +1,4 @@
-/* line 33, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 33, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 40, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 40, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -14,11 +14,11 @@
   height: 0;
   clear: both; }
 
-/* line 47, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 47, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 50, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 50, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
@@ -27,23 +27,23 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
   letter-spacing: 0.01em; }
 
-/* line 58, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 58, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #141414; }
 
-/* line 63, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 68, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 68, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 button, input, textarea {
   outline: none; }
 
-/* line 71, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 71, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 section {
   width: 100%;
   min-width: 1020px;
@@ -53,7 +53,7 @@ section {
   min-height: 600px;
   height: 100vh;
   background-size: cover !important; }
-  /* line 23, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 23, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   section > div {
     max-width: 1020px;
     position: relative;
@@ -61,30 +61,30 @@ section {
     height: 100%;
     margin: 0 auto; }
 
-/* line 74, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 74, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
   background: url("../maket.jpg") no-repeat top center;
-  height: 13200px;
+  height: 7125px;
   opacity: 0.5;
   z-index: 10; }
 
-/* line 84, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 84, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #sec1 {
   background-image: url(../img/sec_bg1.png);
   height: 760px;
   color: white; }
-  /* line 89, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 88, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .logo {
     margin: 0 auto 21px;
     background-image: url(../img/logo.png);
     width: 100%;
     height: 175px;
     display: block; }
-  /* line 96, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 95, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .menu {
     display: block;
     text-align: center;
@@ -93,7 +93,7 @@ section {
     height: 30px;
     position: relative;
     margin-top: -24px; }
-  /* line 105, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 104, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 li {
     display: inline-block;
     text-transform: uppercase;
@@ -104,11 +104,11 @@ section {
     cursor: pointer;
     transition: all 0.25s;
     border-bottom: 1px solid transparent; }
-    /* line 116, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 114, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 li:hover {
       color: #bc9c52;
       border-bottom: 1px solid #bc9c52; }
-    /* line 123, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 118, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 li:after {
       display: block;
       background-image: url(../img/list-ico.png);
@@ -117,10 +117,10 @@ section {
       position: absolute;
       right: -34px;
       top: 8px; }
-    /* line 132, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 127, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 li:last-of-type:after {
       content: none; }
-  /* line 136, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 131, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .phone {
     text-align: center;
     font-size: 44px;
@@ -128,7 +128,7 @@ section {
     line-height: 44px;
     font-weight: 300;
     margin-top: 272px; }
-  /* line 144, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 139, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .button {
     display: block;
     background-image: url(../img/icon-button.png);
@@ -141,15 +141,15 @@ section {
     color: #bc9c52;
     position: relative;
     transition: all 0.25s; }
-    /* line 157, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 151, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .button:hover {
       color: white;
       top: -2px; }
-  /* line 164, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 158, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .address {
     text-align: center;
     margin-top: 52px; }
-    /* line 167, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 161, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .address span {
       display: inline-block;
       padding-right: 22px;
@@ -159,7 +159,7 @@ section {
       line-height: 20px;
       margin-right: 3px;
       padding-left: 14px; }
-    /* line 178, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 172, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .address a {
       display: inline-block;
       width: 20px;
@@ -168,19 +168,19 @@ section {
       vertical-align: top;
       line-height: 20px;
       transition: all 0.25s; }
-      /* line 189, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 181, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .address a:hover {
         transform: scale(1.2); }
-      /* line 193, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 184, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .address a.vk {
         background-image: url(../img/vk.png); }
-      /* line 196, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 187, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .address a.instagram {
         background-image: url(../img/instagram.png); }
-      /* line 199, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 190, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .address a.facebook {
         background-image: url(../img/facebook.png); }
-  /* line 204, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 195, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .mouse {
     display: block;
     background-image: url(../img/mouse.png);
@@ -189,10 +189,10 @@ section {
     height: 30px;
     margin: 26px auto 0;
     transition: all 0.25s; }
-    /* line 214, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 203, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .mouse:hover {
       transform: scale(1.2); }
-  /* line 218, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 207, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .italic {
     font-size: 16px;
     font-style: italic;
@@ -204,7 +204,7 @@ section {
     bottom: 21px;
     width: 263px;
     line-height: 30px; }
-    /* line 229, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 218, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .italic span {
       width: 1px;
       height: 40px;
@@ -212,7 +212,7 @@ section {
       position: absolute;
       left: 32px;
       top: -50px; }
-  /* line 238, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 227, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec1 .sec1_arr {
     width: 40px;
     height: 40px;
@@ -222,26 +222,26 @@ section {
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.25s; }
-    /* line 249, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 236, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .sec1_arr.arr_left {
       left: -105px;
       background-image: url(../img/arrleft.png); }
-      /* line 252, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 239, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .sec1_arr.arr_left:hover {
         left: -110px; }
-    /* line 259, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 243, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec1 .sec1_arr.arr_right {
       right: -105px;
       background-image: url(../img/arrright.png); }
-      /* line 262, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 246, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec1 .sec1_arr.arr_right:hover {
         right: -110px; }
 
-/* line 270, D:/science/aloha/src/desktop/css/sass/style.scss */
+/* line 252, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
 #sec2 {
   background-image: url(../img/sec_bg2);
   height: 760px; }
-  /* line 274, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 255, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec2 .info {
     text-align: center;
     font-size: 40px;
@@ -250,7 +250,7 @@ section {
     margin-top: 106px;
     letter-spacing: -1.7px;
     color: #c8a555; }
-  /* line 283, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 264, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec2 .orestorane {
     text-align: center;
     font-size: 18px;
@@ -259,50 +259,98 @@ section {
     line-height: 30px;
     letter-spacing: -0.3px;
     vertical-align: top; }
-    /* line 291, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 272, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec2 .orestorane span {
       vertical-align: top;
       font-size: 24px;
       line-height: 30px;
       position: relative;
       top: -1px; }
-  /* line 301, D:/science/aloha/src/desktop/css/sass/style.scss */
+  /* line 280, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
   #sec2 .slider-wrap {
     margin: 110px auto 0;
     height: 370px;
-    width: 940px; }
-    /* line 308, D:/science/aloha/src/desktop/css/sass/style.scss */
+    width: 940px;
+    position: relative; }
+    /* line 286, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec2 .slider-wrap .slides .slide {
       width: 470px;
       float: left; }
-      /* line 312, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 290, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slides .slide[data-slide-id="1"] .img {
         background-image: url(../img/blydo2.png); }
-      /* line 318, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 295, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slides .slide[data-slide-id="2"] .img {
         background-image: url(../img/blydo3.png); }
-      /* line 322, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 299, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slides .slide .img {
         display: block;
         width: 470px;
         height: 300px; }
-      /* line 335, D:/science/aloha/src/desktop/css/sass/style.scss */
+      /* line 304, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slides .slide .text {
         text-align: center;
         font-size: 14px;
         margin-top: 18px;
         letter-spacing: -0.3px; }
-    /* line 349, D:/science/aloha/src/desktop/css/sass/style.scss */
+    /* line 312, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
     #sec2 .slider-wrap .slider_arr {
       width: 40px;
-      height: 14px; }
-      /* line 356, D:/science/aloha/src/desktop/css/sass/style.scss */
+      height: 14px;
+      position: absolute;
+      top: 144px;
+      cursor: pointer;
+      transition: all 0.25s; }
+      /* line 319, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slider_arr.arr_left {
-        display: block;
         background-image: url(../img/arrleft2.png);
-        top: 40px; }
-      /* line 367, D:/science/aloha/src/desktop/css/sass/style.scss */
+        left: -30px; }
+        /* line 322, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+        #sec2 .slider-wrap .slider_arr.arr_left:hover {
+          left: -38px; }
+      /* line 326, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
       #sec2 .slider-wrap .slider_arr.arr_right {
-        background-image: url(../img/arrright.png); }
+        background-image: url(../img/arrright2.png);
+        right: -30px; }
+        /* line 329, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+        #sec2 .slider-wrap .slider_arr.arr_right:hover {
+          right: -38px; }
+
+/* line 336, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+#sec3 {
+  background-image: url(../img/sec_bg3.png);
+  height: 730px; }
+  /* line 339, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec3 .left-part {
+    float: left;
+    width: 504px;
+    margin-top: 140px; }
+    /* line 343, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec3 .left-part .img {
+      background-image: url(../img/man.png);
+      height: 260px;
+      width: 410px;
+      margin-left: 39px; }
+    /* line 349, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+    #sec3 .left-part .text {
+      position: relative;
+      font-size: 23px;
+      margin-left: 88px;
+      line-height: 45px;
+      margin-top: 43px; }
+      /* line 355, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+      #sec3 .left-part .text span {
+        position: absolute;
+        left: -47px;
+        top: 3px;
+        color: red;
+        font-size: 42px;
+        display: block;
+        line-height: 30px;
+        height: 30px; }
+  /* line 369, /Volumes/Workspace/CACHE/GITHUB/aloha/src/desktop/css/sass/style.scss */
+  #sec3 .right-part {
+    float: left;
+    margin-top: 140px; }
 
 /*# sourceMappingURL=style.css.map */
