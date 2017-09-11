@@ -46,7 +46,10 @@
   },
   "dependencies": {
     "critical": "^0.7.2",
+    "grunt-sass": "^1.2.1",
     "jshint-stylish": "^2.2.0",
+    "node-sass": "^4.5.3",
+    "sass": "^1.0.0-beta.2",
     "time-grunt": "^1.4.0"
   }
 }

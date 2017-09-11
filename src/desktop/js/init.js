@@ -1,8 +1,7 @@
 //webfont-load
 WebFont.load({
-    custom: {
-        families: ['ClearSans'],
-        urls: ['css/fonts.css']
+    google: {
+        families: ['Roboto:300,400,500:latin,cyrillic']
     },
     active: function() {
         console.log('fonts-active');
@@ -61,9 +60,9 @@ function initalize() {
             for (; u[0] && "loaded" == u[0][l];) o = u.shift(), o[f] = !a.parentNode.insertBefore(o, a)
         }
         for (var i, s, o, u = [], a = e.scripts[0], f = "onreadystatechange", l = "readyState"; i = n.shift();) s = e.createElement(t), "async" in a ? (s.async = !1, e.head.appendChild(s)) : a[l] ? (u.push(s), s[f] = r) : e.write("<" + t + ' src="' + i + '" defer></' + t + ">"), s.src = i
-    }(document, "script", ["https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+    }(document, "script", ["https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
         "js/libs.js",
-        "js/main.js"
+        "js/main.js",
     ]);
     console.log('js-append');
     // hide-loader
