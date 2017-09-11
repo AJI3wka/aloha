@@ -1,7 +1,7 @@
-cd ../../Volumes/Workspace/CACHE/GITHUB/standarts
 
 
-cd /d D:\WORKSPACE\GITHUB\standarts
+
+cd /d d:\science\aloha\
 
 
 
@@ -30,12 +30,3 @@ npm install grunt-sass --save-dev
 npm install grunt-jsbeautifier --save-dev
 npm install grunt-contrib-csslint --save-dev
 
-
-
-
-bower install backstopjs
-cd bower_components/backstopjs
-npm install slimerjs
-
-npm run reference
-npm run test

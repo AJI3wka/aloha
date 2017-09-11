@@ -4,8 +4,10 @@ module.exports = function(grunt) {
 
     var tablet = false;
 
-    var adaptive = true;
+    var adaptive = false;
 
+    var d = new Date();
+    var time = d.getTime();
 
     var ft_target = 'dist/';
     var ft_folder = 'sob/';
@@ -308,6 +310,13 @@ module.exports = function(grunt) {
                 cwd: 'src/desktop/',
                 src: '*.*',
                 dest: 'dist/',
+            },
+            desktop_valueble: {
+                expand: true,
+                flatten: true,
+                cwd: 'src/desktop/downloads/',
+                src: '**',
+                dest: 'dist/downloads/',
             },
             desktop_httaccess: {
                 expand: true,
@@ -910,6 +919,55 @@ module.exports = function(grunt) {
                     }]
                 }
             },
+            start_rev: {
+                files: {
+                    './': ['src/desktop/manifest.appcache']
+                },
+                options: {
+                    replacements: [{
+                        pattern: /# GEN_ID = \d\d\d\d\d\d\d\d\d\d/ig,
+                        replacement: '# GEN_ID = '+time.toString().slice(-10)
+                    }]
+                }
+            },
+            revision: {
+                files: {
+                    './': ['dist/index.php', 'dist/js/init.min.js']
+                },
+                options: {
+                    replacements: [{
+                        pattern: /\.js/ig,
+                        replacement: '.js?' + time
+                    }, {
+                        pattern: /\.css/ig,
+                        replacement: '.css?' + time
+                    }]
+                }
+            },
+            change_livereload_port_grunt:{
+                files: {
+                    './': ['Gruntfile.js']
+                },
+                options: {
+                    replacements: [{
+                        pattern: /port: \d\d\d\d\,\/\/LIVERELOAD_PORT/ig,
+                        replacement: 'port: '+ time.toString().slice(-4) +',//LIVERELOAD_PORT' 
+                    }]
+                }
+                
+            },
+            change_livereload_port_index:{
+                files: {
+                    './': ['src/desktop/index.php']
+                },
+                options: {
+                    replacements: [{
+                        pattern: /localhost:\d\d\d\d\/livereload.js/ig,
+                        replacement: 'localhost:'+ time.toString().slice(-4) +'/livereload.js' 
+                    }]
+                }
+                
+            },
             desktop_br_space: {
                 files: {
                     './': ['dist/index.php']
@@ -1349,6 +1407,7 @@ if(!mobile&&!tablet&&adaptive){
         'clean:desktop', //Удаление src/desktop/index_fc.html,src/desktop/css/bp,src/desktop/css/ap,src/desktop/js/bp
         'copy:desktop_fonts',
         'copy:desktop_fonts_css',
+        'copy:desktop_valueble',
         'copy:desktop_index', //Копирование src/desktop/*.* в dist/
         'copy:desktop_httaccess', //Копирование src/desktop/.httaccess в dist/
         'copy:desktop_ajax', //Копирование src/desktop/ajax/ в dist/ajax/
@@ -1454,7 +1513,18 @@ if(!mobile&&!tablet&&adaptive){
 
 var start_command = ['start-desktop'];
 
-var fin_array = ['clean:dist','start-desktop','fin-desktop'];
+var fin_array = [
+        'string-replace:start_rev',
+        'clean:dist',
+        'start-desktop',
+        'fin-desktop',
+        'string-replace:revision',
+        'string-replace:change_livereload_port_grunt',
+        'string-replace:change_livereload_port_index',
+        'jsbeautifier:desktop',
+        'htmlcomb:desktop',
+        'prettify:desktop'
+    ];
 
 //var fin_command = ['fin-desktop'];
 
@@ -1465,14 +1535,16 @@ var check_command = ['check-desktop'];
 if(tablet) {
     //fin_command.push('fin-tablet');
     start_command.push('start-tablet');
-    fin_array.push('start-tablet').push('fin-tablet');
+    fin_array.push('start-tablet');
+    fin_array.push('fin-tablet');
     check_command.push('check-tablet');
 }
 
 if(mobile) {
     //fin_command.push('fin-mobile');
     start_command.push('start-mobile');
-    fin_array.push('start-mobile').push('fin-mobile');
+    fin_array.push('start-mobile');
+    fin_array.push('fin-mobile');
     check_command.push('check-mobile');
 }
 

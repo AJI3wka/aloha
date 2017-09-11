@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ClearSans';
+    src: url('../fonts/ClearSansMedium.eot');
+    src: url('../fonts/ClearSansMedium.eot') format('embedded-opentype'),
+         url('../fonts/ClearSansMedium.woff2') format('woff2'),
+         url('../fonts/ClearSansMedium.woff') format('woff'),
+         url('../fonts/ClearSansMedium.ttf') format('truetype'),
+         url('../fonts/ClearSansMedium.svg#ClearSansMedium') format('svg');
+         font-weight: 500;
+}
+@font-face {
+    font-family: 'ClearSans';
+    src: url('../fonts/ClearSansThin.eot');
+    src: url('../fonts/ClearSansThin.eot') format('embedded-opentype'),
+         url('../fonts/ClearSansThin.woff2') format('woff2'),
+         url('../fonts/ClearSansThin.woff') format('woff'),
+         url('../fonts/ClearSansThin.ttf') format('truetype'),
+         url('../fonts/ClearSansThin.svg#ClearSansThin') format('svg');
+         font-weight: 100;
+}
+@font-face {
+    font-family: 'ClearSans';
+    src: url('../fonts/ClearSansRegular.eot');
+    src: url('../fonts/ClearSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/ClearSansRegular.woff2') format('woff2'),
+         url('../fonts/ClearSansRegular.woff') format('woff'),
+         url('../fonts/ClearSansRegular.ttf') format('truetype'),
+         url('../fonts/ClearSansRegular.svg#ClearSansRegular') format('svg');
+         font-weight: 400;
+}

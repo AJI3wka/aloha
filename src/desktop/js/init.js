@@ -1,7 +1,8 @@
 //webfont-load
 WebFont.load({
-    google: {
-        families: ['Roboto:300,700:latin,cyrillic', 'Oranienbaum:400:latin,cyrillic']
+    custom: {
+        families: ['ClearSans'],
+        urls: ['css/fonts.css']
     },
     active: function() {
         console.log('fonts-active');
