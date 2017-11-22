@@ -5873,7 +5873,7 @@ i[class*=icon-] {
  font-weight:700
 }
 .question {
- background-image:url(../img/bgb2.png);
+ background-image:url(../img/bgb2.jpg);
  color:#fff
  background-position: 0 -81px;
 }
@@ -5987,10 +5987,10 @@ i[class*=icon-] {
  opacity:.8
 }
 .safety-bg--hypoallergenicity {
- background-image:url(../img/sa1.png)
+ background-image:url(../img/sa1.jpg)
 }
 .safety-bg--what-to-do {
- background-image:url(../img/sa2.png);
+ background-image:url(../img/sa2.jpg);
  background-position: -371px;
 }
 .disinfection-title h3 {
