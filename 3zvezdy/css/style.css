@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
   font-family: 'Gilroy-Light';
   src: url('../fonts/Gilroy-Lightd41d.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gilroy-Light.otf')  format('opentype'),
 	     url('../fonts/Gilroy-Light.woff') format('woff'), url('../fonts/Gilroy-Light.ttf')  format('truetype'), url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
@@ -1609,7 +1609,9 @@ footer .bottom p:last-child {
 	float: left;
 }
 .bottom-info {}
-.bottom-info .form {}
+.bottom-info .form {
+	width: 300px;
+	float: left;}
 .bottom-info p:before {
     content: '';
     display: block;
@@ -1652,8 +1654,9 @@ input[type='text']{
 }
 .bottom-info .video {
     float: right;
-    width: calc(100% - 270px);
+    width: calc(100% - 300px);
     padding-left: 40px;
+    margin-top: 125px;
 }
 .bottom-info img {
     width: 100%;
