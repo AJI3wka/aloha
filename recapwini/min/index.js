@@ -29,7 +29,7 @@ jQuery.noConflict();
     }
 
     function myconf() {
-        
+
         var cf = $.Deferred();
 
         $.ajax({
@@ -2734,7 +2734,7 @@ function() {
 })();;
 jQuery.noConflict();
 (function($) {
-    $(document).ready(function() {
+    //$(document).ready(function() {
         $("#phone-last").mask("+7 (999) 999-99-99");
         $("#phone-01").mask("+7 (999) 999-99-99");
         $("#phone-02").mask("+7 (999) 999-99-99");
@@ -2798,6 +2798,8 @@ jQuery.noConflict();
                 $('#small-modal-4').arcticmodal();
             });
         });
+        $('.start-test').unbind('click');
+        alert('wtf')
         $(document).on('click', '.start-test', function() {
             $('.row-first-screen').hide();
             $('.alpha_first-screen').hide();
@@ -2831,6 +2833,11 @@ jQuery.noConflict();
             $('.item-2').show();
             $(".screen-form-inner-1").addClass("hidden");
             $(".screen-form-inner-2").removeClass("hidden");
+                $('.progress-wrapper').show();
+                $('.progress-value').text("20%");
+                $('.progress-line').animate({
+                    'width': '20%'
+                }, 500);
             //yaCounter40513390.reachGoal('Q1NEXT');
         });
         $(document).on('click', '.item-2-option', function() {
@@ -2839,40 +2846,21 @@ jQuery.noConflict();
                 $('.item-circle').addClass("hidden");
                 $(this).find('.item-circle').removeClass("hidden");
                 var optionText = $(this).find(".item-text").text();
+                $(".q2").val(optionText);
             }
         });
         $(document).on('click', '.item-2-button .hidden-button', function() {
-            var arr = $('.item-2 input:checkbox:checked').map(function() {
-                return this.value;
-            }).get();
-            var arrCounts = $('.item-2 input:checkbox:checked').map(function() {
-                return $(this).attr('data-count');
-            }).get();
-            var sumQ2 = 0;
-            for (var i = 0; i < arrCounts.length; i++) {
-                sumQ2 = sumQ2 + parseInt(arrCounts[i]);
-            }
-            $("input.sumQ2").val(sumQ2);
-            arr = arr.join('; ');
-            $(".q2").val(arr);
-            if ($(".q2").val() != "") {
-                $('.item-2').hide();
-                $('.item-3').show();
-                $(".discount-inner").removeClass("hidden");
-
-                function explode() {}
-                setTimeout(explode, 2000);
+            
+            $('.item-2').hide();
+            $('.item-3').show();
                 $(".screen-form-inner-2").addClass("hidden");
                 $(".screen-form-inner-3").removeClass("hidden");
                 //yaCounter40513390.reachGoal('Q2NEXT');
                 $('.progress-wrapper').show();
-                $('.progress-value').text("60%");
+                $('.progress-value').text("40%");
                 $('.progress-line').animate({
-                    'width': '60%'
+                    'width': '40%'
                 }, 500);
-            } else {
-                alert("Выберите один или несколько вариантов");
-            }
         });
         $(document).on('click', '.item-3-option', function() {
             $('.item-3-button .hidden-button').show();
@@ -2880,24 +2868,12 @@ jQuery.noConflict();
                 $('.item-circle').addClass("hidden");
                 $(this).find('.item-circle').removeClass("hidden");
                 var optionText = $(this).find(".item-text").text();
+                $(".q3").val(optionText);
             }
         });
         $(document).on('click', '.item-3-button .hidden-button', function() {
-            var arr = $('.item-3 input:checkbox:checked').map(function() {
-                return this.value;
-            }).get();
-            var arrCounts = $('.item-3 input:checkbox:checked').map(function() {
-                return $(this).attr('data-count');
-            }).get();
-            arr = arr.join('; ');
-            $(".q3").val(arr);
-            if ($(".q3").val() != "") {
-                $('.item-3').hide();
-                $('.item-4').show();
-                $(".discount-inner").removeClass("hidden");
-
-                function explode() {}
-                setTimeout(explode, 2000);
+            $('.item-3').hide();
+            $('.item-4').show();
                 $(".screen-form-inner-3").addClass("hidden");
                 $(".screen-form-inner-4").removeClass("hidden");
                 //yaCounter40513390.reachGoal('Q2NEXT');
@@ -2906,27 +2882,24 @@ jQuery.noConflict();
                 $('.progress-line').animate({
                     'width': '60%'
                 }, 500);
-            } else {
-                alert("Выберите один или несколько вариантов");
-            }
         });
+        // $(document).on('click', '.item-4-option', function() {
+        //     $('.item-4-button .hidden-button').show();
+        //     if ($(this).find('.item-circle').hasClass("hidden")) {
+        //         $('.item-circle').addClass("hidden");
+        //         $(this).find('.item-circle').removeClass("hidden");
+        //         var optionText = $(this).find(".item-text").text();
+        //         $(".q4").val(optionText);
+        //         $(".discount-inner").removeClass("hidden");
+        //     }
+        // });
         $(document).on('click', '.item-4-option', function() {
-            $('.item-4-button .hidden-button').show();
-            if ($(this).find('.item-circle').hasClass("hidden")) {
-                $('.item-circle').addClass("hidden");
-                $(this).find('.item-circle').removeClass("hidden");
-                var optionText = $(this).find(".item-text").text();
-                $(".q4").val(optionText);
-                $(".discount-inner").removeClass("hidden");
-            }
-        });
-		$(document).on('click', '.item-4-option', function() {
             $('.item-4-button .hidden-button').show();
             if ($(this).find('.item-circle2').hasClass("hidden")) {
                 $('.item-circle2').addClass("hidden");
                 $(this).find('.item-circle2').removeClass("hidden");
-                var optionText = $(this).find(".item-text").text();
-                $(".q4").val(optionText);
+                // var optionText = $(this).find(".item-text").text();
+                // $(".q4").val(optionText);
                 $(".discount-inner").removeClass("hidden");
             }
         });
@@ -2936,6 +2909,14 @@ jQuery.noConflict();
             $(".screen-form-inner-4").addClass("hidden");
             $(".screen-form-inner-5").removeClass("hidden");
             //yaCounter40513390.reachGoal('Q4NEXT');
+            var optionText = $(this).find(".item-text").text();
+            var razmer = '';
+            $('.item-4').find('.item-title').find('input[type="text"]').each(function(index, el) {
+                razmer+=$(this).val()+' X ';
+            });
+            razmer = razmer.slice(0, -3);
+
+            $(".q4").val(razmer);
             $('.progress-wrapper').show();
             $('.progress-value').text("80%");
             $('.progress-line').animate({
@@ -2989,49 +2970,60 @@ jQuery.noConflict();
                 }
             },
         });
+    //});
+
+    $('.call-form').submit(function(event) {
+        event.preventDefault()
+        $.ajax({
+            url: "/mail.php",
+            type: "post",
+            data: $(this).serialize(),
+            success: function(response) {
+                $('body').append('<style>.b-form__ok__wrap{display: none;position:fixed;width:100%;z-index:1000;top:0;height:100%;background-color:rgba(0,0,0,.7);text-align:center}.b-form__ok{background-color:#fff;background-color:rgba(255,255,255,.95);position:relative;margin-top:100px;display:inline-block;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;width:578px;height:263px;color:#333}.b-form__firstline{font-size:40px;text-transform:uppercase;margin:0 0 46px;padding-top:77px}.b-form__line{font-size:24px}</style><div class="b-form__ok__wrap"><div class="b-form__ok"><!--i class="icon i-close"></i--><p class="b-form__firstline">Спасибо!</p><p class="b-form__line">Мы вам перезвоним в ближайшее время.</p></div></div>');
+                $('.b-form__ok__wrap').fadeIn(500);
+                setTimeout(function() {
+                    $('.b-form__ok__wrap').fadeOut(500, function() {
+                        $('.b-form__ok__wrap').remove();
+                    });
+                }, 4000);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+    });
+    $('.i-close').on('click', function() {
+        $('.b-form__ok__wrap').fadeOut(500);
+        $.fancybox.close();
     });
 
-$('.call-form').submit(function(event){
-    event.preventDefault()
-    $.ajax({
-        url: "/mail.php",
-        type: "post",
-        data: $(this).serialize(),
-        success: function (response) {              
-            $('body').append('<style>.b-form__ok__wrap{display: none;position:fixed;width:100%;z-index:1000;top:0;height:100%;background-color:rgba(0,0,0,.7);text-align:center}.b-form__ok{background-color:#fff;background-color:rgba(255,255,255,.95);position:relative;margin-top:100px;display:inline-block;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;width:578px;height:263px;color:#333}.b-form__firstline{font-size:40px;text-transform:uppercase;margin:0 0 46px;padding-top:77px}.b-form__line{font-size:24px}</style><div class="b-form__ok__wrap"><div class="b-form__ok"><!--i class="icon i-close"></i--><p class="b-form__firstline">Спасибо!</p><p class="b-form__line">Мы вам перезвоним в ближайшее время.</p></div></div>');
-            $('.b-form__ok__wrap').fadeIn(500);
-            setTimeout(function() {$('.b-form__ok__wrap').fadeOut(500, function(){$('.b-form__ok__wrap').remove();});}, 4000);
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-           console.log(textStatus, errorThrown);
-        }
+    $('.order-form').submit(function(event) {
+        event.preventDefault();
+        $(this).find('input[name="yourCount"]').val($('.item-11 .discount-total-count').text());
+        var data_a = $(this).serialize();
+        console.log(data_a)
+        $.ajax({
+            url: "/mail-order.php",
+            type: "post",
+            data: data_a,
+            success: function(response) {
+                $('body').append('<style>.b-form__ok__wrap{display: none;position:fixed;width:100%;z-index:1000;top:0;height:100%;background-color:rgba(0,0,0,.7);text-align:center}.b-form__ok{background-color:#fff;background-color:rgba(255,255,255,.95);position:relative;margin-top:100px;display:inline-block;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;width:578px;height:263px;color:#333}.b-form__firstline{font-size:40px;text-transform:uppercase;margin:0 0 46px;padding-top:77px}.b-form__line{font-size:24px}</style><div class="b-form__ok__wrap"><div class="b-form__ok"><!--i class="icon i-close"></i--><p class="b-form__firstline">Спасибо!</p><p class="b-form__line">Ваша заявка успешно отправлена.</p></div></div>');
+                $('.b-form__ok__wrap').fadeIn(500);
+                setTimeout(function() {
+                    $('.b-form__ok__wrap').fadeOut(500, function() {
+                        $('.b-form__ok__wrap').remove();
+                    });
+                }, 4000);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
     });
- });
-$('.i-close').on('click', function(){
-  $('.b-form__ok__wrap').fadeOut(500);
-  $.fancybox.close();
-});
-
-$('.order-form').submit(function(event){
-    event.preventDefault()
-    $.ajax({
-        url: "/mail-order.php",
-        type: "post",
-        data: $(this).serialize(),
-        success: function (response) {              
-            $('body').append('<style>.b-form__ok__wrap{display: none;position:fixed;width:100%;z-index:1000;top:0;height:100%;background-color:rgba(0,0,0,.7);text-align:center}.b-form__ok{background-color:#fff;background-color:rgba(255,255,255,.95);position:relative;margin-top:100px;display:inline-block;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;width:578px;height:263px;color:#333}.b-form__firstline{font-size:40px;text-transform:uppercase;margin:0 0 46px;padding-top:77px}.b-form__line{font-size:24px}</style><div class="b-form__ok__wrap"><div class="b-form__ok"><!--i class="icon i-close"></i--><p class="b-form__firstline">Спасибо!</p><p class="b-form__line">Ваша заявка успешно отправлена.</p></div></div>');
-            $('.b-form__ok__wrap').fadeIn(500);
-            setTimeout(function() {$('.b-form__ok__wrap').fadeOut(500, function(){$('.b-form__ok__wrap').remove();});}, 4000);
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-           console.log(textStatus, errorThrown);
-        }
+    $('.i-close').on('click', function() {
+        $('.b-form__ok__wrap').fadeOut(500);
+        $.fancybox.close();
     });
- });
-$('.i-close').on('click', function(){
-  $('.b-form__ok__wrap').fadeOut(500);
-  $.fancybox.close();
-});
 
 
 })(jQuery);

@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-    <link rel="stylesheet" href="min/FSElliotProBold.css" type="text/css" media="all"/>
-    <title>Узнайте за 30 секунд стоимость Вашей барной стойки или ресепшена</title>
-
-    <!--[if lt IE 9]>
-	<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-    <script>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" href="min/FSElliotProBold.css" type="text/css" media="all"/>
+        <title>Узнайте за 30 секунд стоимость Вашей барной стойки или ресепшена</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script>
         // WebFontConfig = {
         //   custom: {
         //     families: ['Lato-Bold', 'Lato-Light', 'Lato-Regular'],
@@ -22,841 +19,746 @@
         //   }
         // }
         WebFontConfig = {
-            google: {
-                families: ['Open Sans']
-            }
+        google: {
+        families: ['Open Sans']
+        }
         };
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-
-    <link rel="stylesheet" href="min/index.html@g=css&amp;n=4896044.css" type="text/css" />
-
-</head>
-
-<body data-spy="scroll1" data-target=".navbar-example">
-
-    <div style="display: none;">
-        <div class="box-modal" id="small-modal-1">
-            <div class="form-bg-top">
-                <div class="form-bg-bottom">
-                    <div class="form-container">
-                        <div class="modal-close arcticmodal-close">x</div>
-                        <div class="modal-content-box">
-                            <form action="index.html" name="form-1">
-                                <div class="form-show-title">Заказ обратного звонка</div>
-                                <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
-                                <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                <input class="name" name="name" type="text" placeholder="Ваше имя">
-                                <!--[if IE]></label><![endif]-->
-                                <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                <input id="phone" class="phone" name="phone" type="text" placeholder="Ваш телефон">
-                                <!--[if IE]></label><![endif]-->
-                                <div class="input-button">
-                                    <input class="btn-feedback" name="send" type="button" value="Отправить">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: none;">
-        <div class="box-modal" id="small-modal-2">
-            <div class="form-bg-top">
-                <div class="form-bg-bottom">
-                    <div class="form-container">
-                        <div class="modal-close arcticmodal-close">x</div>
-                        <div class="modal-content-box">
-                            <form action="index.html" name="form-2">
-                                <div class="form-show-title">Оставить заявку</div>
-                                <div class="form-show-desc">Оставьте вашу заявку и мы оперативно свяжемся с Вами!</div>
-                                <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                <input class="name" name="name" type="text" placeholder="Ваше имя">
-                                <!--[if IE]></label><![endif]-->
-                                <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
-                                <!--[if IE]></label><![endif]-->
-                                <div class="input-button">
-                                    <input class="btn-feedback" name="send" type="button" value="Отправить">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: none;">
-        <div class="box-modal" id="small-modal-3">
-            <div class="form-bg-top">
-                <div class="form-bg-bottom">
-                    <div class="form-container">
-                        <div class="modal-close arcticmodal-close">x</div>
-                        <div class="modal-content-box">
-                            <form action="index.html" name="form-3">
-                                <div class="form-show-title">Узнать преимущества</div>
-                                <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
-                                <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                <input class="name" name="name" type="text" placeholder="Ваше имя">
-                                <!--[if IE]></label><![endif]-->
-                                <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
-                                <!--[if IE]></label><![endif]-->
-                                <input class="goodsTitle" name="goodsTitle" type="hidden" value="">
-                                <div class="input-button">
-                                    <input class="btn-feedback" name="send" type="button" value="Отправить">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: none;">
-        <div class="box-modal" id="small-modal-4">
-            <div class="form-bg-top">
-                <div class="form-bg-bottom">
-                    <div class="form-container">
-                        <div class="modal-close arcticmodal-close">x</div>
-                        <div class="modal-content-box">
-                            <form action="index.html" name="form-2">
-                                <div class="form-show-title">Заказ обратного звонка</div>
-                                <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
-                                <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                <input class="name" name="name" type="text" placeholder="Ваше имя">
-                                <!--[if IE]></label><![endif]-->
-                                <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
-                                <!--[if IE]></label><![endif]-->
-                                <div class="input-button">
-                                    <input class="btn-feedback" name="send" type="button" value="Отправить">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="header" id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="header-inner">
-
-                        <div class="col-md-3 left-part">
-                            <img src="images/logo.jpg" alt="">
-                            <div class="logo-desc"></div>
-                        </div>
-
-                        <div class="col-md-6 staj">
-                            <div class="desc-inner">Производство и продажа<br>
-                            изделей из исскуственного камня<br>
-                          В Санкт-Петербурге и Ленинградской обл.</div>
-                        </div>
-
-                        <div class="col-md-3 right-part">
-
-                            <div class="tel-and-mail">
-                                <div class="tel">+7 (812) 426-31-78</div>
-                                <div class="callback"><a href="mailto:brenstone@yandex.ru">brenstone@yandex.ru</a></div>
-                            </div>
-
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="first" id="first">
-        <div class="container">
-
-            <div class="row row-first-screen">
-                <div class="col-md-12">
-                    <div class="first-screen">
-                        <div class="first-screen-title">Пройдите тест за <span style="color:#f44336;">30 секунд</span> и узнайте стоимость Вашей барной стойки или стойки ресепшена!</div>
-
-                        <div class="col-md-6">
-                            <div class="video">
-                                <iframe width="100%" height="315" src=https://www.youtube.com/embed/TQEpbE0G96A frameborder="0" allowfullscreen></iframe>
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+        <link rel="stylesheet" href="min/index.html@g=css&amp;n=4896044.css" type="text/css" />
+    </head>
+    <body data-spy="scroll1" data-target=".navbar-example">
+        <div style="display: none;">
+            <div class="box-modal" id="small-modal-1">
+                <div class="form-bg-top">
+                    <div class="form-bg-bottom">
+                        <div class="form-container">
+                            <div class="modal-close arcticmodal-close">x</div>
+                            <div class="modal-content-box">
+                                <form action="index.html" name="form-1">
+                                    <div class="form-show-title">Заказ обратного звонка</div>
+                                    <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
+                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                    <input class="name" name="name" type="text" placeholder="Ваше имя">
+                                    <!--[if IE]></label><![endif]-->
+                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                    <input id="phone" class="phone" name="phone" type="text" placeholder="Ваш телефон">
+                                    <!--[if IE]></label><![endif]-->
+                                    <div class="input-button">
+                                        <input class="btn-feedback" name="send" type="button" value="Отправить">
+                                    </div>
+                                </form>
                             </div>
                         </div>
-
-                        <div class="col-md-6" style="background: #fff; padding-bottom: 7.4%;">
-                            <div class="first-screen-desc">Ответьте на 5 вопросов и получите:</div>
-                            <div class="first-screen-items">
-                                <ul>
-                                    <li>1. Стоимость барной стойки или стойки ресепшена</li>
-                                    <li>2. Каталог барных стоек или стоек ресепшена</li>
-                                    <li>3. Подарок на сумму 10 000 руб!</li>
-                                </ul>
-                            </div>
-
-                            <div class="start-test">
-                                <div class="start-test-button">Пройти тест</div>
-                            </div>
-
-                        </div>
-
                     </div>
-
                 </div>
-
             </div>
-
-    
-            <div class="row">
-
-                <div class="col-md-3 discount">
-                    <div class="discount-and-form">
-
-
-                        
-
-                        <div class="discount-inner hidden">
-                            <div class="dscount-desc">Пройдите тест до конца
+        </div>
+        <div style="display: none;">
+            <div class="box-modal" id="small-modal-2">
+                <div class="form-bg-top">
+                    <div class="form-bg-bottom">
+                        <div class="form-container">
+                            <div class="modal-close arcticmodal-close">x</div>
+                            <div class="modal-content-box">
+                                <form action="index.html" name="form-2">
+                                    <div class="form-show-title">Оставить заявку</div>
+                                    <div class="form-show-desc">Оставьте вашу заявку и мы оперативно свяжемся с Вами!</div>
+                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                    <input class="name" name="name" type="text" placeholder="Ваше имя">
+                                    <!--[if IE]></label><![endif]-->
+                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                    <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
+                                    <!--[if IE]></label><![endif]-->
+                                    <div class="input-button">
+                                        <input class="btn-feedback" name="send" type="button" value="Отправить">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">
+            <div class="box-modal" id="small-modal-3">
+                <div class="form-bg-top">
+                    <div class="form-bg-bottom">
+                        <div class="form-container">
+                            <div class="modal-close arcticmodal-close">x</div>
+                            <div class="modal-content-box">
+                                <form action="index.html" name="form-3">
+                                    <div class="form-show-title">Узнать преимущества</div>
+                                    <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
+                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                    <input class="name" name="name" type="text" placeholder="Ваше имя">
+                                    <!--[if IE]></label><![endif]-->
+                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                    <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
+                                    <!--[if IE]></label><![endif]-->
+                                    <input class="goodsTitle" name="goodsTitle" type="hidden" value="">
+                                    <div class="input-button">
+                                        <input class="btn-feedback" name="send" type="button" value="Отправить">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">
+            <div class="box-modal" id="small-modal-4">
+                <div class="form-bg-top">
+                    <div class="form-bg-bottom">
+                        <div class="form-container">
+                            <div class="modal-close arcticmodal-close">x</div>
+                            <div class="modal-content-box">
+                                <form action="index.html" name="form-2">
+                                    <div class="form-show-title">Заказ обратного звонка</div>
+                                    <div class="form-show-desc">Оставьте Вашу заявку, мы перезвоним и ответим на все вопросы!</div>
+                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                    <input class="name" name="name" type="text" placeholder="Ваше имя">
+                                    <!--[if IE]></label><![endif]-->
+                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                    <input class="phone" name="phone" type="text" placeholder="Ваш телефон">
+                                    <!--[if IE]></label><![endif]-->
+                                    <div class="input-button">
+                                        <input class="btn-feedback" name="send" type="button" value="Отправить">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header" id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-inner">
+                            <div class="col-md-3 left-part">
+                                <img src="images/logo.jpg" alt="">
+                                <div class="logo-desc"></div>
+                            </div>
+                            <div class="col-md-6 staj">
+                                <div class="desc-inner">Производство и продажа<br>
+                                    изделей из исскуственного камня<br>
+                                В Санкт-Петербурге и Ленинградской обл.</div>
+                            </div>
+                            <div class="col-md-3 right-part">
+                                <div class="tel-and-mail">
+                                    <div class="tel">+7 (812) 426-31-78</div>
+                                    <div class="callback"><a href="mailto:brenstone@yandex.ru">brenstone@yandex.ru</a></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="first" id="first">
+            <div class="container">
+                <div class="row row-first-screen">
+                    <div class="col-md-12">
+                        <div class="first-screen">
+                            <div class="first-screen-title">Пройдите тест за <span style="color:#f44336;">30 секунд</span> и узнайте стоимость Вашей барной стойки или стойки ресепшена!</div>
+                            <div class="col-md-6">
+                                <div class="video">
+                                    <iframe width="100%" height="315" src=https://www.youtube.com/embed/TQEpbE0G96A frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6" style="background: #fff; padding-bottom: 7.4%;">
+                                <div class="first-screen-desc">Ответьте на 5 вопросов и получите:</div>
+                                <div class="first-screen-items">
+                                    <ul>
+                                        <li>1. Стоимость барной стойки или стойки ресепшена</li>
+                                        <li>2. Каталог барных стоек или стоек ресепшена</li>
+                                        <li>3. Подарок на сумму 10 000 руб!</li>
+                                    </ul>
+                                </div>
+                                <div class="start-test">
+                                    <div class="start-test-button">Пройти тест</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-3 discount">
+                        <div class="discount-and-form">
+                            
+                            <div class="discount-inner hidden">
+                                <div class="dscount-desc">Пройдите тест до конца
                                 <br>и успейте получить персональную скидку</div>
-                            <div class="discount-total">НА СТОЙКУ:</div>
-                            <div class="discount-total-count">30000 руб.</div>
-                        </div>
-
-                        <div class="screen-form-inner screen-form-inner-1 hidden">
-                            <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
-                            <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
-                            <div class="screen-form-container">
-                                <form action="index.html" name="form-1" class="call-form">
-                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
-                                    <!--[if IE]></label><![endif]-->
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input id="phone-01" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Из вопроса №1 (Выберите вид профнастила)">
-                                    <input class="qside" name="qside" type="hidden" value="qside">
-                                    <div class="input-button">
-                                        <input class="-send-request btn-feedback" name="send" type="submit" value="Забронировать">
-                                    </div>
-                                </form>
+                                <div class="discount-total">НА СТОЙКУ:</div>
+                                <div class="discount-total-count">30000 руб.</div>
+                            </div>
+                            <div class="screen-form-inner screen-form-inner-1 hidden">
+                                <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
+                                <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
+                                <div class="screen-form-container">
+                                    <form action="index.html" name="form-1" class="call-form">
+                                        <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-01" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="theme" name="theme" type="hidden" value="Из вопроса №1 (Выберите вид профнастила)">
+                                        <input class="qside" name="qside" type="hidden" value="qside">
+                                        <div class="input-button">
+                                            <input class="-send-request btn-feedback" name="send" type="submit" value="Забронировать">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="screen-form-inner screen-form-inner-2 hidden">
+                                <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
+                                <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
+                                <div class="screen-form-container">
+                                    <form action="index.html" name="form-1" class="call-form">
+                                        <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-02" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="theme" name="theme" type="hidden" value="Из вопроса №2 (Выберите элементы барбекю и тип беседки)">
+                                        <input class="qside" name="qside" type="hidden" value="qside">
+                                        <div class="input-button">
+                                            <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="screen-form-inner screen-form-inner-3 hidden">
+                                <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
+                                <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
+                                <div class="screen-form-container">
+                                    <form action="index.html" name="form-1" class="call-form">
+                                        <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-03" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="theme" name="theme" type="hidden" value="Из вопроса №3 (Выберите вариант внешней отделки)">
+                                        <input class="qside" name="qside" type="hidden" value="qside">
+                                        <div class="input-button">
+                                            <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="screen-form-inner screen-form-inner-4 hidden">
+                                <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
+                                <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
+                                <div class="screen-form-container">
+                                    <form action="index.html" name="form-1" class="call-form">
+                                        <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-04" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="theme" name="theme" type="hidden" value="Из вопроса №4 (Удаленность вашего объекта от МКАД)">
+                                        <input class="qside" name="qside" type="hidden" value="qside">
+                                        <div class="input-button">
+                                            <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="screen-form-inner screen-form-inner-5 hidden">
+                                <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
+                                <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
+                                <div class="screen-form-container">
+                                    <form action="index.html" name="form-1" class="call-form">
+                                        <!--[if IE]><label>Ваше имя:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-05" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="theme" name="theme" type="hidden" value="Из вопроса №5 (Когда планируете строительство)">
+                                        <input class="qside" name="qside" type="hidden" value="qside">
+                                        <div class="input-button">
+                                            <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="screen-form-inner screen-form-inner-2 hidden">
-                            <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
-                            <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
-                            <div class="screen-form-container">
-                                <form action="index.html" name="form-1" class="call-form">
-                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
-                                    <!--[if IE]></label><![endif]-->
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input id="phone-02" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Из вопроса №2 (Выберите элементы барбекю и тип беседки)">
-                                    <input class="qside" name="qside" type="hidden" value="qside">
-                                    <div class="input-button">
-                                        <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="screen-form-inner screen-form-inner-3 hidden">
-                            <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
-                            <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
-                            <div class="screen-form-container">
-                                <form action="index.html" name="form-1" class="call-form">
-                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
-                                    <!--[if IE]></label><![endif]-->
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input id="phone-03" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Из вопроса №3 (Выберите вариант внешней отделки)">
-                                    <input class="qside" name="qside" type="hidden" value="qside">
-                                    <div class="input-button">
-                                        <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="screen-form-inner screen-form-inner-4 hidden">
-                            <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
-                            <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
-                            <div class="screen-form-container">
-                                <form action="index.html" name="form-1" class="call-form">
-                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
-                                    <!--[if IE]></label><![endif]-->
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input id="phone-04" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Из вопроса №4 (Удаленность вашего объекта от МКАД)">
-                                    <input class="qside" name="qside" type="hidden" value="qside">
-                                    <div class="input-button">
-                                        <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="screen-form-inner screen-form-inner-5 hidden">
-                            <div class="screen-form-title">Забронируйте скидку<br>на барную стойку или стойку ресепшена</div>
-                            <!-- <div class="screen-form-desc">Получите консультацию печника. <br>Оставьте имя и телефон, мы перезвоним за 5 минут!</div> -->
-                            <div class="screen-form-container">
-                                <form action="index.html" name="form-1" class="call-form">
-                                    <!--[if IE]><label>Ваше имя:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'" class="name" name="name" type="text" placeholder="Имя">
-                                    <!--[if IE]></label><![endif]-->
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input id="phone-05" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Из вопроса №5 (Когда планируете строительство)">
-                                    <input class="qside" name="qside" type="hidden" value="qside">
-                                    <div class="input-button">
-                                        <input class="send-request btn-feedback" name="send" type="button" value="Забронировать">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
+                        <!--duscount-and-form-->
                     </div>
-                    <!--duscount-and-form-->
-
-                </div>
-
-                <div class="col-md-9">
-
-                    <div class="progress-wrapper">
-                        <div class="progress-line"></div>
-                        <div class="progress-value"></div>
-                    </div>
-
-                    <div class="item item-1">
-                        <div class="q-num">Вопрос 1 из 5</div>
-                        <div class="item-title item-1-title">1.Какой вид стойки Вы хотите?</div>
-                        <div class="options">
-
-                            <!-- Первый ряд начало -->
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-1">
-                                    <img src="images/q1_1.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В бар</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-2">
-                                    <img src="images/q1_2.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В бизнес центр</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-3">
-                                    <img src="images/q1_3.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В отель</div>
-                                    </div>
-                                </div>
-                            </div>
-							<div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-4">
-                                    <img src="images/q1_4.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В дом</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-4">
-                                    <img src="images/q1_5.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В офис</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-4">
-                                    <img src="images/q1_6.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В Мед.учреждения</div>
-                                    </div>
-                                </div>
-                            </div>
-                           <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-4">
-                                    <img src="images/q1_7.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В салон красоты</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-1-inner-item">
-                                <div class="item-option item-1-option item-1-option-4">
-                                    <img src="images/q1_8.png" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-circle hidden"></div>
-                                        <div class="item-text">В торговые площади</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
+                    <div class="col-md-9">
+                        <div class="progress-wrapper">
+                            <div class="progress-line"></div>
+                            <div class="progress-value"></div>
                         </div>
-
-
-                            <!-- Второй ряд конец -->
-
-                        <div class="item-button item-1-button">
-                            <a class="button-default hidden-button">Далее</a>
-                        </div>
-                    </div>
-
-
-                    
-                    <div class="item item-2">
-                        <div class="q-num">Вопрос 2 из 5</div>
-                        <div class="item-title item-2-title">2. Выберите конфигурацию Вашей стойки</div>
-                        <div class="options">
-
-                            <!-- Первый ряд начало -->
-                            <div class="item-2-inner-item">
-                                <label for="ch2_10">
-								<div class="item-option item-2-option item-2-option-10">
-                                    <img src="images/q2_10.jpg" alt="">
-                                    <div class="item-title-inner">
-                                        <input data-count="0" type="checkbox" id="ch2_10" name="cc" value="В комбинации с деревянными текстурами" />
-                                        <label for="ch2_10"><span></span></label>
-                                        <div class="item-text">В комбинации с деревянными текстурами</div>
-                                    </div>
-                                </div>
-								</label>
-                            </div>
-                            
-                            <div class="item-2-inner-item">
-								<label for="ch2_11">
-                                <div class="item-option item-2-option item-2-option-11">
-                                    <img src="images/q2_11.jpg" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch2_11" name="cc" value="В комбинации с оргстеклом" />
-                                            <label for="ch2_11"><span></span></label>
-                                        <div class="item-text">В комбинации с оргстеклом</div>
-                                    </div>
-                                </div>
-								</label>
-                            </div>
-                            <div class="item-2-inner-item">
-                                <label for="ch2_12">
-								<div class="item-option item-2-option item-2-option-12">
-                                    <img src="images/q2_12.jpg" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch2_12" name="cc" value="В комбинации с пластиком" />
-                                            <label for="ch2_12"><span></span></label>
-                                        <div class="item-text">В комбинации с пластиком</div>
-                                    </div>
-                                </div>
-								</label>
-                            </div>
-							<div class="item-2-inner-item">
-								<label for="ch2_13">
-                                <div class="item-option item-2-option item-2-option-13">
-                                    <img src="images/q2_13.jpg" alt="">
-                                    <div class="item-title-inner">
-                                        <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch2_13" name="cc" value="Полностью из исскуственого камня" />
-                                            <label for="ch2_13"><span></span></label>
-                                        <div class="item-text">Полностью из исскуственого камня</div>
-                                    </div>
-                                </div>
-								</label>
-                            </div>
-                            
-                            
-                        <   
-                        </div>
-
-
-                            <!-- Второй ряд конец -->
-
-                        <div class="item-button item-2-button">
-                            <a class="button-default hidden-button">Далее</a>
-                        </div>
-                    </div>
-
-                    <div class="item item-3">
-                        <div class="q-num">Вопрос 3 из 5</div>
-                        <div class="item-title item-3-title">Выберите цветовое решение:</div>
-                        <div class="options">
-                            <div class="item-3-inner-item">
-                                <label for="ch3_7">
-                                    <div class="item-option item-3-option item-3-option-7" data-count="0">
-                                        <img src="images/item-06_07.jpg" alt="">
+                        <div class="item item-1">
+                            <div class="q-num">Вопрос 1 из 5</div>
+                            <div class="item-title item-1-title">1.Какой вид стойки Вы хотите?</div>
+                            <div class="options">
+                                <!-- Первый ряд начало -->
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-1">
+                                        <img src="images/q1_1.png" alt="">
                                         <div class="item-title-inner">
-                                            <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch3_7" name="cc" value="Откатные" />
-                                            <label for="ch3_7"><span></span></label>
-                                            <div class="item-text">Мраморные цвета</div>
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В бар</div>
                                         </div>
                                     </div>
-                                </label>
-                            </div>
-
-                            <div class="item-3-inner-item">
-                                <label for="ch3_8">
-                                    <div class="item-option item-3-option item-3-option-8" data-count="0">
-                                        <img src="images/item-06_08.jpg" alt="">
+                                </div>
+                                
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-2">
+                                        <img src="images/q1_2.png" alt="">
                                         <div class="item-title-inner">
-                                            <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch3_8" name="cc" value="Распашные" />
-                                            <label for="ch3_8"><span></span></label>
-                                            <div class="item-text">Однотонная</div>
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В бизнес центр</div>
                                         </div>
                                     </div>
-                                </label>
+                                </div>
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-3">
+                                        <img src="images/q1_3.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В отель</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-4">
+                                        <img src="images/q1_4.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В дом</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-4">
+                                        <img src="images/q1_5.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В офис</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-4">
+                                        <img src="images/q1_6.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В Мед.учреждения</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-4">
+                                        <img src="images/q1_7.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В салон красоты</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-1-inner-item">
+                                    <div class="item-option item-1-option item-1-option-4">
+                                        <img src="images/q1_8.png" alt="">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В торговые площади</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
                             </div>
-
-
-                       
-							
-							<div class="item-3-inner-item">
-                                <label for="ch3_9" class="ch3_9">
+                            <!-- Второй ряд конец -->
+                            <div class="item-button item-1-button">
+                                <a class="button-default hidden-button">Далее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="item item-2">
+                            <div class="q-num">Вопрос 2 из 5</div>
+                            <div class="item-title item-2-title">2. Выберите конфигурацию Вашей стойки</div>
+                            <div class="options">
+                                <!-- Первый ряд начало -->
+                                <div class="item-2-inner-item">
+                                    <label for="ch2_10">
+                                        <div class="item-option item-2-option item-2-option-10">
+                                            <img src="images/q2_10.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">В комбинации с деревянными текстурами</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                
+                                <div class="item-2-inner-item">
+                                    <label for="ch2_11">
+                                        <div class="item-option item-2-option item-2-option-11">
+                                            <img src="images/q2_11.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">В комбинации с оргстеклом</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="item-2-inner-item">
+                                    <label for="ch2_12">
+                                        <div class="item-option item-2-option item-2-option-12">
+                                            <img src="images/q2_12.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">В комбинации с пластиком</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="item-2-inner-item">
+                                    <label for="ch2_13">
+                                        <div class="item-option item-2-option item-2-option-13">
+                                            <img src="images/q2_13.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">Полностью из исскуственого камня</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                
+                                
+                                <
+                            </div>
+                            <!-- Второй ряд конец -->
+                            <div class="item-button item-2-button">
+                                <a class="button-default hidden-button">Далее</a>
+                            </div>
+                        </div>
+                        <div class="item item-3">
+                            <div class="q-num">Вопрос 3 из 5</div>
+                            <div class="item-title item-3-title">Выберите цветовое решение:</div>
+                            <div class="options">
+                                <div class="item-3-inner-item">
+                                    <label for="ch3_7">
+                                        <div class="item-option item-3-option item-3-option-7" data-count="0">
+                                            <img src="images/item-06_07.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">Мраморные цвета</div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="item-3-inner-item">
+                                        <div class="item-option item-3-option item-3-option-8" data-count="0">
+                                            <img src="images/item-06_08.jpg" alt="">
+                                            <div class="item-title-inner">
+                                                <div class="item-circle hidden"></div>
+                                                <div class="item-text">Однотонная</div>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                
+                                <div class="item-3-inner-item">
                                     <div class="item-option item-3-option item-3-option-9" data-count="0">
                                         <img src="images/item-06_09.jpg" alt="">
                                         <div class="item-title-inner">
-                                            <div class="item-checker"></div>
-                                            <input data-count="0" type="checkbox" id="ch3_9" name="cc" value="с калиткой" />
-                                            <label for="ch3_9"><span></span></label>
+                                            
+                                            <div class="item-circle hidden"></div>
                                             <div class="item-text">Цвет с вкраплениями</div>
                                         </div>
                                     </div>
-                                </label>
-                            </div>
-							
-
-                        </div>
-                        <div class="item-button item-3-button">
-                            <a class="button-default hidden-button">Далее</a>
-                        </div>
-                    </div>
-
-                    <div class="item item-4">
-                        <div class="q-num">Вопрос 4 из 5</div>
-                        <div class="item-title item-4-title">Укажите габариты Вашей стоики</div>
-						<div style="background: #fff; height: 400px;">
-						<div>
-                        <div style="margin-left: 20px; padding-top: 2%;">
-							<div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 45px; margin-top: 3%;">Длина</div>
-							<div class="item-option item-4-option item-4-option-1">
-								<div class="item-title"> 
-									<input style="width: 20%" class="name" name="dlina_metrov" type="text">
-									<span style="color: #000; font-size: 24px;">м.м</span>
-								</div>
-							</div>
-						</div>
-						<div style="margin-left: 20px; padding-top: 2%;">
-							<div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 20px; margin-top: 3%;">Ширина</div>
-							<div class="item-option item-4-option item-4-option-1">
-								<div class="item-title">
-									<input style="width: 20%" class="name" name="dlina_metrov" type="text">
-									<span style="color: #000; font-size: 24px;">м.м</span>
-								</div>
-							</div>
-						</div>
-						<div style="margin-left: 20px; padding-top: 2%;">
-                        <div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 39px; margin-top: 3%;">Высота</div>
-                        <div class="item-option item-4-option item-4-option-1">
-                            <div class="item-title">
-                                <input style="width: 20%" class="name" name="dlina_metrov" type="text">
-                                <span style="color: #000; font-size: 24px;">м.м</span>
-                            </div>
-                        </div>
-						</div>
-				
-						</div></div>
-                        <div class="item-button item-4-button">
-                            <a class="button-default hidden-button">Далее</a>
-                        </div>
-                    </div>
-
-                    <div class="item item-5">
-                        <div class="q-num">Вопрос 5 из 5</div>
-                        <div class="item-title item-5-title">Желаемый срок ввода в эксплуатацию?</div>
-                        <div class="options">
-                            <div class="item-option item-5-option item-5-option-1">
-                                <div class="item-title-inner">
-                                    <div class="item-circle hidden"></div>
-                                    <div class="item-text">В ближайшее время</div>
                                 </div>
+                                
                             </div>
-                            <div class="item-option item-5-option item-5-option-2">
-                                <div class="item-title-inner">
-                                    <div class="item-circle hidden"></div>
-                                    <div class="item-text">Через месяц</div>
-                                </div>
-                            </div>
-                            <div class="item-option item-5-option item-5-option-3">
-                                <div class="item-title-inner">
-                                    <div class="item-circle hidden"></div>
-                                    <div class="item-text">Через 2 месяца</div>
-                                </div>
-                            </div>
-                            <div class="item-option item-5-option item-5-option-4">
-                                <div class="item-title-inner">
-                                    <div class="item-circle hidden"></div>
-                                    <div class="item-text">Другое</div>
-                                </div>
+                            <div class="item-button item-3-button">
+                                <a class="button-default hidden-button">Далее</a>
                             </div>
                         </div>
-                        <div class="item-button item-5-button">
-                            <a class="button-default hidden-button">Далее</a>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- col-md-10 -->
-
-            </div>
-
-            
-
-            <div class="row final-form" style="background: #fff;">
-                <div class="col-md-12">
-                    <div class="item item-11">
-                        <div class="item-desc-1">Благодарим за ответы!</div>
-                    </div>
-                    <div class="col-md-4 col-md-offset-2 text-part">
-                        <!-- <div class="image-wrapper">
-						<img class="mob-phone" src="images/mob-phone.png" alt="">
-					</div> -->
-                        <div class="form-container">
-                            <form action="index.html" name="form-4" class="order-form">
-                                <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                <input id="phone-last" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
-                                <!--[if IE]></label><![endif]-->
-                                <!--[if IE]><label>E-mail:<br><![endif]-->
-                                <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail'" class="email" name="email" type="text" placeholder="E-mail">
-                                <!--[if IE]></label><![endif]-->
-
-                                <input class="q1" type="hidden" name="q1" value="">
-                                <input class="q2" type="hidden" name="q2" value="">
-                                <input class="q3" type="hidden" name="q3" value="">
-                                <input class="q4" type="hidden" name="q4" value="">
-                                <input class="q5" type="hidden" name="q5" value="">
-                                <input class="sumQ2" type="hidden" name="sumQ2" value="">
-                                <input class="sumProcent" type="hidden" name="sumProcent" value="">
-                                <input class="sumFinal" type="hidden" name="sumFinal" value="">
-                                <input class="yourCount" type="hidden" name="yourCount" value="">
-
-                                <div class="input-button">
-                                    <input class="send-request btn-feedback" name="send" type="submit" value="Получить расчет">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-5 form-part">
-                        <div class="item item-11">
-                            <div class="item-desc-1">Ваша скидка <strong class="discount-total-count">30000 руб.</strong> действует в течение 10 дней!</div>
-                            <!-- <div class="item-desc-2">Мы закрепим ее за Вами в течении 10 дней!</div> -->
-                            <!-- <div class="item-desc-3">Оставьте свой номер, и мы вышлем на него СМС с <strong>ориентировочной стоимостью</strong> Вашего комплекса.</div>	 -->
-
-                            <div class="item-desc-items">
-                                <div class="item-desc-4">Получите:</div>
-                                <ul>
-                                    <li>1. Стоимость барной стойки или стойки ресепшена</li>
-                                    <li>2. Результат Вашего теста и 10 советов главного специалиста</li>
-                                    <li>3. <span style="color:#f44336" ;>Подарок!</span></li>
-                                </ul>
-                            </div>
-                            <!-- <div class="item-desc-1">Вы ответили на 5 вопросов и набрали скидку в размере <strong> 20 000 рублей</strong>!</div>
-							<div class="item-desc-2">Мы закрепим ее за Вами в течении 10 дней!</div>
-							<div class="item-desc-3">Оставьте свой номер, и мы вышлем на него СМС с <strong>ориентировочной стоимостью</strong> Вашего комплекса.</div>	
-
-							<div class="item-desc-items">
-								<div class="item-desc-4">По желанию, оставьте свой e-mail и получите:</div>
-								<ul>
-									<li>1) 3D проект вашего барбекю</li>
-									<li>2) Полную стоимость комплекса «под ключ»</li>
-									<li>3) Подарок за экономию нашего времени</li>
-								</ul>
-							</div>	 -->
-
-                            <!-- <div class="warning"><strong>ВНИМАНИЕ! Скидка действует в течение 10 дней!</strong></div>	 -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-
-    
-
-    <!-- Modal -->
-    <div class="modal fade" id="polit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Политика безопасности</h4>
-                </div>
-                <div class="modal-body">
-                    <span style="color: #000000;">Администрация сайта www.pechibarbecue.ru &nbsp;(далее Сайт) с уважением относится к правам наших посетителей. Мы безоговорочно признаем важность конфиденциальности личной информации посетителей нашего сайта. Данная страница содержит сведения о том, какую информацию мы получаем и собираем, когда вы пользуетесь нашим сайтом.</span></p>
-                    <p><span style="color: #000000;">Сбор информации. &nbsp;Предоставленные данные никогда &nbsp;не будут переданы третьим лицам. Они будут использованы исключительно для тех материалов, которые Вы заказали. В своей работе мы используем политику приватности.</span>
-                        <br><span style="color: #000000;">Все сведения, которые мы собираем о Вас, в частности:- Ваш адрес электронной почты (e-mail);</span>
-                        <br><span style="color: #000000;">- Ваши анкетные данные (имя; номер телефона; ту информацию, которую вы сами решите передать нам через формы ввода/обратной связи).</span>
-                        <br><span style="color: #000000;">- Другая информация, в том числе техническая, собираются исключительно на основе ее добровольного предоставления лично Вами и используются только в целях повышения уровня обслуживания наших посетителей, подписчиков и клиентов и ни в каких других целях.</span></p>
-                    <p><span style="color: #000000;">Техническая информация. Сервер, на котором расположен наш Сайт, собирает и сохраняет только ту информацию, которая нужна для обеспечения сеанса стабильной интернет связи во время Вашего посещения нашего Сайта. Как правило, такая информация включает следующие данные: дата и время Вашего визита, IP-адрес, а также просмотренные страницы и загруженные файлы. Использования файлов «cookies» при работе сайта. Сайт применяет стандартную технологию “cookies” (“куки”) для настройки стилей отображения Сайта под параметры экрана мониторов. “Куки” представляют собой данные с веб-сайта, которые сохраняются на жестком диске Вашего же компьютера. В “cookies” содержится информация, которая может быть необходимой для настройки Сайта, - для сохранения Ваших установок, вариантов просмотра статистической информации по Сайту, т.е. какие страницы Вы посетили, что было загружено, имя домена интернет - провайдера и страна посетителя, а также адреса сторонних веб-сайтов, с которых совершен переход на Сайт и далее.</span></p>
-                    <p><span style="color: #000000;">Также данную технологию используют установленные на Сайте счетчики компаний Yandex, Google и т.п. Технология “Cookies” не содержит никаких личных сведений относительно Вас. Чтобы просматривать материалы без “cookies”, Вы можете настроить свой браузер таким образом, чтобы она не принимала “cookies”, либо уведомляла Вас об их посылке (настройки браузера различны, поэтому советуем Вы получить справку в разделе «Помощи» и выяснить, как изменить установки браузера по “cookies”). Подробно о работе "куки" файлов Вы можете прочитать здесь: http://ru.wikipedia.org/wiki/HTTP_cookie</span></p>
-                    <p><span style="color: #000000;">Как мы используем собранную информацию. Администрация сайта может собирать и использовать личную информацию пользователей для следующих целей:</span>
-                        <br><span style="color: #000000;">- Для улучшения обслуживания клиентов. Предоставляемая вам информация помогает нам реагировать на запросы клиентов более эффективно;</span>
-                        <br><span style="color: #000000;">- Чтобы персонализировать пользовательский опыт. Мы можем использовать информацию для определения, кто из посетителей Сайта наиболее заинтересован в услугах и ресурсах предоставляемых на нашем Сайте;</span>
-                        <br><span style="color: #000000;">- Для улучшения нашего Сайта. Мы можем использовать обратную связь, которую Вы предоставляете, что бы улучшить наши продукты и услуги.</span>
-                        <br><span style="color: #000000;">- Чтобы отправлять пользователям информацию, которую они согласны получать на темы, которые, как мы думаем, будут представлять для них интерес.</span>
-                        <br><span style="color: #000000;">- Чтобы отправить периодические сообщения электронной почтой, которые могут включать новости нашего Сайта, обновления, информацию о продуктах и услугах и т.д. Если пользователь хотел бы отказаться от получения последующих писем, мы включаем подробное описание инструкции по тому, как отписаться в нижней части каждого электронного письма или пользователь может связаться с нами через наш Сайт.</span></p>
-                    <p><span style="color: #000000;">Как мы защищаем вашу информацию. Мы принимаем соответствующие меры безопасности по сбору, хранению и обработке собранных данных для защиты их от несанкционированного доступа, изменения, раскрытия или уничтожения Вашей личной информации.</span></p>
-                    <p><span style="color: #000000;">Общий доступ к личной информации. Мы не продаем, не обмениваем, или не даем в аренду,личную информацию пользователей. Мы можем предоставлять общие агрегированные демографические данные, не связанные с личной информацией, нашими партнерами и рекламодателями для целей, описанных выше. Мы можем использовать сторонних поставщиков услуг, чтобы помочь нам управлять нашим бизнесом и Сайтом или управлять деятельностью от нашего имени, например, проведение рассылки или статистические и иные исследования. Мы можем делиться этой информацией с этими третьими лицами для ограниченных целей при условии, что Вы дали нам соответствующие разрешения.</span></p>
-                    <p><span style="color: #000000;">Изменения в политики конфиденциальности. Администрация сайта имеет право по своему усмотрению обновлять данную политику конфиденциальности в любое время. Об этих изменениях вы можете прочитать здесь. Мы рекомендуем пользователям регулярно проверять эту страницу для того, чтобы быть в курсе любых изменений о том, как мы защищаем личную информацию, которую мы собираем. Используя Сайт, Вы соглашаетесь с принятием на себя ответственности за периодическое ознакомление с Политикой конфиденциальности и изменениями в ней.</span></p>
-                    <p><span style="color: #000000;">Ваше согласие с этими условиями. Используя этот Сайт, Вы выражаете свое согласие с этой политикой. Если Вы не согласны с этой политикой, пожалуйста, не используете наш Сайт. Ваше дальнейшее использование Сайта после внесения изменений в настоящую политику будет рассматриваться как Ваше согласие с этими изменениями.</span></p>
-                    <p><span style="color: #000000;">Отказ от ответственности. На сайте приведены ссылки на другие сайты. Помните, что компания не несет ответственности за политику конфиденциальности этих сайтов. Покидая сайт, убедитесь, что Вы ознакомились с политикой конфиденциальности данных сайтов. Данная политика конфиденциальности относится только к той информации, которую мы получаем с помощью этого сайта. Мы берём на себя контроль и ответственность за конфиденциальность Вашей информации, но, помните, что любая информация, передаваемая через интернет, не может быть полностью защищена. Процесс сбора и передачи информации личного характера при посещении этих сайтов регламентируется документом «Защита информации личного характера» или другим аналогичным, расположенном на сайтах этих компаний.</span></p>
-                    <p><span style="color: #000000;">Авторское право. Материалы, находящиеся на нашем Сайте, защищены законодательством Российской Федерации и международными нормами в области защиты авторских прав. Запрещается любое коммерческое копирование, распространение, передача или изменение информации или материалов данного Сайта в электронном или печатном виде без предварительного письменного разрешения администрации сайта. Принадлежность авторских прав на все материалы каждой страницы Сайта выражена следующим образом: Администрация сайта</span></p>
-                    <p><span style="color: #000000;">Товарные знаки. Торговые марки (названия, логотипы продуктов или услуг), представленные в каком-либо разделе нашего Сайта, являются интеллектуальной собственностью соответствующих владельцев. Все права защищены.</span></p>
-                    <p><span style="color: #000000;">Как с нами связаться. Если у Вас есть какие-либо вопросы по политике конфиденциальности, использованию Сайта, или иных вопросам, связанным с Сайтом, пожалуйста, свяжитесь с нами: brenstone@yandex.ru</span>
-                        <br><span style="color: #000000;">+7 (812) 426-31-78</span></p>
-                    <p style="line-height: 0.5;">Реквизиты и данные юридического лица:&nbsp;ООО "Бастион"</p>
-                    <p>ИНН 7725328321
-                        <br>ОГРН 1167746794582</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <script src="min/index.js" type="text/javascript"></script>
-
-    <!--[if IE]>
-<script>
-jQuery(document).ready(function() {
-	jQuery(document).on('click', '.callback-1', function(){
-		jQuery('#small-modal-1').arcticmodal();
-	});
-	jQuery(document).on('click', '.callback-2', function(){
-		jQuery('#small-modal-2').arcticmodal();
-	});		
-	jQuery(document).on('click', '.callback-3', function(){
-		jQuery('#small-modal-3').arcticmodal();
-	});	
-	jQuery(document).on('click', '.callback-3', function(){
-		jQuery('#small-modal-4').arcticmodal();
-	});
-});		
-</script>	
-<![endif]-->
-
-    <div class="modal exit-modal exit-modal_1 fade1">
-        <div class="modal-dialog modal-lg1">
-            <div class="modal-content modal-content_1 hidden">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="image-wrapper">
-                                <img src="images/exit_win.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <!-- <div class="exit-inner-1">
-
-				</div> -->
-                            <div class="exit-inner-2">
-                                Скачайте каталог барных стоек,
-                                <br>или стоек ресепшена
-                                <br>в 1 клик!
-                            </div>
-                            <div class="exit-inner-3">
-                                Укажите свой телефон и сразу скачайте
-                                <br>каталог с ценами и характеристиками
-                                <br>и планировками в формате PDF
-                            </div>
-                            <div class="modal-content-box">
-                                <form action="index.html" name="form-5">
-                                    <!--[if IE]><label>Ваш телефон:<br><![endif]-->
-                                    <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введите телефон'" class="phone email-exit" name="phone" type="phone" placeholder="Введите телефон">
-                                    <!--[if IE]></label><![endif]-->
-                                    <input class="theme" name="theme" type="hidden" value="Exit_Win">
-                                    <div class="input-button ripplelink btn-feedback" data-href="#mypres">
-                                        <img class="pdf" src="images/ico-pdf.png" alt=""> СКАЧАТЬ КАТАЛОГ
-                                        <!-- <input class="btn-feedback" name="send" type="button" value="СКАЧАТЬ КАТАЛОГ"> -->
+                        <div class="item item-4">
+                            <div class="q-num">Вопрос 4 из 5</div>
+                            <div class="item-title item-4-title">Укажите габариты Вашей стоики</div>
+                            <div style="background: #fff; height: 400px;">
+                                <div>
+                                    <div style="margin-left: 20px; padding-top: 2%;">
+                                        <div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 45px; margin-top: 3%;">Длина</div>
+                                        <div class="item-option item-4-option item-4-option-1">
+                                            <div class="item-title">
+                                                <input style="width: 20%" class="name" name="dlina_metrov" type="text">
+                                                <span style="color: #000; font-size: 24px;">м.м</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <input class="theme" name="theme" type="hidden" value="Exit_Win">
-                                </form>
+                                    <div style="margin-left: 20px; padding-top: 2%;">
+                                        <div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 20px; margin-top: 3%;">Ширина</div>
+                                        <div class="item-option item-4-option item-4-option-1">
+                                            <div class="item-title">
+                                                <input style="width: 20%" class="name" name="dlina_metrov" type="text">
+                                                <span style="color: #000; font-size: 24px;">м.м</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-left: 20px; padding-top: 2%;">
+                                        <div class="item-title item-7-title" style="color: #000;font-size: 30px; float: left; margin-right: 39px; margin-top: 3%;">Высота</div>
+                                        <div class="item-option item-4-option item-4-option-1">
+                                            <div class="item-title">
+                                                <input style="width: 20%" class="name" name="dlina_metrov" type="text">
+                                                <span style="color: #000; font-size: 24px;">м.м</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div></div>
+                                <div class="item-button item-4-button">
+                                    <a class="button-default hidden-button">Далее</a>
+                                </div>
+                            </div>
+                            <div class="item item-5">
+                                <div class="q-num">Вопрос 5 из 5</div>
+                                <div class="item-title item-5-title">Желаемый срок ввода в эксплуатацию?</div>
+                                <div class="options">
+                                    <div class="item-option item-5-option item-5-option-1">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">В ближайшее время</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-option item-5-option item-5-option-2">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">Через месяц</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-option item-5-option item-5-option-3">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">Через 2 месяца</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-option item-5-option item-5-option-4">
+                                        <div class="item-title-inner">
+                                            <div class="item-circle hidden"></div>
+                                            <div class="item-text">Другое</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-button item-5-button">
+                                    <a class="button-default hidden-button">Далее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- col-md-10 -->
+                    </div>
+                    
+                    <div class="row final-form" style="background: #fff;">
+                        <div class="col-md-12">
+                            <div class="item item-11">
+                                <div class="item-desc-1">Благодарим за ответы!</div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-2 text-part">
+                                <!-- <div class="image-wrapper">
+                                                            <img class="mob-phone" src="images/mob-phone.png" alt="">
+                                </div> -->
+                                <div class="form-container">
+                                    <form action="index.html" name="form-4" class="order-form">
+                                        <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                        <input id="phone-last" class="phone" name="phone" type="text" placeholder="Телефон" required="required">
+                                        <!--[if IE]></label><![endif]-->
+                                        <!--[if IE]><label>E-mail:<br><![endif]-->
+                                        <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail'" class="email" name="email" type="text" placeholder="E-mail">
+                                        <!--[if IE]></label><![endif]-->
+                                        <input class="q1" type="hidden" name="q1" value="">
+                                        <input class="q2" type="hidden" name="q2" value="">
+                                        <input class="q3" type="hidden" name="q3" value="">
+                                        <input class="q4" type="hidden" name="q4" value="">
+                                        <input class="q5" type="hidden" name="q5" value="">
+                                        <input class="sumQ2" type="hidden" name="sumQ2" value="">
+                                        <input class="sumProcent" type="hidden" name="sumProcent" value="">
+                                        <input class="sumFinal" type="hidden" name="sumFinal" value="">
+                                        <input class="yourCount" type="hidden" name="yourCount" value="">
+                                        <div class="input-button">
+                                            <input class="send-request btn-feedback" name="send" type="submit" value="Получить расчет">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-5 form-part">
+                                <div class="item item-11">
+                                    <div class="item-desc-1">Ваша скидка <strong class="discount-total-count">30000 руб.</strong> действует в течение 10 дней!</div>
+                                    <!-- <div class="item-desc-2">Мы закрепим ее за Вами в течении 10 дней!</div> -->
+                                    <!-- <div class="item-desc-3">Оставьте свой номер, и мы вышлем на него СМС с <strong>ориентировочной стоимостью</strong> Вашего комплекса.</div>     -->
+                                    <div class="item-desc-items">
+                                        <div class="item-desc-4">Получите:</div>
+                                        <ul>
+                                            <li>1. Стоимость барной стойки или стойки ресепшена</li>
+                                            <li>2. Результат Вашего теста и 10 советов главного специалиста</li>
+                                            <li>3. <span style="color:#f44336" ;>Подарок!</span></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="item-desc-1">Вы ответили на 5 вопросов и набрали скидку в размере <strong> 20 000 рублей</strong>!</div>
+                                                                <div class="item-desc-2">Мы закрепим ее за Вами в течении 10 дней!</div>
+                                                                    <div class="item-desc-3">Оставьте свой номер, и мы вышлем на него СМС с <strong>ориентировочной стоимостью</strong> Вашего комплекса.</div>
+                                                                <div class="item-desc-items">
+                                                                        <div class="item-desc-4">По желанию, оставьте свой e-mail и получите:</div>
+                                                                        <ul>
+                                                                                <li>1) 3D проект вашего барбекю</li>
+                                                                                <li>2) Полную стоимость комплекса «под ключ»</li>
+                                                                                <li>3) Подарок за экономию нашего времени</li>
+                                                                        </ul>
+                                    </div>   -->
+                                    <!-- <div class="warning"><strong>ВНИМАНИЕ! Скидка действует в течение 10 дней!</strong></div>   -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter46197696 = new Ya.Metrika({
-                    id:46197696,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
+            
+            <!-- Modal -->
+            <div class="modal fade" id="polit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Политика безопасности</h4>
+                        </div>
+                        <div class="modal-body">
+                            <span style="color: #000000;">Администрация сайта www.pechibarbecue.ru &nbsp;(далее Сайт) с уважением относится к правам наших посетителей. Мы безоговорочно признаем важность конфиденциальности личной информации посетителей нашего сайта. Данная страница содержит сведения о том, какую информацию мы получаем и собираем, когда вы пользуетесь нашим сайтом.</span></p>
+                            <p><span style="color: #000000;">Сбор информации. &nbsp;Предоставленные данные никогда &nbsp;не будут переданы третьим лицам. Они будут использованы исключительно для тех материалов, которые Вы заказали. В своей работе мы используем политику приватности.</span>
+                            <br><span style="color: #000000;">Все сведения, которые мы собираем о Вас, в частности:- Ваш адрес электронной почты (e-mail);</span>
+                            <br><span style="color: #000000;">- Ваши анкетные данные (имя; номер телефона; ту информацию, которую вы сами решите передать нам через формы ввода/обратной связи).</span>
+                            <br><span style="color: #000000;">- Другая информация, в том числе техническая, собираются исключительно на основе ее добровольного предоставления лично Вами и используются только в целях повышения уровня обслуживания наших посетителей, подписчиков и клиентов и ни в каких других целях.</span></p>
+                            <p><span style="color: #000000;">Техническая информация. Сервер, на котором расположен наш Сайт, собирает и сохраняет только ту информацию, которая нужна для обеспечения сеанса стабильной интернет связи во время Вашего посещения нашего Сайта. Как правило, такая информация включает следующие данные: дата и время Вашего визита, IP-адрес, а также просмотренные страницы и загруженные файлы. Использования файлов «cookies» при работе сайта. Сайт применяет стандартную технологию “cookies” (“куки”) для настройки стилей отображения Сайта под параметры экрана мониторов. “Куки” представляют собой данные с веб-сайта, которые сохраняются на жестком диске Вашего же компьютера. В “cookies” содержится информация, которая может быть необходимой для настройки Сайта, - для сохранения Ваших установок, вариантов просмотра статистической информации по Сайту, т.е. какие страницы Вы посетили, что было загружено, имя домена интернет - провайдера и страна посетителя, а также адреса сторонних веб-сайтов, с которых совершен переход на Сайт и далее.</span></p>
+                            <p><span style="color: #000000;">Также данную технологию используют установленные на Сайте счетчики компаний Yandex, Google и т.п. Технология “Cookies” не содержит никаких личных сведений относительно Вас. Чтобы просматривать материалы без “cookies”, Вы можете настроить свой браузер таким образом, чтобы она не принимала “cookies”, либо уведомляла Вас об их посылке (настройки браузера различны, поэтому советуем Вы получить справку в разделе «Помощи» и выяснить, как изменить установки браузера по “cookies”). Подробно о работе "куки" файлов Вы можете прочитать здесь: http://ru.wikipedia.org/wiki/HTTP_cookie</span></p>
+                            <p><span style="color: #000000;">Как мы используем собранную информацию. Администрация сайта может собирать и использовать личную информацию пользователей для следующих целей:</span>
+                            <br><span style="color: #000000;">- Для улучшения обслуживания клиентов. Предоставляемая вам информация помогает нам реагировать на запросы клиентов более эффективно;</span>
+                            <br><span style="color: #000000;">- Чтобы персонализировать пользовательский опыт. Мы можем использовать информацию для определения, кто из посетителей Сайта наиболее заинтересован в услугах и ресурсах предоставляемых на нашем Сайте;</span>
+                            <br><span style="color: #000000;">- Для улучшения нашего Сайта. Мы можем использовать обратную связь, которую Вы предоставляете, что бы улучшить наши продукты и услуги.</span>
+                            <br><span style="color: #000000;">- Чтобы отправлять пользователям информацию, которую они согласны получать на темы, которые, как мы думаем, будут представлять для них интерес.</span>
+                            <br><span style="color: #000000;">- Чтобы отправить периодические сообщения электронной почтой, которые могут включать новости нашего Сайта, обновления, информацию о продуктах и услугах и т.д. Если пользователь хотел бы отказаться от получения последующих писем, мы включаем подробное описание инструкции по тому, как отписаться в нижней части каждого электронного письма или пользователь может связаться с нами через наш Сайт.</span></p>
+                            <p><span style="color: #000000;">Как мы защищаем вашу информацию. Мы принимаем соответствующие меры безопасности по сбору, хранению и обработке собранных данных для защиты их от несанкционированного доступа, изменения, раскрытия или уничтожения Вашей личной информации.</span></p>
+                            <p><span style="color: #000000;">Общий доступ к личной информации. Мы не продаем, не обмениваем, или не даем в аренду,личную информацию пользователей. Мы можем предоставлять общие агрегированные демографические данные, не связанные с личной информацией, нашими партнерами и рекламодателями для целей, описанных выше. Мы можем использовать сторонних поставщиков услуг, чтобы помочь нам управлять нашим бизнесом и Сайтом или управлять деятельностью от нашего имени, например, проведение рассылки или статистические и иные исследования. Мы можем делиться этой информацией с этими третьими лицами для ограниченных целей при условии, что Вы дали нам соответствующие разрешения.</span></p>
+                            <p><span style="color: #000000;">Изменения в политики конфиденциальности. Администрация сайта имеет право по своему усмотрению обновлять данную политику конфиденциальности в любое время. Об этих изменениях вы можете прочитать здесь. Мы рекомендуем пользователям регулярно проверять эту страницу для того, чтобы быть в курсе любых изменений о том, как мы защищаем личную информацию, которую мы собираем. Используя Сайт, Вы соглашаетесь с принятием на себя ответственности за периодическое ознакомление с Политикой конфиденциальности и изменениями в ней.</span></p>
+                            <p><span style="color: #000000;">Ваше согласие с этими условиями. Используя этот Сайт, Вы выражаете свое согласие с этой политикой. Если Вы не согласны с этой политикой, пожалуйста, не используете наш Сайт. Ваше дальнейшее использование Сайта после внесения изменений в настоящую политику будет рассматриваться как Ваше согласие с этими изменениями.</span></p>
+                            <p><span style="color: #000000;">Отказ от ответственности. На сайте приведены ссылки на другие сайты. Помните, что компания не несет ответственности за политику конфиденциальности этих сайтов. Покидая сайт, убедитесь, что Вы ознакомились с политикой конфиденциальности данных сайтов. Данная политика конфиденциальности относится только к той информации, которую мы получаем с помощью этого сайта. Мы берём на себя контроль и ответственность за конфиденциальность Вашей информации, но, помните, что любая информация, передаваемая через интернет, не может быть полностью защищена. Процесс сбора и передачи информации личного характера при посещении этих сайтов регламентируется документом «Защита информации личного характера» или другим аналогичным, расположенном на сайтах этих компаний.</span></p>
+                            <p><span style="color: #000000;">Авторское право. Материалы, находящиеся на нашем Сайте, защищены законодательством Российской Федерации и международными нормами в области защиты авторских прав. Запрещается любое коммерческое копирование, распространение, передача или изменение информации или материалов данного Сайта в электронном или печатном виде без предварительного письменного разрешения администрации сайта. Принадлежность авторских прав на все материалы каждой страницы Сайта выражена следующим образом: Администрация сайта</span></p>
+                            <p><span style="color: #000000;">Товарные знаки. Торговые марки (названия, логотипы продуктов или услуг), представленные в каком-либо разделе нашего Сайта, являются интеллектуальной собственностью соответствующих владельцев. Все права защищены.</span></p>
+                            <p><span style="color: #000000;">Как с нами связаться. Если у Вас есть какие-либо вопросы по политике конфиденциальности, использованию Сайта, или иных вопросам, связанным с Сайтом, пожалуйста, свяжитесь с нами: brenstone@yandex.ru</span>
+                            <br><span style="color: #000000;">+7 (812) 426-31-78</span></p>
+                            <p style="line-height: 0.5;">Реквизиты и данные юридического лица:&nbsp;ООО "Бастион"</p>
+                            <p>ИНН 7725328321
+                            <br>ОГРН 1167746794582</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="min/index.js" type="text/javascript"></script>
+            <!--[if IE]>
+            <script>
+            jQuery(document).ready(function() {
+                jQuery(document).on('click', '.callback-1', function(){
+                    jQuery('#small-modal-1').arcticmodal();
                 });
+                jQuery(document).on('click', '.callback-2', function(){
+                    jQuery('#small-modal-2').arcticmodal();
+                        });
+                jQuery(document).on('click', '.callback-3', function(){
+                    jQuery('#small-modal-3').arcticmodal();
+                    });
+                jQuery(document).on('click', '.callback-3', function(){
+                    jQuery('#small-modal-4').arcticmodal();
+                });
+                    });
+            </script>
+            <![endif]-->
+            <div class="modal exit-modal exit-modal_1 fade1">
+                <div class="modal-dialog modal-lg1">
+                    <div class="modal-content modal-content_1 hidden">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="image-wrapper">
+                                        <img src="images/exit_win.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- <div class="exit-inner-1">
+                                    </div> -->
+                                    <div class="exit-inner-2">
+                                        Скачайте каталог барных стоек,
+                                        <br>или стоек ресепшена
+                                        <br>в 1 клик!
+                                    </div>
+                                    <div class="exit-inner-3">
+                                        Укажите свой телефон и сразу скачайте
+                                        <br>каталог с ценами и характеристиками
+                                        <br>и планировками в формате PDF
+                                    </div>
+                                    <div class="modal-content-box">
+                                        <form action="index.html" name="form-5">
+                                            <!--[if IE]><label>Ваш телефон:<br><![endif]-->
+                                            <input onfocus="this.placeholder = ''" onblur="this.placeholder = 'Введите телефон'" class="phone email-exit" name="phone" type="phone" placeholder="Введите телефон">
+                                            <!--[if IE]></label><![endif]-->
+                                            <input class="theme" name="theme" type="hidden" value="Exit_Win">
+                                            <div class="input-button ripplelink btn-feedback" data-href="#mypres">
+                                                <img class="pdf" src="images/ico-pdf.png" alt=""> СКАЧАТЬ КАТАЛОГ
+                                                <!-- <input class="btn-feedback" name="send" type="button" value="СКАЧАТЬ КАТАЛОГ"> -->
+                                            </div>
+                                            <input class="theme" name="theme" type="hidden" value="Exit_Win">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript" >
+            (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+            try {
+            w.yaCounter46197696 = new Ya.Metrika({
+            id:46197696,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+            });
             } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
+            });
+            var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
             f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46197696" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter --><!-- 
-<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=d763ac1255e254d9f744e51866cd1af3" charset="UTF-8" async></script> -->
-</body>
-</html>
+            } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/46197696" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
+            <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+            <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=d763ac1255e254d9f744e51866cd1af3" charset="UTF-8" async></script>
+        </body>
+    </html>
