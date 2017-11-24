@@ -2910,16 +2910,6 @@ jQuery.noConflict();
                 alert("Выберите один или несколько вариантов");
             }
         });
-        $(document).on('click', '.item-4-option', function() {
-            $('.item-4-button .hidden-button').show();
-            if ($(this).find('.item-circle').hasClass("hidden")) {
-                $('.item-circle').addClass("hidden");
-                $(this).find('.item-circle').removeClass("hidden");
-                var optionText = $(this).find(".item-text").text();
-                $(".q4").val(optionText);
-                $(".discount-inner").removeClass("hidden");
-            }
-        });
 		$(document).on('click', '.item-4-option', function() {
             $('.item-4-button .hidden-button').show();
             if ($(this).find('.item-circle2').hasClass("hidden")) {
