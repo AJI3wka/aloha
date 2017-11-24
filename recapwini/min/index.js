@@ -2980,13 +2980,13 @@ jQuery.noConflict();
         var waypoint = new Waypoint({
             element: document.getElementsByClassName('first'),
             handler: function(dir) {
-                if (dir === 'down') {
-                    $(".discount-and-form").addClass("fixed");
-                    $(".first").addClass("not-first");
-                } else {
-                    $(".discount-and-form").removeClass("fixed");
-                    $(".first").removeClass("not-first");
-                }
+                //if (dir === 'down') {
+                    //$(".discount-and-form").addClass("fixed");
+                  //  $(".first").addClass("not-first");
+                //} else {
+                  //  $(".discount-and-form").removeClass("fixed");
+                  //  $(".first").removeClass("not-first");
+               // }
             },
         });
     });
