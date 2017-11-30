@@ -2984,7 +2984,7 @@ jQuery.noConflict();
 $('.call-form').submit(function(event){
     event.preventDefault()
     $.ajax({
-        url: "/mail.php",
+        url: "mail.php",
         type: "post",
         data: $(this).serialize(),
         success: function (response) {              
@@ -3005,7 +3005,7 @@ $('.i-close').on('click', function(){
 $('.order-form').submit(function(event){
     event.preventDefault()
     $.ajax({
-        url: "/mail-order.php",
+        url: "mail-order.php",
         type: "post",
         data: $(this).serialize(),
         success: function (response) {              

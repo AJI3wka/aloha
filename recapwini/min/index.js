@@ -2734,7 +2734,7 @@ function() {
 })();;
 jQuery.noConflict();
 (function($) {
-    //$(document).ready(function() {
+    $(document).ready(function() {
         $("#phone-last").mask("+7 (999) 999-99-99");
         $("#phone-01").mask("+7 (999) 999-99-99");
         $("#phone-02").mask("+7 (999) 999-99-99");
@@ -2799,7 +2799,7 @@ jQuery.noConflict();
             });
         });
         $('.start-test').unbind('click');
-        alert('wtf')
+       
         $(document).on('click', '.start-test', function() {
             $('.row-first-screen').hide();
             $('.alpha_first-screen').hide();
@@ -2970,12 +2970,11 @@ jQuery.noConflict();
                // }
             },
         });
-    //});
 
     $('.call-form').submit(function(event) {
         event.preventDefault()
         $.ajax({
-            url: "/mail.php",
+            url: "mail.php",
             type: "post",
             data: $(this).serialize(),
             success: function(response) {
@@ -3003,7 +3002,7 @@ jQuery.noConflict();
         var data_a = $(this).serialize();
         console.log(data_a)
         $.ajax({
-            url: "/mail-order.php",
+            url: "mail-order.php",
             type: "post",
             data: data_a,
             success: function(response) {
@@ -3025,5 +3024,6 @@ jQuery.noConflict();
         $.fancybox.close();
     });
 
+    });
 
 })(jQuery);
