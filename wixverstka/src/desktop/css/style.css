@@ -1,0 +1,820 @@
+/* line 10, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+#maket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../maket.jpg) no-repeat -2px center;
+  height: 6903px;
+  opacity: 0.5;
+  z-index: 20;
+  margin-top: 0; }
+
+/* line 45, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 53, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+:after, :before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+/* line 60, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+  content: none; }
+
+/* line 63, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-weight: 400; }
+
+/* line 70, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+h3 {
+  font-family: arial;
+  font-weight: 300; }
+
+/* line 74, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: black;
+  background-color: #fff; }
+
+/* line 82, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+/* line 87, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+a, button {
+  cursor: pointer; }
+
+/* line 90, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+button, input, textarea {
+  outline: none;
+  border: none;
+  margin: 0 5px;
+  vertical-align: middle; }
+
+/* line 96, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.section, .head, section {
+  width: 100%;
+  min-width: 980px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background-size: cover !important; }
+  /* line 37, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .section > div, .head > div, section > div {
+    max-width: 980px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+
+/* line 99, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.head {
+  background: url(../img/head.webp) no-repeat center;
+  background-size: cover;
+  border-bottom: 3px solid #519cff;
+  height: 160px; }
+  /* line 104, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .head .logo {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    float: left;
+    background: #3668a9;
+    color: white;
+    text-align: center;
+    line-height: 88px;
+    margin-left: 68px;
+    margin-top: 24px;
+    font-size: 49px; }
+  /* line 117, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .head .m-text {
+    float: left;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+    color: black;
+    font-size: 55px;
+    line-height: 137px;
+    margin-left: 150px; }
+  /* line 125, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .head .phones {
+    color: black;
+    float: right;
+    margin-right: 26px;
+    width: 200px;
+    text-align: center;
+    margin-top: 34px; }
+    /* line 132, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .head .phones .phone {
+      display: inline-block;
+      font-size: 22px;
+      line-height: 29px; }
+
+/* line 143, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec2 {
+  background: url(../img/bg2.webp) no-repeat center;
+  background-size: 100% 100% !important; }
+  /* line 147, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec2 > div {
+    padding-top: 25px;
+    padding-bottom: 27px; }
+  /* line 151, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec2 .block {
+    padding-bottom: 64px;
+    background: rgba(255, 255, 255, 0.93);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background-image: url(../img/strela.webp);
+    background-repeat: no-repeat;
+    background-position: 2px 392px; }
+    /* line 158, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec2 .block h2 {
+      color: #2a2b2c;
+      font-size: 35px;
+      line-height: 36px;
+      padding-top: 20px;
+      height: 102px;
+      font-family: Arial;
+      float: left;
+      margin-left: 123px;
+      text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+    /* line 169, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec2 .block .left {
+      float: left; }
+      /* line 171, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec2 .block .left ul {
+        margin-left: 103px;
+        padding-top: 17px; }
+        /* line 174, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec2 .block .left ul span {
+          color: #000000;
+          font-family: fredericka the great,fantasy;
+          font-size: 23px; }
+        /* line 179, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec2 .block .left ul li {
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: 0.5px;
+          margin-bottom: 2px; }
+      /* line 186, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec2 .block .left p {
+        color: black;
+        font-size: 21px;
+        margin-left: 74px;
+        margin-top: 51px;
+        line-height: 27px;
+        letter-spacing: 0.1px; }
+    /* line 195, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec2 .block .right {
+      width: 332px;
+      height: 415px;
+      float: left;
+      margin-top: 10px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+      background-color: white; }
+      /* line 202, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec2 .block .right img {
+        display: inline-block;
+        margin-top: 34px;
+        margin-left: 16px; }
+      /* line 207, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec2 .block .right .form {
+        width: 310px;
+        height: 166px;
+        display: block;
+        margin-top: 39px;
+        margin-left: 12px;
+        box-shadow: 0px 0px 8px 0px #000000; }
+
+/* line 219, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec3 > div {
+  padding-top: 33px;
+  padding-bottom: 27px; }
+
+/* line 223, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec3 .block {
+  width: 956px;
+  margin: 0 auto;
+  background-color: rgba(11, 104, 154, 0.04);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding-bottom: 48px; }
+  /* line 229, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec3 .block .logo2 {
+    background-image: url(../img/AEimg.jpg);
+    width: 320px;
+    height: 335px;
+    margin-top: 28px;
+    float: left;
+    margin-left: 14px;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53); }
+  /* line 240, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec3 .block .midl {
+    float: left;
+    text-align: left;
+    width: 390px; }
+    /* line 244, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec3 .block .midl h3 {
+      font-size: 16px;
+      margin-top: 19px;
+      margin-right: 6px; }
+    /* line 249, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec3 .block .midl .jaboris {
+      font-family: "open sans",sans-serif;
+      font-size: 13px;
+      margin-top: 4px;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      margin-left: 27px;
+      margin-right: 12px; }
+      /* line 258, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .midl .jaboris span.b {
+        text-decoration: underline; }
+      /* line 261, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .midl .jaboris span.abz {
+        display: inline-block;
+        width: 31px; }
+    /* line 266, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec3 .block .midl .ourcompany {
+      font-family: "open sans",sans-serif;
+      font-size: 13px;
+      margin-top: 1px;
+      line-height: 18px;
+      letter-spacing: 0.4px;
+      text-align: left;
+      margin-left: 24px;
+      margin-right: 7px; }
+      /* line 275, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .midl .ourcompany span.b {
+        text-decoration: underline; }
+      /* line 278, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .midl .ourcompany span.ins {
+        text-decoration: underline;
+        font-weight: bold; }
+      /* line 282, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .midl .ourcompany span.abz {
+        display: inline-block;
+        width: 31px; }
+    /* line 287, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec3 .block .midl .ystinskiu {
+      font-size: 20px;
+      text-align: right;
+      margin-right: 9px;
+      margin-top: 10px; }
+  /* line 294, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec3 .block .right {
+    float: right;
+    width: 230px;
+    height: 400px;
+    text-align: center;
+    padding-top: 46px; }
+    /* line 300, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec3 .block .right .li {
+      margin-bottom: 10px; }
+      /* line 302, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .right .li .number {
+        font-size: 43px;
+        line-height: 44px; }
+      /* line 306, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .right .li .line1 {
+        border-bottom: 3px solid #519cff;
+        width: 96px;
+        height: 3px;
+        margin: 0px auto 8px; }
+      /* line 312, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .right .li .line2 {
+        border-bottom: 3px solid #519cff;
+        width: 133px;
+        height: 3px;
+        margin: 0px auto 8px; }
+      /* line 318, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .right .li .line3 {
+        border-bottom: 3px solid #519cff;
+        width: 165px;
+        height: 3px;
+        margin: 0px auto 8px; }
+      /* line 324, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec3 .block .right .li .line4 {
+        width: 210px;
+        height: 3px;
+        border-bottom: 3px solid #519cff;
+        margin: 0px auto 8px; }
+
+/* line 334, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec4 {
+  background-color: white; }
+  /* line 336, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec4 h2 {
+    font-size: 35px;
+    margin-top: 27px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 341, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec4 .block {
+    text-align: center;
+    padding-bottom: 25px; }
+    /* line 344, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec4 .block .li {
+      display: inline-block;
+      width: 300px;
+      margin-top: 45px;
+      vertical-align: top; }
+      /* line 349, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec4 .block .li.lim {
+        margin-top: 82px; }
+      /* line 352, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec4 .block .li .number {
+        font-size: 43px; }
+      /* line 355, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec4 .block .li .line {
+        border-bottom: 3px solid #519cff;
+        width: 256px;
+        height: 3px;
+        margin-left: 21px;
+        margin-top: 40px; }
+      /* line 362, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec4 .block .li .text {
+        font-size: 17px;
+        margin-top: 23px; }
+
+/* line 370, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 h2 {
+  font-size: 35px;
+  margin-top: 21px;
+  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+
+/* line 375, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_1 {
+  padding-bottom: 42px;
+  text-align: center;
+  padding-top: 56px; }
+  /* line 379, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_1 .li {
+    display: inline-block;
+    width: 214px;
+    vertical-align: top;
+    margin: 0 9px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    padding-bottom: 42px; }
+    /* line 386, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec5 .block_1 .li h4 {
+      font-size: 27px;
+      margin-top: 18px;
+      height: 42px;
+      border-bottom: 3px solid #519cff; }
+    /* line 392, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec5 .block_1 .li ul {
+      text-align: left;
+      margin-top: 20px;
+      list-style-position: inside;
+      height: 340px; }
+      /* line 397, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec5 .block_1 .li ul li {
+        font-size: 14px;
+        list-style-position: inside;
+        margin-left: 4px;
+        line-height: 19px; }
+        /* line 402, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec5 .block_1 .li ul li:before, .sec5 .block_1 .li ul li:after {
+          content: none; }
+        /* line 405, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec5 .block_1 .li ul li .b {
+          font-weight: bold; }
+        /* line 408, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec5 .block_1 .li ul li .ins {
+          text-decoration: underline;
+          display: inline-block;
+          margin-left: 18px; }
+    /* line 415, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec5 .block_1 .li .price {
+      font-size: 32px;
+      margin-right: 8px; }
+
+/* line 422, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_2 .left {
+  text-align: center;
+  float: left;
+  font-size: 21px;
+  margin-top: 78px;
+  line-height: 26px;
+  width: 350px;
+  height: 130px;
+  background: url(../img/strela.webp);
+  background-repeat: no-repeat;
+  background-position: 19px 9px;
+  background-size: 329px; }
+
+/* line 435, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_2 .middle {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+  margin-top: 2px;
+  float: left;
+  width: 260px;
+  height: 345px; }
+  /* line 442, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_2 .middle h4 {
+    border-bottom: 3px solid #519cff;
+    font-size: 26px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px; }
+  /* line 449, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_2 .middle ul {
+    float: left;
+    width: 260px;
+    height: 205px;
+    margin-top: 30px; }
+    /* line 454, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec5 .block_2 .middle ul li {
+      text-align: left;
+      font-size: 19px;
+      margin-left: 27px;
+      line-height: 28px; }
+      /* line 459, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec5 .block_2 .middle ul li.plus {
+        text-align: center;
+        list-style: none;
+        padding-right: 25px; }
+      /* line 464, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec5 .block_2 .middle ul li .ins {
+        text-decoration: underline; }
+  /* line 469, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_2 .middle .price {
+    width: 257px;
+    height: 64px;
+    margin-top: 220px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 16px; }
+
+/* line 478, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_2 .right {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-right: 31px;
+  margin-top: 71px; }
+  /* line 484, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_2 .right .text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 27px; }
+    /* line 488, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec5 .block_2 .right .text .ins {
+      text-decoration: underline; }
+  /* line 492, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .block_2 .right img {
+    width: 250px;
+    height: 38px;
+    margin-left: 32px; }
+
+/* line 500, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_3 .left {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 25px;
+  letter-spacing: 1.2px;
+  margin-left: 21px;
+  float: left; }
+
+/* line 509, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_3 .middle {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  width: 311px;
+  height: 166px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 26px;
+  background: #f1f1f1; }
+
+/* line 518, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .block_3 .right {
+  width: 340px;
+  height: 230px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 27px;
+  float: right;
+  margin-top: 26px;
+  padding-right: 20px;
+  background-image: url(../img/strelalft.webp);
+  background-position: 22px 115px; }
+
+/* line 531, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec5 .btn {
+  width: 690px;
+  height: 42px;
+  padding-top: 8px;
+  font-size: 25px;
+  background: url(../img/btnbg.webp);
+  margin: 12px auto 0;
+  text-align: center;
+  color: #FFFFFF;
+  border-bottom: 3px solid #519cff; }
+  /* line 541, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec5 .btn span {
+    text-decoration: underline;
+    font-weight: bold; }
+
+/* line 548, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec6 > div {
+  padding-bottom: 5px; }
+
+/* line 551, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec6 h2 {
+  width: 980px;
+  height: 55px;
+  font-size: 35px;
+  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+  margin-top: 50px;
+  border-bottom: 3px solid #519cff; }
+
+/* line 567, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec6 .res_block {
+  border-bottom: 3px solid #519cff;
+  margin-top: 2px; }
+  /* line 570, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec6 .res_block .left {
+    float: left;
+    margin-top: 6px; }
+  /* line 574, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec6 .res_block .right {
+    float: right;
+    width: 305px;
+    height: 159px;
+    margin-right: 48px;
+    margin-top: 80px;
+    background-color: rgba(197, 195, 195, 0.08);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+    /* line 582, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .res_block .right h5 {
+      font-size: 27px;
+      margin-top: 31px;
+      margin-bottom: 33px; }
+    /* line 587, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .res_block .right .li {
+      font-size: 15px;
+      margin-left: 42px; }
+      /* line 590, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6 .res_block .right .li span {
+        float: right;
+        margin-right: 49px; }
+
+/* line 597, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec6 .block_p {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  width: 950px;
+  margin: 41px auto 0; }
+  /* line 601, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec6 .block_p .line {
+    height: 251px; }
+    /* line 603, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line.line1 {
+      border-bottom: 3px solid #519cff; }
+    /* line 609, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line.line2 .left .text h5 {
+      font-size: 18px;
+      float: left;
+      margin-left: 16px;
+      margin-top: 23px; }
+    /* line 615, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line.line2 .left .text p {
+      font-size: 17px;
+      float: left;
+      text-align: left;
+      margin-top: 11px;
+      margin-left: 24px; }
+    /* line 626, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line.line2 .right .text h5 {
+      font-size: 18px;
+      float: right;
+      margin-right: 15px;
+      margin-top: 23px; }
+    /* line 632, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line.line2 .right .text p {
+      font-size: 17px;
+      float: right;
+      text-align: left;
+      margin-top: 12px;
+      margin-left: 19px; }
+    /* line 642, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line .left {
+      width: 500px;
+      float: left; }
+      /* line 645, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6 .block_p .line .left .img {
+        float: left;
+        width: 197px;
+        height: 250px; }
+        /* line 649, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .left .img.img1 {
+          background: url(../img/vesa.webp) no-repeat center; }
+        /* line 652, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .left .img.img3 {
+          background: url(../img/garant.webp) no-repeat;
+          background-position: 31px 40px; }
+      /* line 657, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6 .block_p .line .left .text {
+        float: right;
+        width: 300px;
+        height: 180px; }
+        /* line 661, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .left .text h5 {
+          font-size: 18px;
+          margin-top: 34px;
+          margin-right: 77px; }
+        /* line 666, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .left .text p {
+          font-size: 17px;
+          margin-top: 22px;
+          margin-left: 19px;
+          line-height: 22px; }
+    /* line 674, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6 .block_p .line .right {
+      float: right;
+      width: 450px;
+      height: 250px; }
+      /* line 678, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6 .block_p .line .right .img {
+        float: left;
+        width: 180px;
+        height: 250px; }
+        /* line 682, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .right .img.img2 {
+          background: url(../img/korzina.webp) no-repeat center;
+          background-position: 21px 59px; }
+        /* line 686, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .right .img.img4 {
+          background: url(../img/strelatop.webp) no-repeat center;
+          background-position: 28px 48px; }
+      /* line 691, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6 .block_p .line .right .text {
+        float: right;
+        width: 270px;
+        height: 180px; }
+        /* line 695, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .right .text h5 {
+          font-size: 18px;
+          margin-top: 34px;
+          margin-right: 36px; }
+        /* line 700, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6 .block_p .line .right .text p {
+          font-size: 17px;
+          margin-top: 21px;
+          margin-left: 20px;
+          line-height: 22px; }
+
+/* line 712, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec7 > div {
+  padding-bottom: 5px;
+  padding-top: 25px; }
+
+/* line 716, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec7 .block {
+  padding-top: 30px;
+  width: 945px;
+  height: 420px;
+  margin: 0 auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+  /* line 723, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec7 .block h2 {
+    font-size: 35px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 727, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec7 .block .ul {
+    padding: 0 54px; }
+    /* line 729, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec7 .block .ul .li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      margin-top: 54px; }
+      /* line 734, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7 .block .ul .li h5 {
+        font-size: 21px; }
+      /* line 737, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7 .block .ul .li .img {
+        height: 140px;
+        background-repeat: no-repeat;
+        background-position: center; }
+        /* line 742, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7 .block .ul .li .img.img1 {
+          background-image: url(../img/simka.webp); }
+        /* line 745, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7 .block .ul .li .img.img2 {
+          background-image: url(../img/galava.webp); }
+        /* line 748, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7 .block .ul .li .img.img3 {
+          background-image: url(../img/detal.webp); }
+        /* line 751, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7 .block .ul .li .img.img4 {
+          background-image: url(../img/rocket.webp); }
+      /* line 755, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7 .block .ul .li p {
+        font-size: 17px;
+        margin-top: 29px;
+        line-height: 26px; }
+
+/* line 765, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec8 > div {
+  padding-bottom: 5px;
+  padding-top: 34px; }
+
+/* line 769, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+.sec8 .block {
+  padding-top: 20px;
+  width: 945px;
+  height: 495px;
+  margin: 0 auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+  /* line 776, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec8 .block h5 {
+    font-size: 35px;
+    margin-top: 10px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 781, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+  .sec8 .block .ul {
+    padding: 0 54px; }
+    /* line 784, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+    .sec8 .block .ul .li {
+      float: left;
+      width: 25%;
+      text-align: center; }
+      /* line 789, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li1 {
+        width: 260px;
+        margin-top: 24px; }
+        /* line 792, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+        .sec8 .block .ul .li.li1 .img {
+          height: 100px;
+          background-repeat: no-repeat;
+          background-position: center; }
+          /* line 797, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+          .sec8 .block .ul .li.li1 .img.img1 {
+            background-image: url(../img/marsol.webp); }
+          /* line 800, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+          .sec8 .block .ul .li.li1 .img.img2 {
+            background-image: url(../img/helper.webp); }
+          /* line 803, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+          .sec8 .block .ul .li.li1 .img.img3 {
+            background-image: url(../img/sinergist.webp); }
+          /* line 806, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+          .sec8 .block .ul .li.li1 .img.img4 {
+            background-image: url(../img/promo.webp); }
+      /* line 815, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li2 .img.img1 {
+        background-image: url(../img/detal.webp); }
+      /* line 817, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li2 .img.img2 {
+        background-image: url(../img/detal.webp); }
+      /* line 819, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li2 .img.img3 {
+        background-image: url(../img/detal.webp); }
+      /* line 821, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li2 .img.img4 {
+        background-image: url(../img/detal.webp); }
+      /* line 828, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li3 .img.img1 {
+        background-image: url(../img/detal.webp); }
+      /* line 830, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li3 .img.img2 {
+        background-image: url(../img/detal.webp); }
+      /* line 832, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li3 .img.img3 {
+        background-image: url(../img/detal.webp); }
+      /* line 834, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li3 .img.img4 {
+        background-image: url(../img/detal.webp); }
+      /* line 841, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li4 .img.img1 {
+        background-image: url(../img/detal.webp); }
+      /* line 843, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li4 .img.img2 {
+        background-image: url(../img/detal.webp); }
+      /* line 845, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li4 .img.img3 {
+        background-image: url(../img/detal.webp); }
+      /* line 847, D:/science/wixverstka/src/desktop/css/sass/style.scss */
+      .sec8 .block .ul .li.li4 .img.img4 {
+        background-image: url(../img/detal.webp); }
+
+/*# sourceMappingURL=style.css.map */
