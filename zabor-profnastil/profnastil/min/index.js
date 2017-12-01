@@ -2923,6 +2923,17 @@ jQuery.noConflict();
         $(document).on('click', '.item-4-button .hidden-button', function() {
             $('.item-4').hide();
             $('.item-5').show();
+            var width = $('.item-4').find('input[name="dlina_metrov"]').val();
+            var sotok = $('.item-4').find('input[name="dlina_sotok"]').val();
+            var visota;
+            $('.item-4').find('.item-4-option').each(function(index, el) {
+                if (!$(this).find('.item-circle2').hasClass('hidden')) {
+                    visota = $(this).find('.item-text').text();
+                }
+            });
+
+
+            $('.q4').val('Длинна: ( '+width+' )м.п или ( '+sotok+' )соток. Высота: '+visota);
             $(".screen-form-inner-4").addClass("hidden");
             $(".screen-form-inner-5").removeClass("hidden");
             //yaCounter40513390.reachGoal('Q4NEXT');
@@ -2967,18 +2978,18 @@ jQuery.noConflict();
             }, 500);
             $('.progress-wrapper').hide();
         });
-        var waypoint = new Waypoint({
-            element: document.getElementsByClassName('first'),
-            handler: function(dir) {
-                if (dir === 'down') {
-                    $(".discount-and-form").addClass("fixed");
-                    $(".first").addClass("not-first");
-                } else {
-                    $(".discount-and-form").removeClass("fixed");
-                    $(".first").removeClass("not-first");
-                }
-            },
-        });
+        // var waypoint = new Waypoint({
+        //     element: document.getElementsByClassName('first'),
+        //     handler: function(dir) {
+        //         if (dir === 'down') {
+        //             $(".discount-and-form").addClass("fixed");
+        //             $(".first").addClass("not-first");
+        //         } else {
+        //             $(".discount-and-form").removeClass("fixed");
+        //             $(".first").removeClass("not-first");
+        //         }
+        //     },
+        // });
     });
 
 $('.call-form').submit(function(event){
@@ -3004,6 +3015,8 @@ $('.i-close').on('click', function(){
 
 $('.order-form').submit(function(event){
     event.preventDefault()
+    $('input[name="yourCount"]').val($('.final-form').find('.form-part').find('.discount-total-count').text())
+    
     $.ajax({
         url: "mail-order.php",
         type: "post",
