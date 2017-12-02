@@ -473,36 +473,22 @@ button, input, textarea {
         .res_block {
             width: 996px;
             height: 410px;
-            display:inline-block;
-            .left {
-                display:block;
-                background-image: url(../img/img1.jpg)no-repeat;
-                height: 410px;
-                background-image:no-repeat;
-                width: 33%;
-                
-                
-            }
-            .midl {
-                display: block;
-                width: 33%;
-                background-image: url(../img/img2.jpg)no-repeat;
-                height: 410px;
+            .item{
                 float:left;
-               
-                
-                
-            }
-            .right {display: block;
-                width: 33%;
-                background-image: url(../img/img3.jpg)no-repeat;
+                width: 33.333%;
                 height: 410px;
-                float:right;
+                &.item1{
+                    background: url(../img/obr1.jpg)no-repeat;
+                }
+                &.item2{
+                    background: url(../img/obr2.jpg)no-repeat;
+                }
+                &.item3{
+                    background: url(../img/obr3.jpg)no-repeat;
+                    
+                }
+            }
                 
-            
-                
-                
-            }    
         }
     
     .block_p {
