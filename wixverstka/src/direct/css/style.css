@@ -86,7 +86,7 @@ button, input, textarea {
 
 /* line 97, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .head {
-  background: url(../img/head.webp) no-repeat center;
+  background: url(../img/head.jpg) no-repeat center;
   background-size: cover;
   border-bottom: 3px solid #519cff;
   height: 160px; }
@@ -127,7 +127,7 @@ button, input, textarea {
 
 /* line 141, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec2 {
-  background: url(../img/bg2.webp) no-repeat center;
+  background: url(../img/bg2.jpg) no-repeat center;
   background-size: 100% 100% !important; }
   /* line 145, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec2 > div {
@@ -138,7 +138,7 @@ button, input, textarea {
     padding-bottom: 64px;
     background: rgba(255, 255, 255, 0.93);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    background-image: url(../img/strela.webp);
+    background-image: url(../img/strela.jpg);
     background-repeat: no-repeat;
     background-position: 2px 451px;
     background-size: 603px 114px; }
@@ -412,7 +412,7 @@ button, input, textarea {
   line-height: 26px;
   width: 350px;
   height: 130px;
-  background: url(../img/strela.webp);
+  background: url(../img/strela.jpg);
   background-repeat: no-repeat;
   background-position: 19px 9px;
   background-size: 329px; }
@@ -514,7 +514,7 @@ button, input, textarea {
   margin-top: 26px;
   padding-right: 20px;
   margin-right: 10px;
-  background-image: url(../img/strelalft.webp);
+  background-image: url(../img/strelalft.jpg);
   background-position: 12px 115px; }
 
 /* line 527, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
@@ -523,7 +523,7 @@ button, input, textarea {
   height: 42px;
   padding-top: 8px;
   font-size: 25px;
-  background: url(../img/btnbg.webp);
+  background: url(../img/btnbg.jpg);
   margin: 12px auto 0;
   text-align: center;
   color: #FFFFFF;
@@ -628,10 +628,10 @@ button, input, textarea {
         height: 250px; }
         /* line 646, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec6 .block_p .line .left .img.img1 {
-          background: url(../img/vesa.webp) no-repeat center; }
+          background: url(../img/vesa.jpg) no-repeat center; }
         /* line 649, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec6 .block_p .line .left .img.img3 {
-          background: url(../img/garant.webp) no-repeat;
+          background: url(../img/garant.jpg) no-repeat;
           background-position: 31px 40px; }
       /* line 654, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec6 .block_p .line .left .text {
@@ -661,11 +661,11 @@ button, input, textarea {
         height: 250px; }
         /* line 679, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec6 .block_p .line .right .img.img2 {
-          background: url(../img/korzina.webp) no-repeat center;
+          background: url(../img/korzina.jpg) no-repeat center;
           background-position: 21px 59px; }
         /* line 683, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec6 .block_p .line .right .img.img4 {
-          background: url(../img/strelatop.webp) no-repeat center;
+          background: url(../img/strelatop.jpg) no-repeat center;
           background-position: 28px 48px; }
       /* line 688, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec6 .block_p .line .right .text {
@@ -719,16 +719,16 @@ button, input, textarea {
         background-position: center; }
         /* line 737, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img1 {
-          background-image: url(../img/simka.webp); }
+          background-image: url(../img/simka.jpg); }
         /* line 740, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img2 {
-          background-image: url(../img/galava.webp); }
+          background-image: url(../img/galava.jpg); }
         /* line 743, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img3 {
-          background-image: url(../img/detal.webp); }
+          background-image: url(../img/detal.jpg); }
         /* line 746, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img4 {
-          background-image: url(../img/rocket.webp); }
+          background-image: url(../img/rocket.jpg); }
       /* line 750, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec7 .block .ul .li p {
         font-size: 17px;
@@ -771,84 +771,84 @@ button, input, textarea {
         width: 258px; }
         /* line 790, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img1 {
-          background-image: url(../img/marsol.webp);
+          background-image: url(../img/marsol.jpg);
           background-size: 223px; }
         /* line 794, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img2 {
-          background-image: url(../img/helper.webp);
+          background-image: url(../img/helper.jpg);
           background-size: 235px;
           background-position: 10px 13px; }
         /* line 799, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img3 {
-          background-image: url(../img/sinergist.webp);
+          background-image: url(../img/sinergist.jpg);
           background-size: 233px 55px;
           background-position: 14px 13px; }
         /* line 804, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img4 {
-          background-image: url(../img/promo.webp); }
+          background-image: url(../img/promo.jpg); }
       /* line 809, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li2 {
         width: 241px; }
         /* line 812, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img1 {
-          background-image: url(../img/artlife.webp);
+          background-image: url(../img/artlife.jpg);
           background-size: 179px 45px;
           background-position: 32px 23px; }
         /* line 817, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img2 {
-          background-image: url(../img/aviant.webp);
+          background-image: url(../img/aviant.jpg);
           background-size: 179px 58px;
           background-position: 32px 11px; }
         /* line 822, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img3 {
-          background-image: url(../img/avon.webp);
+          background-image: url(../img/avon.jpg);
           background-size: 178px 36px;
           background-position: 33px 27px; }
         /* line 827, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img4 {
-          background-image: url(../img/ispit.webp); }
+          background-image: url(../img/ispit.jpg); }
       /* line 832, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li3 {
         width: 194px; }
         /* line 835, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img1 {
-          background-image: url(../img/dolche.webp);
+          background-image: url(../img/dolche.jpg);
           background-size: 138px 42px;
           background-position: 27px 27px; }
         /* line 840, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img2 {
-          background-image: url(../img/resti.webp);
+          background-image: url(../img/resti.jpg);
           background-size: 139px 45px;
           background-position: 27px 19px; }
         /* line 845, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img3 {
-          background-image: url(../img/native.webp);
+          background-image: url(../img/native.jpg);
           background-size: 139px 51px;
           background-position: 27px 19px; }
         /* line 850, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img4 {
-          background-image: url(../img/pr.webp); }
+          background-image: url(../img/pr.jpg); }
       /* line 855, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li4 {
         width: 144px; }
         /* line 858, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img1 {
-          background-image: url(../img/pfb.webp);
+          background-image: url(../img/pfb.jpg);
           background-size: 95px 55px;
           background-position: 34px 22px; }
         /* line 863, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img2 {
-          background-image: url(../img/toyota.webp);
+          background-image: url(../img/toyota.jpg);
           background-size: 102px 67px;
           background-position: 32px 6px; }
         /* line 868, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img3 {
-          background-image: url(../img/impuls.webp);
+          background-image: url(../img/impuls.jpg);
           background-size: 102px 50px;
           background-position: 31px 17px; }
         /* line 873, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img4 {
-          background-image: url(../img/airpar.webp);
+          background-image: url(../img/airpar.jpg);
           background-size: 102px 54px;
           background-position: 40px 18px; }
 
@@ -886,10 +886,10 @@ button, input, textarea {
       margin-top: 34px; }
       /* line 916, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .img.img1 {
-        background: url(../img/otz1.webp) no-repeat center; }
+        background: url(../img/otz1.jpg) no-repeat center; }
       /* line 919, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .img.img2 {
-        background: url(../img/otz2.webp) no-repeat center; }
+        background: url(../img/otz2.jpg) no-repeat center; }
     /* line 923, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec9 .block .otz .text {
       float: right;
@@ -964,7 +964,7 @@ button, input, textarea {
     float: right;
     width: 584px;
     height: 406px;
-    background: url(../img/arr_right.webp) no-repeat -8px 283px;
+    background: url(../img/arr_right.jpg) no-repeat -8px 283px;
     background-size: 610px 93px; }
     /* line 1001, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec10 .block .top .right .ul {
@@ -1005,8 +1005,8 @@ button, input, textarea {
     width: 692px;
     height: 42px;
     padding-top: 8px;
-    font-size: 25px;
-    background: url(../img/btnbg.webp);
+    font-size: 25px;jpg
+    background: url(../img/btnbg.jpg);
     margin: 0 auto 0;
     text-align: center;
     color: #FFFFFF;
@@ -1140,8 +1140,8 @@ footer {
         float: right;
         width: 42px; }
         /* line 1179, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        footer .right .other .rpart a {
-          background-image: url(../img/vk.webp);
+        footer .right .other .rpart a {jpg
+          background-image: url(../img/vk.jpg);
           display: inline-block;
           width: 40px;
           height: 42px; }
@@ -1157,7 +1157,7 @@ footer {
       /* line 1195, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/desktop/css/sass/style.scss */
       footer .right .maket-by a {
         float: left;
-        background-image: url(../img/logo2.webp);
+        background-image: url(../img/logo2.jpg);
         width: 166px;
         height: 25px;
         margin-left: 12px; }
