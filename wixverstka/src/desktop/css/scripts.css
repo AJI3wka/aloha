@@ -10,31 +10,32 @@
 body{
 	font-family: 'Roboto',sans-serif;
 }
+
+h2,h5{
+	text-shadow:none!important;
+}
+
+.sec2 .block h2{padding-top: 35px;font-size: 40px;text-shadow: 0 0 1px #3667aa57;}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:300;
+}
+/*.head .logo{
+	margin-top: 10px;
+	line-height: 86px;
+}
 .head .m-text{
 	font-weight: 300;
 	font-size: 70px;
 	margin-left: 80px;
 	line-height: 100px;
 	text-shadow: none;
-}
-h2,h5{
-	text-shadow:none!important;
-}
-.head .phones .phone{
+}.head .phones .phone{
 	margin-bottom: 7px;
-}
-.sec2 .block h2{padding-top: 35px;font-size: 40px;text-shadow: 0 0 1px #3667aa57;}
-.head .phones{
+}.head .phones{
 	margin-top: 13px;
 }
-.head{height: 120px;}
-h1,h2,h3,h4,h5,h6{
-	font-weight:300;
-}
-.head .logo{
-	margin-top: 10px;
-	line-height: 86px;
-}
+.head{height: 120px;}*/
 .sec2 .block .left ul{
 	margin-left: 70px;
 	padding-top: 2px;
