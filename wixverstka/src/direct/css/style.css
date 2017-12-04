@@ -1,4 +1,4 @@
-/* line 10, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 10, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0;
@@ -10,7 +10,7 @@
   z-index: 20;
   margin-top: 0; }
 
-/* line 45, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 45, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 53, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 53, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -27,22 +27,22 @@
   height: 0;
   clear: both; }
 
-/* line 60, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 60, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 63, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
   font-weight: 400; }
 
-/* line 69, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 69, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 h3 {
   font-weight: 300; }
 
-/* line 72, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 72, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -51,24 +51,24 @@ body {
   color: black;
   background-color: #fff; }
 
-/* line 80, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 80, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 85, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 85, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 a, button {
   cursor: pointer; }
 
-/* line 88, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 88, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 button, input, textarea {
   outline: none;
   border: none;
   margin: 0 5px;
   vertical-align: middle; }
 
-/* line 94, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 94, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .section, .head, section, footer {
   width: 100%;
   min-width: 980px;
@@ -76,7 +76,7 @@ button, input, textarea {
   position: relative;
   z-index: 2;
   background-size: cover !important; }
-  /* line 37, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 37, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .section > div, .head > div, section > div, footer > div {
     max-width: 980px;
     position: relative;
@@ -84,13 +84,13 @@ button, input, textarea {
     height: 100%;
     margin: 0 auto; }
 
-/* line 97, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 97, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .head {
   background: url(../img/head.png) no-repeat center;
   background-size: cover;
   border-bottom: 3px solid #519cff;
   height: 160px; }
-  /* line 102, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 102, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .head .logo {
     width: 88px;
     height: 88px;
@@ -103,7 +103,7 @@ button, input, textarea {
     margin-left: 68px;
     margin-top: 24px;
     font-size: 49px; }
-  /* line 115, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 115, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .head .m-text {
     float: left;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
@@ -111,7 +111,7 @@ button, input, textarea {
     font-size: 55px;
     line-height: 137px;
     margin-left: 150px; }
-  /* line 123, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 123, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .head .phones {
     color: black;
     float: right;
@@ -119,21 +119,21 @@ button, input, textarea {
     width: 200px;
     text-align: center;
     margin-top: 34px; }
-    /* line 130, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 130, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .head .phones .phone {
       display: inline-block;
       font-size: 22px;
       line-height: 29px; }
 
-/* line 141, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 141, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec2 {
   background: url(../img/bg2.png) no-repeat center;
   background-size: 100% 100% !important; }
-  /* line 145, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 145, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec2 > div {
     padding-top: 25px;
     padding-bottom: 27px; }
-  /* line 149, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 149, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec2 .block {
     padding-bottom: 64px;
     background: rgba(255, 255, 255, 0.93);
@@ -142,7 +142,7 @@ button, input, textarea {
     background-repeat: no-repeat;
     background-position: 2px 451px;
     background-size: 603px 114px; }
-    /* line 157, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 157, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec2 .block h2 {
       color: #2a2b2c;
       font-size: 35px;
@@ -150,24 +150,24 @@ button, input, textarea {
       padding-top: 20px;
       height: 102px;
       text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-    /* line 165, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 165, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec2 .block .left {
       float: left; }
-      /* line 167, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 167, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec2 .block .left ul {
         margin-left: 103px;
         padding-top: 17px; }
-        /* line 170, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 170, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec2 .block .left ul span {
           color: #000000;
           font-size: 23px; }
-        /* line 174, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 174, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec2 .block .left ul li {
           font-size: 20px;
           line-height: 26px;
           letter-spacing: 0.5px;
           margin-bottom: 2px; }
-      /* line 181, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 181, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec2 .block .left p {
         color: black;
         font-size: 20px;
@@ -176,7 +176,7 @@ button, input, textarea {
         line-height: 27px;
         width: 534px;
         letter-spacing: 0.1px; }
-    /* line 191, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 191, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec2 .block .right {
       width: 332px;
       height: 415px;
@@ -184,12 +184,12 @@ button, input, textarea {
       margin-top: 10px;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
       background-color: white; }
-      /* line 198, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 198, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec2 .block .right img {
         display: inline-block;
         margin-top: 34px;
         margin-left: 16px; }
-      /* line 203, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 203, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec2 .block .right .form {
         width: 310px;
         height: 166px;
@@ -198,19 +198,19 @@ button, input, textarea {
         margin-left: 12px;
         box-shadow: 0px 0px 8px 0px #000000; }
 
-/* line 215, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 215, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec3 > div {
   padding-top: 33px;
   padding-bottom: 27px; }
 
-/* line 219, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 219, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec3 .block {
   width: 956px;
   margin: 0 auto;
   background-color: rgba(11, 104, 154, 0.04);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   padding-bottom: 48px; }
-  /* line 225, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 225, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec3 .block .logo2 {
     background-image: url(../img/AEimg.jpg);
     width: 320px;
@@ -221,17 +221,17 @@ button, input, textarea {
     background-size: 100% 100%;
     border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53); }
-  /* line 236, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 236, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec3 .block .midl {
     float: left;
     text-align: left;
     width: 390px; }
-    /* line 240, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 240, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec3 .block .midl h3 {
       font-size: 16px;
       margin-top: 19px;
       margin-right: 6px; }
-    /* line 245, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 245, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec3 .block .midl .jaboris {
       font-size: 13px;
       margin-top: 4px;
@@ -240,14 +240,14 @@ button, input, textarea {
       text-align: left;
       margin-left: 27px;
       margin-right: 12px; }
-      /* line 253, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 253, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .midl .jaboris span.b {
         text-decoration: underline; }
-      /* line 256, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 256, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .midl .jaboris span.abz {
         display: inline-block;
         width: 31px; }
-    /* line 261, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 261, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec3 .block .midl .ourcompany {
       font-size: 13px;
       margin-top: 1px;
@@ -256,110 +256,110 @@ button, input, textarea {
       text-align: left;
       margin-left: 24px;
       margin-right: 7px; }
-      /* line 269, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 269, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .midl .ourcompany span.b {
         text-decoration: underline; }
-      /* line 272, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 272, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .midl .ourcompany span.ins {
         text-decoration: underline;
         font-weight: bold; }
-      /* line 276, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 276, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .midl .ourcompany span.abz {
         display: inline-block;
         width: 31px; }
-    /* line 281, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 281, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec3 .block .midl .ystinskiu {
       font-size: 20px;
       text-align: right;
       margin-right: 9px;
       margin-top: 10px; }
-  /* line 288, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 288, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec3 .block .right {
     float: right;
     width: 230px;
     height: 400px;
     text-align: center;
     padding-top: 46px; }
-    /* line 294, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 294, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec3 .block .right .li {
       margin-bottom: 10px; }
-      /* line 296, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 296, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .right .li .number {
         font-size: 43px;
         line-height: 44px; }
-      /* line 300, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 300, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .right .li .line1 {
         border-bottom: 3px solid #519cff;
         width: 96px;
         height: 3px;
         margin: 0px auto 8px; }
-      /* line 306, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 306, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .right .li .line2 {
         border-bottom: 3px solid #519cff;
         width: 133px;
         height: 3px;
         margin: 0px auto 8px; }
-      /* line 312, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 312, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .right .li .line3 {
         border-bottom: 3px solid #519cff;
         width: 165px;
         height: 3px;
         margin: 0px auto 8px; }
-      /* line 318, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 318, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec3 .block .right .li .line4 {
         width: 210px;
         height: 3px;
         border-bottom: 3px solid #519cff;
         margin: 0px auto 8px; }
 
-/* line 328, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 328, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec4 {
   background-color: white; }
-  /* line 330, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 330, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec4 h2 {
     font-size: 35px;
     margin-top: 27px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 335, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 335, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec4 .block {
     text-align: center;
     padding-bottom: 25px; }
-    /* line 338, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 338, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec4 .block .li {
       display: inline-block;
       width: 300px;
       margin-top: 45px;
       vertical-align: top; }
-      /* line 343, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 343, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec4 .block .li.lim {
         margin-top: 82px; }
-      /* line 346, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 346, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec4 .block .li .number {
         font-size: 43px; }
-      /* line 349, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 349, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec4 .block .li .line {
         border-bottom: 3px solid #519cff;
         width: 256px;
         height: 3px;
         margin-left: 21px;
         margin-top: 40px; }
-      /* line 356, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 356, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec4 .block .li .text {
         font-size: 17px;
         margin-top: 23px; }
 
-/* line 364, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 364, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 h2 {
   font-size: 35px;
   margin-top: 21px;
   text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
 
-/* line 369, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 369, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_1 {
   padding-bottom: 42px;
   text-align: center;
   padding-top: 56px; }
-  /* line 373, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 373, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_1 .li {
     display: inline-block;
     width: 212px;
@@ -367,41 +367,41 @@ button, input, textarea {
     margin: 0 10px 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
     padding-bottom: 42px; }
-    /* line 380, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 380, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec5 .block_1 .li h4 {
       font-size: 27px;
       margin-top: 18px;
       height: 42px;
       border-bottom: 3px solid #519cff; }
-    /* line 386, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 386, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec5 .block_1 .li ul {
       text-align: left;
       margin-top: 20px;
       list-style-position: inside;
       height: 340px; }
-      /* line 391, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 391, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec5 .block_1 .li ul li {
         font-size: 14px;
         list-style-position: inside;
         margin-left: 4px;
         line-height: 19px; }
-        /* line 396, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 396, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec5 .block_1 .li ul li:before, .sec5 .block_1 .li ul li:after {
           content: none; }
-        /* line 399, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 399, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec5 .block_1 .li ul li .b {
           font-weight: bold; }
-        /* line 402, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 402, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec5 .block_1 .li ul li .ins {
           text-decoration: underline;
           display: inline-block;
           margin-left: 18px; }
-    /* line 409, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 409, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec5 .block_1 .li .price {
       font-size: 32px;
       margin-right: 8px; }
 
-/* line 416, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 416, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_2 .left {
   text-align: center;
   float: left;
@@ -415,7 +415,7 @@ button, input, textarea {
   background-position: 19px 9px;
   background-size: 329px; }
 
-/* line 429, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 429, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_2 .middle {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   margin-left: 10px;
@@ -423,34 +423,34 @@ button, input, textarea {
   float: left;
   width: 257px;
   height: 345px; }
-  /* line 436, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 436, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_2 .middle h4 {
     border-bottom: 3px solid #519cff;
     font-size: 26px;
     height: 40px;
     text-align: center;
     margin-top: 20px; }
-  /* line 443, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 443, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_2 .middle ul {
     float: left;
     width: 260px;
     height: 205px;
     margin-top: 32px; }
-    /* line 448, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 448, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec5 .block_2 .middle ul li {
       text-align: left;
       font-size: 19px;
       margin-left: 27px;
       line-height: 28px; }
-      /* line 453, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 453, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec5 .block_2 .middle ul li.plus {
         text-align: center;
         list-style: none;
         padding-right: 25px; }
-      /* line 458, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 458, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec5 .block_2 .middle ul li .ins {
         text-decoration: underline; }
-  /* line 463, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 463, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_2 .middle .price {
     width: 257px;
     height: 64px;
@@ -459,28 +459,28 @@ button, input, textarea {
     font-size: 32px;
     line-height: 16px; }
 
-/* line 472, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 472, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_2 .right {
   width: 300px;
   height: 200px;
   float: right;
   margin-right: 31px;
   margin-top: 71px; }
-  /* line 478, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 478, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_2 .right .text {
     font-size: 20px;
     text-align: center;
     line-height: 27px; }
-    /* line 482, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 482, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec5 .block_2 .right .text .ins {
       text-decoration: underline; }
-  /* line 486, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 486, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .block_2 .right img {
     width: 250px;
     height: 38px;
     margin-left: 32px; }
 
-/* line 494, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 494, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_3 .left {
   text-align: center;
   font-size: 20px;
@@ -491,7 +491,7 @@ button, input, textarea {
   width: 290px;
   float: left; }
 
-/* line 504, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 504, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_3 .middle {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 313px;
@@ -501,7 +501,7 @@ button, input, textarea {
   margin-top: 26px;
   background: #f1f1f1; }
 
-/* line 513, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 513, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .block_3 .right {
   width: 320px;
   height: 230px;
@@ -515,7 +515,7 @@ button, input, textarea {
   background-image: url(../img/strelalft.png);
   background-position: 12px 115px; }
 
-/* line 527, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 527, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec5 .btn {
   width: 692px;
   height: 42px;
@@ -526,16 +526,16 @@ button, input, textarea {
   text-align: center;
   color: #FFFFFF;
   border-bottom: 3px solid #519cff; }
-  /* line 537, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 537, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec5 .btn span {
     text-decoration: underline;
     font-weight: bold; }
 
-/* line 544, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 544, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec6 > div {
   padding-bottom: 5px; }
 
-/* line 547, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 547, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec6 h2 {
   width: 980px;
   height: 55px;
@@ -544,16 +544,16 @@ button, input, textarea {
   margin-top: 50px;
   border-bottom: 3px solid #519cff; }
 
-/* line 563, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 563, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec6 .res_block {
   border-bottom: 3px solid #519cff;
   margin-top: 2px;
   height: 340px; }
-  /* line 567, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 567, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec6 .res_block .left {
     float: left;
     margin-top: 6px; }
-  /* line 571, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 571, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec6 .res_block .right {
     float: right;
     width: 305px;
@@ -562,316 +562,316 @@ button, input, textarea {
     margin-top: 80px;
     background-color: rgba(197, 195, 195, 0.08);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-    /* line 579, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 579, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .res_block .right h5 {
       font-size: 27px;
       margin-top: 31px;
       margin-bottom: 33px; }
-    /* line 584, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 584, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .res_block .right .li {
       font-size: 15px;
       margin-left: 42px; }
-      /* line 587, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 587, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec6 .res_block .right .li span {
         float: right;
         margin-right: 49px; }
 
-/* line 594, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 594, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec6 .block_p {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 950px;
   margin: 36px auto 0; }
-  /* line 598, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 598, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec6 .block_p .line {
     height: 251px; }
-    /* line 600, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 600, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line.line1 {
       border-bottom: 3px solid #519cff; }
-    /* line 606, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 606, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line.line2 .left .text h5 {
       font-size: 18px;
       float: left;
       margin-left: 16px;
       margin-top: 23px; }
-    /* line 612, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 612, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line.line2 .left .text p {
       font-size: 17px;
       float: left;
       text-align: left;
       margin-top: 11px;
       margin-left: 24px; }
-    /* line 623, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 623, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line.line2 .right .text h5 {
       font-size: 18px;
       float: right;
       margin-right: 15px;
       margin-top: 23px; }
-    /* line 629, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 629, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line.line2 .right .text p {
       font-size: 17px;
       float: right;
       text-align: left;
       margin-top: 12px;
       margin-left: 19px; }
-    /* line 639, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 639, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line .left {
       width: 500px;
       float: left; }
-      /* line 642, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 642, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec6 .block_p .line .left .img {
         float: left;
         width: 197px;
         height: 250px; }
-        /* line 646, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 646, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .left .img.img1 {
           background: url(../img/vesa.png) no-repeat center; }
-        /* line 649, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 649, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .left .img.img3 {
           background: url(../img/garant.png) no-repeat;
           background-position: 31px 40px; }
-      /* line 654, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 654, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec6 .block_p .line .left .text {
         float: right;
         width: 300px;
         height: 180px; }
-        /* line 658, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 658, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .left .text h5 {
           font-size: 18px;
           margin-top: 34px;
           margin-right: 77px; }
-        /* line 663, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 663, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .left .text p {
           font-size: 17px;
           margin-top: 22px;
           margin-left: 19px;
           line-height: 22px; }
-    /* line 671, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 671, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec6 .block_p .line .right {
       float: right;
       width: 450px;
       height: 250px; }
-      /* line 675, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 675, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec6 .block_p .line .right .img {
         float: left;
         width: 180px;
         height: 250px; }
-        /* line 679, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 679, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .right .img.img2 {
           background: url(../img/korzina.png) no-repeat center;
           background-position: 21px 59px; }
-        /* line 683, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 683, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .right .img.img4 {
           background: url(../img/strelatop.png) no-repeat center;
           background-position: 28px 48px; }
-      /* line 688, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 688, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec6 .block_p .line .right .text {
         float: right;
         width: 270px;
         height: 180px; }
-        /* line 692, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 692, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .right .text h5 {
           font-size: 18px;
           margin-top: 34px;
           margin-right: 36px; }
-        /* line 697, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 697, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec6 .block_p .line .right .text p {
           font-size: 17px;
           margin-top: 21px;
           margin-left: 20px;
           line-height: 22px; }
 
-/* line 709, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 709, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec7 > div {
   padding-bottom: 5px;
   padding-top: 25px; }
 
-/* line 713, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 713, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec7 .block {
   padding-top: 30px;
   width: 945px;
   height: 420px;
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 719, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 719, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec7 .block h2 {
     font-size: 35px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 723, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 723, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec7 .block .ul {
     padding: 0 54px; }
-    /* line 725, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 725, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec7 .block .ul .li {
       float: left;
       width: 25%;
       text-align: center;
       margin-top: 54px; }
-      /* line 730, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 730, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec7 .block .ul .li h5 {
         font-size: 21px; }
-      /* line 733, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 733, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec7 .block .ul .li .img {
         height: 140px;
         background-repeat: no-repeat;
         background-position: center; }
-        /* line 737, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 737, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec7 .block .ul .li .img.img1 {
           background-image: url(../img/simka.png); }
-        /* line 740, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 740, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec7 .block .ul .li .img.img2 {
           background-image: url(../img/galava.png); }
-        /* line 743, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 743, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec7 .block .ul .li .img.img3 {
           background-image: url(../img/detal.png); }
-        /* line 746, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 746, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec7 .block .ul .li .img.img4 {
           background-image: url(../img/rocket.png); }
-      /* line 750, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 750, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec7 .block .ul .li p {
         font-size: 17px;
         margin-top: 29px;
         line-height: 26px; }
 
-/* line 760, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 760, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec8 > div {
   padding-bottom: 5px;
   padding-top: 33px; }
 
-/* line 764, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 764, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec8 .block {
   padding-top: 19px;
   width: 945px;
   height: 495px;
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 770, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 770, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec8 .block h5 {
     font-size: 35px;
     margin-top: 10px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 775, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 775, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec8 .block .ul {
     padding: 0 54px; }
-    /* line 777, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 777, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec8 .block .ul .li {
       float: left;
       width: 25%;
       text-align: center;
       margin-top: 38px; }
-      /* line 782, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 782, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec8 .block .ul .li .img {
         height: 92px;
         background-repeat: no-repeat;
         background-position: center; }
-      /* line 787, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 787, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec8 .block .ul .li.li1 {
         width: 258px; }
-        /* line 790, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 790, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img1 {
           background-image: url(../img/marsol.png);
           background-size: 223px; }
-        /* line 794, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 794, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img2 {
           background-image: url(../img/helper.png);
           background-size: 235px;
           background-position: 10px 13px; }
-        /* line 799, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 799, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img3 {
           background-image: url(../img/sinergist.png);
           background-size: 233px 55px;
           background-position: 14px 13px; }
-        /* line 804, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 804, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img4 {
           background-image: url(../img/promo.png); }
-      /* line 809, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 809, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec8 .block .ul .li.li2 {
         width: 241px; }
-        /* line 812, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 812, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img1 {
           background-image: url(../img/artlife.png);
           background-size: 179px 45px;
           background-position: 32px 23px; }
-        /* line 817, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 817, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img2 {
           background-image: url(../img/aviant.png);
           background-size: 179px 58px;
           background-position: 32px 11px; }
-        /* line 822, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 822, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img3 {
           background-image: url(../img/avon.png);
           background-size: 178px 36px;
           background-position: 33px 27px; }
-        /* line 827, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 827, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img4 {
           background-image: url(../img/ispit.png); }
-      /* line 832, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 832, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec8 .block .ul .li.li3 {
         width: 194px; }
-        /* line 835, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 835, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img1 {
           background-image: url(../img/dolche.png);
           background-size: 138px 42px;
           background-position: 27px 27px; }
-        /* line 840, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 840, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img2 {
           background-image: url(../img/resti.png);
           background-size: 139px 45px;
           background-position: 27px 19px; }
-        /* line 845, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 845, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img3 {
           background-image: url(../img/native.png);
           background-size: 139px 51px;
           background-position: 27px 19px; }
-        /* line 850, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 850, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img4 {
           background-image: url(../img/pr.png); }
-      /* line 855, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 855, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec8 .block .ul .li.li4 {
         width: 144px; }
-        /* line 858, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 858, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img1 {
           background-image: url(../img/pfb.png);
           background-size: 95px 55px;
           background-position: 34px 22px; }
-        /* line 863, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 863, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img2 {
           background-image: url(../img/toyota.png);
           background-size: 102px 67px;
           background-position: 32px 6px; }
-        /* line 868, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 868, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img3 {
           background-image: url(../img/impuls.png);
           background-size: 102px 50px;
           background-position: 31px 17px; }
-        /* line 873, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 873, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img4 {
-          background-image: url(../img/airpar.png);
+          background-image: url(../img/airpair.png);
           background-size: 102px 54px;
           background-position: 40px 18px; }
 
-/* line 885, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 885, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec9 > div {
   padding-top: 34px;
   padding-bottom: 5px; }
 
-/* line 889, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 889, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec9 .block {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 945px;
   margin: 0 auto;
   padding-top: 37px;
   padding-bottom: 14px; }
-  /* line 895, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 895, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec9 .block h2 {
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
     font-size: 35px;
     margin-bottom: 23px; }
-  /* line 900, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 900, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec9 .block .otz {
     height: 205px; }
-    /* line 902, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 902, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec9 .block .otz.otz1 {
       border-bottom: 3px solid #519cff; }
-    /* line 907, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 907, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec9 .block .otz .img {
       float: left;
       width: 120px;
@@ -880,23 +880,23 @@ button, input, textarea {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
       margin-left: 126px;
       margin-top: 34px; }
-      /* line 916, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 916, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec9 .block .otz .img.img1 {
         background: url(../img/otz1.png) no-repeat center; }
-      /* line 919, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 919, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec9 .block .otz .img.img2 {
         background: url(../img/otz2.png) no-repeat center; }
-    /* line 923, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 923, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec9 .block .otz .text {
       float: right;
       margin-top: 35px;
       font-size: 16px;
       padding-right: 66px;
       width: 608px; }
-      /* line 929, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 929, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec9 .block .otz .text .ins {
         text-decoration: underline; }
-      /* line 932, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 932, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec9 .block .otz .text .right {
         display: block;
         float: right;
@@ -905,30 +905,30 @@ button, input, textarea {
         font-size: 16px;
         font-weight: 800; }
 
-/* line 945, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 945, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec10 > div {
   padding-top: 32px;
   padding-bottom: 5px; }
 
-/* line 950, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 950, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec10 .block {
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 945px;
   padding-bottom: 21px; }
-  /* line 956, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 956, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec10 .block .top .left {
     width: 340px;
     float: left;
     margin-left: 18px; }
-    /* line 960, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 960, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec10 .block .top .left .h2 {
       position: relative;
       text-align: center;
       width: 100%;
       overflow: hidden;
       height: 137px; }
-      /* line 966, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 966, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec10 .block .top .left .h2 h2 {
         color: #031E90;
         font-size: 50px;
@@ -937,7 +937,7 @@ button, input, textarea {
         z-index: 2;
         left: 0;
         top: 52px; }
-      /* line 975, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 975, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec10 .block .top .left .h2 img {
         margin-left: -5px;
         margin-top: -1px;
@@ -947,7 +947,7 @@ button, input, textarea {
         object-fit: cover;
         position: relative;
         z-index: 1; }
-    /* line 986, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 986, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec10 .block .top .left .form {
       box-shadow: 0px 0px 8px 0px #000000;
       width: 313px;
@@ -955,48 +955,48 @@ button, input, textarea {
       border-radius: 2px;
       background: #f1f1f1;
       margin: 0 auto; }
-  /* line 995, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 995, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec10 .block .top .right {
     float: right;
     width: 584px;
     height: 406px;
     background: url(../img/arr_right.png) no-repeat -8px 283px;
     background-size: 610px 93px; }
-    /* line 1001, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1001, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec10 .block .top .right .ul {
       text-align: center;
       padding-left: 11px; }
-      /* line 1004, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1004, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       .sec10 .block .top .right .ul .li {
         width: 150px;
         float: left;
         margin-left: 39px;
         padding-top: 6px; }
-        /* line 1009, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 1009, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec10 .block .top .right .ul .li .ico {
           width: 60px;
           height: 50px;
           object-fit: cover; }
-          /* line 1013, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+          /* line 1013, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
           .sec10 .block .top .right .ul .li .ico.ico1 {
             filter: url("#kennedy-comp-iuhtirisimg"); }
-          /* line 1016, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+          /* line 1016, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
           .sec10 .block .top .right .ul .li .ico.ico2 {
             filter: url("#darken-comp-iuhu1qw2img"); }
-          /* line 1019, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+          /* line 1019, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
           .sec10 .block .top .right .ul .li .ico.ico3 {
             filter: url("#blueray-comp-iuhu1qc4img"); }
-        /* line 1023, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 1023, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec10 .block .top .right .ul .li .img {
           border: 4px solid #c5c3c357;
           margin-top: 8px; }
-        /* line 1027, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 1027, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         .sec10 .block .top .right .ul .li p {
           font-size: 17px;
           padding: 0 10px;
           margin-top: 5px;
           line-height: 23px; }
-  /* line 1037, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1037, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec10 .block .bot {
     width: 692px;
     height: 42px;
@@ -1007,21 +1007,21 @@ button, input, textarea {
     text-align: center;
     color: #FFFFFF;
     border-bottom: 3px solid #519cff; }
-    /* line 1047, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1047, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec10 .block .bot span {
       text-decoration: underline;
       font-weight: bold; }
 
-/* line 1055, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 1055, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec11 > div {
   padding-top: 32px; }
 
-/* line 1058, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 1058, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 .sec11 .block {
   height: 350px;
   width: 100%;
   position: relative; }
-  /* line 1062, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1062, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec11 .block .map {
     position: absolute;
     z-index: 1;
@@ -1030,7 +1030,7 @@ button, input, textarea {
     left: 0;
     top: 0;
     background: green; }
-  /* line 1071, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1071, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   .sec11 .block .right {
     width: 393px;
     position: absolute;
@@ -1045,34 +1045,34 @@ button, input, textarea {
     padding-top: 22px;
     padding-left: 32px;
     font-weight: 700; }
-    /* line 1085, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1085, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec11 .block .right h2 {
       font-size: 44px;
       line-height: 50px;
       padding-right: 64px;
       margin-bottom: 27px; }
-    /* line 1091, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1091, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec11 .block .right .ooo {
       font-size: 26px;
       margin-bottom: 23px; }
-    /* line 1095, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1095, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     .sec11 .block .right .contact {
       font-size: 21px;
       margin-bottom: 19px; }
 
-/* line 1102, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+/* line 1102, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
 footer {
   background: #545658;
   color: white; }
-  /* line 1105, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1105, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   footer > div {
     padding-top: 40px;
     padding-bottom: 10px; }
-  /* line 1109, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1109, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   footer .left {
     float: left;
     width: 500px; }
-    /* line 1112, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1112, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .left .logo {
       background: #3668a9;
       width: 88px;
@@ -1085,72 +1085,72 @@ footer {
       margin-left: 37px;
       margin-top: 5px;
       float: left; }
-    /* line 1125, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1125, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .left .text {
       float: left;
       width: 319px;
       margin-left: 31px;
       padding-top: 9px;
       font-size: 20px; }
-      /* line 1131, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1131, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .left .text .title {
         margin-bottom: 17px; }
-      /* line 1134, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1134, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .left .text .info {
         line-height: 27px;
         margin-bottom: 25px; }
-      /* line 1138, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1138, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .left .text .copyright {
         font-size: 16px; }
-  /* line 1143, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+  /* line 1143, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
   footer .right {
     float: right;
     text-align: center;
     width: 355px;
     font-size: 19px;
     padding-top: 9px; }
-    /* line 1149, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1149, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .right .email {
       margin-bottom: 19px;
       display: inline-block; }
-    /* line 1155, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1155, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .right .phone {
       font-size: 22px;
       line-height: 22px;
       margin-bottom: 6px; }
-    /* line 1160, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1160, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .right .other {
       margin: 28px auto 0;
       width: 226px;
       padding-left: 4px;
       text-align: center; }
-      /* line 1165, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1165, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .right .other .lpart {
         float: left;
         width: 174px; }
-        /* line 1170, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 1170, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         footer .right .other .lpart img {
           margin-top: 8px; }
-      /* line 1174, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1174, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .right .other .rpart {
         float: right;
         width: 42px; }
-        /* line 1179, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+        /* line 1179, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
         footer .right .other .rpart a {
           background-image: url(../img/vk.png);
           display: inline-block;
           width: 40px;
           height: 42px; }
-    /* line 1187, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+    /* line 1187, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
     footer .right .maket-by {
       display: inline-block;
       margin-top: 20px;
       padding-left: 7px; }
-      /* line 1191, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1191, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .right .maket-by .text {
         font-size: 13px;
         float: left; }
-      /* line 1195, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/direct/css/sass/style.scss */
+      /* line 1195, D:/science/aloha/wixverstka/src/direct/css/sass/style.scss */
       footer .right .maket-by a {
         float: left;
         background-image: url(../img/logo2.png);

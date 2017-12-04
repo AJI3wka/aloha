@@ -12,7 +12,7 @@ $dark-blue: #1c578d;
     top: 0;
     left: 0;
     width: 100%;
-    background: url(../maket2.jpg) no-repeat 1px top;
+    background: url(../maket2.jpg) no-repeat -2px top;
     height: 7103px;
     opacity: 0.5;
     z-index: 20;
@@ -97,7 +97,7 @@ button, input, textarea {
 
 
 .head {
-        background-image: url(../img/head.png);
+        background-image: url(../img/fon.jpg);
         width: 100%;
         z-index: 1;
     &>div{
@@ -113,7 +113,7 @@ button, input, textarea {
         background-color: rgba(255, 255, 255, 0.52);
 
         .logo {
-            background-image: url(../img/logo.png);
+            background-image: url(../img/.png);
             width: 500px;
             height: 66px;
             z-index: 2;
@@ -626,7 +626,7 @@ button, input, textarea {
                         background-position: 33px 68px;
                     }
                     &.img3 {
-                        background: url(../img/garant.png)no-repeat;
+                        background: url(../img/garant2.png)no-repeat;
                         background-position: 30px 44px;
                     }
                 }
@@ -1158,8 +1158,18 @@ footer {
         div.phone {
         }
         .img {
+            background: url(../img/mess.png) no-repeat center;
+                height: 45px;
+                width: 103px;
+                margin:0 auto;
+                
+            
         }
         .vk {
+            background: url(../img/vk2.png) no-repeat center;
+                height: 57px;
+                width: 103px;
+                margin:0 auto;
         }
     }
     .right {
@@ -1173,6 +1183,11 @@ footer {
             margin-bottom: 20px;
         }
         .logo {
+             background: url(../img/logo3.png) no-repeat center;
+                width: 283px;
+                height: 42px;
+                margin:0 auto;
+            
             height: 50px;
         }
         .copy {
