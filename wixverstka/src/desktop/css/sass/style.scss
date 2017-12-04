@@ -12,7 +12,7 @@ $dark-blue: #1c578d;
     top: 0;
     left: 0;
     width: 100%;
-    background: url(../maket2.png) no-repeat -2px top;
+    background: url(../maket2.jpg) no-repeat 1px top;
     height: 7103px;
     opacity: 0.5;
     z-index: 20;
@@ -95,72 +95,30 @@ button, input, textarea {
     @include sec();
 }
 
-footer.lastblock {
-                background-color: rgba(84, 86, 88, 1);
-
-
-            .left {
-                .ul {
-                    color:white;
-                    margin-left: 69px;
-                    padding-top: 50px;
-                    line-height: 29px;
-                    
-                        li {
-                            
-                            
-
-                        }   
-                    }    
-                }
-
-
-            .mid {
-                
-                   .p {
-                       font-size: 19px;
-                       float:left;
-                text-align: center;
-                display: inline-block;
-                       
-                }
-                img {
-                } 
-            }
-
-
-            .right {
-                .mail {
-                }
-                .img {
-                }
-                .comp {
-                }
-            }
-
-        }
 
 .head {
         background-image: url(../img/head.png);
-        height: 645px;
         width: 100%;
         z-index: 1;
-    
-        
+    &>div{
+        padding-top: 50px;
+        padding-bottom: 63px;
+    }
+            
     .block {
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-        height: 500px;
-        width: 884px;
-        margin: 0 auto;
-        
-        
+        height: 533px;
+        width: 880px;
+        margin: 0 auto;        
+        background-color: rgba(255, 255, 255, 0.52);
+
         .logo {
             background-image: url(../img/logo.png);
             width: 500px;
             height: 66px;
             z-index: 2;
             margin: 0 auto;
-            padding-top: 149px;
+            padding-top: 99px;
             background-position: 80px 81px;
             
             
@@ -214,7 +172,7 @@ footer.lastblock {
             font-size: 18px;
             background-image: url(../img/redrocket.png);
             width: 307px;
-            height: 313px;
+            height: 312px;
             margin-top: 29px;
             float: left;
             margin-left: 21px;
@@ -225,7 +183,7 @@ footer.lastblock {
         .midl {
             float: left;
             text-align: left;
-            width: 390px;
+            width: 383px;
             height: 360px;
             .jaboris {
                 font-size: 17px;
@@ -240,7 +198,7 @@ footer.lastblock {
         }
         .right {
             float: right;
-            width: 237px;
+            width: 243px;
             height: 360px;
             text-align: center;
             padding-top: 15px;
@@ -333,9 +291,9 @@ footer.lastblock {
         padding-top: 51px;
         .li {
             display: inline-block;
-            width: 244px;
+            width: 258px;
             vertical-align: top;
-            margin: 0 34px 0;
+            margin: 0 28px 0;
             box-shadow: 0 1px 4px rgba(0,0,0,0.6);
             padding-bottom: 42px;
             height: 434px;
@@ -1059,9 +1017,7 @@ footer.lastblock {
                 .right {
                     float: right;
                     width: 584px;
-                    height: 406px;
-                    background: url(../img/arr_right.png) no-repeat -13px 283px;
-                    background-size: 610px 93px;;
+                    height: 367px;
                     .ul {
                         text-align: center;
 
@@ -1101,14 +1057,29 @@ footer.lastblock {
                 }
                 
 
-            } 
+            }
+            .bot{              
+                width: 692px;
+                height: 42px;
+                padding-top: 8px;
+                font-size: 25px;
+                background: url(../img/btnbg.png);
+                margin: 0 auto 0;
+                text-align: center;
+                color: #FFFFFF;
+                clear: both;
+                border-bottom: 3px solid rgba(81,156,255,1);
+                span {
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+            }
             
         } 
 }
 .sec11 {
     &>div {
         padding-top: 35px;
-        padding-bottom: 5px;
     }
     .block {
         height: 350px;
@@ -1154,53 +1125,62 @@ footer.lastblock {
         }
     }
 }
-footer.lastblock {
-                background-color: rgba(84, 86, 88, 1);
-
-
-            .left {
-                text-align: center;
-                float: left;
-                font-size: 22px;
-                width: 296px;
-                height: 225px;
-                display: inline-block;
-                .ul {
-                    color:white;
-                    margin-left: 69px;
-                    padding-top: 50px;
-                    line-height: 29px;
-                    
-                        li {
-                            
-                            
-
-                        }   
-                    }    
-                }
-
-
-            .mid {
-                
-                   .p {
-                       font-size: 19px;
-                       float:left;
-                text-align: center;
-                display: inline-block;
-                       
-                }
-                img {
-                } 
-            }
-
-
-            .right {
-                .mail {
-                }
-                .img {
-                }
-                .comp {
-                }
-            }
-
+footer {
+    background: #545658;
+    color: white;
+    &>div {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .left {
+        float: left;
+        width: 220px;
+        margin-left: 72px;;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 22px;
+        p.phone {
+            margin-bottom: 9px;
         }
+        .time {
+            margin-bottom: 9px;
+        }
+        .city {
+        }
+    }
+    .midl {
+        float: left;
+        text-align: center;
+        width: 200px;
+        margin-left: 64px;
+        font-size: 19px;
+        margin-top: 6px;
+        div.phone {
+        }
+        .img {
+        }
+        .vk {
+        }
+    }
+    .right {
+        float: right;
+        width: 300px;
+        margin-right: 30px;
+        text-align: center;
+        margin-top: 6px;
+        font-size: 19px;
+        .email {
+            margin-bottom: 20px;
+        }
+        .logo {
+            height: 50px;
+        }
+        .copy {
+            font-size: 16px;
+            
+            text-align: right;
+            padding-right: 19px;
+            margin-top: 10px;
+        }
+    }
+}
