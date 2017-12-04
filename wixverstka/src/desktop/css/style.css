@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: url(../maket2.jpg) no-repeat -2px top;
+  background: url(../maket2.png) no-repeat -2px top;
   height: 7103px;
   opacity: 0.5;
   z-index: 20;
@@ -84,53 +84,72 @@ button, input, textarea {
     height: 100%;
     margin: 0 auto; }
 
-/* line 97, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 98, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+footer.lastblock {
+  background-color: #545658; }
+  /* line 103, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  footer.lastblock .left .ul {
+    color: white;
+    margin-left: 69px;
+    padding-top: 50px;
+    line-height: 29px; }
+  /* line 120, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  footer.lastblock .mid .p {
+    font-size: 19px;
+    float: left;
+    text-align: center;
+    display: inline-block; }
+
+/* line 143, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .head {
-  background: url(../img/head.jpg);
+  background-image: url(../img/head.png);
   height: 645px;
   width: 100%;
   z-index: 1; }
-  /* line 103, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 150, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .head .block {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
     height: 500px;
     width: 884px;
     margin: 0 auto; }
-    /* line 110, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 157, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .head .block .logo {
-      background-image: url(../img/logo.jpg);
+      background-image: url(../img/logo.png);
       width: 500px;
       height: 66px;
       z-index: 2;
       margin: 0 auto;
-      margin-top: 83px;
-      background-position: 77px 0px; }
-    /* line 123, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      padding-top: 149px;
+      background-position: 80px 81px; }
+    /* line 170, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .head .block h2 {
       font-size: 50px;
       text-shadow: #ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
       padding-top: 58px;
-      font-weight: 700; }
-    /* line 129, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      font-weight: 700;
+      margin-right: 10px;
+      letter-spacing: -0.2px; }
+    /* line 178, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .head .block .form {
       height: 166px;
       width: 313px;
       margin: 0 auto;
       margin-top: 68px;
-      box-shadow: 0px 0px 8px 0px #000000; }
-    /* line 138, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      box-shadow: 0px 0px 8px 0px #000000;
+      background-color: #f1f1f1; }
+    /* line 188, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .head .block .phone {
       font-size: 29px;
       text-align: center;
       margin-top: 59px;
       font-weight: 700; }
 
-/* line 151, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 201, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec3 > div {
   padding-top: 32px;
   padding-bottom: 5px; }
 
-/* line 155, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 205, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec3 .block {
   width: 956px;
   margin: 0 auto;
@@ -138,7 +157,7 @@ button, input, textarea {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   padding-bottom: 48px;
   height: 360px; }
-  /* line 162, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 212, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec3 .block .logo2 {
     text-align: center;
     font-size: 18px;
@@ -151,20 +170,20 @@ button, input, textarea {
     background-size: 100% 100%;
     border-radius: 46px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53); }
-  /* line 175, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 225, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec3 .block .midl {
     float: left;
     text-align: left;
     width: 390px;
     height: 360px; }
-    /* line 180, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 230, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec3 .block .midl .jaboris {
       font-size: 17px;
       margin-top: 29px;
       line-height: 22px;
       text-align: left;
       margin-left: 19px; }
-  /* line 191, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 241, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec3 .block .right {
     float: right;
     width: 237px;
@@ -172,89 +191,89 @@ button, input, textarea {
     text-align: center;
     padding-top: 15px;
     padding-right: 12px; }
-    /* line 198, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 248, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec3 .block .right .li {
       margin-bottom: 12px; }
-      /* line 201, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 251, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec3 .block .right .li .number {
         font-size: 43px;
         line-height: 37px; }
-      /* line 205, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 255, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec3 .block .right .li .line1 {
         border-bottom: 3px solid #519cff;
         width: 94px;
         height: 3px;
         margin: 2px auto 10px; }
-      /* line 211, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 261, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec3 .block .right .li .line2 {
         border-bottom: 3px solid #519cff;
         width: 133px;
         height: 3px;
         margin: 5px auto 13px; }
-      /* line 217, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 267, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec3 .block .right .li .line3 {
         border-bottom: 3px solid #519cff;
         width: 165px;
         height: 3px;
         margin: 0px auto 5px; }
-      /* line 223, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 273, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec3 .block .right .li .line4 {
         width: 210px;
         height: 3px;
         border-bottom: 3px solid #519cff;
         margin: 2px auto 8px; }
 
-/* line 233, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 283, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec4 {
   background-color: white; }
-  /* line 235, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 285, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec4 > div {
     padding-top: 30px;
     padding-bottom: 15px; }
-  /* line 241, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 291, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec4 h2 {
     font-size: 35px;
     margin-top: 12px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 246, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 296, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec4 .block {
     text-align: center;
     padding-bottom: 25px; }
-    /* line 249, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 299, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec4 .block .li {
       display: inline-block;
       width: 300px;
       margin-top: 94px;
       vertical-align: top; }
-      /* line 254, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 304, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec4 .block .li.lim {
         margin-top: 70px; }
-      /* line 257, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 307, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec4 .block .li .number {
         font-size: 43px; }
-      /* line 260, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 310, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec4 .block .li .line {
         border-bottom: 3px solid #519cff;
         width: 256px;
         height: 3px;
         margin-left: 21px;
         margin-top: 38px; }
-      /* line 267, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 317, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec4 .block .li .text {
         font-size: 17px;
         margin-top: 23px; }
 
-/* line 276, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 326, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 h2 {
   font-size: 35px;
   margin-top: 5px;
   text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
 
-/* line 281, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 331, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_1 {
   text-align: center;
   padding-top: 51px; }
-  /* line 284, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 334, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec5 .block_1 .li {
     display: inline-block;
     width: 244px;
@@ -264,39 +283,39 @@ button, input, textarea {
     padding-bottom: 42px;
     height: 434px;
     line-height: 21px; }
-    /* line 294, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 344, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec5 .block_1 .li h4 {
       font-size: 27px;
       margin-top: 18px;
       height: 42px;
       border-bottom: 3px solid #519cff; }
-    /* line 300, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 350, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec5 .block_1 .li ul {
       text-align: left;
       margin-top: 20px;
       list-style-position: inside;
       height: 290px; }
-      /* line 305, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 355, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec5 .block_1 .li ul li {
         font-size: 15px;
         list-style-position: inside;
         margin-left: 4px;
         line-height: 20px;
         margin-bottom: 0.4px; }
-        /* line 311, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 361, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec5 .block_1 .li ul li:before, .sec5 .block_1 .li ul li:after {
           content: none; }
-        /* line 314, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 364, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec5 .block_1 .li ul li .b {
           font-weight: bold; }
-    /* line 320, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 370, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec5 .block_1 .li .price {
       font-size: 32px; }
 
-/* line 325, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 375, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block {
   padding-bottom: 25px; }
-  /* line 328, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 378, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec5 .block .left {
     margin-top: 73px;
     width: 311px;
@@ -304,7 +323,7 @@ button, input, textarea {
     box-shadow: 0px 0px 8px 0px #000000;
     float: left;
     margin-left: 81px; }
-  /* line 337, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 387, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec5 .block .right {
     margin-top: 73px;
     width: 481px;
@@ -312,25 +331,25 @@ button, input, textarea {
     box-shadow: 0px 0px 8px 0px #000000;
     float: left;
     margin-left: 33px; }
-    /* line 344, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 394, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec5 .block .right .text {
       margin-top: 13px;
       float: left;
       font-size: 21px;
       padding-left: 31px;
       line-height: 28px; }
-    /* line 354, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 404, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec5 .block .right .rigt_in {
       width: 190px;
       height: 165px;
       float: right; }
-      /* line 359, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 409, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec5 .block .right .rigt_in .img {
         background-image: url(../img/ae.png);
         width: 109px;
         height: 107px;
         margin: 0 auto; }
-      /* line 367, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 417, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec5 .block .right .rigt_in .ins {
         text-decoration: underline;
         text-align: center;
@@ -338,18 +357,18 @@ button, input, textarea {
         font-size: 20px;
         margin-right: 5px;
         letter-spacing: 0.6px; }
-  /* line 379, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 429, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec5 .block .bot1 {
     text-align: center;
     width: 980px;
     height: 20px;
     font-size: 21px; }
 
-/* line 390, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 440, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_2 > div {
   padding-top: 21px; }
 
-/* line 393, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 443, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_2 .left {
   text-align: center;
   float: left;
@@ -358,12 +377,12 @@ button, input, textarea {
   line-height: 26px;
   width: 350px;
   height: 130px;
-  background: url(../img/strela.jpg);
+  background: url(../img/strela.png);
   background-repeat: no-repeat;
   background-position: 19px 9px;
   background-size: 329px; }
 
-/* line 410, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 460, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_3 .left {
   text-align: center;
   font-size: 20px;
@@ -374,7 +393,7 @@ button, input, textarea {
   width: 290px;
   float: left; }
 
-/* line 420, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 470, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_3 .middle {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 313px;
@@ -384,7 +403,7 @@ button, input, textarea {
   margin-top: 26px;
   background: #f1f1f1; }
 
-/* line 429, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 479, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .block_3 .right {
   width: 320px;
   height: 230px;
@@ -395,30 +414,30 @@ button, input, textarea {
   margin-top: 26px;
   padding-right: 20px;
   margin-right: 10px;
-  background-image: url(../img/strelalft.jpg);
+  background-image: url(../img/strelalft.png);
   background-position: 12px 115px; }
 
-/* line 443, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 493, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec5 .bot1 {
   width: 692px;
   height: 42px;
   padding-top: 8px;
   font-size: 25px;
-  background: url(../img/btnbg.jpg);
+  background: url(../img/btnbg.png);
   margin: 12px auto 0;
   text-align: center;
   color: #FFFFFF;
   border-bottom: 3px solid #519cff; }
-  /* line 453, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 503, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec5 .bot1 span {
     text-decoration: underline;
     font-weight: bold; }
 
-/* line 461, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 511, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec6 > div {
   padding-bottom: 5px; }
 
-/* line 464, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 514, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec6 h2 {
   width: 980px;
   height: 55px;
@@ -427,471 +446,567 @@ button, input, textarea {
   margin-top: 78px;
   border-bottom: 3px solid #519cff; }
 
-/* line 473, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 523, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec6 .res_block {
   width: 996px;
   height: 410px; }
-  /* line 476, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 526, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec6 .res_block .item {
     float: left;
     width: 33.333%;
     height: 410px; }
-    /* line 480, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 530, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec6 .res_block .item.item1 {
-      background: url(../img/obr1.jpg) no-repeat; }
-    /* line 483, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      background: url(../img/obr1.png) no-repeat; }
+    /* line 533, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec6 .res_block .item.item2 {
-      background: url(../img/obr2.jpg) no-repeat; }
-    /* line 486, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      background: url(../img/obr2.png) no-repeat; }
+    /* line 536, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec6 .res_block .item.item3 {
-      background: url(../img/obr3.jpg) no-repeat; }
+      background: url(../img/obr3.png) no-repeat; }
 
-/* line 494, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-.sec6 .block_p {
+/* line 547, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec7_d > div {
+  padding-bottom: 5px;
+  padding-top: 38px; }
+
+/* line 551, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec7_d .block {
+  padding-top: 43px;
+  width: 950px;
+  height: 321px;
+  margin: 0 auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+  /* line 557, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec7_d .block h2 {
+    font-size: 35px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 561, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec7_d .block .ul {
+    padding: 0 25px; }
+    /* line 563, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec7_d .block .ul .li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      margin-top: 37px; }
+      /* line 568, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7_d .block .ul .li h5 {
+        font-size: 21px; }
+      /* line 571, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7_d .block .ul .li .img {
+        height: 130px;
+        background-repeat: no-repeat;
+        background-position: center; }
+        /* line 575, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7_d .block .ul .li .img.img1 {
+          background-image: url(../img/phone.png);
+          background-size: 83px auto; }
+        /* line 579, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7_d .block .ul .li .img.img2 {
+          background-image: url(../img/grafikblue.png);
+          background-size: 85px auto; }
+        /* line 583, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7_d .block .ul .li .img.img3 {
+          background-image: url(../img/galochka.png);
+          background-size: 103px auto; }
+        /* line 587, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec7_d .block .ul .li .img.img4 {
+          background-image: url(../img/kowel.png);
+          background-size: 95px auto; }
+      /* line 592, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7_d .block .ul .li p {
+        font-size: 17px;
+        margin-top: 11px;
+        line-height: 22px; }
+
+/* line 604, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec6_d > div {
+  padding-bottom: 5px;
+  padding-top: 37px; }
+
+/* line 608, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec6_d .block_p {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   width: 950px;
-  margin: 36px auto 0; }
-  /* line 498, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  .sec6 .block_p .line {
-    height: 251px; }
-    /* line 500, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line.line1 {
+  margin: 0 auto 0;
+  padding-top: 31px; }
+  /* line 613, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec6_d .block_p h5 {
+    font-size: 35px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 617, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec6_d .block_p .line {
+    height: 275px; }
+    /* line 619, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6_d .block_p .line.line1 {
       border-bottom: 3px solid #519cff; }
-    /* line 506, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .left .text h5 {
-      font-size: 18px;
-      float: left;
-      margin-left: 16px;
-      margin-top: 23px; }
-    /* line 512, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .left .text p {
-      font-size: 17px;
-      float: left;
-      text-align: left;
-      margin-top: 11px;
-      margin-left: 24px; }
-    /* line 523, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .right .text h5 {
-      font-size: 18px;
-      float: right;
-      margin-right: 15px;
-      margin-top: 23px; }
-    /* line 529, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .right .text p {
-      font-size: 17px;
-      float: right;
-      text-align: left;
-      margin-top: 12px;
-      margin-left: 19px; }
-    /* line 539, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line .left {
+    /* line 622, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6_d .block_p .line.line2 {
+      height: 254px; }
+      /* line 626, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line.line2 .left .text h6 {
+        font-size: 18px;
+        float: left;
+        margin-left: 16px;
+        margin-top: 23px; }
+      /* line 632, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line.line2 .left .text p {
+        font-size: 17px;
+        float: left;
+        text-align: left;
+        margin-top: 11px;
+        margin-left: 24px; }
+      /* line 643, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line.line2 .right .text h6 {
+        font-size: 18px;
+        float: right;
+        margin-right: 15px;
+        margin-top: 23px; }
+      /* line 649, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line.line2 .right .text p {
+        font-size: 17px;
+        float: right;
+        text-align: left;
+        margin-top: 12px;
+        margin-left: 19px; }
+    /* line 659, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6_d .block_p .line .left {
       width: 500px;
       float: left; }
-      /* line 542, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec6 .block_p .line .left .img {
+      /* line 662, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line .left .img {
         float: left;
         width: 197px;
         height: 250px; }
-        /* line 546, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .left .img.img1 {
-          background: url(../img/vesa.jpg) no-repeat center; }
-        /* line 549, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .left .img.img3 {
-          background: url(../img/garant.jpg) no-repeat;
-          background-position: 31px 40px; }
-      /* line 554, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec6 .block_p .line .left .text {
+        /* line 666, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .left .img.img1 {
+          background: url(../img/unikaln.png) no-repeat center;
+          background-position: 33px 68px; }
+        /* line 670, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .left .img.img3 {
+          background: url(../img/garant.png) no-repeat;
+          background-position: 30px 44px; }
+      /* line 675, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line .left .text {
         float: right;
         width: 300px;
         height: 180px; }
-        /* line 558, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .left .text h5 {
+        /* line 679, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .left .text h6 {
           font-size: 18px;
-          margin-top: 34px;
-          margin-right: 77px; }
-        /* line 563, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .left .text p {
+          margin-top: 51px;
+          margin-right: 57px; }
+        /* line 684, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .left .text p {
           font-size: 17px;
           margin-top: 22px;
-          margin-left: 19px;
+          margin-left: 22px;
           line-height: 22px; }
-    /* line 571, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec6 .block_p .line .right {
+    /* line 692, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec6_d .block_p .line .right {
       float: right;
       width: 450px;
       height: 250px; }
-      /* line 575, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec6 .block_p .line .right .img {
+      /* line 696, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line .right .img {
         float: left;
         width: 180px;
         height: 250px; }
-        /* line 579, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .right .img.img2 {
-          background: url(../img/korzina.jpg) no-repeat center;
-          background-position: 21px 59px; }
-        /* line 583, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .right .img.img4 {
-          background: url(../img/strelatop.jpg) no-repeat center;
-          background-position: 28px 48px; }
-      /* line 588, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec6 .block_p .line .right .text {
+        /* line 700, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .right .img.img2 {
+          background: url(../img/rezultat.png) no-repeat center;
+          background-position: 23px 76px; }
+        /* line 704, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .right .img.img4 {
+          background: url(../img/sovremen.png) no-repeat center;
+          background-position: 26px 48px; }
+      /* line 709, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec6_d .block_p .line .right .text {
         float: right;
         width: 270px;
-        height: 180px; }
-        /* line 592, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .right .text h5 {
+        height: 180px;
+        padding-right: 10px; }
+        /* line 714, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .right .text h6 {
           font-size: 18px;
-          margin-top: 34px;
-          margin-right: 36px; }
-        /* line 597, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec6 .block_p .line .right .text p {
+          margin-top: 51px;
+          margin-right: 57px; }
+        /* line 719, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec6_d .block_p .line .right .text p {
           font-size: 17px;
           margin-top: 21px;
           margin-left: 20px;
           line-height: 22px; }
 
-/* line 609, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 732, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec7 > div {
   padding-bottom: 5px;
-  padding-top: 25px; }
+  padding-top: 37px; }
 
-/* line 613, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 736, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec7 .block {
-  padding-top: 30px;
+  padding-top: 27px;
   width: 945px;
-  height: 420px;
+  height: 416px;
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 619, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 742, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec7 .block h2 {
     font-size: 35px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 623, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 746, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec7 .block .ul {
-    padding: 0 54px; }
-    /* line 625, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    padding: 0 54px;
+    text-align: center;
+    font-size: 0px; }
+    /* line 750, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec7 .block .ul .li {
-      float: left;
+      display: inline-block;
       width: 25%;
       text-align: center;
       margin-top: 54px; }
-      /* line 630, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 755, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec7 .block .ul .li.midl {
+        margin-left: 11%;
+        margin-right: 11%; }
+      /* line 759, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec7 .block .ul .li h5 {
         font-size: 21px; }
-      /* line 633, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 762, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec7 .block .ul .li .img {
         height: 140px;
         background-repeat: no-repeat;
         background-position: center; }
-        /* line 637, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 766, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img1 {
-          background-image: url(../img/simka.jpg); }
-        /* line 640, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/simka.png); }
+        /* line 769, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img2 {
-          background-image: url(../img/galava.jpg); }
-        /* line 643, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/galava.png); }
+        /* line 772, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec7 .block .ul .li .img.img3 {
-          background-image: url(../img/detal.jpg); }
-        /* line 646, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec7 .block .ul .li .img.img4 {
-          background-image: url(../img/rocket.jpg); }
-      /* line 650, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/detal.png); }
+      /* line 777, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec7 .block .ul .li p {
         font-size: 17px;
         margin-top: 29px;
         line-height: 26px; }
 
-/* line 660, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 787, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec8_d > div {
+  padding-top: 42px;
+  padding-bottom: 10px; }
+
+/* line 791, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+.sec8_d .block {
+  width: 945px;
+  margin: 0 auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  background: rgba(11, 104, 154, 0.04);
+  padding-top: 26px;
+  padding-bottom: 59px; }
+  /* line 798, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec8_d .block h5 {
+    font-size: 35px;
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
+  /* line 802, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec8_d .block .ul {
+    float: left;
+    width: 400px;
+    margin-top: 71px;
+    margin-left: 64px; }
+    /* line 807, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec8_d .block .ul .li {
+      font-size: 23px;
+      margin-bottom: 20px;
+      text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px; }
+  /* line 813, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec8_d .block .anim {
+    float: right; }
+
+/* line 819, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec8 > div {
   padding-bottom: 5px;
   padding-top: 33px; }
 
-/* line 664, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 823, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec8 .block {
+  background-color: rgba(11, 104, 154, 0.04);
   padding-top: 19px;
   width: 945px;
   height: 495px;
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 670, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 830, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec8 .block h5 {
     font-size: 35px;
     margin-top: 10px;
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 675, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 835, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec8 .block .ul {
     padding: 0 54px; }
-    /* line 677, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 837, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec8 .block .ul .li {
-      float: left;
-      width: 25%;
-      text-align: center;
+      font-size: 20px;
+      text-align: left;
       margin-top: 38px; }
-      /* line 682, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 841, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li .img {
         height: 92px;
         background-repeat: no-repeat;
         background-position: center; }
-      /* line 687, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 846, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li1 {
         width: 258px; }
-        /* line 690, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 849, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img1 {
-          background-image: url(../img/marsol.jpg);
+          background-image: url(../img/marsol.png);
           background-size: 223px; }
-        /* line 694, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 853, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img2 {
-          background-image: url(../img/helper.jpg);
+          background-image: url(../img/helper.png);
           background-size: 235px;
           background-position: 10px 13px; }
-        /* line 699, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 858, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img3 {
-          background-image: url(../img/sinergist.jpg);
+          background-image: url(../img/sinergist.png);
           background-size: 233px 55px;
           background-position: 14px 13px; }
-        /* line 704, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 863, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li1 .img.img4 {
-          background-image: url(../img/promo.jpg); }
-      /* line 709, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/promo.png); }
+      /* line 868, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li2 {
         width: 241px; }
-        /* line 712, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 871, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img1 {
-          background-image: url(../img/artlife.jpg);
+          background-image: url(../img/artlife.png);
           background-size: 179px 45px;
           background-position: 32px 23px; }
-        /* line 717, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 876, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img2 {
-          background-image: url(../img/aviant.jpg);
+          background-image: url(../img/aviant.png);
           background-size: 179px 58px;
           background-position: 32px 11px; }
-        /* line 722, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 881, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img3 {
-          background-image: url(../img/avon.jpg);
+          background-image: url(../img/avon.png);
           background-size: 178px 36px;
           background-position: 33px 27px; }
-        /* line 727, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 886, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li2 .img.img4 {
-          background-image: url(../img/ispit.jpg); }
-      /* line 732, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/ispit.png); }
+      /* line 891, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li3 {
         width: 194px; }
-        /* line 735, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 894, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img1 {
-          background-image: url(../img/dolche.jpg);
+          background-image: url(../img/dolche.png);
           background-size: 138px 42px;
           background-position: 27px 27px; }
-        /* line 740, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 899, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img2 {
-          background-image: url(../img/resti.jpg);
+          background-image: url(../img/resti.png);
           background-size: 139px 45px;
           background-position: 27px 19px; }
-        /* line 745, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 904, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img3 {
-          background-image: url(../img/native.jpg);
+          background-image: url(../img/native.png);
           background-size: 139px 51px;
           background-position: 27px 19px; }
-        /* line 750, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 909, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li3 .img.img4 {
-          background-image: url(../img/pr.jpg); }
-      /* line 755, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          background-image: url(../img/pr.png); }
+      /* line 914, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec8 .block .ul .li.li4 {
         width: 144px; }
-        /* line 758, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 917, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img1 {
-          background-image: url(../img/pfb.jpg);
+          background-image: url(../img/pfb.png);
           background-size: 95px 55px;
           background-position: 34px 22px; }
-        /* line 763, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 922, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img2 {
-          background-image: url(../img/toyota.jpg);
+          background-image: url(../img/toyota.png);
           background-size: 102px 67px;
           background-position: 32px 6px; }
-        /* line 768, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 927, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img3 {
-          background-image: url(../img/impuls.jpg);
+          background-image: url(../img/impuls.png);
           background-size: 102px 50px;
           background-position: 31px 17px; }
-        /* line 773, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        /* line 932, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
         .sec8 .block .ul .li.li4 .img.img4 {
-          background-image: url(../img/airpar.jpg);
+          background-image: url(../img/airpar.png);
           background-size: 102px 54px;
           background-position: 40px 18px; }
 
-/* line 785, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 944, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec9 > div {
   padding-top: 34px;
   padding-bottom: 5px; }
 
-/* line 789, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 948, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec9 .block {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 945px;
+  width: 950px;
   margin: 0 auto;
+  height: 506px;
   padding-top: 37px;
   padding-bottom: 14px; }
-  /* line 795, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 955, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec9 .block h2 {
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
     font-size: 35px;
-    margin-bottom: 23px; }
-  /* line 800, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    margin-bottom: 28px;
+    height: 26px; }
+  /* line 961, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec9 .block .otz {
     height: 205px; }
-    /* line 802, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 963, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec9 .block .otz.otz1 {
       border-bottom: 3px solid #519cff; }
-    /* line 807, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 969, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec9 .block .otz .img {
       float: left;
       width: 120px;
-      height: 135px;
+      height: 137px;
       border-radius: 50px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
       margin-left: 126px;
-      margin-top: 34px; }
-      /* line 816, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      margin-top: 22px; }
+      /* line 978, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .img.img1 {
-        background: url(../img/otz1.jpg) no-repeat center; }
-      /* line 819, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        background: url(../img/otz3.png) no-repeat center; }
+      /* line 981, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .img.img2 {
-        background: url(../img/otz2.jpg) no-repeat center; }
-    /* line 823, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        background: url(../img/otz4.png) no-repeat center; }
+    /* line 985, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec9 .block .otz .text {
       float: right;
-      margin-top: 35px;
+      margin-top: 22px;
       font-size: 16px;
-      padding-right: 66px;
-      width: 608px; }
-      /* line 829, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      padding-right: 86px;
+      width: 614px; }
+      /* line 991, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .text .ins {
         text-decoration: underline; }
-      /* line 832, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      /* line 994, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
       .sec9 .block .otz .text .right {
         display: block;
         float: right;
-        margin-right: 28px;
-        margin-top: 17px;
-        font-size: 16px;
+        padding-top: 17px;
+        font-size: 15px;
         font-weight: 800; }
 
-/* line 845, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 1006, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec10 > div {
-  padding-top: 32px;
+  padding-top: 40px;
   padding-bottom: 5px; }
 
-/* line 850, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 1011, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec10 .block {
   margin: 0 auto;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 945px;
-  padding-bottom: 21px; }
-  /* line 856, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  .sec10 .block .top .left {
-    width: 340px;
-    float: left;
-    margin-left: 18px; }
-    /* line 860, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec10 .block .top .left .h2 {
-      position: relative;
-      text-align: center;
-      width: 100%;
-      overflow: hidden;
-      height: 137px; }
-      /* line 866, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec10 .block .top .left .h2 h2 {
-        color: #031E90;
-        font-size: 50px;
-        width: 100%;
-        position: absolute;
-        z-index: 2;
-        left: 0;
-        top: 52px; }
-      /* line 875, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec10 .block .top .left .h2 img {
-        margin-left: -5px;
-        margin-top: -1px;
-        filter: url(#whistler-comp-iuhuduwmimg);
-        width: 351px;
-        height: 122px;
-        object-fit: cover;
+  width: 951px;
+  padding-bottom: 21px;
+  height: 437px; }
+  /* line 1017, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  .sec10 .block .top {
+    height: 437px; }
+    /* line 1019, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec10 .block .top .left {
+      width: 340px;
+      float: left;
+      margin-left: 22px;
+      padding-top: 26px; }
+      /* line 1024, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec10 .block .top .left .h2 {
         position: relative;
-        z-index: 1; }
-    /* line 886, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec10 .block .top .left .form {
-      box-shadow: 0px 0px 8px 0px #000000;
-      width: 313px;
-      height: 165px;
-      border-radius: 2px;
-      background: #f1f1f1;
-      margin: 0 auto; }
-  /* line 895, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  .sec10 .block .top .right {
-    float: right;
-    width: 584px;
-    height: 406px;
-    background: url(../img/arr_right.jpg) no-repeat -8px 283px;
-    background-size: 610px 93px; }
-    /* line 901, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec10 .block .top .right .ul {
-      text-align: center;
-      padding-left: 11px; }
-      /* line 904, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      .sec10 .block .top .right .ul .li {
-        width: 150px;
-        float: left;
-        margin-left: 39px;
-        padding-top: 6px; }
-        /* line 909, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li .ico {
-          width: 60px;
-          height: 50px;
-          object-fit: cover; }
-          /* line 913, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico1 {
-            filter: url("#kennedy-comp-iuhtirisimg"); }
-          /* line 916, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico2 {
-            filter: url("#darken-comp-iuhu1qw2img"); }
-          /* line 919, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico3 {
-            filter: url("#blueray-comp-iuhu1qc4img"); }
-        /* line 923, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li .img {
-          border: 4px solid #c5c3c357;
-          margin-top: 8px; }
-        /* line 927, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li p {
-          font-size: 17px;
-          padding: 0 10px;
-          margin-top: 5px;
-          line-height: 23px; }
-  /* line 937, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  .sec10 .block .bot {
-    width: 692px;
-    height: 42px;
-    padding-top: 8px;
-    font-size: 25px;
-    background: url(../img/btnbg.jpg);
-    margin: 0 auto 0;
-    text-align: center;
-    color: #FFFFFF;
-    border-bottom: 3px solid #519cff; }
-    /* line 947, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    .sec10 .block .bot span {
-      text-decoration: underline;
-      font-weight: bold; }
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        height: 133px; }
+        /* line 1030, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec10 .block .top .left .h2 h2 {
+          color: #031E90;
+          font-size: 50px;
+          width: 100%;
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 52px; }
+        /* line 1039, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec10 .block .top .left .h2 img {
+          margin-left: -5px;
+          margin-top: -1px;
+          filter: url(#whistler-comp-iuhuduwmimg);
+          width: 351px;
+          height: 122px;
+          object-fit: cover;
+          position: relative;
+          z-index: 1; }
+      /* line 1050, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec10 .block .top .left .form {
+        box-shadow: 0px 0px 8px 0px #000000;
+        width: 313px;
+        height: 165px;
+        border-radius: 2px;
+        background: #f1f1f1;
+        margin: 0 auto; }
+    /* line 1059, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    .sec10 .block .top .right {
+      float: right;
+      width: 584px;
+      height: 406px;
+      background: url(../img/arr_right.png) no-repeat -13px 283px;
+      background-size: 610px 93px; }
+      /* line 1065, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+      .sec10 .block .top .right .ul {
+        text-align: center; }
+        /* line 1068, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+        .sec10 .block .top .right .ul .li {
+          width: 155px;
+          float: left;
+          margin-left: 33px;
+          padding-top: 55px; }
+          /* line 1073, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          .sec10 .block .top .right .ul .li .ico {
+            width: 60px;
+            height: 50px;
+            object-fit: cover; }
+            /* line 1077, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+            .sec10 .block .top .right .ul .li .ico.ico1 {
+              filter: url("#kennedy-comp-iuhtirisimg"); }
+            /* line 1080, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+            .sec10 .block .top .right .ul .li .ico.ico2 {
+              filter: url("#darken-comp-iuhu1qw2img"); }
+            /* line 1083, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+            .sec10 .block .top .right .ul .li .ico.ico3 {
+              filter: url("#blueray-comp-iuhu1qc4img"); }
+          /* line 1087, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          .sec10 .block .top .right .ul .li .img {
+            border: 4px solid #c5c3c357;
+            margin-top: 8px; }
+          /* line 1092, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+          .sec10 .block .top .right .ul .li p {
+            font-size: 17px;
+            padding: 0 10px;
+            margin-top: 9px;
+            line-height: 22px; }
 
-/* line 955, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 1109, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec11 > div {
-  padding-top: 32px; }
+  padding-top: 35px;
+  padding-bottom: 5px; }
 
-/* line 958, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+/* line 1113, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
 .sec11 .block {
   height: 350px;
   width: 100%;
   position: relative; }
-  /* line 962, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 1117, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec11 .block .map {
     position: absolute;
     z-index: 1;
@@ -900,7 +1015,7 @@ button, input, textarea {
     left: 0;
     top: 0;
     background: green; }
-  /* line 971, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  /* line 1126, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
   .sec11 .block .right {
     width: 393px;
     position: absolute;
@@ -915,117 +1030,43 @@ button, input, textarea {
     padding-top: 22px;
     padding-left: 32px;
     font-weight: 700; }
-    /* line 985, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 1140, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec11 .block .right h2 {
       font-size: 44px;
       line-height: 50px;
       padding-right: 64px;
       margin-bottom: 27px; }
-    /* line 991, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 1146, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec11 .block .right .ooo {
       font-size: 26px;
       margin-bottom: 23px; }
-    /* line 995, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    /* line 1150, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
     .sec11 .block .right .contact {
       font-size: 21px;
       margin-bottom: 19px; }
 
-/* line 1002, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-footer {
-  background: #545658;
-  color: white; }
-  /* line 1005, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  footer > div {
-    padding-top: 40px;
-    padding-bottom: 10px; }
-  /* line 1009, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  footer .left {
-    float: left;
-    width: 500px; }
-    /* line 1012, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .left .logo {
-      background: #3668a9;
-      width: 88px;
-      height: 88px;
-      border: 1px solid white;
-      border-radius: 100%;
-      text-align: center;
-      line-height: 88px;
-      font-size: 48px;
-      margin-left: 37px;
-      margin-top: 5px;
-      float: left; }
-    /* line 1025, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .left .text {
-      float: left;
-      width: 319px;
-      margin-left: 31px;
-      padding-top: 9px;
-      font-size: 20px; }
-      /* line 1031, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .left .text .title {
-        margin-bottom: 17px; }
-      /* line 1034, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .left .text .info {
-        line-height: 27px;
-        margin-bottom: 25px; }
-      /* line 1038, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .left .text .copyright {
-        font-size: 16px; }
-  /* line 1043, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-  footer .right {
-    float: right;
+/* line 1157, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+footer.lastblock {
+  background-color: #545658; }
+  /* line 1161, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  footer.lastblock .left {
     text-align: center;
-    width: 355px;
+    float: left;
+    font-size: 22px;
+    width: 296px;
+    height: 225px;
+    display: inline-block; }
+    /* line 1168, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+    footer.lastblock .left .ul {
+      color: white;
+      margin-left: 69px;
+      padding-top: 50px;
+      line-height: 29px; }
+  /* line 1185, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
+  footer.lastblock .mid .p {
     font-size: 19px;
-    padding-top: 9px; }
-    /* line 1049, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .right .email {
-      margin-bottom: 19px;
-      display: inline-block; }
-    /* line 1055, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .right .phone {
-      font-size: 22px;
-      line-height: 22px;
-      margin-bottom: 6px; }
-    /* line 1060, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .right .other {
-      margin: 28px auto 0;
-      width: 226px;
-      padding-left: 4px;
-      text-align: center; }
-      /* line 1065, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .right .other .lpart {
-        float: left;
-        width: 174px; }
-        /* line 1070, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        footer .right .other .lpart img {
-          margin-top: 8px; }
-      /* line 1074, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .right .other .rpart {
-        float: right;
-        width: 42px; }
-        /* line 1079, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-        footer .right .other .rpart a {
-          background-image: url(../img/vk.jpg);
-          display: inline-block;
-          width: 40px;
-          height: 42px; }
-    /* line 1087, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-    footer .right .maket-by {
-      display: inline-block;
-      margin-top: 20px;
-      padding-left: 7px; }
-      /* line 1091, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .right .maket-by .text {
-        font-size: 13px;
-        float: left; }
-      /* line 1095, D:/science/aloha/wixverstka/src/desktop/css/sass/style.scss */
-      footer .right .maket-by a {
-        float: left;
-        background-image: url(../img/logo2.jpg);
-        width: 166px;
-        height: 25px;
-        margin-left: 12px; }
+    float: left;
+    text-align: center;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

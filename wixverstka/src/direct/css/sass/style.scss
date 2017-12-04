@@ -12,7 +12,7 @@ $dark-blue: #1c578d;
     top: 0;
     left: 0;
     width: 100%;
-    background: url(../maket.jpg) no-repeat 3px top;
+    background: url(../maket.png) no-repeat 3px top;
     height: 7103px;
     opacity: 0.5;
     z-index: 20;
@@ -95,7 +95,7 @@ button, input, textarea {
     @include sec();
 }
 .head {
-    background: url(../img/head.webp) no-repeat center;
+    background: url(../img/head.png) no-repeat center;
     background-size: cover;
     border-bottom: 3px solid #519cff;
     height: 160px;
@@ -139,7 +139,7 @@ button, input, textarea {
     }
 }
 .sec2 {
-    background: url(../img/bg2.webp) no-repeat center;
+    background: url(../img/bg2.png) no-repeat center;
     background-size: 100% 100%!important;
     //height: 643px;
     &>div {
@@ -150,7 +150,7 @@ button, input, textarea {
         padding-bottom: 64px;
         background: rgba(255,255,255,0.93);
         box-shadow: 0 1px 4px rgba(0,0,0,0.6);
-        background-image: url(../img/strela.webp);
+        background-image: url(../img/strela.png);
         background-repeat: no-repeat;
         background-position: 2px 451px;
         background-size:603px 114px;
@@ -223,7 +223,7 @@ button, input, textarea {
         box-shadow: 0 1px 4px rgba(0,0,0,0.6);
         padding-bottom: 48px;
         .logo2 {
-            background-image: url(../img/AEimg.jpg);
+            background-image: url(../img/AEimg.png);
             width: 320px;
             height: 335px;
             margin-top: 28px;
@@ -421,7 +421,7 @@ button, input, textarea {
             line-height: 26px;
             width: 350px;
             height: 130px;
-            background: url(../img/strela.webp);
+            background: url(../img/strela.png);
             background-repeat: no-repeat;
             background-position: 19px 9px;
             background-size: 329px;
@@ -460,7 +460,7 @@ button, input, textarea {
                     }
                 }
             }
-            .price {
+            .price { 
                 width: 257px;
                 height: 64px;
                 margin-top: 220px;
@@ -520,7 +520,7 @@ button, input, textarea {
             margin-top: 26px;
             padding-right: 20px;
             margin-right: 10px;
-            background-image: url(../img/strelalft.webp);
+            background-image: url(../img/strelalft.png);
             background-position: 12px 115px;
         }
     }
@@ -529,7 +529,7 @@ button, input, textarea {
         height: 42px;
         padding-top: 8px;
         font-size: 25px;
-        background: url(../img/btnbg.webp);
+        background: url(../img/btnbg.png);
         margin: 12px auto 0;
         text-align: center;
         color: #FFFFFF;
@@ -644,10 +644,10 @@ button, input, textarea {
                     width: 197px;
                     height: 250px;
                     &.img1 {
-                        background: url(../img/vesa.webp)no-repeat center;
+                        background: url(../img/vesa.png)no-repeat center;
                     }
                     &.img3 {
-                        background: url(../img/garant.webp)no-repeat;
+                        background: url(../img/garant.png)no-repeat;
                         background-position: 31px 40px;
                     }
                 }
@@ -677,11 +677,11 @@ button, input, textarea {
                     width: 180px;
                     height: 250px;
                     &.img2 {
-                        background: url(../img/korzina.webp)no-repeat center;
+                        background: url(../img/korzina.png)no-repeat center;
                         background-position: 21px 59px;
                     }
                     &.img4 {
-                        background: url(../img/strelatop.webp)no-repeat center;
+                        background: url(../img/strelatop.png)no-repeat center;
                         background-position: 28px 48px;
                     }
                 }
@@ -735,16 +735,16 @@ button, input, textarea {
                     background-repeat: no-repeat;
                     background-position: center;
                     &.img1 {
-                        background-image: url(../img/simka.webp);
+                        background-image: url(../img/simka.png);
                     }
                     &.img2 {
-                        background-image: url(../img/galava.webp);
+                        background-image: url(../img/galava.png);
                     }
                     &.img3 {
-                        background-image: url(../img/detal.webp);
+                        background-image: url(../img/detal.png);
                     }
                     &.img4 {
-                        background-image: url(../img/rocket.webp);
+                        background-image: url(../img/rocket.png);
                     }
                 }
                 p {
@@ -788,21 +788,21 @@ button, input, textarea {
                     width: 258px;
                     .img {
                         &.img1 {
-                            background-image: url(../img/marsol.webp);
+                            background-image: url(../img/marsol.png);
                             background-size: 223px;
                         }
                         &.img2 {
-                            background-image: url(../img/helper.webp);
+                            background-image: url(../img/helper.png);
                             background-size: 235px;
                             background-position: 10px 13px;
                         }
                         &.img3 {
-                            background-image: url(../img/sinergist.webp);
+                            background-image: url(../img/sinergist.png);
                             background-size: 233px 55px;
                             background-position: 14px 13px;
                         }
                         &.img4 {
-                            background-image: url(../img/promo.webp);
+                            background-image: url(../img/promo.png);
                         }
                     }
                 }
@@ -810,22 +810,22 @@ button, input, textarea {
                     width: 241px;
                     .img {
                         &.img1 {
-                            background-image: url(../img/artlife.webp);
+                            background-image: url(../img/artlife.png);
                             background-size: 179px 45px;
                             background-position: 32px 23px;
                         }
                         &.img2 {
-                            background-image: url(../img/aviant.webp);
+                            background-image: url(../img/aviant.png);
                             background-size: 179px 58px;
                             background-position: 32px 11px;
                         }
                         &.img3 {
-                            background-image: url(../img/avon.webp);
+                            background-image: url(../img/avon.png);
                             background-size: 178px 36px;
                             background-position: 33px 27px;
                         }
                         &.img4 {
-                            background-image: url(../img/ispit.webp);
+                            background-image: url(../img/ispit.png);
                         }
                     }
                 }
@@ -833,22 +833,22 @@ button, input, textarea {
                     width: 194px;
                     .img {
                         &.img1 {
-                            background-image: url(../img/dolche.webp);
+                            background-image: url(../img/dolche.png);
                             background-size: 138px 42px;
                             background-position: 27px 27px;
                         }
                         &.img2 {
-                            background-image: url(../img/resti.webp);
+                            background-image: url(../img/resti.png);
                             background-size: 139px 45px;
                             background-position: 27px 19px;
                         }
                         &.img3 {
-                            background-image: url(../img/native.webp);
+                            background-image: url(../img/native.png);
                             background-size: 139px 51px;
                             background-position: 27px 19px;
                         }
                         &.img4 {
-                            background-image: url(../img/pr.webp);
+                            background-image: url(../img/pr.png);
                         }
                     }
                 }
@@ -856,22 +856,22 @@ button, input, textarea {
                     width: 144px;
                     .img {
                         &.img1 {
-                            background-image: url(../img/pfb.webp);
+                            background-image: url(../img/pfb.png);
                             background-size: 95px 55px;
                             background-position: 34px 22px;
                         }
                         &.img2 {
-                            background-image: url(../img/toyota.webp);
+                            background-image: url(../img/toyota.png);
                             background-size: 102px 67px;
                             background-position: 32px 6px;
                         }
                         &.img3 {
-                            background-image: url(../img/impuls.webp);
+                            background-image: url(../img/impuls.png);
                             background-size: 102px 50px;
                             background-position: 31px 17px;
                         }
                         &.img4 {
-                            background-image: url(../img/airpar.webp);
+                            background-image: url(../img/airpar.png);
                             background-size: 102px 54px;
                             background-position: 40px 18px;
                         }
@@ -914,10 +914,10 @@ button, input, textarea {
                 margin-left: 126px;
                 margin-top: 34px;
                 &.img1{
-                    background: url(../img/otz1.webp) no-repeat center;
+                    background: url(../img/otz1.png) no-repeat center;
                 }
                 &.img2{
-                    background: url(../img/otz2.webp) no-repeat center;
+                    background: url(../img/otz2.png) no-repeat center;
                 }
             }
             .text {
@@ -996,7 +996,7 @@ button, input, textarea {
                 float: right;
                 width: 584px;
                 height: 406px;
-                background: url(../img/arr_right.webp) no-repeat -8px 283px;
+                background: url(../img/arr_right.png) no-repeat -8px 283px;
                 background-size: 610px 93px;;
                 .ul {
                     text-align: center;
@@ -1039,7 +1039,7 @@ button, input, textarea {
             height: 42px;
             padding-top: 8px;
             font-size: 25px;
-            background: url(../img/btnbg.webp);
+            background: url(../img/btnbg.png);
             margin: 0 auto 0;
             text-align: center;
             color: #FFFFFF;
@@ -1177,7 +1177,7 @@ footer {
                 .vk {
                 }
                 a {
-                    background-image: url(../img/vk.webp);
+                    background-image: url(../img/vk.png);
                     display: inline-block;
                     width: 40px;
                     height: 42px;
@@ -1194,7 +1194,7 @@ footer {
             }
             a {
                 float: left;
-                background-image: url(../img/logo2.webp);
+                background-image: url(../img/logo2.png);
                 width: 166px;
                 height: 25px;
                 margin-left: 12px;
