@@ -2,19 +2,17 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-<!--
-     от         
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet"> 
-     до -->      
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">   
 
     <link rel="stylesheet" href="css/libs/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- от -->        
-<!--
+
     <link rel="stylesheet" href="css/scripts.css">
     <script src="js/libs.js"></script>    
     <script src="js/main.js"></script>    
--->
+
     <!-- до -->            
     <title>Настройка Яндекс Директ и контекстной рекламы</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/png">
@@ -81,7 +79,12 @@
                <div class="block">
                    <div class="logo"></div>
                    <h2>Создание  лендингов</h2>
-                   <div class="form"></div>
+                   
+                    <form class="form" method="post" action="ajax/mail.php">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="text" name="phone" placeholder="Ваш телефон">
+                        <button type="submit">Отправить</button>
+                    </form>
                    <div class="phone">+7 (977) 134-29-37</div>
                </div>
            </div>
@@ -89,7 +92,7 @@
     <section class="sec3">
         <div>
             <div class="block">
-                <div class="logo2">ваши продажи</div>
+                <div class="logo2"><span>ваши продажи</span></div>
                 <div class="midl">
                     <p class="jaboris">Очевидно преимущество лендинга (landing page, одностраничник, одностраничный сайт) перед обычным сайтом.<br>На одностраничный сайт попадают именно те люди, которые хотят купить ваш товар или услугу, а не почитать информацию о Вашей компании.<br><span class="b">Landing page</span> призван продавать! Это одна страница с продающим текстом, с грамотной презентацией товара или услуги, с призывом<br> к действию. Это отличный инструмент для продаж в интернете, также с помощью лендингов можно собирать подписчиков, собирать заявки на оказания услуг и т.д.
                     
@@ -127,8 +130,7 @@
                 <div class="li">
                     <div class="number">112</div>
                     <div class="line"></div>
-                    <div class="text">Созданных лендингов<br>
-за всё время</div>
+                    <div class="text">Созданных лендингов<br>за всё время</div>
                 </div>
                 <div class="li lim">
                     <div class="number">5 лет</div>
@@ -169,10 +171,10 @@
                         <li><span class="b">Кроссбраузерная</span> верстка</li>
                         <li>Верстка под телефоны</li>
                         <li>Верстка под планшеты</li>
-                        <li>Хостинг на<span class="b">1 год</span></li>
+                        <li>Хостинг на <span class="b">1 год</span></li>
                         <li>Доменное имя</li>
                         <li>Яндекс-Метрика</li>
-                        <li>Тех. Поддержка</li>
+                        <li><span class="b">Тех. Поддержка</span></li>
                         <li>Внутреняя <span class="b">SEO</span>-оптимизация</li>
                         <li>Авторский копирайтинг</li>
                         <li>Настройка <span class="b">ЯНДЕКС.ДИРЕКТ</span></li>
@@ -188,10 +190,10 @@
                         <li><span class="b">Кроссбраузерная</span> верстка</li>
                         <li>Верстка под телефоны</li>
                         <li>Верстка под планшеты</li>
-                        <li>Хостинг на<span class="b">1 год</span></li>
+                        <li>Хостинг на <span class="b">1 год</span></li>
                         <li>Доменное имя</li>
                         <li>Яндекс-Метрика</li>
-                        <li>Тех. Поддержка</li>
+                        <li><span class="b">Тех. Поддержка</span></li>
                         <li>Внутреняя <span class="b">SEO</span>-оптимизация</li>
                         <li>Авторский копирайтинг</li>
                         <li>Настройка <span class="b">ЯНДЕКС.ДИРЕКТ</span></li>
@@ -202,13 +204,17 @@
                 </div>
             </div>
                <div class="block">
-                   <div class="left"></div>
+
+                    <form class="left" method="post" action="ajax/mail.php">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="text" name="phone" placeholder="Ваш телефон">
+                        <button type="submit">Отправить</button>
+                    </form>
                    <div class="right">
-                       <div class="text">Если вы заинтересованы<br> только в настройке<br>
-контекстной рекламы,<br> обращайтесь к нашим<br> партнерам</div>
+                       <div class="text">Если вы заинтересованы<br> только в настройке<br> <span class="ins">контекстной рекламы</span>,<br> обращайтесь к нашим<br> партнерам</div>
                        <div class="rigt_in">
                            <div class="img"></div>
-                           <div class="ins">advertexperts.ru</div>
+                           <a class="ins" href="http://advertexperts.ru/" target="_blank">advertexperts.ru</a>
                        </div>
                        
                    </div>
@@ -223,9 +229,13 @@
         <div>
             <h2>Примеры наших работ</h2>
             <div class="res_block">
-                <div class="item item1"></div>
-                <div class="item item2"></div>
-                <div class="item item3"></div>
+                <div class="item item1" data-src="img/obr1_b.jpg"></div>
+                <div class="item item2" data-src="img/obr2_b.jpg"></div>
+                <div class="item item3" data-src="img/obr3_b.jpg"></div>
+                <div class="view_block">
+                    <div class="close_view">Назад</div>
+                    <div class="view_img"></div> 
+                </div>
             </div>
         </div>
     </section>
@@ -332,7 +342,7 @@
                     <div class="li">7) Яндекс Директ</div>
                     <div class="li">8) Google AdWords</div>
                 </div>
-                <div class="anim"></div>
+                <iframe src="kubik/" class="anim"></iframe>
                 
             </div>
         </div>
@@ -418,11 +428,11 @@
             <div class="midl">
                 <div class="phone">+7 (925) 285-91-84</div>
                 <div class="img"></div>
-                <div class="vk"></div>
+                <a class="vk" href="https://vk.com/highmaths" target="_blank"></a>
             </div>
             <div class="right">
                 <div class="email">admin@sitewriters.ru</div>
-                <div class="logo"></div>
+                <a class="logo" href="http://sitewriters.ru/" target="_blank"></a>
                 <div class="copy">&copy; 2011-2017</div>
             </div>
         </div>
@@ -433,9 +443,8 @@
             <svg version="1.1" style="left: 0px; top: 0px; overflow: hidden; position: absolute; visibility: hidden; width: 60px; height: 50px;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage_DESKTOP.1.$comp-iuhsuvya.1.$comp-iuhu1qc4.0.0.$svgblueray-comp-iuhu1qc4img"><defs data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage_DESKTOP.1.$comp-iuhsuvya.1.$comp-iuhu1qc4.0.0.$svgblueray-comp-iuhu1qc4img.$defsblueray-comp-iuhu1qc4img"><filter id="blueray-comp-iuhu1qc4img" color-interpolation="sRGB" color-interpolation-filters="sRGB">             <feComponentTransfer result="srcRGB"></feComponentTransfer><feColorMatrix type="saturate" values="0" result="grayscale"></feColorMatrix>                 <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.10588235294117647 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0" result="color1"></feColorMatrix>                 <feBlend in="color1" in2="grayscale" mode="multiply"></feBlend><feComponentTransfer></feComponentTransfer></filter></defs></svg>
             <svg version="1.1" style="left: 0px; top: 0px; overflow: hidden; position: absolute; visibility: hidden; width: 351px; height: 122px;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage_DESKTOP.1.$comp-iuhsuvya.1.$comp-iuhuduwm.0.0.$svgwhistler-comp-iuhuduwmimg"><defs data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage_DESKTOP.1.$comp-iuhsuvya.1.$comp-iuhuduwm.0.0.$svgwhistler-comp-iuhuduwmimg.$defswhistler-comp-iuhuduwmimg"><filter id="whistler-comp-iuhuduwmimg" color-interpolation="sRGB" color-interpolation-filters="sRGB">             <feComponentTransfer result="srcRGB"></feComponentTransfer><feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" result="color"></feColorMatrix>                 <feComponentTransfer in="color" result="flood_alpha"><feFuncA type="linear" slope="0.4"></feFuncA></feComponentTransfer>                 <feGaussianBlur in="srcRGB" stdDeviation="1.8"></feGaussianBlur>                 <feComponentTransfer result="blur_alpha"><feFuncA type="linear" slope="0.6"></feFuncA></feComponentTransfer>                 <feBlend in="blur_alpha" in2="srcRGB" mode="normal" result="source_blur"></feBlend>                 <feBlend in2="source_blur" in="flood_alpha" mode="overlay"></feBlend>                 <feComponentTransfer><feFuncR type="linear" slope="1.1"></feFuncR><feFuncG type="linear" slope="1.1"></feFuncG><feFuncB type="linear" slope="1.1"></feFuncB></feComponentTransfer>                 <feComponentTransfer result="contrast"><feFuncR type="linear" slope="0.9" intercept="0.05"></feFuncR><feFuncG type="linear" slope="0.9" intercept="0.05"></feFuncG><feFuncB type="linear" slope="0.9" intercept="0.05"></feFuncB></feComponentTransfer>                 <feColorMatrix type="saturate" values="0.6"></feColorMatrix><feComponentTransfer></feComponentTransfer></filter></defs></svg>
         </div>
- <div id="maket"></div>
     <!-- от -->        
-<!--
+
     <div id="hidden-box">
        <div class="pop" id="okgo">
             <div class="close">Закрыть</div>
@@ -448,7 +457,7 @@
            
        </div>
     </div>  
--->
+
     <!-- до -->    
        
 </body>

@@ -4,6 +4,35 @@ $(document).ready(function() {
 	//$('.sec11 .block .map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada875ff33ada0b8590de86351c01c409b6ff02ec3b3a0c5ca9998de1413acd83&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>');
 
 
+    $('.res_block .item').click(function(){
+        $(this).closest('.res_block').find('.item').hide();
+        
+        var $view_block = $(this).closest('.res_block').find('.view_block');
+
+
+        var img = $(this).attr('data-src');
+
+        if($view_block.find('.view_img').find('img').length>0){
+
+            $view_block.find('.view_img').find('img').attr('src',img);
+
+        }else{
+            $view_block.find('.view_img').append('<img src="'+img+'">');
+        }
+
+
+        $view_block.show();
+
+        
+    });
+
+
+    $('.res_block .view_block .close_view').click(function(){
+        $(this).closest('.res_block').find('.item').show();
+        $(this).closest('.res_block').find('.view_block').hide();
+    });
+
+
     $('input[name="name"]').blur(function() {if($(this).val().length < 2) {$(this).addClass('error-input');}});
     $('input[name="name"]').focus(function() {$(this).removeClass('error-input');});
 

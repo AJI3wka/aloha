@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://sitewriters.ru/vrashkubik/ -->
+<html class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="http://sitewriters.ru/vrashkubik/prefixfree.min.js.Без&#32;названия"></script>
+
+</head>
+<body>
+
+<style>
+{
+  background: #F2F2F2;
+  perspective: 500px;
+  perspective-origin: center -5em;
+  overflow: hidden;
+  }
+.side,
+.container {
+  width: 10em;
+  height: 10em;
+  }
+
+.container {
+  margin: 12em auto 0;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite linear;
+  }
+.side {
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  border: .15em solid white;
+  border-radius: 3em;
+  opacity: .8;
+  transform-style: preserve-3d;
+  }
+.side:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  transform: translateZ(2em) rotateZ(45deg);
+  /* background: white; */
+  box-shadow: 0 0 10px 15px white inset;
+  border: 2px dotted white;
+  /* border-radius: 50%; */
+}
+.back {
+  transform: translateZ(-5em) rotateY(180deg);
+  background: url(kub1.png) center;
+  }
+.left {
+  transform: translateX(-5em) rotateY(-90deg);
+  background: url(kub2.png) center;
+  }
+.right {
+  transform: translateX(5em) rotateY(90deg);
+  background: url(kub3.png) center;
+  }
+.top {
+  transform: translateY(-5em) rotateX(90deg);
+  background: url(kub4.png) center;
+  }
+.bottom {
+  transform: translateY(5em) rotateX(-90deg);
+
+  background: url(kub5.png) center;
+  }
+.front {
+  transform: translateZ(5em);
+
+  background: url(kub6.png) center;
+  }
+
+@keyframes rotate {
+  100% {
+    transform: rotateX(360deg) rotateY(-360deg) rotateZ(360deg);
+  }
+}
+  </style>
+
+
+  <div class="container">
+    <div class="back side"></div>
+    <div class="left side"></div>
+    <div class="right side"></div>
+    <div class="top side"></div>
+    <div class="bottom side"></div>
+    <div class="front side"></div>
+  </div>
+  
+
+</body></html>
