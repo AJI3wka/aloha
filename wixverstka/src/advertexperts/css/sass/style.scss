@@ -13,7 +13,7 @@ $dark-blue: #1c578d;
     left: 0;
     width: 100%;
     background: url(../maket.png) no-repeat 3px top; 
-    height: 7103px;
+    height:s 7103px;
     opacity: 0.5;
     z-index: 20;
     margin-top: 0;
@@ -223,10 +223,14 @@ button, input, textarea {
         box-shadow: 0 1px 4px rgba(0,0,0,0.6);
         padding-bottom: 48px;
         .logo2 {
-            background-image: url(../img/AEimg.jpg);
+            text-align: center;
+            background-color:rgba(54, 104, 169, 1);
             width: 320px;
+            color:white;
+            font-size: 110px;
+            line-height: 188px;
             height: 335px;
-            margin-top: 28px;
+            margin-top: 125px;
             float: left;
             margin-left: 14px;
             background-size: 100% 100%;
@@ -273,16 +277,14 @@ button, input, textarea {
                     text-decoration: underline;
                     font-weight: bold;
                 }
-                span.abz {
-                    display: inline-block;
-                    width: 31px;
                 }
             }
             .ystinskiu {
                 font-size: 20px;
-                text-align: right;
+                text-align: center;
                 margin-right: 9px;
                 margin-top: 10px;
+            
             }
         }
         .right {
@@ -324,7 +326,7 @@ button, input, textarea {
             }
         }
     }
-}
+
 .sec4 {
     background-color: white;
     h2 {

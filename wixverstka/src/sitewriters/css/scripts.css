@@ -36,14 +36,19 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 13px;
 }
 .head{height: 120px;}*/
+.head{
+	margin-top: -15px;
+}
+
 .head .block h2{
 	font-weight:400;
 	font-size: 54px;
 }
 .head .block .phone{
-	font-size:32px;
+	font-size:35px;
 	font-weight:400;
 	margin-top: 49px;
+	text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
 }
 .sec2 .block .left ul{
 	margin-left: 70px;
