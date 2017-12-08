@@ -1,7 +1,11 @@
 
 $(document).ready(function() {
-	$('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada875ff33ada0b8590de86351c01c409b6ff02ec3b3a0c5ca9998de1413acd83&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>').appendTo('.sec11 .block .map');
-	//$('.sec11 .block .map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada875ff33ada0b8590de86351c01c409b6ff02ec3b3a0c5ca9998de1413acd83&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>');
+	
+    //$('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada875ff33ada0b8590de86351c01c409b6ff02ec3b3a0c5ca9998de1413acd83&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>').appendTo('.sec11 .block .map');
+	
+    //$('.sec11 .block .map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada875ff33ada0b8590de86351c01c409b6ff02ec3b3a0c5ca9998de1413acd83&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>');
+
+    !function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",["https://maps.googleapis.com/maps/api/js?key=AIzaSyAdzwz73OHrdVGjKVKow8ID8T31yNxiBSI","js/map.js"]);
 
 
     $('input[name="name"]').blur(function() {if($(this).val().length < 2) {$(this).addClass('error-input');}});
