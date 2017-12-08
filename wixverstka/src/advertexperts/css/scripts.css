@@ -360,15 +360,13 @@ footer .left .logo{
 	border: 1px solid #529cff;
 	margin-left: 0;
 	height: 38px;
-	text-align: center;
 	font-size: 18px;
 	margin-bottom: 16px;
 	font-weight: 300;
 	border-radius:0;
 	-webkit-appearance: none;
-	text-align: center;
-	text-align-last:center;
 	background: white;
+	text-indent: 68px;
 }
 .sec5 .block_3 .middle select option{
 	text-align-last:center;
