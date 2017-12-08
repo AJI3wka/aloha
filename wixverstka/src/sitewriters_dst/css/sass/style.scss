@@ -1088,13 +1088,13 @@ button, input, textarea {
         width: 100%;
         position: relative;
         .map {
+            background: url(../img/fonmap.png);
             position: absolute;
             z-index: 1;
             width: 100%;
             height: 100%;
             left: 0;
             top: 0;
-            background: green;
         }
         .right {
             width: 393px;

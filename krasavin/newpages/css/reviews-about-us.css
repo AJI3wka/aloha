@@ -1,0 +1,306 @@
+.pagereviews {
+  padding-top: 55px;
+  padding-bottom: 65px;
+  text-align: center; }
+  .pagereviews-header {
+    background-color: #ff9600;
+    text-align: center;
+    margin: auto;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    width: 275px; }
+    .pagereviews-header-h2 {
+     
+      font-family: OpenSansBold;
+      font-size: 36px;
+      color: #fff;
+      margin: 0;
+      padding: 15px 0px 17px 0px;
+      text-align: center;
+      line-height: 26px; }
+    .pagereviews-header-btmmrg {
+      margin-bottom: 65px; }
+
+.reviewscontainer {
+  background-color: #fff;
+  border: #ff9600 4px solid;
+  padding: 15px 50px 30px 50px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  margin-bottom: 45px; }
+  .reviewscontainer-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px; }
+    .reviewscontainer-top-namedate .fa {
+      font-size: 24px;
+      color: #ff9600;
+      padding-right: 20px;
+      vertical-align: middle; }
+    .reviewscontainer-top-namedate span {
+      font-family: OpenSansSemiBold;
+      
+      font-size: 18px;
+      vertical-align: middle;
+      line-height: 50px;
+      padding: 0;
+      margin: 0; }
+    .reviewscontainer-top-namedate .name {
+      display: inline-block;
+      padding-right: 30px;
+      height: 50px;
+      border-right: #d9d9d9 1px solid; }
+    .reviewscontainer-top-namedate .date {
+      display: inline-block;
+      margin-left: 30px;
+      height: 50px; }
+      .reviewscontainer-top-namedate .date span {
+        font-size: 14px; }
+    .reviewscontainer-top-star .fa {
+      font-size: 20px; }
+      .reviewscontainer-top-star .fa-select {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFE791), to(#ff9600));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .reviewscontainer-top-star .fa-noselect {
+        color: #FFAA33; }
+  .reviewscontainer-text {
+    font-size: 14px;
+    font-family: OpenSansLight;
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 20px; }
+
+.star-rating {
+  font-size: 0;
+  text-align: center;
+  margin-top: 20px;
+  height: 30px; }
+
+.star-rating__wrap {
+  display: inline-block;
+  font-size: 16px;
+  height: 30px; }
+  .star-rating__wrap span {
+    color: #8C8C8C;
+    font-family: OpenSansRegular;
+    font-size: 14px;
+    margin-right: 20px;
+    vertical-align: middle;
+    line-height: 32px; }
+
+.star-rating__wrap:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.star-rating__ico {
+  float: right;
+  padding-left: 2px;
+  cursor: pointer;
+  color: #FFAA33;
+  -webkit-background-clip: text;
+  margin-bottom: 0;
+  vertical-align: middle;
+  line-height: 32px; }
+
+.star-rating__ico:last-child {
+  padding-left: 0; }
+
+.star-rating__input {
+  display: none; }
+
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before {
+  content: "\f005";
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFE791), to(#ff9600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.btn-pagination ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 65px;
+  margin-top: 20px; }
+  .btn-pagination ul li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-right: 8px; }
+    .btn-pagination ul li a {
+      color: #ff9600;
+      font-family: OpenSansBold;
+      font-size: 18px;
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+      display: block;
+      width: 40px;
+      height: 30px;
+      background-color: #fff;
+      border: #ff9600 1px solid;
+      -webkit-border-radius: 10px;
+       border-radius: 10px;
+       text-decoration: none;
+       line-height: 30px; }
+    .btn-pagination ul li:hover a, .btn-pagination ul li:focus a {
+      color: #fff;
+      text-decoration: none;
+      background-color: #ff9600; }
+  .btn-pagination ul .active a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff9600; }
+
+
+
+
+.mdr {
+  width: 500px;
+  min-height: 510px; }
+
+textarea {
+  font-family: "OpenSansRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  display: block;
+  border: #8C8C8C 1px solid;
+  margin-left: 100px;
+  width: 300px; }
+
+.modalform-inputs {
+  padding-left: 49px; }
+  .modalform-inputs-inpmr {
+    padding-left: 100px; }
+  .modalform-inputs input {
+    padding: 9px 20px 9px 45px;
+    color: #8C8C8C;
+    font-family: "OpenSansRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    display: block;
+    width: 300px;
+    margin-top: 19px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: #8C8C8C 1px solid; }
+
+.hut {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    width: 295px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe400), to(#ffcd00));
+    background: -webkit-linear-gradient(top, #ffe400, #ffcd00);
+    background: linear-gradient(to bottom, #ffe400, #ffcd00);
+    border: 1px solid #ffcd00;
+    -webkit-box-shadow: 0 2px 0 #af8d00;
+    box-shadow: 0 2px 0 #af8d00;
+    font-size: 18px;
+    font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.hut:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffcd00), to(#ffe400));
+    background: -webkit-linear-gradient(top, #ffcd00, #ffe400);
+    background: linear-gradient(to bottom, #ffcd00, #ffe400);
+}
+.fileform .upload {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    font-size: 150px;
+    height: 35px;
+    z-index: 20;
+}
+.selton {
+    text-align: center;
+    padding-top: 6px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+  
+  .reviewscontainer {
+    margin: 0px 30px 45px 30px; }
+    .reviewscontainer-top {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column wrap;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      height: auto; }
+      .reviewscontainer-top-namedate {
+        text-align: center; }
+        .reviewscontainer-top-namedate .name {
+          display: block;
+          padding-right: 0px;
+          border-right: none; }
+        .reviewscontainer-top-namedate .date {
+          display: block;
+          margin-left: 0px; }
+          .reviewscontainer-top-namedate .date span {
+            font-size: 14px; }
+      .reviewscontainer-top-star {
+        display: block;
+        margin-top: 10px; }
+
+  .mdr{
+    width: 300px;
+    min-height: 510px;
+    margin: auto;
+  }
+  .modalform-inputs {
+    padding-left: 25px
+  }
+  .modalform-inputs input {
+    width: 250px
+  }
+  .hut {
+    width: 250px;
+    }
+  textarea {
+    margin-left: 25px;
+    width: 250px;
+  }
+  .mrewbut{
+    width: 250px; 
+    }}
+  
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+
+  .reviewscontainer {
+    padding: 15px 20px 30px 20px; }
+    .reviewscontainer-top-namedate span {
+      font-size: 14px; }
+  .pagereviews-header {
+    width: 230px; }
+    .pagereviews-header-h2 {
+      font-size: 26px;
+      padding: 12px 0px 14px 0px; } }

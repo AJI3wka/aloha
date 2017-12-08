@@ -1,0 +1,643 @@
+/*ВНУТРЕННИЕ СТРАНИЦЫ*/
+/*ПЕРВЫЙ БЛОК*/
+h1 {
+    font-family: OpenSansBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 60px 0 30px 0;
+    margin: 0;
+}
+
+.div-container {
+    width: 960px
+}
+.first-block {
+    padding-bottom: 82px;
+    border-bottom: #E0E0E0 1px solid;
+    background-image: url(../img/first-block.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.first-block-image {
+    padding: 13px 0;
+}
+.first-block-image1 {
+    padding: 22px 0;
+}
+.first-block-text {
+    padding-top: 22px;
+    font-family:  OpenSansBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.forms-top {
+    height: 228px;
+    width: 310px;
+    background-color: #636363;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    line-height: 27px;
+}
+.forms-text {
+    font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+    color: #fff;
+    padding-top: 28px;
+    margin: 0;
+}
+.forms-text-lowers {
+    font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.forms-inputs {
+    padding: 0 32px;
+}
+.forms-inputs input {
+    color: #8c8c8c;
+    font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: 20px 0;
+    border: #000 1px solid;
+    -webkit-box-shadow: inset 0 10px 10px -12px #000;
+    box-shadow: inset 0 10px 10px -12px #000;
+}
+.forms-button {
+    text-align: center;
+}
+.formbutton {
+    width: 182px;
+    height: 30px;
+    color: #fff;
+    font-size: 12.45px;
+    font-family: OpenSansSemiBold;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    background: #ffe700;
+    background-image: -webkit-linear-gradient(top, #ffe700, #fd8800);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe700), to(#fd8800));
+    background-image: linear-gradient(to bottom, #ffe700, #fd8800)
+}
+
+.btn1 {
+    width: 240px;
+    height: 36px;
+    text-transform: uppercase
+}
+
+.formbutton:focus, .formbutton:hover {
+    background-image: -webkit-linear-gradient(top, #fd8800, #ffe700);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fd8800), to(#ffe700));
+    background-image: linear-gradient(to bottom, #fd8800, #ffe700)
+}
+
+.inp1 {
+    padding: 6px 20px 6px 45px;
+    width: 245px;
+}
+.inner-addon {
+    position: relative;
+}
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 11px 16px;
+    pointer-events: none;
+    left: 0;
+    color: #ffb73e;
+}
+/*ЦЕНЫ НА УСЛУГИ*/
+h2 {
+    font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center
+}
+
+.second-block {
+    background-color: #fff;
+    padding: 29px 0 0px 0;
+    text-align: center;
+}
+
+.sbimage {
+    margin-top: 45px
+}
+
+.second-block-text1 {
+    font-family: OpenSansBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    height: 68px
+}
+
+.second-block-text2 {
+    font-family: OpenSansLight, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0
+}
+
+.sbimg {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.border-bottom {
+    width: 150px;
+    border-bottom: #ff9600 2px solid;
+    margin-bottom: 68px
+}
+
+.sb {
+    margin-top: 20px
+}
+
+/*ПОЧЕМУ ВЫГОДНО ВЫЗЫВАТЬ НАС*/
+.third-block {
+    padding-bottom: 78px;
+    background-image: url(../img/third-block.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd
+}
+
+.third-block-content h2 {
+    font-family: OpenSansLight, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.third-block-container {
+    height: 120px;
+    width: 380px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #eee;
+    border: #c9c9c9 1px solid;
+    margin-bottom: 22px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+}
+
+.third-block-container img {
+    padding: 28px 20px 28px 30px
+}
+
+.third-block-text {
+    font-family: OpenSansLight, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    width: 220px;
+    vertical-align: middle;
+    font-weight: bold;
+    color: black;
+}
+/*ОСТАЛИСЬ ВОПРОСЫ? ОСТАВЬТЕ ЗАЯВКУ И МЫ ПЕРЕЗВОНИМ В ТЕЧЕНИЕ 3 МИНУТ*/
+.form-panel {
+    padding: 60px 0;
+    background-image: url(../img/form-panel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ffa425;
+    text-align: center
+}
+
+.form-panel-text {
+    color: #fff;
+    font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase
+}
+
+.form-panel-inputs {
+    padding: 0 11px
+}
+
+.form-panel-inputs input {
+    padding: 5px 20px 5px 20px;
+    font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    display: block;
+    width: 250px;
+    margin-top: 65px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: #fff 1px solid;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff
+}
+
+.form-panel-inputs input::-webkit-input-placeholder {
+    color: #fff
+}
+
+.form-panel-inputs input::-moz-placeholder {
+    color: #fff
+}
+
+.form-panel-inputs input::-moz-placeholder {
+    color: #fff
+}
+
+.form-panel-inputs input::-ms-input-placeholder {
+    color: #fff
+}
+
+.form-panel-button {
+    margin: 0;
+    padding: 0;
+    padding-left: 60px
+}
+
+.button1 {
+    width: 220px;
+    height: 60px;
+    margin-top: 55px;
+    font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #fc5718;
+    border: none;
+    background: -moz-linear-gradient(#ff5f05, #eb4875);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff5f05), to(#eb4875))
+}
+
+.button1:focus, .button1:hover {
+    text-decoration: none;
+    color: #fff;
+    background: -moz-linear-gradient(#cc4b00, #e61A53);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#cc4b00), to(#e61a53))
+}
+.reviews {
+    padding-bottom: 85px
+}
+
+.reviews h2 {
+    text-transform: uppercase;
+    font-family: OpenSansLight, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 0
+}
+
+.reviews-slider {
+    height: 440px;
+    width: 230px;
+    border: #000 1px solid;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    position: relative; }
+.reviews-slider img {
+    margin-bottom: 20px;
+    width: 130px;
+    height: 130px; }
+.reviews-slider-text {
+    font-family: OpenSansLight;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    margin: 0; }
+.reviews-slider-date {
+    font-family: OpenSansLight;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 10px; }
+.reviews-slider-date p {
+    font-size: 18px;
+    font-family: OpenSansLightItalic;
+    font-style: italic;
+    margin: 0;
+    padding: 0; }
+
+@media only screen and (max-width: 1199px) {
+
+
+    .forms-top {
+        width: 290px;
+        margin: auto;
+    }
+    .form-panel-button {
+        padding-left: 0
+    }
+    .form-panel-text{
+        margin: 0px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .forms-top {
+        margin: auto
+    }
+
+    h1 {
+        margin: 0px 10px
+    }
+
+    .first-block-image {
+        padding-left: 20px
+    }
+
+    first-block-text {
+        text-align: left;
+        padding-top: 20px
+    }
+
+    .first-block-text p {
+        margin-top: 8px
+    }
+
+    .div-container {
+        width: 100%
+    }
+    .second-block {
+        padding: 10px 0 50px 0
+    }
+
+    .second-block-text1 {
+        font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        height: 70px
+    }
+
+    .sb {
+        width: 200px
+    }
+
+    .txt {
+        height: 70px
+    }
+    .third-block-container {
+        margin: auto;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+
+    .third-block {
+        padding-bottom: 30px
+    }
+    .row{
+        margin: 0;
+    }
+    .form-panel-inputs input {
+        width: 230px;
+        margin: 20px auto 0 auto
+    }
+
+    .button1 {
+        margin-top: 10px
+    }
+
+    .form-panel-button {
+        padding: 0
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    h1 {
+        margin: 0 10px
+    }
+
+    .div-container {
+        width: 100%
+    }
+
+    .first-block {
+        text-align: center
+    }
+
+    .first-block-text {
+        text-align: left;
+        padding-top: 23px
+    }
+
+    .first-block-text p {
+        margin-top: 8px
+    }
+
+    .forms-top {
+        margin: auto
+    }
+    .second-block {
+        padding: 10px 0 0 0
+    }
+
+    .second-block-text1 {
+        font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        height: 70px
+    }
+
+    .txt {
+        height: 20px
+    }
+
+    .border-bottom {
+        margin-bottom: 20px
+    }
+
+    .sb-button {
+        margin-bottom: 15px
+    }
+
+    .sb {
+        margin-top: 10px
+    }
+
+    .sbimg {
+        width: 250px
+    }
+    .third-block-container {
+        margin: auto;
+        margin-bottom: 10px
+    }
+    .forms-align {
+        width: 265px;
+        margin: auto
+    }
+
+    .form-panel-button {
+        margin: 0;
+        padding: 0;
+        padding-left: 0px
+    }
+
+    .form-panel-inputs input {
+        width: 230px;
+        margin: 20px auto 0 auto
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px
+    }
+
+    .first-block-image {
+        padding-left: 0
+    }
+
+    .first-block {
+        text-align: center
+    }
+
+    .first-block-text {
+        text-align: left;
+        line-height: 20px;
+        padding-top: 18px
+    }
+
+    .forms-inputs {
+        padding: 0 23px
+    }
+
+    .inputxt {
+        width: 220px
+    }
+
+    .inp1 {
+        width: 244px
+    }
+
+    .forms-top {
+        width: 290px;
+        margin: auto;
+        height: 250px
+    }
+
+
+    .div-container {
+        width: 100%
+    }
+    .sbimage {
+        margin-top: 0
+    }
+    .second-block {
+        padding: 10px 0 0 0
+    }
+
+    .second-block-text1 {
+        font-family: OpenSansSemiBold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        height: 70px
+    }
+
+    .txt {
+        height: 20px
+    }
+
+    .border-bottom {
+        margin-bottom: 20px
+    }
+
+    .sb-button {
+        margin-bottom: 15px
+    }
+
+    .sb {
+        margin-top: 10px
+    }
+
+    .sbimg {
+        width: 250px
+    }
+    .third-block-content h2 {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .third-block-container {
+        width: 95%;
+        margin: 20px auto
+    }
+
+    .third-block-text {
+        font-size: 15px;
+        width: 150px
+    }
+    .row {
+        margin: 0
+    }
+    .form-panel-text{
+        font-size: 23px;
+    }
+    .form-panel-inputs {
+        padding: 2px 0
+    }
+
+    .form-panel-inputs input {
+        margin: 20px auto 0 auto;
+        width: 230px
+    }
+
+    .form-panel-button {
+        padding: 0;
+        text-align: center
+    }
+
+    .button1 {
+        margin-top: 20px
+    }
+    .reviews{
+        padding-bottom: 30px;
+    }
+    .reviews h2{
+        padding: 30px 0px;
+    }
+    .reviews-slider{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .first-block {
+        text-align: center
+    }
+
+    .first-block-text {
+        font-size: 15px;
+        padding-top: 9px
+    }
+
+    .forms-inputs input {
+        width: 220px
+    }
+
+    .forms-top {
+        width: 290px;
+        padding: 0 15px
+    }
+    .row {
+        margin: 0
+    }
+
+}
+

@@ -67,6 +67,15 @@ $(document).ready(function() {
                 success : function(){
                     $.arcticmodal('close');$('#okgo').arcticmodal();
                     //submit_track_event(track_event);
+                    if(yaCounter46130496){
+                        yaCounter46130496.reachGoal('zayavka_sitewriters.ru');
+                    }
+                    if (_gaq) {
+                        _gaq.push('_trackEvent', 'zayavka_sitewriters.ru');
+                    }
+                    if (ga) {
+                        ga('send', 'event', 'zayavka_sitewriters.ru');
+                    }
                 }
             }); 
         }else{

@@ -41,6 +41,15 @@ $(document).ready(function() {
                 success : function(){
                     $.arcticmodal('close');$('#okgo').arcticmodal();
                     //submit_track_event(track_event);
+                    if(yaCounter46130505){
+                        yaCounter46130505.reachGoal('zayavka_advertexperts.ru');
+                    }
+                    if (_gaq) {
+                        _gaq.push('_trackEvent', 'zayavka_advertexperts.ru');
+                    }
+                    if (ga) {
+                        ga('send', 'event', 'zayavka_advertexperts.ru');
+                    }
                 }
             }); 
         }else{
