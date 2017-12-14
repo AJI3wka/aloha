@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Futurist';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Futurist'), url(../fonts/futurist.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Old Standard';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Old Standard'), local('Old Standard TT'), url(../fonts/OldStandard-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Old Standard';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Old Standard'), local('Old Standard TT'), url(../fonts/OldStandard-Italic.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Old Standard';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Old Standard'), local('Old Standard TT'), url(../fonts/OldStandard-Bold.ttf) format('truetype')
+}

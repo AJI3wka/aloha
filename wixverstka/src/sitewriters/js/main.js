@@ -66,15 +66,17 @@ $(document).ready(function() {
             $.ajax({type: type, url: url, data: data,
                 success : function(){
                     $.arcticmodal('close');$('#okgo').arcticmodal();
+                    $('input[name="name"]').val('');
+                    $('input[name="phone"]').val('');
                     //submit_track_event(track_event);
-                    if(yaCounter46130496){
+                    if(typeof yaCounter46130496 !== "undefined"){
                         yaCounter46130496.reachGoal('zayavka_sitewriters.ru');
                     }
-                    if (_gaq) {
-                        _gaq.push('_trackEvent', 'zayavka_sitewriters.ru');
+                    if (typeof ga !== "undefined") {
+                        ga('send', 'event', 'zayavka_sitewriters.ru', 'zayavka_sitewriters.ru');
                     }
-                    if (ga) {
-                        ga('send', 'event', 'zayavka_sitewriters.ru');
+                    if (typeof _gaq !== "undefined") {
+                        _gaq.push('_trackEvent', 'zayavka_sitewriters.ru', 'zayavka_sitewriters.ru');
                     }
                 }
             }); 

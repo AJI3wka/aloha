@@ -40,15 +40,17 @@ $(document).ready(function() {
             $.ajax({type: type, url: url, data: data,
                 success : function(){
                     $.arcticmodal('close');$('#okgo').arcticmodal();
+                    $('input[name="name"]').val('');
+                    $('input[name="phone"]').val('');
                     //submit_track_event(track_event);
-                    if(yaCounter46130505){
+                    if(typeof yaCounter46130505 !== "undefined"){
                         yaCounter46130505.reachGoal('zayavka_advertexperts.ru');
                     }
-                    if (_gaq) {
-                        _gaq.push('_trackEvent', 'zayavka_advertexperts.ru');
+                    if (typeof ga !== "undefined") {
+                        ga('send', 'event', 'zayavka_advertexperts.ru', 'zayavka_advertexperts.ru');
                     }
-                    if (ga) {
-                        ga('send', 'event', 'zayavka_advertexperts.ru');
+                    if (typeof _gaq !== "undefined") {
+                        _gaq.push('_trackEvent', 'zayavka_advertexperts.ru', 'zayavka_advertexperts.ru');
                     }
                 }
             }); 
