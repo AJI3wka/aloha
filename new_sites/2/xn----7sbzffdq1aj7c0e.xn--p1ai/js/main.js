@@ -83,7 +83,8 @@ $(document).ready(function () {
     $('[data-role="teacher-portfolio"]').owlCarousel({
         nav: true,
         navText: ['<i class="icon prev"></i>', '<i class="icon next"></i>'],
-        items: '4'
+        items: '5',
+        loop: true
     });
 
     $('[data-role="student-portfolio"]').owlCarousel({
@@ -92,11 +93,11 @@ $(document).ready(function () {
         items: '4'
     });
 
-    $('[data-role="teacher-coop"]').owlCarousel({
-        nav: true,
-        navText: ['<i class="icon prev"></i>', '<i class="icon next"></i>'],
-        items: '8'
-    });
+    //$('[data-role="teacher-coop"]').owlCarousel({
+    //    nav: true,
+    //    navText: ['<i class="icon prev"></i>', '<i class="icon next"></i>'],
+    //    items: '4'
+    //});
 
     $('[data-role="teacher-cert"]').owlCarousel({
         nav: true,

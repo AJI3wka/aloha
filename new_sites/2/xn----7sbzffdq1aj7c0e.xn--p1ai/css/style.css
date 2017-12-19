@@ -1767,7 +1767,7 @@ body {
 }
 
 .owl-carousel .owl-stage-outer {
-  margin: 0 30px;
+   margin: 0 30px;
 }
 
 .our-school__photos .owl-stage .owl-item {
@@ -2032,4 +2032,23 @@ width: 350px;
 
 ::-webkit-scrollbar {
   width: 14px;
+}
+.owl-carousel_hidden{
+line-height: 90px;
+height: 90px;
+text-align: center;
+}
+.owl-carousel_hidden img{
+  
+display: inline-block;
+  
+width: 150px;
+  
+vertical-align: middle;
+  
+margin: 0 10px;
+}
+.teacher__portfolio .owl-carousel .owl-item img{width: initial;display: inline;}
+.teacher__portfolio .owl-carousel .owl-item{
+  text-align: center;
 }
