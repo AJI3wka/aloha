@@ -16,7 +16,7 @@ body {
 /* custom btn */
 .black-btn {
   font-family: 'Futurist', sans-serif;
-  width: 300px;
+  width: 280px;
   padding: 10px 0;
   background: #000;
   border: 1px solid #000;
@@ -26,6 +26,7 @@ body {
   -webkit-transition: 0.4s;
           transition: 0.4s;
   cursor: pointer;
+  margin-right:20px;
 }
 .black-btn:hover {
   background: transparent;
@@ -115,7 +116,7 @@ body {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  width: 230px;
+  width: 260px;
 }
 
 .logo__letter {
@@ -125,15 +126,16 @@ body {
 
 .logo__text {
   font-size: 16px;
-  margin: 0 10px 0 20px;
+  margin: 0 0px 0 30px;
+  width: 105px;
 }
 
 /* main-menu */
 .main-head__menu {
   list-style: none;
   padding: 0;
-  margin: 0 0 0 105px;
-  width: 300px;
+  margin: 0 0 0 65px;
+  width: 235px;
 }
 
 .main-head__menu--item {
@@ -546,8 +548,11 @@ body {
 
 .for-you__tabs-ctrl {
   margin: 0;
+  width: 300px;
 }
-
+.for-you__tabs-content{
+	width: 750px;
+}
 .for-you__tabs-ctrl--item {
   display: -webkit-box;
   display: -webkit-flex;

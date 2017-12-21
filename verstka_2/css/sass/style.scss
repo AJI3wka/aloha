@@ -1,0 +1,90 @@
+$fontfamily: 'GothamPro';
+$afont: 'MuseoCyrl';
+$wievport: 1000px;
+#maket {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url(../maket.png) no-repeat 3px top; 
+    height:s 7103px;
+    opacity: 0.5;
+    z-index: 20;
+    margin-top: 0;
+}
+@mixin ibw() {
+    text-align: center;
+    font-size: 0;
+    &>* {
+        font-size: 1rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+@mixin sec() {
+    width: 100%;
+    min-width: $wievport;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    background-size: cover!important;
+    &>div {
+        max-width: $wievport;
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+:after, :before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+    content: none;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 1em;
+    font-weight: inherit;
+    text-align: center;
+    font-weight: 400;
+}
+h3 {
+    font-weight: 300;
+} 
+body {
+    font-family: $fontfamily,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0!important;
+}
+a, button {
+    cursor: pointer;
+}
+button, input, textarea {
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.section, .head, section, footer {
+    @include sec();
+}
