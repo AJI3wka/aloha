@@ -206,6 +206,8 @@ input.error:-ms-input-placeholder {
 
 .container-fluid {
     overflow: hidden;
+    width: 100%;
+    padding: 0;
 }
 
 h2 {
@@ -573,6 +575,8 @@ height:100%;
     padding-top: 30px;
     height: 880px;
     background: url(../img/bg/1.jpg);
+    width: 100%;
+    margin: 0;
 }
 
 .screen1b {
@@ -806,7 +810,9 @@ height:100%;
 
 .submit_btn {
     width: 330px;
-    height: 57px;
+    /* height: 57px; */
+    padding-top: 12px;
+    padding-bottom: 14px;
     background-color: #ff6600;
     border-radius: 2px;
     box-shadow: 0 5px 18px 2px rgba(255, 87, 34, 0.4);
@@ -815,6 +821,8 @@ height:100%;
     font-size: 22px;
     border: none;
     outline: none;
+    width: 100%;
+    max-width: 330px;
 }
 
 .pamzak_btn {
@@ -1146,6 +1154,8 @@ height:100%;
     background: url("../img/bg/3.jpg") center top no-repeat;
     padding-top: 30px;
     margin-top: 30px;
+	width: 100%;
+	margin: 0;
 }
 
 .scr3_h2 {
@@ -1303,6 +1313,8 @@ height:100%;
     background: #fff;
     padding-top: 100px;
     margin-bottom: 75px;
+	width: 100%;
+	margin: 0;
 }
 
 .scr4_h2 {
@@ -1577,6 +1589,8 @@ margin-left:15px;
     min-height: 472px;
     background: url("../img/bg/bg4.jpg") center top no-repeat;
     padding-top: 150px;
+    width: 100%;
+    margin: 0;
 }
 
 .scr5_h2 {
@@ -1696,6 +1710,8 @@ margin-left:15px;
     min-height: 681px;
     background: #fff;
     padding-top: 87px;
+	width: 100%;
+	margin: 0;
 }
 
 .scr6_h2 {
@@ -1787,6 +1803,8 @@ margin-left:15px;
 .screen7 {
     min-height: 840px;
     padding-top: 116px;
+	width: 100%;
+	margin: 0;
 }
 
 .scr7_h2 {
@@ -1858,6 +1876,8 @@ margin-left:15px;
     min-height: 577px;
     background: url("../img/bg/8.png") center top no-repeat;
     padding-top: 0px;
+	width: 100%;
+	margin: 0;
 
 }
 
@@ -1867,6 +1887,8 @@ margin-left:15px;
     background: url("../img/bg/8.png") center top no-repeat;
     padding-top: 120px;
     margin-top: -50px;
+	width: 100%;
+	margin: 0;
 }
 
 .scr8_h2 {
@@ -1958,6 +1980,8 @@ margin-left:15px;
     padding-top: 100px;
     min-height: 800px;
     background: url("../img/bg/8.jpg") center top no-repeat;
+    width: 100%;
+    margin: 0;
 }
 
 .scr9_bg {
@@ -2314,6 +2338,8 @@ margin-left:15px;
     min-height: 650px;
     z-index: 2;
     position: relative;
+	width: 100%;
+	margin: 0;
 }
 
 .scr10a_h2 {
@@ -2511,6 +2537,8 @@ margin-left:15px;
     position: relative;
     z-index: 0;
     padding-top: 50px;
+	width: 100%;
+	margin: 0;
 }
 
 
@@ -2652,6 +2680,8 @@ margin-left:15px;
     position: relative;
     padding-top: 70px;
         background: url(../img/bg/12.png);
+	width: 100%;
+	margin: 0;
 
 }
 
@@ -2748,6 +2778,8 @@ margin-left:15px;
     width: 100%;
     margin: 0;
     background-size: cover;
+	width: 100%;
+	margin: 0;
 }
 
 .scr13_h2 {
@@ -2913,6 +2945,8 @@ margin-left:15px;
     min-height: 751px;
     padding-top: 90px;
     padding-bottom:90px;
+	width: 100%;
+	margin: 0;
 }
 
 .screen14 .slick-list:before,
@@ -3674,6 +3708,16 @@ margin-left:15px;
 /*}*/
 
 @media screen and (max-width: 1199px) {
+.logo{
+	font-size: 28px;
+}
+}
+@media screen and (max-width: 991px) {
+.logo{
+	font-size: 24px;
+}
+}
+@media screen and (max-width: 1199px) {
     .form5_inputs input {
         width: 219px;
     }
@@ -3709,7 +3753,8 @@ margin-left:15px;
         width: 240px;
     }
     .scr1_form_wrapper .submit_btn {
-        width: 330px;
+        max-width: 330px;
+        width: 100%;
     }
     .scr1_h1 {
     text-align: center;
@@ -3867,6 +3912,7 @@ margin-left:15px;
     position: relative;
     z-index: 1;
     text-align: center;
+    margin: 0 auto;
 }
 .scr4_text b {
     padding: 0px 0px 0;
@@ -4223,6 +4269,7 @@ height:100%;
     }
     .logo {
         margin-top: 10px;
+        margin-top: 0;
     }
     .top_menu {
         height: 80px;
@@ -4541,7 +4588,7 @@ height:100%;
     }
     .screen13 .form5_inputs .submit_btn {
         width: 210px;
-        height: 50px;
+        /* height: 50px; */
     }
     .screen14 {
         padding: 40px 0;
@@ -4643,9 +4690,9 @@ height:100%;
         margin-top: 0;
     }
     .form5_inputs .submit_btn {
-        height: 45px;
+        /* height: 45px; */
         width: 180px;
-        line-height: 42px;
+        /* line-height: 42px; */
     }
     .cc_row {
         max-width: 450px;
@@ -4741,7 +4788,9 @@ height:100%;
 }
 .screen13 .form5_inputs .submit_btn {
     width: 330px;
-    height: 50px;
+    /* height: 50px; */
+    max-width: 330px;
+    width: 100%;
 }
 .scr17_block {
     margin-top: 120px;
@@ -5227,6 +5276,7 @@ height:100%;
     .logo,
     .hidden_trigger {
         margin-top: 18px;
+        line-height: 28px;
     }
     .scr8_form_wrapper .scr1_form_wrapper {
         width: 100%;
@@ -5330,7 +5380,7 @@ height:100%;
     margin-bottom:15px;
 
 }
-	.scr10а_block_btn {
+	.scr10Ð°_block_btn {
     display: inline-block; 
     width: 490px;
     height: 60px;
