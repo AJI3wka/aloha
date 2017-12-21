@@ -1,16 +1,16 @@
-/* line 10, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 4, D:/science/aloha/verstka_2/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  background: url(../maket.png) no-repeat 3px top;
-  height: s 7103px;
+  background: url(../maket.jpg) no-repeat center top;
+  height: 7103px;
   opacity: 0.5;
   z-index: 20;
   margin-top: 0; }
 
-/* line 45, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 39, D:/science/aloha/verstka_2/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 53, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 47, D:/science/aloha/verstka_2/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -27,1136 +27,142 @@
   height: 0;
   clear: both; }
 
-/* line 60, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 54, D:/science/aloha/verstka_2/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 57, D:/science/aloha/verstka_2/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
   font-weight: 400; }
 
-/* line 69, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 63, D:/science/aloha/verstka_2/css/sass/style.scss */
 h3 {
   font-weight: 300; }
 
-/* line 72, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 66, D:/science/aloha/verstka_2/css/sass/style.scss */
 body {
-  font-family: arial, sans-serif;
+  font-family: "GothamPro", sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   color: black;
   background-color: #fff; }
 
-/* line 80, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 74, D:/science/aloha/verstka_2/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 85, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 79, D:/science/aloha/verstka_2/css/sass/style.scss */
 a, button {
   cursor: pointer; }
 
-/* line 88, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
+/* line 82, D:/science/aloha/verstka_2/css/sass/style.scss */
 button, input, textarea {
   outline: none;
   border: none;
   margin: 0 5px;
   vertical-align: middle; }
 
-/* line 94, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.section, .head, section, footer {
+/* line 88, D:/science/aloha/verstka_2/css/sass/style.scss */
+.section, .head, header, section, footer {
   width: 100%;
-  min-width: 980px;
+  min-width: 1000px;
   overflow: hidden;
   position: relative;
   z-index: 2;
   background-size: cover !important; }
-  /* line 37, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .section > div, .head > div, section > div, footer > div {
-    max-width: 980px;
+  /* line 31, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .section > div, .head > div, header > div, section > div, footer > div {
+    max-width: 1000px;
     position: relative;
     z-index: 2;
     height: 100%;
     margin: 0 auto; }
 
-/* line 97, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.head {
-  background: url(../img/head.png) no-repeat center;
-  background-size: cover;
-  border-bottom: 3px solid #519cff;
-  height: 160px; }
-  /* line 102, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .head .logo {
-    width: 88px;
-    height: 88px;
-    border-radius: 100%;
-    float: left;
-    background: #3668a9;
-    color: white;
-    text-align: center;
-    line-height: 88px;
-    margin-left: 68px;
-    margin-top: 24px;
-    font-size: 49px; }
-  /* line 115, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .head .m-text {
-    float: left;
-    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
-    color: black;
-    font-size: 55px;
-    line-height: 137px;
-    margin-left: 150px; }
-  /* line 123, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .head .phones {
-    color: black;
-    float: right;
-    margin-right: 26px;
-    width: 200px;
-    text-align: center;
-    margin-top: 34px; }
-    /* line 130, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .head .phones .phone {
-      display: inline-block;
-      font-size: 22px;
-      line-height: 29px; }
-
-/* line 141, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec2 {
-  background: url(../img/bg2.png) no-repeat center;
-  background-size: 100% 100% !important; }
-  /* line 145, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec2 > div {
-    padding-top: 25px;
-    padding-bottom: 27px; }
-  /* line 149, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec2 .block {
-    padding-bottom: 64px;
-    background: rgba(255, 255, 255, 0.93);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    background-image: url(../img/strela.png);
-    background-repeat: no-repeat;
-    background-position: 2px 451px;
-    background-size: 603px 114px; }
-    /* line 157, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec2 .block h2 {
-      color: #2a2b2c;
-      font-size: 35px;
-      line-height: 38px;
-      padding-top: 20px;
-      height: 102px;
-      text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-    /* line 165, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec2 .block .left {
-      float: left; }
-      /* line 167, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec2 .block .left ul {
-        margin-left: 103px;
-        padding-top: 17px; }
-        /* line 170, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec2 .block .left ul span {
-          color: #000000;
-          font-size: 23px; }
-        /* line 174, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec2 .block .left ul li {
-          font-size: 20px;
-          line-height: 26px;
-          letter-spacing: 0.5px;
-          margin-bottom: 2px; }
-      /* line 181, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec2 .block .left p {
-        color: black;
-        font-size: 20px;
-        margin-left: 72px;
-        margin-top: 51px;
-        line-height: 27px;
-        width: 534px;
-        letter-spacing: 0.1px; }
-    /* line 191, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec2 .block .right {
-      width: 332px;
-      height: 415px;
-      float: left;
-      margin-top: 10px;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-      background-color: white; }
-      /* line 198, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec2 .block .right img {
-        display: inline-block;
-        margin-top: 34px;
-        margin-left: 16px; }
-      /* line 203, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec2 .block .right .form {
-        width: 310px;
-        height: 166px;
-        display: block;
-        margin-top: 39px;
-        margin-left: 12px;
-        box-shadow: 0px 0px 8px 0px #000000; }
-
-/* line 215, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec3 > div {
-  padding-top: 33px;
-  padding-bottom: 27px; }
-
-/* line 219, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec3 .block {
-  width: 956px;
-  margin: 0 auto;
-  background-color: rgba(11, 104, 154, 0.04);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  padding-bottom: 48px; }
-  /* line 225, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec3 .block .logo2 {
-    text-align: center;
-    background-color: #3668a9;
-    width: 320px;
-    color: white;
-    font-size: 110px;
-    line-height: 188px;
-    height: 335px;
-    margin-top: 125px;
-    float: left;
-    margin-left: 14px;
-    background-size: 100% 100%;
-    border-radius: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53); }
-  /* line 240, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec3 .block .midl {
-    float: left;
-    text-align: left;
-    width: 390px; }
-    /* line 244, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .block .midl h3 {
-      font-size: 16px;
-      margin-top: 19px;
-      margin-right: 6px; }
-    /* line 249, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .block .midl .jaboris {
-      font-size: 13px;
-      margin-top: 4px;
-      line-height: 18px;
-      letter-spacing: 0.2px;
-      text-align: left;
-      margin-left: 27px;
-      margin-right: 12px; }
-      /* line 257, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec3 .block .midl .jaboris span.b {
-        text-decoration: underline; }
-      /* line 260, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec3 .block .midl .jaboris span.abz {
-        display: inline-block;
-        width: 31px; }
-    /* line 265, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .block .midl .ourcompany {
-      font-size: 13px;
-      margin-top: 1px;
-      line-height: 18px;
-      letter-spacing: 0.4px;
-      text-align: left;
-      margin-left: 24px;
-      margin-right: 7px; }
-      /* line 273, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec3 .block .midl .ourcompany span.b {
-        text-decoration: underline; }
-      /* line 276, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec3 .block .midl .ourcompany span.ins {
-        text-decoration: underline;
-        font-weight: bold; }
-  /* line 282, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec3 .block .ystinskiu {
-    font-size: 20px;
-    text-align: center;
-    margin-right: 9px;
-    margin-top: 10px; }
-
-/* line 290, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec3 .right {
-  float: right;
-  width: 230px;
-  height: 400px;
-  text-align: center;
-  padding-top: 46px; }
-  /* line 296, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec3 .right .li {
-    margin-bottom: 10px; }
-    /* line 298, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .right .li .number {
-      font-size: 43px;
-      line-height: 44px; }
-    /* line 302, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .right .li .line1 {
-      border-bottom: 3px solid #519cff;
-      width: 96px;
-      height: 3px;
-      margin: 0px auto 8px; }
-    /* line 308, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .right .li .line2 {
-      border-bottom: 3px solid #519cff;
-      width: 133px;
-      height: 3px;
-      margin: 0px auto 8px; }
-    /* line 314, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .right .li .line3 {
-      border-bottom: 3px solid #519cff;
-      width: 165px;
-      height: 3px;
-      margin: 0px auto 8px; }
-    /* line 320, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec3 .right .li .line4 {
-      width: 210px;
-      height: 3px;
-      border-bottom: 3px solid #519cff;
-      margin: 0px auto 8px; }
-
-/* line 330, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec4 {
-  background-color: white; }
-  /* line 332, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec4 h2 {
-    font-size: 35px;
-    margin-top: 27px;
-    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 337, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec4 .block {
-    text-align: center;
-    padding-bottom: 25px; }
-    /* line 340, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec4 .block .li {
-      display: inline-block;
-      width: 300px;
-      margin-top: 45px;
-      vertical-align: top; }
-      /* line 345, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec4 .block .li.lim {
-        margin-top: 82px; }
-      /* line 348, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec4 .block .li .number {
-        font-size: 43px; }
-      /* line 351, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec4 .block .li .line {
-        border-bottom: 3px solid #519cff;
-        width: 256px;
-        height: 3px;
-        margin-left: 21px;
-        margin-top: 40px; }
-      /* line 358, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec4 .block .li .text {
-        font-size: 17px;
-        margin-top: 23px; }
-
-/* line 366, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 h2 {
-  font-size: 35px;
-  margin-top: 21px;
-  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-
-/* line 371, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_1 {
-  padding-bottom: 42px;
-  text-align: center;
-  padding-top: 56px; }
-  /* line 375, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_1 .li {
-    display: inline-block;
-    width: 212px;
-    vertical-align: top;
-    margin: 0 10px 0;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    padding-bottom: 42px; }
-    /* line 382, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec5 .block_1 .li h4 {
-      font-size: 27px;
-      margin-top: 18px;
-      height: 42px;
-      border-bottom: 3px solid #519cff; }
-    /* line 388, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec5 .block_1 .li ul {
-      text-align: left;
-      margin-top: 20px;
-      list-style-position: inside;
-      height: 340px; }
-      /* line 393, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec5 .block_1 .li ul li {
-        font-size: 14px;
-        list-style-position: inside;
-        margin-left: 4px;
-        line-height: 19px; }
-        /* line 398, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec5 .block_1 .li ul li:before, .sec5 .block_1 .li ul li:after {
-          content: none; }
-        /* line 401, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec5 .block_1 .li ul li .b {
-          font-weight: bold; }
-        /* line 404, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec5 .block_1 .li ul li .ins {
-          text-decoration: underline;
-          display: inline-block;
-          margin-left: 18px; }
-    /* line 411, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec5 .block_1 .li .price {
-      font-size: 32px;
-      margin-right: 8px; }
-
-/* line 418, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_2 .left {
-  text-align: center;
-  float: left;
-  font-size: 21px;
-  margin-top: 78px;
-  line-height: 26px;
-  width: 350px;
-  height: 130px;
-  background: url(../img/strela.png);
-  background-repeat: no-repeat;
-  background-position: 19px 9px;
-  background-size: 329px; }
-
-/* line 431, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_2 .middle {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  margin-left: 10px;
-  margin-top: 2px;
-  float: left;
-  width: 257px;
-  height: 345px; }
-  /* line 438, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_2 .middle h4 {
-    border-bottom: 3px solid #519cff;
-    font-size: 26px;
-    height: 40px;
-    text-align: center;
-    margin-top: 20px; }
-  /* line 445, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_2 .middle ul {
-    float: left;
-    width: 260px;
-    height: 205px;
-    margin-top: 32px; }
-    /* line 450, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec5 .block_2 .middle ul li {
-      text-align: left;
-      font-size: 19px;
-      margin-left: 27px;
+/* line 91, D:/science/aloha/verstka_2/css/sass/style.scss */
+.sec1 {
+  height: 807px; }
+  /* line 94, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec1 .header .left {
+    float: left; }
+    /* line 96, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .left .logo {
+      background: url(../img/logo.png) no-repeat;
+      width: 45px;
+      height: 45px;
+      margin-top: 43px; }
+    /* line 103, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .left .token {
+      color: #183e8c;
+      font-family: MuseoCyrl;
+      font-size: 23px;
       line-height: 28px; }
-      /* line 455, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec5 .block_2 .middle ul li.plus {
-        text-align: center;
-        list-style: none;
-        padding-right: 25px; }
-      /* line 460, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec5 .block_2 .middle ul li .ins {
-        text-decoration: underline; }
-  /* line 465, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_2 .middle .price {
-    width: 257px;
-    height: 64px;
-    margin-top: 220px;
-    text-align: center;
-    font-size: 32px;
-    line-height: 16px; }
-
-/* line 474, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_2 .right {
-  width: 300px;
-  height: 200px;
-  float: right;
-  margin-right: 31px;
-  margin-top: 71px; }
-  /* line 480, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_2 .right .text {
-    font-size: 20px;
-    text-align: center;
-    line-height: 27px; }
-    /* line 484, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec5 .block_2 .right .text .ins {
-      text-decoration: underline; }
-  /* line 488, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .block_2 .right img {
-    width: 250px;
-    height: 38px;
-    margin-left: 32px; }
-
-/* line 496, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_3 .left {
-  text-align: center;
-  font-size: 20px;
-  line-height: 27px;
-  margin-top: 25px;
-  letter-spacing: 1.2px;
-  margin-left: 21px;
-  width: 290px;
-  float: left; }
-
-/* line 506, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_3 .middle {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 313px;
-  height: 166px;
-  float: left;
-  margin-left: 14px;
-  margin-top: 26px;
-  background: #f1f1f1; }
-
-/* line 515, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .block_3 .right {
-  width: 320px;
-  height: 230px;
-  text-align: center;
-  font-size: 21px;
-  line-height: 27px;
-  float: right;
-  margin-top: 26px;
-  padding-right: 20px;
-  margin-right: 10px;
-  background-image: url(../img/strelalft.png);
-  background-position: 12px 115px; }
-
-/* line 529, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec5 .btn {
-  width: 692px;
-  height: 42px;
-  padding-top: 8px;
-  font-size: 25px;
-  background: url(../img/btnbg.png);
-  margin: 12px auto 0;
-  text-align: center;
-  color: #FFFFFF;
-  border-bottom: 3px solid #519cff; }
-  /* line 539, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec5 .btn span {
-    text-decoration: underline;
-    font-weight: bold; }
-
-/* line 546, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec6 > div {
-  padding-bottom: 5px; }
-
-/* line 549, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec6 h2 {
-  width: 980px;
-  height: 55px;
-  font-size: 35px;
-  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
-  margin-top: 50px;
-  border-bottom: 3px solid #519cff; }
-
-/* line 565, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec6 .res_block {
-  border-bottom: 3px solid #519cff;
-  margin-top: 2px;
-  height: 340px; }
-  /* line 569, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec6 .res_block .left {
-    float: left;
-    margin-top: 6px; }
-  /* line 573, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec6 .res_block .right {
+    /* line 111, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .left .fizobmen {
+      color: #183e8c;
+      font-family: GothamPro;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px; }
+  /* line 121, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec1 .header .right {
     float: right;
-    width: 305px;
-    height: 159px;
-    margin-right: 48px;
-    margin-top: 80px;
-    background-color: rgba(197, 195, 195, 0.08);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-    /* line 581, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .res_block .right h5 {
-      font-size: 27px;
-      margin-top: 31px;
-      margin-bottom: 33px; }
-    /* line 586, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .res_block .right .li {
-      font-size: 15px;
-      margin-left: 42px; }
-      /* line 589, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec6 .res_block .right .li span {
-        float: right;
-        margin-right: 49px; }
-
-/* line 596, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec6 .block_p {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 950px;
-  margin: 36px auto 0; }
-  /* line 600, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec6 .block_p .line {
-    height: 251px; }
-    /* line 602, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line.line1 {
-      border-bottom: 3px solid #519cff; }
-    /* line 608, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .left .text h5 {
-      font-size: 18px;
-      float: left;
-      margin-left: 16px;
-      margin-top: 23px; }
-    /* line 614, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .left .text p {
-      font-size: 17px;
-      float: left;
-      text-align: left;
-      margin-top: 11px;
-      margin-left: 24px; }
-    /* line 625, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .right .text h5 {
-      font-size: 18px;
-      float: right;
-      margin-right: 15px;
-      margin-top: 23px; }
-    /* line 631, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line.line2 .right .text p {
-      font-size: 17px;
-      float: right;
-      text-align: left;
-      margin-top: 12px;
-      margin-left: 19px; }
-    /* line 641, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line .left {
-      width: 500px;
-      float: left; }
-      /* line 644, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec6 .block_p .line .left .img {
-        float: left;
-        width: 197px;
-        height: 250px; }
-        /* line 648, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .left .img.img1 {
-          background: url(../img/vesa.png) no-repeat center; }
-        /* line 651, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .left .img.img3 {
-          background: url(../img/garant.png) no-repeat;
-          background-position: 31px 40px; }
-      /* line 656, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec6 .block_p .line .left .text {
-        float: right;
-        width: 300px;
-        height: 180px; }
-        /* line 660, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .left .text h5 {
-          font-size: 18px;
-          margin-top: 34px;
-          margin-right: 77px; }
-        /* line 665, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .left .text p {
-          font-size: 17px;
-          margin-top: 22px;
-          margin-left: 19px;
-          line-height: 22px; }
-    /* line 673, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec6 .block_p .line .right {
-      float: right;
-      width: 450px;
-      height: 250px; }
-      /* line 677, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec6 .block_p .line .right .img {
-        float: left;
-        width: 180px;
-        height: 250px; }
-        /* line 681, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .right .img.img2 {
-          background: url(../img/korzina.png) no-repeat center;
-          background-position: 21px 59px; }
-        /* line 685, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .right .img.img4 {
-          background: url(../img/strelatop.png) no-repeat center;
-          background-position: 28px 48px; }
-      /* line 690, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec6 .block_p .line .right .text {
-        float: right;
-        width: 270px;
-        height: 180px; }
-        /* line 694, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .right .text h5 {
-          font-size: 18px;
-          margin-top: 34px;
-          margin-right: 36px; }
-        /* line 699, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec6 .block_p .line .right .text p {
-          font-size: 17px;
-          margin-top: 21px;
-          margin-left: 20px;
-          line-height: 22px; }
-
-/* line 711, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec7 > div {
-  padding-bottom: 5px;
-  padding-top: 25px; }
-
-/* line 715, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec7 .block {
-  padding-top: 30px;
-  width: 945px;
-  height: 420px;
-  margin: 0 auto;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 721, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec7 .block h2 {
-    font-size: 35px;
-    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 725, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec7 .block .ul {
-    padding: 0 54px; }
-    /* line 727, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec7 .block .ul .li {
-      float: left;
-      width: 25%;
+    line-height: 23px;
+    margin-top: 40px; }
+    /* line 128, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .right .phone {
       text-align: center;
-      margin-top: 54px; }
-      /* line 732, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec7 .block .ul .li h5 {
-        font-size: 21px; }
-      /* line 735, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec7 .block .ul .li .img {
-        height: 140px;
-        background-repeat: no-repeat;
-        background-position: center; }
-        /* line 739, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec7 .block .ul .li .img.img1 {
-          background-image: url(../img/simka.png); }
-        /* line 742, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec7 .block .ul .li .img.img2 {
-          background-image: url(../img/galava.png); }
-        /* line 745, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec7 .block .ul .li .img.img3 {
-          background-image: url(../img/detal.png); }
-        /* line 748, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec7 .block .ul .li .img.img4 {
-          background-image: url(../img/rocket.png); }
-      /* line 752, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec7 .block .ul .li p {
-        font-size: 17px;
-        margin-top: 29px;
-        line-height: 26px; }
-
-/* line 762, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec8 > div {
-  padding-bottom: 5px;
-  padding-top: 33px; }
-
-/* line 766, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec8 .block {
-  padding-top: 19px;
-  width: 945px;
-  height: 495px;
-  margin: 0 auto;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
-  /* line 772, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec8 .block h5 {
-    font-size: 35px;
-    margin-top: 10px;
-    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px; }
-  /* line 777, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec8 .block .ul {
-    padding: 0 54px; }
-    /* line 779, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec8 .block .ul .li {
-      float: left;
-      width: 25%;
-      text-align: center;
-      margin-top: 38px; }
-      /* line 784, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec8 .block .ul .li .img {
-        height: 92px;
-        background-repeat: no-repeat;
-        background-position: center; }
-      /* line 789, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec8 .block .ul .li.li1 {
-        width: 258px; }
-        /* line 792, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li1 .img.img1 {
-          background-image: url(../img/marsol.png);
-          background-size: 223px; }
-        /* line 796, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li1 .img.img2 {
-          background-image: url(../img/helper.png);
-          background-size: 235px;
-          background-position: 10px 13px; }
-        /* line 801, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li1 .img.img3 {
-          background-image: url(../img/sinergist.png);
-          background-size: 233px 55px;
-          background-position: 14px 13px; }
-        /* line 806, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li1 .img.img4 {
-          background-image: url(../img/promo.png); }
-      /* line 811, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec8 .block .ul .li.li2 {
-        width: 241px; }
-        /* line 814, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li2 .img.img1 {
-          background-image: url(../img/artlife.png);
-          background-size: 179px 45px;
-          background-position: 32px 23px; }
-        /* line 819, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li2 .img.img2 {
-          background-image: url(../img/aviant.png);
-          background-size: 179px 58px;
-          background-position: 32px 11px; }
-        /* line 824, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li2 .img.img3 {
-          background-image: url(../img/avon.png);
-          background-size: 178px 36px;
-          background-position: 33px 27px; }
-        /* line 829, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li2 .img.img4 {
-          background-image: url(../img/ispit.png); }
-      /* line 834, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec8 .block .ul .li.li3 {
-        width: 194px; }
-        /* line 837, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li3 .img.img1 {
-          background-image: url(../img/dolche.png);
-          background-size: 138px 42px;
-          background-position: 27px 27px; }
-        /* line 842, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li3 .img.img2 {
-          background-image: url(../img/resti.png);
-          background-size: 139px 45px;
-          background-position: 27px 19px; }
-        /* line 847, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li3 .img.img3 {
-          background-image: url(../img/native.png);
-          background-size: 139px 51px;
-          background-position: 27px 19px; }
-        /* line 852, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li3 .img.img4 {
-          background-image: url(../img/pr.png); }
-      /* line 857, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec8 .block .ul .li.li4 {
-        width: 144px; }
-        /* line 860, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li4 .img.img1 {
-          background-image: url(../img/pfb.png);
-          background-size: 95px 55px;
-          background-position: 34px 22px; }
-        /* line 865, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li4 .img.img2 {
-          background-image: url(../img/toyota.png);
-          background-size: 102px 67px;
-          background-position: 32px 6px; }
-        /* line 870, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li4 .img.img3 {
-          background-image: url(../img/impuls.png);
-          background-size: 102px 50px;
-          background-position: 31px 17px; }
-        /* line 875, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec8 .block .ul .li.li4 .img.img4 {
-          background-image: url(../img/airpair.png);
-          background-size: 102px 54px;
-          background-position: 40px 18px; }
-
-/* line 887, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec9 > div {
-  padding-top: 34px;
-  padding-bottom: 5px; }
-
-/* line 891, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec9 .block {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 945px;
-  margin: 0 auto;
-  padding-top: 37px;
-  padding-bottom: 14px; }
-  /* line 897, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec9 .block h2 {
-    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
-    font-size: 35px;
-    margin-bottom: 23px; }
-  /* line 902, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec9 .block .otz {
-    height: 205px; }
-    /* line 904, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec9 .block .otz.otz1 {
-      border-bottom: 3px solid #519cff; }
-    /* line 909, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec9 .block .otz .img {
-      float: left;
-      width: 120px;
-      height: 135px;
-      border-radius: 50px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
-      margin-left: 126px;
-      margin-top: 34px; }
-      /* line 918, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec9 .block .otz .img.img1 {
-        background: url(../img/otz1.png) no-repeat center; }
-      /* line 921, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec9 .block .otz .img.img2 {
-        background: url(../img/otz2.png) no-repeat center; }
-    /* line 925, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec9 .block .otz .text {
-      float: right;
-      margin-top: 35px;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 28px;
+      padding-right: 20px; }
+    /* line 137, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .right .adres {
       font-size: 16px;
-      padding-right: 66px;
-      width: 608px; }
-      /* line 931, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec9 .block .otz .text .ins {
-        text-decoration: underline; }
-      /* line 934, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec9 .block .otz .text .right {
-        display: block;
-        float: right;
-        margin-right: 28px;
-        margin-top: 17px;
-        font-size: 16px;
-        font-weight: 800; }
-
-/* line 947, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec10 > div {
-  padding-top: 32px;
-  padding-bottom: 5px; }
-
-/* line 952, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec10 .block {
-  margin: 0 auto;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  width: 945px;
-  padding-bottom: 21px; }
-  /* line 958, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec10 .block .top .left {
-    width: 340px;
-    float: left;
-    margin-left: 18px; }
-    /* line 962, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec10 .block .top .left .h2 {
-      position: relative;
-      text-align: center;
-      width: 100%;
-      overflow: hidden;
-      height: 137px; }
-      /* line 968, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec10 .block .top .left .h2 h2 {
-        color: #031E90;
-        font-size: 50px;
-        width: 100%;
-        position: absolute;
-        z-index: 2;
-        left: 0;
-        top: 52px; }
-      /* line 977, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec10 .block .top .left .h2 img {
-        margin-left: -5px;
-        margin-top: -1px;
-        filter: url(#whistler-comp-iuhuduwmimg);
-        width: 351px;
-        height: 122px;
-        object-fit: cover;
-        position: relative;
-        z-index: 1; }
-    /* line 988, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec10 .block .top .left .form {
-      box-shadow: 0px 0px 8px 0px #000000;
-      width: 313px;
-      height: 165px;
-      border-radius: 2px;
-      background: #f1f1f1;
-      margin: 0 auto; }
-  /* line 997, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec10 .block .top .right {
-    float: right;
-    width: 584px;
-    height: 406px;
-    background: url(../img/arr_right.png) no-repeat -8px 283px;
-    background-size: 610px 93px; }
-    /* line 1003, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec10 .block .top .right .ul {
-      text-align: center;
-      padding-left: 11px; }
-      /* line 1006, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      .sec10 .block .top .right .ul .li {
-        width: 150px;
-        float: left;
-        margin-left: 39px;
-        padding-top: 6px; }
-        /* line 1011, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li .ico {
-          width: 60px;
-          height: 50px;
-          object-fit: cover; }
-          /* line 1015, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico1 {
-            filter: url("#kennedy-comp-iuhtirisimg"); }
-          /* line 1018, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico2 {
-            filter: url("#darken-comp-iuhu1qw2img"); }
-          /* line 1021, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-          .sec10 .block .top .right .ul .li .ico.ico3 {
-            filter: url("#blueray-comp-iuhu1qc4img"); }
-        /* line 1025, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li .img {
-          border: 4px solid #c5c3c357;
-          margin-top: 8px; }
-        /* line 1029, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        .sec10 .block .top .right .ul .li p {
-          font-size: 17px;
-          padding: 0 10px;
-          margin-top: 5px;
-          line-height: 23px; }
-  /* line 1039, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec10 .block .bot {
-    width: 692px;
-    height: 42px;
-    padding-top: 8px;
-    font-size: 25px;
-    background: url(../img/btnbg.png);
-    margin: 0 auto 0;
-    text-align: center;
-    color: #FFFFFF;
-    border-bottom: 3px solid #519cff; }
-    /* line 1049, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec10 .block .bot span {
-      text-decoration: underline;
-      font-weight: bold; }
-
-/* line 1057, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec11 > div {
-  padding-top: 32px; }
-
-/* line 1060, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-.sec11 .block {
-  height: 350px;
-  width: 100%;
-  position: relative; }
-  /* line 1064, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec11 .block .map {
-    background: url(../img/fonmap.png);
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0; }
-  /* line 1073, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  .sec11 .block .right {
-    width: 393px;
-    position: absolute;
-    z-index: 2;
-    height: 100%;
-    top: 0;
-    right: 0;
-    color: white;
+      font-weight: 400;
+      line-height: 18px;
+      margin-top: 7px; }
+    /* line 145, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .right .telegram {
+      background: url(../img/telegram.png) no-repeat;
+      width: 37px;
+      height: 37px; }
+    /* line 153, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .right .viber {
+      background: url(../img/viber.png) no-repeat;
+      width: 37px;
+      height: 37px; }
+  /* line 165, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec1 h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #0d2a66;
     text-align: left;
-    background-color: rgba(84, 86, 88, 0.75);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    padding-top: 22px;
-    padding-left: 32px;
-    font-weight: 700; }
-    /* line 1087, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec11 .block .right h2 {
-      font-size: 44px;
-      line-height: 50px;
-      padding-right: 64px;
-      margin-bottom: 27px; }
-    /* line 1093, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec11 .block .right .ooo {
-      font-size: 26px;
-      margin-bottom: 23px; }
-    /* line 1097, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    .sec11 .block .right .contact {
-      font-size: 21px;
-      margin-bottom: 19px; }
-
-/* line 1104, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-footer {
-  background: #545658;
-  color: white; }
-  /* line 1107, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  footer > div {
-    padding-top: 40px;
-    padding-bottom: 10px; }
-  /* line 1111, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  footer .left {
-    float: left;
-    width: 500px; }
-    /* line 1114, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .left .logo {
-      background: #3668a9;
-      width: 88px;
-      height: 88px;
-      border: 1px solid white;
-      border-radius: 100%;
-      text-align: center;
-      line-height: 88px;
-      font-size: 48px;
-      margin-left: 37px;
-      margin-top: 5px;
-      float: left; }
-    /* line 1127, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .left .text {
-      float: left;
-      width: 319px;
-      margin-left: 31px;
-      padding-top: 9px;
-      font-size: 20px; }
-      /* line 1133, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .left .text .title {
-        margin-bottom: 17px; }
-      /* line 1136, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .left .text .info {
-        line-height: 27px;
-        margin-bottom: 25px; }
-      /* line 1140, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .left .text .copyright {
-        font-size: 16px; }
-  /* line 1145, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-  footer .right {
-    float: right;
+    margin-top: 50px;
+    letter-spacing: 2.9px; }
+  /* line 176, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec1 p {
+    color: #0d2a66;
+    font-family: MuseoCyrl;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 36px; }
+  /* line 183, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec1 .btn {
+    width: 234px;
+    height: 54px;
+    background-color: #283a83;
+    border-radius: 27px;
     text-align: center;
-    width: 355px;
-    font-size: 19px;
-    padding-top: 9px; }
-    /* line 1151, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .right .email {
-      margin-bottom: 19px;
-      display: inline-block; }
-    /* line 1157, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .right .phone {
-      font-size: 22px;
-      line-height: 22px;
-      margin-bottom: 6px; }
-    /* line 1162, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .right .other {
-      margin: 28px auto 0;
-      width: 226px;
-      padding-left: 4px;
-      text-align: center; }
-      /* line 1167, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .right .other .lpart {
-        float: left;
-        width: 174px; }
-        /* line 1172, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        footer .right .other .lpart img {
-          margin-top: 8px; }
-      /* line 1176, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .right .other .rpart {
-        float: right;
-        width: 42px; }
-        /* line 1181, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-        footer .right .other .rpart a {
-          background-image: url(../img/vk.png);
-          display: inline-block;
-          width: 40px;
-          height: 42px; }
-    /* line 1189, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-    footer .right .maket-by {
-      display: inline-block;
-      margin-top: 20px;
-      padding-left: 7px; }
-      /* line 1193, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .right .maket-by .text {
-        font-size: 13px;
-        float: left; }
-      /* line 1197, /Volumes/Workspace/CACHE/GITHUB/aloha/wixverstka/src/advertexperts/css/sass/style.scss */
-      footer .right .maket-by a {
-        float: left;
-        background-image: url(../img/logo2.png);
-        width: 166px;
-        height: 25px;
-        margin-left: 12px; }
+    line-height: 54px;
+    color: white;
+    margin-top: 104px;
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
