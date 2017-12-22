@@ -86,74 +86,94 @@ button, input, textarea {
 
 /* line 91, D:/science/aloha/verstka_2/css/sass/style.scss */
 .sec1 {
-  height: 807px; }
-  /* line 94, D:/science/aloha/verstka_2/css/sass/style.scss */
+  height: 807px;
+  background: url(../img/bg1.jpg) no-repeat center top; }
+  /* line 95, D:/science/aloha/verstka_2/css/sass/style.scss */
   .sec1 .header .left {
+    margin-top: 43px;
     float: left; }
-    /* line 96, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 98, D:/science/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .left .logo {
       background: url(../img/logo.png) no-repeat;
       width: 45px;
       height: 45px;
-      margin-top: 43px; }
-    /* line 103, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec1 .header .left .token {
-      color: #183e8c;
-      font-family: MuseoCyrl;
-      font-size: 23px;
-      line-height: 28px; }
-    /* line 111, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec1 .header .left .fizobmen {
-      color: #183e8c;
-      font-family: GothamPro;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 28px; }
-  /* line 121, D:/science/aloha/verstka_2/css/sass/style.scss */
+      float: left; }
+    /* line 104, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .header .left .logo-text {
+      float: left;
+      margin-left: 23px; }
+      /* line 107, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec1 .header .left .logo-text .token {
+        color: #183e8c;
+        font-family: "MuseoCyrl", sans-serif;
+        font-size: 24px;
+        line-height: 20px; }
+      /* line 113, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec1 .header .left .logo-text .fizobmen {
+        color: #183e8c;
+        font-family: "GothamPro", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 34px;
+        margin-left: 3px;
+        letter-spacing: 1.3px;
+        opacity: 0.86; }
+  /* line 125, D:/science/aloha/verstka_2/css/sass/style.scss */
   .sec1 .header .right {
     float: right;
     line-height: 23px;
-    margin-top: 40px; }
-    /* line 128, D:/science/aloha/verstka_2/css/sass/style.scss */
+    margin-top: 40px;
+    color: white;
+    text-align: right;
+    width: 280px; }
+    /* line 132, D:/science/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .phone {
-      text-align: center;
-      font-size: 32px;
+      font-size: 30px;
       font-weight: 400;
-      line-height: 28px;
-      padding-right: 20px; }
-    /* line 137, D:/science/aloha/verstka_2/css/sass/style.scss */
+      line-height: 28px; }
+    /* line 139, D:/science/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .adres {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
-      line-height: 18px;
-      margin-top: 7px; }
-    /* line 145, D:/science/aloha/verstka_2/css/sass/style.scss */
+      line-height: 17px;
+      margin-top: 7px;
+      text-align: left;
+      letter-spacing: 0.2px;
+      float: right; }
+    /* line 149, D:/science/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .telegram {
-      background: url(../img/telegram.png) no-repeat;
+      background: url(../img/telegram.png) no-repeat center;
       width: 37px;
-      height: 37px; }
-    /* line 153, D:/science/aloha/verstka_2/css/sass/style.scss */
+      height: 37px;
+      display: inline-block;
+      margin-top: 13px;
+      margin-left: -3px; }
+    /* line 159, D:/science/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .viber {
-      background: url(../img/viber.png) no-repeat;
+      margin-top: 13px;
+      background: url(../img/viber.png) no-repeat center;
       width: 37px;
-      height: 37px; }
-  /* line 165, D:/science/aloha/verstka_2/css/sass/style.scss */
+      height: 37px;
+      display: inline-block;
+      margin-left: 8px; }
+  /* line 171, D:/science/aloha/verstka_2/css/sass/style.scss */
   .sec1 h1 {
+    font-family: "GothamPro", sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 48px;
     color: #0d2a66;
     text-align: left;
-    margin-top: 50px;
-    letter-spacing: 2.9px; }
-  /* line 176, D:/science/aloha/verstka_2/css/sass/style.scss */
+    margin-top: 30px;
+    letter-spacing: 0.7px; }
+  /* line 181, D:/science/aloha/verstka_2/css/sass/style.scss */
   .sec1 p {
     color: #0d2a66;
-    font-family: MuseoCyrl;
+    font-family: "MuseoCyrl", sans-serif;
     font-size: 16px;
     line-height: 27px;
     margin-top: 36px; }
-  /* line 183, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 188, D:/science/aloha/verstka_2/css/sass/style.scss */
   .sec1 .btn {
     width: 234px;
     height: 54px;
@@ -162,7 +182,384 @@ button, input, textarea {
     text-align: center;
     line-height: 54px;
     color: white;
-    margin-top: 104px;
-    font-size: 18px; }
+    margin-top: 105px;
+    font-size: 17px; }
+
+/* line 200, D:/science/aloha/verstka_2/css/sass/style.scss */
+.section {
+  height: 878px;
+  background: url(../img/bg2.jpg) no-repeat center; }
+  /* line 207, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .section.sec2 .video {
+    background-color: red;
+    width: 820px;
+    height: 414px;
+    margin: 204px auto 0; }
+
+/* line 215, D:/science/aloha/verstka_2/css/sass/style.scss */
+.sec3 {
+  background: url(../img/bg3.jpg) no-repeat center top;
+  height: 810px; }
+  /* line 218, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec3 h2 {
+    color: #0d2a66;
+    font-family: GothamPro;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 61px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 65px; }
+  /* line 231, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec3 .ul .li {
+    width: 400px;
+    height: 90px;
+    float: left;
+    margin-left: 26px;
+    margin-right: -15px;
+    margin-bottom: 41px; }
+    /* line 238, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec3 .ul .li .img {
+      float: left;
+      width: 80px;
+      height: 90px; }
+      /* line 242, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img1 {
+        background-image: url(../img/img1.png);
+        background-position: 3px 10px;
+        background-repeat: no-repeat; }
+      /* line 247, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img2 {
+        background-image: url(../img/img2.png);
+        background-position: 8px 16px;
+        background-repeat: no-repeat; }
+      /* line 252, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img3 {
+        background-image: url(../img/img3.png);
+        background-position: 4px 13px;
+        background-repeat: no-repeat; }
+      /* line 257, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img4 {
+        background-image: url(../img/img4.png);
+        background-position: 11px 3px;
+        background-repeat: no-repeat; }
+      /* line 262, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img5 {
+        background-image: url(../img/img5.png);
+        background-position: 11px 3px;
+        background-repeat: no-repeat; }
+      /* line 267, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec3 .ul .li .img.img6 {
+        background-image: url(../img/img6.png);
+        background-position: 17px 13px;
+        background-repeat: no-repeat; }
+    /* line 273, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec3 .ul .li .text {
+      float: left;
+      margin-left: 42px;
+      font-size: 18px;
+      font-family: GothamPro;
+      color: #0d2a66;
+      line-height: 28px;
+      font-weight: 400;
+      margin-top: 14px; }
+
+/* line 286, D:/science/aloha/verstka_2/css/sass/style.scss */
+.sec4 {
+  background: url(../img/bg4.jpg) no-repeat center top;
+  height: 667px; }
+  /* line 290, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step1 h2 {
+    padding-top: 86px;
+    text-align: center;
+    color: white;
+    font-family: GothamPro;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.7px; }
+  /* line 300, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step1 .block {
+    text-align: center; }
+    /* line 302, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step1 .block .item {
+      display: inline-block;
+      vertical-align: top;
+      width: 277px;
+      height: 302px;
+      background-color: #e8edff;
+      border-radius: 23px;
+      margin: 39px 23px 0px;
+      padding-top: 30px; }
+      /* line 311, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step1 .block .item .img {
+        height: 120px;
+        margin-bottom: 51px; }
+        /* line 314, D:/science/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step1 .block .item .img.img1 {
+          background-image: url(../../img/buyvaluta.png);
+          background-position: 83px 11px; }
+        /* line 318, D:/science/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step1 .block .item .img.img2 {
+          background-image: url(../../img/buyvaluta2.png);
+          background-position: 83px 11px; }
+      /* line 323, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step1 .block .item .btn {
+        width: 151px;
+        height: 52px;
+        background-color: white;
+        line-height: 52px;
+        color: #0d2a66;
+        font-family: "MuseoCyrl", sans-serif;
+        font-size: 19px;
+        border-radius: 26px;
+        margin: 0 auto;
+        box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
+  /* line 339, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step2 h2 {
+    text-align: center;
+    color: white;
+    font-family: GothamPro;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 96px; }
+  /* line 347, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step2 .block {
+    background-color: white;
+    margin: 10px auto 0;
+    padding-top: 21px;
+    text-align: left;
+    width: 640px;
+    height: 386px;
+    margin-top: 66px;
+    border-radius: 22px;
+    padding-left: 90px; }
+    /* line 357, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block .label1 {
+      font-size: 20px;
+      padding-top: 21px; }
+    /* line 361, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block .summ-wrap {
+      border-radius: 23px;
+      overflow: hidden;
+      border: 1px solid rgba(145, 154, 187, 0.43);
+      width: 212px;
+      background-color: white;
+      height: 44px;
+      margin-top: 14px;
+      margin-left: 3px; }
+      /* line 370, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .summ-wrap .number {
+        float: left;
+        font-size: 24px;
+        height: 42px;
+        line-height: 42px;
+        font-family: "MuseoCyrl", sans-serif;
+        padding-left: 28px;
+        width: 147px; }
+      /* line 379, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .summ-wrap .valut {
+        float: right;
+        background-color: #c2c9e2;
+        background-image: url(../img/galka.png);
+        background-position: 32px 17px;
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 24px;
+        height: 42px;
+        line-height: 42px;
+        width: 63px;
+        color: #1f283b;
+        font-family: "MuseoCyrl", sans-serif;
+        padding-left: 10px; }
+    /* line 395, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block .label2 {
+      font-size: 18px;
+      padding-top: 28px;
+      margin-left: 6px; }
+    /* line 401, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block .line {
+      margin-top: 16px; }
+      /* line 403, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .line .curs {
+        float: left;
+        font-size: 23px;
+        font-family: "MuseoCyrl", sans-serif;
+        height: 44px;
+        line-height: 44px;
+        width: 54px;
+        padding-left: 5px; }
+      /* line 412, D:/science/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .line .type {
+        float: left;
+        border-radius: 40px;
+        overflow: hidden;
+        border: 1px solid  #c2c9e2;
+        color: white;
+        width: 377px;
+        height: 44px;
+        border-radius: 30px; }
+        /* line 422, D:/science/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .line .type .bitcoin {
+          float: left;
+          background-color: white;
+          background-image: url(../img/icon1.png);
+          background-position: 18px 10px;
+          background-repeat: no-repeat;
+          padding-left: 47px;
+          font-size: 15px;
+          color: #0d2a66;
+          width: 116px;
+          height: 42px;
+          line-height: 42px; }
+        /* line 436, D:/science/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .line .type .efirium {
+          height: 42px;
+          line-height: 42px;
+          float: left;
+          border-left: 1px solid  #c2c9e2;
+          background-color: #e8edff;
+          background-image: url(../img/icon2.png);
+          background-position: 13px 10px;
+          background-repeat: no-repeat;
+          padding-left: 38px;
+          font-size: 15px;
+          width: 127px;
+          color: #505568;
+          opacity: 0.76; }
+        /* line 452, D:/science/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .line .type .litecoin {
+          height: 42px;
+          line-height: 42px;
+          float: left;
+          border-left: 1px solid #c2c9e2;
+          background-color: #e8edff;
+          background-image: url(../img/icon3.png);
+          background-position: 14px 10px;
+          background-repeat: no-repeat;
+          padding-left: 43px;
+          width: 132px;
+          font-size: 15px;
+          color: #505568; }
+    /* line 469, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block .btn {
+      width: 237px;
+      height: 54px;
+      background-color: #283a83;
+      border-radius: 27px;
+      text-align: center;
+      line-height: 54px;
+      margin-top: 40px;
+      color: white;
+      margin-left: 4px;
+      padding-right: 4px; }
+  /* line 484, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step3 h2 {
+    text-align: center;
+    color: white;
+    font-family: GothamPro;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 85px;
+    letter-spacing: 0px; }
+  /* line 494, D:/science/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step3 .form {
+    margin: 19px auto 0;
+    text-align: center;
+    width: 639px;
+    height: 374px;
+    background-color: #e8edff;
+    border-radius: 23px;
+    padding-top: 27px; }
+    /* line 502, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step3 .form .text {
+      color: #0d2a66;
+      font-family: GothamPro;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 37px;
+      padding-top: 6px;
+      margin-bottom: 9px; }
+    /* line 511, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step3 .form .input {
+      font-size: 18px;
+      text-align: center;
+      width: 233px;
+      height: 45px;
+      background-color: white;
+      border: 1px solid rgba(145, 154, 187, 0.43);
+      border-radius: 23px;
+      margin-bottom: 5px; }
+    /* line 521, D:/science/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step3 .form .button {
+      color: white;
+      margin-left: 201px;
+      margin-top: 25px;
+      display: block;
+      text-align: center;
+      font-size: 15px;
+      width: 234px;
+      height: 54px;
+      background-color: #283a83;
+      border-radius: 27px; }
+
+/* line 536, D:/science/aloha/verstka_2/css/sass/style.scss */
+footer {
+  background-color: #374786;
+  height: 132px; }
+  /* line 539, D:/science/aloha/verstka_2/css/sass/style.scss */
+  footer .left {
+    margin-left: -101px;
+    margin-top: 46px;
+    float: left; }
+    /* line 543, D:/science/aloha/verstka_2/css/sass/style.scss */
+    footer .left .token {
+      color: white;
+      font-family: "MuseoCyrl", sans-serif;
+      font-size: 24px;
+      line-height: 20px; }
+    /* line 549, D:/science/aloha/verstka_2/css/sass/style.scss */
+    footer .left .fiz {
+      color: white;
+      font-family: "GothamPro", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 34px;
+      margin-left: 3px;
+      letter-spacing: 1.3px;
+      opacity: 0.86; }
+  /* line 560, D:/science/aloha/verstka_2/css/sass/style.scss */
+  footer .right {
+    float: right; }
+    /* line 562, D:/science/aloha/verstka_2/css/sass/style.scss */
+    footer .right .phone {
+      margin-top: 31px;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 28px;
+      margin-left: 4px;
+      letter-spacing: 0.4px;
+      color: white; }
+    /* line 571, D:/science/aloha/verstka_2/css/sass/style.scss */
+    footer .right .addr {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 19px;
+      margin-top: 5px;
+      text-align: left;
+      letter-spacing: 0.2px;
+      float: right;
+      color: white; }
+  /* line 582, D:/science/aloha/verstka_2/css/sass/style.scss */
+  footer .confidential {
+    font-size: 14px;
+    float: right;
+    text-align: center;
+    margin-right: 154px;
+    margin-top: 49px;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
