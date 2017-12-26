@@ -87,32 +87,32 @@ button, input, textarea {
 /* line 91, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
 .sec1 {
   height: 848px;
-  background: url(../img/bg1.jpg) no-repeat center top; }
-  /* line 94, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  background: url(../img/bgmobile2.jpg) no-repeat center top;
+  background-position: 1px 29px; }
+  /* line 95, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 .header {
     background: blue;
     height: 65px; }
-    /* line 97, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 98, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec1 .header .left {
       margin-top: 10px;
       float: left;
       margin-left: 23px; }
-      /* line 101, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 102, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec1 .header .left .logo {
         background: url(../img/logo.png) no-repeat;
         filter: invert(1);
         width: 45px;
         height: 45px;
         float: left; }
-    /* line 109, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 110, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec1 .header .right {
       float: right;
       line-height: 23px;
       margin-right: 26px;
-      color: white;
       text-align: right;
       width: 140px; }
-      /* line 117, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 116, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec1 .header .right .telegram {
         background: url(../img/telegram.png) no-repeat center;
         width: 37px;
@@ -120,7 +120,7 @@ button, input, textarea {
         display: inline-block;
         margin-top: 13px;
         margin-left: -3px; }
-      /* line 127, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 126, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec1 .header .right .viber {
         margin-top: 13px;
         background: url(../img/viber.png) no-repeat center;
@@ -128,20 +128,20 @@ button, input, textarea {
         height: 37px;
         display: inline-block;
         margin-left: 8px; }
-  /* line 140, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 139, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 .line .left {
     float: left; }
-    /* line 143, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 141, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec1 .line .left .logo-text {
       padding-top: 20px;
       padding-left: 30px; }
-      /* line 146, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 144, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec1 .line .left .logo-text .token {
         color: #183e8c;
         font-family: "MuseoCyrl", sans-serif;
         font-size: 24px;
         line-height: 20px; }
-      /* line 152, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 150, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec1 .line .left .logo-text .fizobmen {
         color: #183e8c;
         font-family: "GothamPro", sans-serif;
@@ -150,16 +150,15 @@ button, input, textarea {
         line-height: 34px;
         letter-spacing: 0.3px;
         opacity: 0.86; }
-  /* line 163, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 161, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 .line .right {
     float: right;
-    background-image: url();
-    background-color: red;
+    background-image: url(../img/phone.png);
     width: 50px;
     height: 50px;
-    margin-right: 10px;
-    margin-top: 20px; }
-  /* line 173, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    margin-right: 22px;
+    margin-top: 17px; }
+  /* line 170, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 h1 {
     font-family: "GothamPro", sans-serif;
     color: #0d2a66;
@@ -170,7 +169,7 @@ button, input, textarea {
     font-weight: 400;
     line-height: 40px;
     padding-left: 26px; }
-  /* line 185, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 181, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 p {
     color: #0d2a66;
     font-family: "MuseoCyrl", sans-serif;
@@ -179,7 +178,7 @@ button, input, textarea {
     margin-top: 26px;
     padding-left: 25px;
     letter-spacing: 0.4px; }
-  /* line 194, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 190, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec1 .btn {
     width: 234px;
     height: 54px;
@@ -189,100 +188,259 @@ button, input, textarea {
     line-height: 54px;
     color: white;
     font-size: 17px;
-    margin: 23px auto 0; }
+    margin: 22px auto 0; }
 
-/* line 206, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+/* line 202, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
 .section {
   height: 325px;
   background: url(../img/bg2.jpg) no-repeat center; }
-  /* line 212, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 208, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .section.sec2 h2 {
     color: #0d2a66;
     font-size: 21px;
     line-height: 26px;
     padding-top: 20px; }
-  /* line 218, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 214, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .section.sec2 .video {
     background-color: red;
     width: 100%;
     height: 161px;
     margin: 43px auto 0; }
 
-/* line 226, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+/* line 222, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
 .sec3 {
   background: url(../img/bgmobile.jpg) no-repeat center bottom;
   height: 745px; }
-  /* line 229, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 225, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec3 h2 {
     color: #0d2a66;
     font-size: 21px;
     line-height: 26px;
     padding-top: 39px;
     margin-bottom: 21px; }
-  /* line 238, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 233, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec3 .ul .li {
     width: 100%;
     padding-left: 17px;
     margin-right: -15px;
     margin-bottom: 3px; }
-    /* line 243, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 238, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec3 .ul .li .img {
       float: left;
       width: 80px;
       height: 60px;
       background-color: white; }
-      /* line 248, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 243, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img1 {
         background-image: url(../img/iconmobile1.png);
         background-position: 11px 11px;
         background-repeat: no-repeat; }
-      /* line 253, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 248, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img2 {
         background-image: url(../img/iconmobile2.png);
         background-position: 11px 16px;
         background-repeat: no-repeat;
         height: 66px; }
-      /* line 259, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 254, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img3 {
         background-image: url(../img/iconmobile3.png);
         background-position: 12px 7px;
         background-repeat: no-repeat;
         height: 73px; }
-      /* line 265, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 260, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img4 {
         background-image: url(../img/iconmobile4.png);
         background-position: 13px 12px;
         background-repeat: no-repeat;
         height: 72px; }
-      /* line 271, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 266, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img5 {
         background-image: url(../img/iconmobile5.png);
         background-position: 13px 6px;
         background-repeat: no-repeat;
         height: 76px; }
-      /* line 277, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      /* line 272, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
       .sec3 .ul .li .img.img6 {
         background-image: url(../img/iconmobile6.png);
         background-position: 11px 13px;
         background-repeat: no-repeat;
         height: 80px; }
-    /* line 284, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 279, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec3 .ul .li .text {
       float: left;
-      margin-left: 16px;
+      margin-left: 15px;
       font-size: 17px;
       font-weight: 400;
       line-height: 23px;
       font-family: GothamPro;
       color: #0d2a66;
-      margin-top: 12px; }
+      margin-top: 13px; }
 
-/* line 297, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+/* line 292, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+.step1 {
+  height: 557px;
+  background-color: #17255d; }
+  /* line 295, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step1 h2 {
+    font-size: 21px;
+    color: white;
+    padding-top: 21px;
+    line-height: 33px;
+    text-align: center; }
+  /* line 303, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step1 .block {
+    width: 277px;
+    height: 245px;
+    background-color: #e8edff;
+    border-radius: 23px;
+    margin-left: 23px;
+    margin-top: 40px;
+    padding-top: 56px; }
+  /* line 312, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step1 .item {
+    margin-top: -1px;
+    width: 100%;
+    height: 52px;
+    margin-bottom: 30px; }
+    /* line 317, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step1 .item .img {
+      height: 55px;
+      float: left;
+      width: 100px; }
+      /* line 324, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step1 .item .img.img1 {
+        background: url(../img/buy.png) no-repeat;
+        background-position: 24px 2px; }
+    /* line 330, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step1 .item .img.img2 {
+      background: url(../img/sold.png) no-repeat;
+      background-position: 23px 0px; }
+  /* line 336, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step1 .btn {
+    width: 151px;
+    height: 52px;
+    background-color: #283a83;
+    border-radius: 26px;
+    box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1);
+    line-height: 52px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    float: left; }
+
+/* line 349, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+.step2 {
+  height: 557px;
+  background-color: #17255d; }
+  /* line 352, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step2 h2 {
+    color: white;
+    font-size: 21px;
+    padding-top: 21px;
+    line-height: 34px; }
+  /* line 359, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  .step2 .block {
+    margin-top: 10px;
+    width: 277px;
+    height: 416px;
+    background-color: #e8edff;
+    border-radius: 23px;
+    margin-left: 25px; }
+    /* line 366, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .label1 {
+      padding-top: 37px;
+      font-size: 20px;
+      padding-left: 27px; }
+    /* line 371, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .summ-wrap {
+      width: 211px;
+      height: 45px;
+      background-color: white;
+      border: 1px solid rgba(145, 154, 187, 0.43);
+      border-radius: 23px;
+      margin-top: 18px;
+      margin-left: 28px; }
+    /* line 380, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .number {
+      font-size: 24px;
+      font-family: "MuseoCyrl", sans-serif;
+      text-align: left;
+      margin-left: 27px;
+      line-height: 41px; }
+    /* line 387, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .valut {
+      float: right;
+      margin-top: -29px;
+      margin-right: 38px;
+      font-size: 25px;
+      font-family: "MuseoCyrl", sans-serif; }
+    /* line 394, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .label2 {
+      margin-top: 20px;
+      height: 120x;
+      font-size: 20px;
+      margin-left: 28px;
+      letter-spacing: -0.7px;
+      float: left; }
+      /* line 401, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step2 .block .label2 .curs {
+        float: right;
+        font-size: 25px;
+        font-family: "MuseoCyrl", sans-serif;
+        padding-left: 45px;
+        margin-top: 4px;
+        margin-right: 37px; }
+      /* line 410, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step2 .block .label2 .type {
+        width: 211px;
+        height: 141px;
+        background-color: white;
+        border: 1px solid rgba(145, 154, 187, 0.43);
+        border-radius: 23px;
+        margin-top: 16px; }
+      /* line 419, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step2 .block .label2 .bitcoin {
+        height: 46px;
+        line-height: 48px;
+        padding-left: 52px;
+        font-size: 17px;
+        background-image: url(../img/icon1.png);
+        background-position: 26px 13px; }
+      /* line 430, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step2 .block .label2 .efirium {
+        height: 46px;
+        line-height: 48px;
+        padding-left: 52px;
+        font-size: 17px;
+        background-image: url(../img/icon2.png);
+        background-position: 26px 11px; }
+      /* line 439, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      .step2 .block .label2 .litecoin {
+        height: 46px;
+        line-height: 48px;
+        padding-left: 52px;
+        font-size: 17px;
+        background-image: url(../img/icon3.png);
+        background-position: 28px 11px; }
+    /* line 451, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    .step2 .block .btn {
+      width: 209px;
+      height: 52px;
+      background-color: #283a83;
+      border-radius: 26px;
+      box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1);
+      margin-top: 224px;
+      margin-left: 34px;
+      line-height: 52px;
+      color: white;
+      text-align: center; }
+
+/* line 468, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
 .sec4 {
   background: url(../img/bg4.jpg) no-repeat center top;
-  height: 400px;
+  height: 556px;
   width: 100%; }
-  /* line 302, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  /* line 473, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec4 .step3 h2 {
     width: 289px;
     height: 43px;
@@ -290,8 +448,10 @@ button, input, textarea {
     font-family: GothamPro;
     font-size: 20px;
     font-weight: 400;
-    line-height: 26px; }
-  /* line 313, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    line-height: 26px;
+    padding-top: 25px;
+    margin-left: 7px; }
+  /* line 484, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
   .sec4 .step3 .form {
     width: 277px;
     height: 347px;
@@ -299,81 +459,101 @@ button, input, textarea {
     border-radius: 23px;
     margin-top: 62px;
     margin-left: 20px; }
-    /* line 320, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    /* line 491, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec4 .step3 .form .text {
       font-size: 18px;
-      color: white;
+      color: blue;
       height: 25px;
-      line-height: 25px;
-      text-align: center; }
-    /* line 328, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      line-height: 32px;
+      text-align: center;
+      padding-top: 25px; }
+    /* line 499, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec4 .step3 .form .input {
       width: 231px;
       height: 45px;
       background-color: white;
       border: 1px solid rgba(145, 154, 187, 0.43);
-      border-radius: 23px; }
-    /* line 336, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      border-radius: 23px;
+      margin-top: 43px;
+      margin-left: 22px;
+      text-align: center;
+      font-size: 18px; }
+    /* line 510, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     .sec4 .step3 .form .button {
-      width: 93px;
-      height: 15px;
+      width: 234px;
+      height: 54px;
+      background-color: #283a83;
+      border-radius: 27px;
+      margin-top: 31px;
+      margin-left: 20px;
+      color: white;
+      font-size: 18px; }
+
+/* line 523, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+footer {
+  width: 100%;
+  height: 227px;
+  background-color: #6975a4; }
+  /* line 527, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  footer .left {
+    float: left; }
+    /* line 529, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    footer .left .token {
+      margin-left: 24px;
+      padding-top: 17px;
       color: white;
       font-family: MuseoCyrl;
-      font-size: 17px;
-      line-height: 27px; }
-
-/* line 347, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-footer {
-  background-color: #374786; }
-  /* line 349, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-  footer .left {
-    margin-left: -101px;
-    margin-top: 46px;
-    float: left; }
-    /* line 353, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-    footer .left .token {
-      width: 337px;
-      height: 227px;
-      background-color: #6975a4; }
-    /* line 358, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+      font-size: 24px;
+      line-height: 28px; }
+    /* line 537, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
     footer .left .fiz {
-      width: 158px;
-      height: 10px;
       opacity: 0.86;
       color: white;
       font-family: GothamPro;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 28px; }
-  /* line 369, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-  footer .right {
-    float: right; }
-    /* line 371, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-    footer .right .phone {
-      margin-top: 31px;
-      font-size: 30px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 28px;
-      margin-left: 4px;
-      letter-spacing: 0.4px;
-      color: white; }
-    /* line 380, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-    footer .right .addr {
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 19px;
-      margin-top: 5px;
+      margin-left: 26px;
+      padding-top: 10px;
+      letter-spacing: -0.2px; }
+    /* line 548, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    footer .left .confidential {
+      font-size: 13px;
+      color: white;
       text-align: left;
-      letter-spacing: 0.2px;
-      float: right;
-      color: white; }
-  /* line 391, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
-  footer .confidential {
-    font-size: 14px;
-    float: right;
-    text-align: center;
-    margin-right: 154px;
-    margin-top: 49px;
-    color: white; }
+      padding-top: 12px;
+      margin-left: 23px; }
+  /* line 556, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+  footer .right {
+    padding-top: 18px;
+    width: 200px;
+    float: left; }
+    /* line 561, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    footer .right .phone {
+      background: url(../img/phonemobile.png) no-repeat center;
+      background-position: 2px 3px;
+      width: 40px;
+      float: left;
+      margin-left: 23px;
+      height: 40px;
+      display: inline-block; }
+    /* line 572, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    footer .right .telegram {
+      background: url(../img/telegrammobile.png) no-repeat center;
+      background-position: 3px 1px;
+      width: 40px;
+      float: left;
+      height: 40px;
+      display: inline-block;
+      margin-left: 14px; }
+    /* line 583, D:/science/aloha/verstka_2mobile/css/sass/style.scss */
+    footer .right .viber {
+      background: url(../img/vibermobile.png) no-repeat center;
+      background-position: 2px 0px;
+      width: 40px;
+      float: left;
+      height: 40px;
+      display: inline-block;
+      margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */
