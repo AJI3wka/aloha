@@ -1,7 +1,13 @@
 <?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-$tarif = $_POST['tarif'];
+$type = $_POST['type'];
+
+$give = $_POST['give'];
+$count_give = $_POST['count_give'];
+$get = $_POST['get'];
+$count_get = $_POST['count_get'];
+
 
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium'];
@@ -26,13 +32,17 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "arshak95@gmail.com";
+$to = "8880700@gmail.com";
 
 $message .= "Имя: $name\n";
-$message .= "Телефон: $phone\n";
-if (isset($_POST['tarif'])) {
-	$message .= "Тариф: $tarif\n";
-}
+$message .= "Телефон: $phone\n\n";
+
+$message .= "Покупает/продает криптовалюту(buy/sell): $type\n";
+$message .= "Отдает: $give\n";
+$message .= "В количестве: $count_give\n";
+$message .= "Получит: $get\n";
+$message .= "В количестве: $count_get\n";
+
 $message .= "\n";
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";

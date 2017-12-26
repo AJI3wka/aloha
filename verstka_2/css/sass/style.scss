@@ -135,6 +135,7 @@ button, input, textarea {
                 font-size: 30px;
                 font-weight: 400;
                 line-height: 28px;
+                display: block;
             }
             .adres {
                 //font-family: $fontfamily;
@@ -145,6 +146,7 @@ button, input, textarea {
                 text-align: left;
                 letter-spacing: 0.2px;
                 float: right;
+                margin-bottom: 50px;
             }
             .telegram {
                 background: url(../img/telegram.png) no-repeat center;
@@ -153,7 +155,11 @@ button, input, textarea {
                 display: inline-block;
                 margin-top: 13px;
                 margin-left: -3px;
+                position: relative;
+                top: 0;
+                transition: all 0.25s;
                 &:hover {
+                    top: -5px;
                 }
             }
             .viber {
@@ -163,7 +169,11 @@ button, input, textarea {
                 height: 37px;
                 display: inline-block;
                 margin-left: 8px;
+                position: relative;
+                top: 0;
+                transition: all 0.25s;
                 &:hover {
+                    top: -5px;
                 }
             }
         }
@@ -195,26 +205,32 @@ button, input, textarea {
         color: white;
         margin-top: 105px;
         font-size: 17px;
+        cursor: pointer;
+        transition: all 0.25s;
+        outline: 0;
+        &:hover{
+            background-color: #112e75;
+        }
     }
 }
 .section {
-    height: 878px;
+    height: 880px;
     background: url(../img/bg2.jpg)no-repeat center;
     
     &.sec2 {
         div {
         }
         .video {
-            background-color: red;
             width: 820px;
             height: 414px;
             margin: 204px auto 0;
+            display: block;
         }
     }
 }
 .sec3 {
     background: url(../img/bg3.jpg) no-repeat center top;
-    height: 810px;
+    height: 813px;
     h2 {
         color: #0d2a66;
         font-family: GothamPro;
@@ -275,6 +291,7 @@ button, input, textarea {
                 margin-left: 42px;
                 font-size: 18px;
                 font-family: GothamPro;
+                
                 color: #0d2a66;
                 line-height: 28px;
                 font-weight: 400;
@@ -287,6 +304,7 @@ button, input, textarea {
     background: url(../img/bg4.jpg) no-repeat center top;
     height: 667px;
     .step1 {
+        display: block;
         h2 {
             padding-top: 86px;
             text-align: center;
@@ -308,15 +326,23 @@ button, input, textarea {
                 border-radius: 23px;
                 margin: 39px 23px 0px;
                 padding-top: 30px;
+                cursor: pointer;
+                transition: all 0.25s;
+                outline: 0;
+                position: relative;
+                top: 0px;
+                &:hover{
+                    top: -5px;
+                }
                 .img {
                     height: 120px;
                     margin-bottom: 51px;
                     &.img1 {
-                        background-image: url(../../img/buyvaluta.png);
+                        background-image: url(../img/buyvaluta.png);
                         background-position: 83px 11px;
                     }
                     &.img2 {
-                        background-image: url(../../img/buyvaluta2.png);
+                        background-image: url(../img/buyvaluta2.png);
                         background-position: 83px 11px;
                     }
                 }
@@ -336,6 +362,7 @@ button, input, textarea {
         }
     }
     .step2 {
+        display: none;
         h2 {
             text-align: center;
             color: white;
@@ -354,13 +381,23 @@ button, input, textarea {
             margin-top: 66px;
             border-radius: 22px;
             padding-left: 90px;
+            position: relative;
+            .back{
+                position: absolute;
+                left: 15px;
+                bottom: 10px;
+                text-decoration: underline;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
             .label1 {
                 font-size: 20px;
                 padding-top: 21px;
             }
             .summ-wrap {
                 border-radius: 23px;
-                overflow: hidden;
                 border: 1px solid rgba(145,154,187,0.43);
                 width: 212px;
                 background-color: white;
@@ -375,6 +412,10 @@ button, input, textarea {
                     font-family: $afont;
                     padding-left: 28px;
                     width: 147px;
+                    display: block;
+                    margin: 0;
+                    border-bottom-left-radius: 21px;
+                    border-top-left-radius: 21px;
                 }
                 .valut {
                     float: right;
@@ -386,10 +427,63 @@ button, input, textarea {
                     font-size: 24px;
                     height: 42px;
                     line-height: 42px;
-                    width: 63px;
+                    width: 60px;
                     color: #1f283b;
                     font-family: $afont;
-                    padding-left: 10px;
+                    position: relative;
+                    border-bottom-right-radius: 21px;
+                    border-top-right-radius: 21px;
+                    .current{
+                        width: 100%;
+                        height: 42px;
+                        background-position: 10px center;
+                        cursor: pointer;
+                        &[data-selected="dollar"]{
+                            background-image: url(../img/dollar-ico.png);
+                        }
+                        &[data-selected="euro"]{
+                            background-image: url(../img/euro-ico.png);
+                        }
+                        &[data-selected="ruble"]{
+                            background-image: url(../img/ruble-ico.png);
+                        }
+                    }
+                    .select{
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        width: 40px;
+                        z-index: 2;
+                        border-left:  1px solid rgba(145,154,187,0.43);
+                        border-right: 1px solid rgba(145,154,187,0.43);
+                        background-color: #c2c9e2;
+                        border-top:  1px solid rgba(145,154,187,0.43);
+                        .item{
+                            height: 43px;
+                            border-bottom: 1px solid rgba(145,154,187,0.43);
+                            width: 100%;
+                            background-position: 10px center;
+                            cursor: pointer;
+                            background-color: transparent;
+                            transition: all 0.25s;
+                            &:hover{
+                                background-color: white;
+                            }
+                        }
+                        .dollar{
+                            background-image: url(../img/dollar-ico.png);
+                            
+                        }
+                        .euro{
+                            background-image: url(../img/euro-ico.png);
+                            
+                        }
+                        .ruble{
+                            background-image: url(../img/ruble-ico.png);
+                            
+                        }
+                    }
                 }
             }
             .label2 {
@@ -406,37 +500,47 @@ button, input, textarea {
                     font-family: $afont;
                     height: 44px;
                     line-height: 44px;
-                    width: 54px;
+                    padding-right: 22px;
                     padding-left: 5px;
                 }
                 .type {
                     float: left;
                     border-radius: 40px;
                     overflow: hidden;
-                    border: 1px solid  #c2c9e2;
+                    border: 1px solid #c2c9e2;
                     color: white;
-                    
-                width: 377px;
-                height: 44px;
-                border-radius: 30px;
+                    width: 377px;
+                    height: 44px;
+                    border-radius: 30px;
                     .bitcoin {
+                        cursor: pointer;
+                        transition: all 0.25s;
                         float: left;
-                        background-color: white;
+                        background-color: #e8edff;
                         background-image: url(../img/icon1.png);
                         background-position: 18px 10px;
                         background-repeat: no-repeat;
                         padding-left: 47px;
                         font-size:15px;
-                        color: #0d2a66;
-                        width: 116px;
-                        
-                    height: 42px;
-                    line-height: 42px;
+                        color: #505568;
+                        opacity: 0.76;
+                        width: 116px;                        
+                        height: 42px;
+                        line-height: 42px;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
                     }
-                    .efirium {
-                        
-                    height: 42px;
-                    line-height: 42px;
+                    .efirium {  
+                        cursor: pointer;  
+                        transition: all 0.25s;                    
+                        height: 42px;
+                        line-height: 42px;
                         float: left;
                         border-left: 1px solid  #c2c9e2;
                         background-color:#e8edff;
@@ -448,11 +552,20 @@ button, input, textarea {
                         width: 127px;
                         color: #505568;
                         opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
                     }
                     .litecoin {
-                        
-                    height: 42px;
-                    line-height: 42px;
+                        cursor: pointer;
+                        transition: all 0.25s;
+                        height: 42px;
+                        line-height: 42px;
                         float: left;
                         border-left: 1px solid #c2c9e2;
                         background-color:#e8edff;
@@ -463,6 +576,15 @@ button, input, textarea {
                         width: 132px;
                         font-size:15px;
                         color: #505568;
+                        opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
                     }
                 }
             }
@@ -477,10 +599,261 @@ button, input, textarea {
                 color:white;
                 margin-left: 4px;
                 padding-right: 4px;
+                cursor: pointer;
+                transition: all 0.25s;
+                outline: 0;
+                &:hover{
+                    background-color: #112e75;
+                }
+            }
+        }
+    }
+    .step2_b {
+        display: none;
+        h2 {
+            text-align: center;
+            color: white;
+            font-family: GothamPro;
+            font-weight: 400;
+            font-size: 40px;
+            padding-top: 96px;
+        }
+        .block {
+            background-color: white;
+            margin: 10px auto 0;
+            padding-top: 21px;
+            text-align: left;
+            width: 640px;
+            height: 386px;
+            margin-top: 66px;
+            border-radius: 22px;
+            padding-left: 90px;
+            position: relative;
+            .back{
+                position: absolute;
+                left: 15px;
+                bottom: 10px;
+                text-decoration: underline;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            .label1 {
+                font-size: 20px;
+                padding-top: 21px;
+            }
+            .summ-wrap {
+                border-radius: 23px;
+                border: 1px solid rgba(145,154,187,0.43);
+                width: 212px;
+                background-color: white;
+                height: 44px;
+                margin-top: 14px;
+                margin-left: 3px;
+                .number {
+                    float: left;
+                    font-size: 24px;
+                    height: 42px;
+                    line-height: 42px;
+                    font-family: $afont;
+                    padding-left: 28px;
+                    width: 147px;
+                    display: block;
+                    margin: 0;
+                    border-bottom-left-radius: 21px;
+                    border-top-left-radius: 21px;
+                }
+                .valut {
+                    float: right;
+                    background-color: #c2c9e2;
+                    background-image: url(../img/galka.png);
+                    background-position: 32px 17px;
+                    background-repeat: no-repeat;
+                    color: white;
+                    font-size: 24px;
+                    height: 42px;
+                    line-height: 42px;
+                    width: 60px;
+                    color: #1f283b;
+                    font-family: $afont;
+                    position: relative;
+                    border-bottom-right-radius: 21px;
+                    border-top-right-radius: 21px;
+                    .current{
+                        width: 100%;
+                        height: 42px;
+                        background-position: 10px center;
+                        cursor: pointer;
+                        &[data-selected="bitcoin"]{
+                            background-image: url(../img/icon1.png);
+                        }
+                        &[data-selected="ethereum"]{
+                            background-image: url(../img/icon2.png);
+                        }
+                        &[data-selected="litecoin"]{
+                            background-image: url(../img/icon3.png);
+                        }
+                    }
+                    .select{
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        width: 40px;
+                        z-index: 2;
+                        border-left:  1px solid rgba(145,154,187,0.43);
+                        border-right: 1px solid rgba(145,154,187,0.43);
+                            background-color: #c2c9e2;
+                        border-top:  1px solid rgba(145,154,187,0.43);
+                        .item{
+                            height: 43px;
+                            border-bottom: 1px solid rgba(145,154,187,0.43);
+                            width: 100%;
+                            background-position: 10px center;
+                            cursor: pointer;
+                            background-color: transparent;
+                            transition: all 0.25s;
+                            &:hover{
+                                background-color: white;
+                            }
+                        }
+                        .bitcoin{
+                            background-image: url(../img/icon1.png);
+                        }
+                        .efirium{
+                            background-image: url(../img/icon2.png);
+                        }
+                        .litecoin{
+                            background-image: url(../img/icon3.png);
+                        }
+                    }
+                }
+            }
+            .label2 {
+                font-size: 18px;
+                padding-top: 28px;
+                margin-left: 6px;
+                
+            }
+            .line {
+                margin-top: 16px;
+                .curs {
+                    float: left;
+                    font-size: 23px;
+                    font-family: $afont;
+                    height: 44px;
+                    line-height: 44px;
+                    padding-right: 22px;
+                    padding-left: 5px;
+                }
+                .type {
+                    float: left;
+                    border-radius: 40px;
+                    overflow: hidden;
+                    border: 1px solid #c2c9e2;
+                    color: white;
+                    width: 106px;
+                    height: 44px;
+                    border-radius: 30px;
+                    .dollar {
+                        cursor: pointer;
+                        transition: all 0.25s;
+                        float: left;
+                        background-color: #e8edff;
+                        background-image: url(../img/dollar-ico.png);
+                        background-position: 18px center;
+                        background-repeat: no-repeat;
+                        padding-left: 47px;
+                        font-size:15px;
+                        color: #505568;
+                        opacity: 0.76;
+                        width: 106px;                        
+                        height: 42px;
+                        line-height: 44px;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .euro {  
+                        cursor: pointer;  
+                        transition: all 0.25s;                    
+                        height: 42px;
+                        line-height: 44px;
+                        float: left;
+                        border-left: 1px solid  #c2c9e2;
+                        background-color:#e8edff;
+                        background-image: url(../img/euro-ico.png);
+                        background-position: 13px center;
+                        background-repeat: no-repeat;
+                        padding-left: 38px;
+                        font-size:15px;
+                        width: 87px;
+                        color: #505568;
+                        opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .ruble {
+                        cursor: pointer;
+                        transition: all 0.25s;
+                        height: 42px;
+                        line-height: 42px;
+                        float: left;
+                        border-left: 1px solid #c2c9e2;
+                        background-color:#e8edff;
+                        background-image: url(../img/ruble-ico.png);
+                        background-position: 14px 10px;
+                        background-repeat: no-repeat;
+                        padding-left: 43px;
+                        width: 102px;
+                        font-size:15px;
+                        color: #505568;
+                        opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .btn {
+                width: 237px;
+                height: 54px;
+                background-color: #283a83;
+                border-radius: 27px;
+                text-align: center;
+                line-height: 54px;
+                margin-top: 40px;
+                color:white;
+                margin-left: 4px;
+                padding-right: 4px;
+                cursor: pointer;
+                transition: all 0.25s;
+                outline: 0;
+                &:hover{
+                    background-color: #112e75;
+                }
             }
         }
     }
     .step3 {
+        display: none;
         h2 {
             text-align: center;
             color: white;
@@ -499,6 +872,17 @@ button, input, textarea {
             background-color: #e8edff;
             border-radius: 23px;
             padding-top: 27px;
+            position: relative;
+            .back{
+                position: absolute;
+                left: 15px;
+                bottom: 10px;
+                text-decoration: underline;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
             .text {
                 color: #0d2a66;
                 font-family: GothamPro;
@@ -520,8 +904,7 @@ button, input, textarea {
             }
             .button {
                 color: white;
-                margin-left: 201px;
-                margin-top: 25px;
+                margin: 25px auto 0;
                 display: block;
                 text-align: center;
                 font-size: 15px;
@@ -529,6 +912,12 @@ button, input, textarea {
                 height: 54px;
                 background-color: #283a83;
                 border-radius: 27px;
+                cursor: pointer;
+                transition: all 0.25s;
+                outline: 0;
+                &:hover{
+                    background-color: #112e75;
+                }
             }
         }
     }
@@ -537,7 +926,6 @@ footer {
     background-color: #374786;
     height: 132px;
     .left {
-        margin-left: -101px;
         margin-top: 46px;
         float: left;
         .token {
@@ -567,6 +955,7 @@ footer {
             margin-left: 4px;
             letter-spacing: 0.4px;
             color: white;
+            display: block;
         }
         .addr {
             font-size: 15px;
@@ -586,5 +975,100 @@ footer {
         margin-right: 154px;
         margin-top: 49px;
         color: white;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
+#hidden-box{
+    display: none;
+    
+}
+#okgo{
+    width: 400px;
+    background: white;
+    padding: 36px 40px 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 24px;
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+
+    }
+}
+
+#form-error-pop{
+    width: 400px;
+    background: white;
+    padding: 36px 40px 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 24px;
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+
+    }
+}
+#conf{
+    width: 800px;
+    background: white;
+    padding: 36px 40px 40px;
+    position: relative;
+    text-align: left;
+    border-radius: 24px;
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+
+    }
+    h3{
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 30px;
+
+    }
+    p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}    
+.arcticmodal-container,.arcticmodal-overlay{position:fixed;left:0;top:0;right:0;bottom:0;z-index:1000}
+.arcticmodal-container{overflow:auto;margin:0;padding:0;border:0;border-collapse:collapse;}
+:first-child+html .arcticmodal-container{height:100%}
+.arcticmodal-container_i{margin:0 auto;height:100%;}
+.arcticmodal-container_i2{padding:0;margin:0;border:0;vertical-align:middle}
+#hidden-box{display:none;}
+.error-input{border: 1px solid red!important}

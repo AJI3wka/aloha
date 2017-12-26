@@ -1,4 +1,4 @@
-/* line 4, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 4, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0;
@@ -10,7 +10,7 @@
   z-index: 20;
   margin-top: 0; }
 
-/* line 39, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 39, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 47, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 47, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -27,22 +27,22 @@
   height: 0;
   clear: both; }
 
-/* line 54, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 54, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 57, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 57, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
   font-weight: 400; }
 
-/* line 63, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 h3 {
   font-weight: 300; }
 
-/* line 66, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 66, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 body {
   font-family: "GothamPro", sans-serif;
   font-size: 14px;
@@ -51,24 +51,24 @@ body {
   color: black;
   background-color: #fff; }
 
-/* line 74, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 74, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 79, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 79, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 a, button {
   cursor: pointer; }
 
-/* line 82, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 82, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 button, input, textarea {
   outline: none;
   border: none;
   margin: 0 5px;
   vertical-align: middle; }
 
-/* line 88, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 88, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 .section, .head, header, section, footer {
   width: 100%;
   min-width: 1000px;
@@ -76,7 +76,7 @@ button, input, textarea {
   position: relative;
   z-index: 2;
   background-size: cover !important; }
-  /* line 31, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 31, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .section > div, .head > div, header > div, section > div, footer > div {
     max-width: 1000px;
     position: relative;
@@ -84,31 +84,31 @@ button, input, textarea {
     height: 100%;
     margin: 0 auto; }
 
-/* line 91, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 91, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 .sec1 {
   height: 807px;
   background: url(../img/bg1.jpg) no-repeat center top; }
-  /* line 95, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 95, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec1 .header .left {
     margin-top: 43px;
     float: left; }
-    /* line 98, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 98, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .left .logo {
       background: url(../img/logo.png) no-repeat;
       width: 45px;
       height: 45px;
       float: left; }
-    /* line 104, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 104, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .left .logo-text {
       float: left;
       margin-left: 23px; }
-      /* line 107, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 107, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec1 .header .left .logo-text .token {
         color: #183e8c;
         font-family: "MuseoCyrl", sans-serif;
         font-size: 24px;
         line-height: 20px; }
-      /* line 113, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 113, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec1 .header .left .logo-text .fizobmen {
         color: #183e8c;
         font-family: "GothamPro", sans-serif;
@@ -118,7 +118,7 @@ button, input, textarea {
         margin-left: 3px;
         letter-spacing: 1.3px;
         opacity: 0.86; }
-  /* line 125, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 125, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec1 .header .right {
     float: right;
     line-height: 23px;
@@ -126,12 +126,13 @@ button, input, textarea {
     color: white;
     text-align: right;
     width: 280px; }
-    /* line 132, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 132, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .phone {
       font-size: 30px;
       font-weight: 400;
-      line-height: 28px; }
-    /* line 139, D:/science/aloha/verstka_2/css/sass/style.scss */
+      line-height: 28px;
+      display: block; }
+    /* line 140, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .adres {
       font-size: 14px;
       font-weight: 400;
@@ -139,24 +140,37 @@ button, input, textarea {
       margin-top: 7px;
       text-align: left;
       letter-spacing: 0.2px;
-      float: right; }
-    /* line 149, D:/science/aloha/verstka_2/css/sass/style.scss */
+      float: right;
+      margin-bottom: 50px; }
+    /* line 151, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .telegram {
       background: url(../img/telegram.png) no-repeat center;
       width: 37px;
       height: 37px;
       display: inline-block;
       margin-top: 13px;
-      margin-left: -3px; }
-    /* line 159, D:/science/aloha/verstka_2/css/sass/style.scss */
+      margin-left: -3px;
+      position: relative;
+      top: 0;
+      transition: all 0.25s; }
+      /* line 161, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec1 .header .right .telegram:hover {
+        top: -5px; }
+    /* line 165, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec1 .header .right .viber {
       margin-top: 13px;
       background: url(../img/viber.png) no-repeat center;
       width: 37px;
       height: 37px;
       display: inline-block;
-      margin-left: 8px; }
-  /* line 171, D:/science/aloha/verstka_2/css/sass/style.scss */
+      margin-left: 8px;
+      position: relative;
+      top: 0;
+      transition: all 0.25s; }
+      /* line 175, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec1 .header .right .viber:hover {
+        top: -5px; }
+  /* line 181, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec1 h1 {
     font-family: "GothamPro", sans-serif;
     font-size: 36px;
@@ -166,14 +180,14 @@ button, input, textarea {
     text-align: left;
     margin-top: 30px;
     letter-spacing: 0.7px; }
-  /* line 181, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 191, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec1 p {
     color: #0d2a66;
     font-family: "MuseoCyrl", sans-serif;
     font-size: 16px;
     line-height: 27px;
     margin-top: 36px; }
-  /* line 188, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 198, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec1 .btn {
     width: 234px;
     height: 54px;
@@ -183,24 +197,30 @@ button, input, textarea {
     line-height: 54px;
     color: white;
     margin-top: 105px;
-    font-size: 17px; }
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.25s;
+    outline: 0; }
+    /* line 211, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec1 .btn:hover {
+      background-color: #112e75; }
 
-/* line 200, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 216, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 .section {
-  height: 878px;
+  height: 880px;
   background: url(../img/bg2.jpg) no-repeat center; }
-  /* line 207, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 223, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .section.sec2 .video {
-    background-color: red;
     width: 820px;
     height: 414px;
-    margin: 204px auto 0; }
+    margin: 204px auto 0;
+    display: block; }
 
-/* line 215, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 231, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 .sec3 {
   background: url(../img/bg3.jpg) no-repeat center top;
-  height: 810px; }
-  /* line 218, D:/science/aloha/verstka_2/css/sass/style.scss */
+  height: 813px; }
+  /* line 234, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec3 h2 {
     color: #0d2a66;
     font-family: GothamPro;
@@ -212,7 +232,7 @@ button, input, textarea {
     margin-left: 25px;
     letter-spacing: 1px;
     margin-bottom: 65px; }
-  /* line 231, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 247, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   .sec3 .ul .li {
     width: 400px;
     height: 90px;
@@ -220,42 +240,42 @@ button, input, textarea {
     margin-left: 26px;
     margin-right: -15px;
     margin-bottom: 41px; }
-    /* line 238, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 254, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec3 .ul .li .img {
       float: left;
       width: 80px;
       height: 90px; }
-      /* line 242, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 258, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img1 {
         background-image: url(../img/img1.png);
         background-position: 3px 10px;
         background-repeat: no-repeat; }
-      /* line 247, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 263, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img2 {
         background-image: url(../img/img2.png);
         background-position: 8px 16px;
         background-repeat: no-repeat; }
-      /* line 252, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 268, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img3 {
         background-image: url(../img/img3.png);
         background-position: 4px 13px;
         background-repeat: no-repeat; }
-      /* line 257, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 273, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img4 {
         background-image: url(../img/img4.png);
         background-position: 11px 3px;
         background-repeat: no-repeat; }
-      /* line 262, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 278, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img5 {
         background-image: url(../img/img5.png);
         background-position: 11px 3px;
         background-repeat: no-repeat; }
-      /* line 267, D:/science/aloha/verstka_2/css/sass/style.scss */
+      /* line 283, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
       .sec3 .ul .li .img.img6 {
         background-image: url(../img/img6.png);
         background-position: 17px 13px;
         background-repeat: no-repeat; }
-    /* line 273, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 289, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     .sec3 .ul .li .text {
       float: left;
       margin-left: 42px;
@@ -266,262 +286,639 @@ button, input, textarea {
       font-weight: 400;
       margin-top: 14px; }
 
-/* line 286, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 303, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 .sec4 {
   background: url(../img/bg4.jpg) no-repeat center top;
   height: 667px; }
-  /* line 290, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step1 h2 {
-    padding-top: 86px;
-    text-align: center;
-    color: white;
-    font-family: GothamPro;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 44px;
-    letter-spacing: 0.7px; }
-  /* line 300, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step1 .block {
-    text-align: center; }
-    /* line 302, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step1 .block .item {
-      display: inline-block;
-      vertical-align: top;
-      width: 277px;
-      height: 302px;
+  /* line 306, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step1 {
+    display: block; }
+    /* line 308, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step1 h2 {
+      padding-top: 86px;
+      text-align: center;
+      color: white;
+      font-family: GothamPro;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 44px;
+      letter-spacing: 0.7px; }
+    /* line 318, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step1 .block {
+      text-align: center; }
+      /* line 320, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step1 .block .item {
+        display: inline-block;
+        vertical-align: top;
+        width: 277px;
+        height: 302px;
+        background-color: #e8edff;
+        border-radius: 23px;
+        margin: 39px 23px 0px;
+        padding-top: 30px;
+        cursor: pointer;
+        transition: all 0.25s;
+        outline: 0;
+        position: relative;
+        top: 0px; }
+        /* line 334, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step1 .block .item:hover {
+          top: -5px; }
+        /* line 337, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step1 .block .item .img {
+          height: 120px;
+          margin-bottom: 51px; }
+          /* line 340, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step1 .block .item .img.img1 {
+            background-image: url(../img/buyvaluta.png);
+            background-position: 83px 11px; }
+          /* line 344, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step1 .block .item .img.img2 {
+            background-image: url(../img/buyvaluta2.png);
+            background-position: 83px 11px; }
+        /* line 349, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step1 .block .item .btn {
+          width: 151px;
+          height: 52px;
+          background-color: white;
+          line-height: 52px;
+          color: #0d2a66;
+          font-family: "MuseoCyrl", sans-serif;
+          font-size: 19px;
+          border-radius: 26px;
+          margin: 0 auto;
+          box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
+  /* line 364, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step2 {
+    display: none; }
+    /* line 366, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 h2 {
+      text-align: center;
+      color: white;
+      font-family: GothamPro;
+      font-weight: 400;
+      font-size: 40px;
+      padding-top: 96px; }
+    /* line 374, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2 .block {
+      background-color: white;
+      margin: 10px auto 0;
+      padding-top: 21px;
+      text-align: left;
+      width: 640px;
+      height: 386px;
+      margin-top: 66px;
+      border-radius: 22px;
+      padding-left: 90px;
+      position: relative; }
+      /* line 385, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .back {
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        text-decoration: underline;
+        cursor: pointer; }
+        /* line 391, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .back:hover {
+          text-decoration: none; }
+      /* line 395, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .label1 {
+        font-size: 20px;
+        padding-top: 21px; }
+      /* line 399, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .summ-wrap {
+        border-radius: 23px;
+        border: 1px solid rgba(145, 154, 187, 0.43);
+        width: 212px;
+        background-color: white;
+        height: 44px;
+        margin-top: 14px;
+        margin-left: 3px; }
+        /* line 407, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .summ-wrap .number {
+          float: left;
+          font-size: 24px;
+          height: 42px;
+          line-height: 42px;
+          font-family: "MuseoCyrl", sans-serif;
+          padding-left: 28px;
+          width: 147px;
+          display: block;
+          margin: 0;
+          border-bottom-left-radius: 21px;
+          border-top-left-radius: 21px; }
+        /* line 420, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .summ-wrap .valut {
+          float: right;
+          background-color: #c2c9e2;
+          background-image: url(../img/galka.png);
+          background-position: 32px 17px;
+          background-repeat: no-repeat;
+          color: white;
+          font-size: 24px;
+          height: 42px;
+          line-height: 42px;
+          width: 60px;
+          color: #1f283b;
+          font-family: "MuseoCyrl", sans-serif;
+          position: relative;
+          border-bottom-right-radius: 21px;
+          border-top-right-radius: 21px; }
+          /* line 436, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2 .block .summ-wrap .valut .current {
+            width: 100%;
+            height: 42px;
+            background-position: 10px center;
+            cursor: pointer; }
+            /* line 441, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .current[data-selected="dollar"] {
+              background-image: url(../img/dollar-ico.png); }
+            /* line 444, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .current[data-selected="euro"] {
+              background-image: url(../img/euro-ico.png); }
+            /* line 447, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .current[data-selected="ruble"] {
+              background-image: url(../img/ruble-ico.png); }
+          /* line 451, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2 .block .summ-wrap .valut .select {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 40px;
+            z-index: 2;
+            border-left: 1px solid rgba(145, 154, 187, 0.43);
+            border-right: 1px solid rgba(145, 154, 187, 0.43);
+            background-color: #c2c9e2;
+            border-top: 1px solid rgba(145, 154, 187, 0.43); }
+            /* line 462, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .select .item {
+              height: 43px;
+              border-bottom: 1px solid rgba(145, 154, 187, 0.43);
+              width: 100%;
+              background-position: 10px center;
+              cursor: pointer;
+              background-color: transparent;
+              transition: all 0.25s; }
+              /* line 470, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+              .sec4 .step2 .block .summ-wrap .valut .select .item:hover {
+                background-color: white; }
+            /* line 474, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .select .dollar {
+              background-image: url(../img/dollar-ico.png); }
+            /* line 478, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .select .euro {
+              background-image: url(../img/euro-ico.png); }
+            /* line 482, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .summ-wrap .valut .select .ruble {
+              background-image: url(../img/ruble-ico.png); }
+      /* line 489, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .label2 {
+        font-size: 18px;
+        padding-top: 28px;
+        margin-left: 6px; }
+      /* line 495, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .line {
+        margin-top: 16px; }
+        /* line 497, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .line .curs {
+          float: left;
+          font-size: 23px;
+          font-family: "MuseoCyrl", sans-serif;
+          height: 44px;
+          line-height: 44px;
+          padding-right: 22px;
+          padding-left: 5px; }
+        /* line 506, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .line .type {
+          float: left;
+          border-radius: 40px;
+          overflow: hidden;
+          border: 1px solid #c2c9e2;
+          color: white;
+          width: 377px;
+          height: 44px;
+          border-radius: 30px; }
+          /* line 515, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2 .block .line .type .bitcoin {
+            cursor: pointer;
+            transition: all 0.25s;
+            float: left;
+            background-color: #e8edff;
+            background-image: url(../img/icon1.png);
+            background-position: 18px 10px;
+            background-repeat: no-repeat;
+            padding-left: 47px;
+            font-size: 15px;
+            color: #505568;
+            opacity: 0.76;
+            width: 116px;
+            height: 42px;
+            line-height: 42px; }
+            /* line 530, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .bitcoin.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 535, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .bitcoin:hover {
+              opacity: 1; }
+          /* line 539, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2 .block .line .type .efirium {
+            cursor: pointer;
+            transition: all 0.25s;
+            height: 42px;
+            line-height: 42px;
+            float: left;
+            border-left: 1px solid  #c2c9e2;
+            background-color: #e8edff;
+            background-image: url(../img/icon2.png);
+            background-position: 13px 10px;
+            background-repeat: no-repeat;
+            padding-left: 38px;
+            font-size: 15px;
+            width: 127px;
+            color: #505568;
+            opacity: 0.76; }
+            /* line 555, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .efirium.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 560, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .efirium:hover {
+              opacity: 1; }
+          /* line 564, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2 .block .line .type .litecoin {
+            cursor: pointer;
+            transition: all 0.25s;
+            height: 42px;
+            line-height: 42px;
+            float: left;
+            border-left: 1px solid #c2c9e2;
+            background-color: #e8edff;
+            background-image: url(../img/icon3.png);
+            background-position: 14px 10px;
+            background-repeat: no-repeat;
+            padding-left: 43px;
+            width: 132px;
+            font-size: 15px;
+            color: #505568;
+            opacity: 0.76; }
+            /* line 580, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .litecoin.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 585, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2 .block .line .type .litecoin:hover {
+              opacity: 1; }
+      /* line 591, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2 .block .btn {
+        width: 237px;
+        height: 54px;
+        background-color: #283a83;
+        border-radius: 27px;
+        text-align: center;
+        line-height: 54px;
+        margin-top: 40px;
+        color: white;
+        margin-left: 4px;
+        padding-right: 4px;
+        cursor: pointer;
+        transition: all 0.25s;
+        outline: 0; }
+        /* line 605, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2 .block .btn:hover {
+          background-color: #112e75; }
+  /* line 611, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step2_b {
+    display: none; }
+    /* line 613, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2_b h2 {
+      text-align: center;
+      color: white;
+      font-family: GothamPro;
+      font-weight: 400;
+      font-size: 40px;
+      padding-top: 96px; }
+    /* line 621, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step2_b .block {
+      background-color: white;
+      margin: 10px auto 0;
+      padding-top: 21px;
+      text-align: left;
+      width: 640px;
+      height: 386px;
+      margin-top: 66px;
+      border-radius: 22px;
+      padding-left: 90px;
+      position: relative; }
+      /* line 632, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .back {
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        text-decoration: underline;
+        cursor: pointer; }
+        /* line 638, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .back:hover {
+          text-decoration: none; }
+      /* line 642, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .label1 {
+        font-size: 20px;
+        padding-top: 21px; }
+      /* line 646, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .summ-wrap {
+        border-radius: 23px;
+        border: 1px solid rgba(145, 154, 187, 0.43);
+        width: 212px;
+        background-color: white;
+        height: 44px;
+        margin-top: 14px;
+        margin-left: 3px; }
+        /* line 654, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .summ-wrap .number {
+          float: left;
+          font-size: 24px;
+          height: 42px;
+          line-height: 42px;
+          font-family: "MuseoCyrl", sans-serif;
+          padding-left: 28px;
+          width: 147px;
+          display: block;
+          margin: 0;
+          border-bottom-left-radius: 21px;
+          border-top-left-radius: 21px; }
+        /* line 667, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .summ-wrap .valut {
+          float: right;
+          background-color: #c2c9e2;
+          background-image: url(../img/galka.png);
+          background-position: 32px 17px;
+          background-repeat: no-repeat;
+          color: white;
+          font-size: 24px;
+          height: 42px;
+          line-height: 42px;
+          width: 60px;
+          color: #1f283b;
+          font-family: "MuseoCyrl", sans-serif;
+          position: relative;
+          border-bottom-right-radius: 21px;
+          border-top-right-radius: 21px; }
+          /* line 683, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2_b .block .summ-wrap .valut .current {
+            width: 100%;
+            height: 42px;
+            background-position: 10px center;
+            cursor: pointer; }
+            /* line 688, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="bitcoin"] {
+              background-image: url(../img/icon1.png); }
+            /* line 691, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="ethereum"] {
+              background-image: url(../img/icon2.png); }
+            /* line 694, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="litecoin"] {
+              background-image: url(../img/icon3.png); }
+          /* line 698, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2_b .block .summ-wrap .valut .select {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 40px;
+            z-index: 2;
+            border-left: 1px solid rgba(145, 154, 187, 0.43);
+            border-right: 1px solid rgba(145, 154, 187, 0.43);
+            background-color: #c2c9e2;
+            border-top: 1px solid rgba(145, 154, 187, 0.43); }
+            /* line 709, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .select .item {
+              height: 43px;
+              border-bottom: 1px solid rgba(145, 154, 187, 0.43);
+              width: 100%;
+              background-position: 10px center;
+              cursor: pointer;
+              background-color: transparent;
+              transition: all 0.25s; }
+              /* line 717, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+              .sec4 .step2_b .block .summ-wrap .valut .select .item:hover {
+                background-color: white; }
+            /* line 721, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .select .bitcoin {
+              background-image: url(../img/icon1.png); }
+            /* line 724, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .select .efirium {
+              background-image: url(../img/icon2.png); }
+            /* line 727, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .summ-wrap .valut .select .litecoin {
+              background-image: url(../img/icon3.png); }
+      /* line 733, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .label2 {
+        font-size: 18px;
+        padding-top: 28px;
+        margin-left: 6px; }
+      /* line 739, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .line {
+        margin-top: 16px; }
+        /* line 741, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .line .curs {
+          float: left;
+          font-size: 23px;
+          font-family: "MuseoCyrl", sans-serif;
+          height: 44px;
+          line-height: 44px;
+          padding-right: 22px;
+          padding-left: 5px; }
+        /* line 750, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .line .type {
+          float: left;
+          border-radius: 40px;
+          overflow: hidden;
+          border: 1px solid #c2c9e2;
+          color: white;
+          width: 106px;
+          height: 44px;
+          border-radius: 30px; }
+          /* line 759, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2_b .block .line .type .dollar {
+            cursor: pointer;
+            transition: all 0.25s;
+            float: left;
+            background-color: #e8edff;
+            background-image: url(../img/dollar-ico.png);
+            background-position: 18px center;
+            background-repeat: no-repeat;
+            padding-left: 47px;
+            font-size: 15px;
+            color: #505568;
+            opacity: 0.76;
+            width: 106px;
+            height: 42px;
+            line-height: 44px; }
+            /* line 774, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .dollar.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 779, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .dollar:hover {
+              opacity: 1; }
+          /* line 783, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2_b .block .line .type .euro {
+            cursor: pointer;
+            transition: all 0.25s;
+            height: 42px;
+            line-height: 44px;
+            float: left;
+            border-left: 1px solid  #c2c9e2;
+            background-color: #e8edff;
+            background-image: url(../img/euro-ico.png);
+            background-position: 13px center;
+            background-repeat: no-repeat;
+            padding-left: 38px;
+            font-size: 15px;
+            width: 87px;
+            color: #505568;
+            opacity: 0.76; }
+            /* line 799, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .euro.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 804, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .euro:hover {
+              opacity: 1; }
+          /* line 808, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+          .sec4 .step2_b .block .line .type .ruble {
+            cursor: pointer;
+            transition: all 0.25s;
+            height: 42px;
+            line-height: 42px;
+            float: left;
+            border-left: 1px solid #c2c9e2;
+            background-color: #e8edff;
+            background-image: url(../img/ruble-ico.png);
+            background-position: 14px 10px;
+            background-repeat: no-repeat;
+            padding-left: 43px;
+            width: 102px;
+            font-size: 15px;
+            color: #505568;
+            opacity: 0.76; }
+            /* line 824, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .ruble.active {
+              opacity: 1;
+              background-color: white;
+              color: #0d2a66; }
+            /* line 829, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+            .sec4 .step2_b .block .line .type .ruble:hover {
+              opacity: 1; }
+      /* line 835, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step2_b .block .btn {
+        width: 237px;
+        height: 54px;
+        background-color: #283a83;
+        border-radius: 27px;
+        text-align: center;
+        line-height: 54px;
+        margin-top: 40px;
+        color: white;
+        margin-left: 4px;
+        padding-right: 4px;
+        cursor: pointer;
+        transition: all 0.25s;
+        outline: 0; }
+        /* line 849, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step2_b .block .btn:hover {
+          background-color: #112e75; }
+  /* line 855, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  .sec4 .step3 {
+    display: none; }
+    /* line 857, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step3 h2 {
+      text-align: center;
+      color: white;
+      font-family: GothamPro;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 45px;
+      margin-top: 85px;
+      letter-spacing: 0px; }
+    /* line 867, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    .sec4 .step3 .form {
+      margin: 19px auto 0;
+      text-align: center;
+      width: 639px;
+      height: 374px;
       background-color: #e8edff;
       border-radius: 23px;
-      margin: 39px 23px 0px;
-      padding-top: 30px; }
-      /* line 311, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step1 .block .item .img {
-        height: 120px;
-        margin-bottom: 51px; }
-        /* line 314, D:/science/aloha/verstka_2/css/sass/style.scss */
-        .sec4 .step1 .block .item .img.img1 {
-          background-image: url(../../img/buyvaluta.png);
-          background-position: 83px 11px; }
-        /* line 318, D:/science/aloha/verstka_2/css/sass/style.scss */
-        .sec4 .step1 .block .item .img.img2 {
-          background-image: url(../../img/buyvaluta2.png);
-          background-position: 83px 11px; }
-      /* line 323, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step1 .block .item .btn {
-        width: 151px;
-        height: 52px;
-        background-color: white;
-        line-height: 52px;
+      padding-top: 27px;
+      position: relative; }
+      /* line 876, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step3 .form .back {
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        text-decoration: underline;
+        cursor: pointer; }
+        /* line 882, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step3 .form .back:hover {
+          text-decoration: none; }
+      /* line 886, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step3 .form .text {
         color: #0d2a66;
-        font-family: "MuseoCyrl", sans-serif;
+        font-family: GothamPro;
         font-size: 19px;
-        border-radius: 26px;
-        margin: 0 auto;
-        box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
-  /* line 339, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step2 h2 {
-    text-align: center;
-    color: white;
-    font-family: GothamPro;
-    font-weight: 400;
-    font-size: 40px;
-    padding-top: 96px; }
-  /* line 347, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step2 .block {
-    background-color: white;
-    margin: 10px auto 0;
-    padding-top: 21px;
-    text-align: left;
-    width: 640px;
-    height: 386px;
-    margin-top: 66px;
-    border-radius: 22px;
-    padding-left: 90px; }
-    /* line 357, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step2 .block .label1 {
-      font-size: 20px;
-      padding-top: 21px; }
-    /* line 361, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step2 .block .summ-wrap {
-      border-radius: 23px;
-      overflow: hidden;
-      border: 1px solid rgba(145, 154, 187, 0.43);
-      width: 212px;
-      background-color: white;
-      height: 44px;
-      margin-top: 14px;
-      margin-left: 3px; }
-      /* line 370, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step2 .block .summ-wrap .number {
-        float: left;
-        font-size: 24px;
-        height: 42px;
-        line-height: 42px;
-        font-family: "MuseoCyrl", sans-serif;
-        padding-left: 28px;
-        width: 147px; }
-      /* line 379, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step2 .block .summ-wrap .valut {
-        float: right;
-        background-color: #c2c9e2;
-        background-image: url(../img/galka.png);
-        background-position: 32px 17px;
-        background-repeat: no-repeat;
+        font-weight: 400;
+        line-height: 37px;
+        padding-top: 6px;
+        margin-bottom: 9px; }
+      /* line 895, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step3 .form .input {
+        font-size: 18px;
+        text-align: center;
+        width: 233px;
+        height: 45px;
+        background-color: white;
+        border: 1px solid rgba(145, 154, 187, 0.43);
+        border-radius: 23px;
+        margin-bottom: 5px; }
+      /* line 905, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+      .sec4 .step3 .form .button {
         color: white;
-        font-size: 24px;
-        height: 42px;
-        line-height: 42px;
-        width: 63px;
-        color: #1f283b;
-        font-family: "MuseoCyrl", sans-serif;
-        padding-left: 10px; }
-    /* line 395, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step2 .block .label2 {
-      font-size: 18px;
-      padding-top: 28px;
-      margin-left: 6px; }
-    /* line 401, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step2 .block .line {
-      margin-top: 16px; }
-      /* line 403, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step2 .block .line .curs {
-        float: left;
-        font-size: 23px;
-        font-family: "MuseoCyrl", sans-serif;
-        height: 44px;
-        line-height: 44px;
-        width: 54px;
-        padding-left: 5px; }
-      /* line 412, D:/science/aloha/verstka_2/css/sass/style.scss */
-      .sec4 .step2 .block .line .type {
-        float: left;
-        border-radius: 40px;
-        overflow: hidden;
-        border: 1px solid  #c2c9e2;
-        color: white;
-        width: 377px;
-        height: 44px;
-        border-radius: 30px; }
-        /* line 422, D:/science/aloha/verstka_2/css/sass/style.scss */
-        .sec4 .step2 .block .line .type .bitcoin {
-          float: left;
-          background-color: white;
-          background-image: url(../img/icon1.png);
-          background-position: 18px 10px;
-          background-repeat: no-repeat;
-          padding-left: 47px;
-          font-size: 15px;
-          color: #0d2a66;
-          width: 116px;
-          height: 42px;
-          line-height: 42px; }
-        /* line 436, D:/science/aloha/verstka_2/css/sass/style.scss */
-        .sec4 .step2 .block .line .type .efirium {
-          height: 42px;
-          line-height: 42px;
-          float: left;
-          border-left: 1px solid  #c2c9e2;
-          background-color: #e8edff;
-          background-image: url(../img/icon2.png);
-          background-position: 13px 10px;
-          background-repeat: no-repeat;
-          padding-left: 38px;
-          font-size: 15px;
-          width: 127px;
-          color: #505568;
-          opacity: 0.76; }
-        /* line 452, D:/science/aloha/verstka_2/css/sass/style.scss */
-        .sec4 .step2 .block .line .type .litecoin {
-          height: 42px;
-          line-height: 42px;
-          float: left;
-          border-left: 1px solid #c2c9e2;
-          background-color: #e8edff;
-          background-image: url(../img/icon3.png);
-          background-position: 14px 10px;
-          background-repeat: no-repeat;
-          padding-left: 43px;
-          width: 132px;
-          font-size: 15px;
-          color: #505568; }
-    /* line 469, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step2 .block .btn {
-      width: 237px;
-      height: 54px;
-      background-color: #283a83;
-      border-radius: 27px;
-      text-align: center;
-      line-height: 54px;
-      margin-top: 40px;
-      color: white;
-      margin-left: 4px;
-      padding-right: 4px; }
-  /* line 484, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step3 h2 {
-    text-align: center;
-    color: white;
-    font-family: GothamPro;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    margin-top: 85px;
-    letter-spacing: 0px; }
-  /* line 494, D:/science/aloha/verstka_2/css/sass/style.scss */
-  .sec4 .step3 .form {
-    margin: 19px auto 0;
-    text-align: center;
-    width: 639px;
-    height: 374px;
-    background-color: #e8edff;
-    border-radius: 23px;
-    padding-top: 27px; }
-    /* line 502, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step3 .form .text {
-      color: #0d2a66;
-      font-family: GothamPro;
-      font-size: 19px;
-      font-weight: 400;
-      line-height: 37px;
-      padding-top: 6px;
-      margin-bottom: 9px; }
-    /* line 511, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step3 .form .input {
-      font-size: 18px;
-      text-align: center;
-      width: 233px;
-      height: 45px;
-      background-color: white;
-      border: 1px solid rgba(145, 154, 187, 0.43);
-      border-radius: 23px;
-      margin-bottom: 5px; }
-    /* line 521, D:/science/aloha/verstka_2/css/sass/style.scss */
-    .sec4 .step3 .form .button {
-      color: white;
-      margin-left: 201px;
-      margin-top: 25px;
-      display: block;
-      text-align: center;
-      font-size: 15px;
-      width: 234px;
-      height: 54px;
-      background-color: #283a83;
-      border-radius: 27px; }
+        margin: 25px auto 0;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        width: 234px;
+        height: 54px;
+        background-color: #283a83;
+        border-radius: 27px;
+        cursor: pointer;
+        transition: all 0.25s;
+        outline: 0; }
+        /* line 918, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+        .sec4 .step3 .form .button:hover {
+          background-color: #112e75; }
 
-/* line 536, D:/science/aloha/verstka_2/css/sass/style.scss */
+/* line 925, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
 footer {
   background-color: #374786;
   height: 132px; }
-  /* line 539, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 928, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   footer .left {
-    margin-left: -101px;
     margin-top: 46px;
     float: left; }
-    /* line 543, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 931, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     footer .left .token {
       color: white;
       font-family: "MuseoCyrl", sans-serif;
       font-size: 24px;
       line-height: 20px; }
-    /* line 549, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 937, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     footer .left .fiz {
       color: white;
       font-family: "GothamPro", sans-serif;
@@ -531,10 +928,10 @@ footer {
       margin-left: 3px;
       letter-spacing: 1.3px;
       opacity: 0.86; }
-  /* line 560, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 948, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   footer .right {
     float: right; }
-    /* line 562, D:/science/aloha/verstka_2/css/sass/style.scss */
+    /* line 950, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     footer .right .phone {
       margin-top: 31px;
       font-size: 30px;
@@ -542,8 +939,9 @@ footer {
       line-height: 28px;
       margin-left: 4px;
       letter-spacing: 0.4px;
-      color: white; }
-    /* line 571, D:/science/aloha/verstka_2/css/sass/style.scss */
+      color: white;
+      display: block; }
+    /* line 960, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
     footer .right .addr {
       font-size: 15px;
       font-weight: 400;
@@ -553,13 +951,138 @@ footer {
       letter-spacing: 0.2px;
       float: right;
       color: white; }
-  /* line 582, D:/science/aloha/verstka_2/css/sass/style.scss */
+  /* line 971, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
   footer .confidential {
     font-size: 14px;
     float: right;
     text-align: center;
     margin-right: 154px;
     margin-top: 49px;
-    color: white; }
+    color: white;
+    cursor: pointer; }
+    /* line 979, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    footer .confidential:hover {
+      text-decoration: underline; }
+
+/* line 984, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+#hidden-box {
+  display: none; }
+
+/* line 988, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+#okgo {
+  width: 400px;
+  background: white;
+  padding: 36px 40px 40px;
+  position: relative;
+  text-align: center;
+  border-radius: 24px; }
+  /* line 995, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #okgo .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: underline; }
+    /* line 1001, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    #okgo .close:hover {
+      text-decoration: none; }
+  /* line 1006, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #okgo p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px; }
+
+/* line 1014, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+#form-error-pop {
+  width: 400px;
+  background: white;
+  padding: 36px 40px 40px;
+  position: relative;
+  text-align: center;
+  border-radius: 24px; }
+  /* line 1021, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #form-error-pop .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: underline; }
+    /* line 1027, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    #form-error-pop .close:hover {
+      text-decoration: none; }
+  /* line 1032, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #form-error-pop p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px; }
+
+/* line 1039, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+#conf {
+  width: 800px;
+  background: white;
+  padding: 36px 40px 40px;
+  position: relative;
+  text-align: left;
+  border-radius: 24px; }
+  /* line 1046, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #conf .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: underline; }
+    /* line 1052, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+    #conf .close:hover {
+      text-decoration: none; }
+  /* line 1057, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #conf h3 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 30px; }
+  /* line 1063, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+  #conf p {
+    font-size: 18px;
+    line-height: 26px; }
+
+/* line 1068, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+.arcticmodal-container, .arcticmodal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
+
+/* line 1069, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+.arcticmodal-container {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse; }
+
+/* line 1070, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+:first-child + html .arcticmodal-container {
+  height: 100%; }
+
+/* line 1071, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+.arcticmodal-container_i {
+  margin: 0 auto;
+  height: 100%; }
+
+/* line 1072, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+.arcticmodal-container_i2 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: middle; }
+
+/* line 1073, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+#hidden-box {
+  display: none; }
+
+/* line 1074, /Volumes/Workspace/CACHE/GITHUB/aloha/verstka_2/css/sass/style.scss */
+.error-input {
+  border: 1px solid red !important; }
 
 /*# sourceMappingURL=style.css.map */
