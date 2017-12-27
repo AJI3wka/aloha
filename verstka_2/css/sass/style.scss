@@ -220,11 +220,20 @@ button, input, textarea {
     &.sec2 {
         div {
         }
-        .video {
-            width: 820px;
-            height: 414px;
-            margin: 204px auto 0;
-            display: block;
+        .video-wrap{
+            width: 850px;
+            height: 434px;
+            background-color: rgb(138, 138, 138);
+            border: 15px solid white;
+            background: white;
+            box-shadow: 0 1px 8px rgba(29, 29, 29, 0.4);
+            margin: 189px auto 0;
+            border-radius: 15px;
+            .video {
+                width: 820px;
+                height: 414px;
+                display: block;
+            }
         }
     }
 }
@@ -233,7 +242,7 @@ button, input, textarea {
     height: 813px;
     h2 {
         color: #0d2a66;
-        font-family: GothamPro;
+        font-family: $fontfamily;
         font-size: 39px;
         font-weight: 400;
         line-height: 40px;
@@ -290,7 +299,7 @@ button, input, textarea {
                 float: left;
                 margin-left: 42px;
                 font-size: 18px;
-                font-family: GothamPro;
+                font-family: $fontfamily;
                 
                 color: #0d2a66;
                 line-height: 28px;
@@ -309,7 +318,7 @@ button, input, textarea {
             padding-top: 86px;
             text-align: center;
             color: white;
-            font-family: GothamPro;
+            font-family: $fontfamily;
             font-size: 40px;
             font-weight: 400;
             line-height: 44px;
@@ -366,7 +375,7 @@ button, input, textarea {
         h2 {
             text-align: center;
             color: white;
-            font-family: GothamPro;
+            font-family: $fontfamily;
             font-weight: 400;
             font-size: 40px;
             padding-top: 96px;
@@ -382,16 +391,6 @@ button, input, textarea {
             border-radius: 22px;
             padding-left: 90px;
             position: relative;
-            .back{
-                position: absolute;
-                left: 15px;
-                bottom: 10px;
-                text-decoration: underline;
-                cursor: pointer;
-                &:hover{
-                    text-decoration: none;
-                }
-            }
             .label1 {
                 font-size: 20px;
                 padding-top: 21px;
@@ -588,7 +587,26 @@ button, input, textarea {
                     }
                 }
             }
+            .back{
+                width: 101px;
+                height: 54px;
+                border: 1px solid rgba(145, 154, 187, 0.43);
+                border-radius: 27px;
+                margin-top: 40px;
+                float: left;
+                margin-right: 26px;
+                color: rgb(80, 85, 104);
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 52px;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
             .btn {
+                float: left;
                 width: 237px;
                 height: 54px;
                 background-color: #283a83;
@@ -613,7 +631,7 @@ button, input, textarea {
         h2 {
             text-align: center;
             color: white;
-            font-family: GothamPro;
+            font-family: $fontfamily;
             font-weight: 400;
             font-size: 40px;
             padding-top: 96px;
@@ -629,16 +647,6 @@ button, input, textarea {
             border-radius: 22px;
             padding-left: 90px;
             position: relative;
-            .back{
-                position: absolute;
-                left: 15px;
-                bottom: 10px;
-                text-decoration: underline;
-                cursor: pointer;
-                &:hover{
-                    text-decoration: none;
-                }
-            }
             .label1 {
                 font-size: 20px;
                 padding-top: 21px;
@@ -753,7 +761,7 @@ button, input, textarea {
                     overflow: hidden;
                     border: 1px solid #c2c9e2;
                     color: white;
-                    width: 106px;
+                    width: 210px;
                     height: 44px;
                     border-radius: 30px;
                     .dollar {
@@ -832,7 +840,27 @@ button, input, textarea {
                     }
                 }
             }
+            .back{
+                width: 101px;
+                height: 54px;
+                border: 1px solid rgba(145, 154, 187, 0.43);
+                border-radius: 27px;
+                margin-top: 40px;
+                float: left;
+                margin-right: 26px;
+                color: rgb(80, 85, 104);
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 52px;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
             .btn {
+                float: left;
+                
                 width: 237px;
                 height: 54px;
                 background-color: #283a83;
@@ -857,7 +885,7 @@ button, input, textarea {
         h2 {
             text-align: center;
             color: white;
-            font-family: GothamPro;
+            font-family: $fontfamily;
             font-size: 40px;
             font-weight: 400;
             line-height: 45px;
@@ -874,18 +902,20 @@ button, input, textarea {
             padding-top: 27px;
             position: relative;
             .back{
-                position: absolute;
-                left: 15px;
-                bottom: 10px;
-                text-decoration: underline;
+                color: #505568;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 27px;
+                display: inline-block;
                 cursor: pointer;
+                margin-top: 16px;
                 &:hover{
-                    text-decoration: none;
+                    text-decoration: underline;
                 }
             }
             .text {
                 color: #0d2a66;
-                font-family: GothamPro;
+                font-family: $fontfamily;
                 font-size: 19px;
                 font-weight: 400;
                 line-height: 37px;
