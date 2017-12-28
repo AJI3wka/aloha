@@ -1,0 +1,19 @@
+User-agent: Yandex
+Disallow: /404/
+Disallow: /403
+Disallow: /admin
+Disallow: /search
+Host: vnukauto.com
+ 
+User-agent: Googlebot
+Disallow: /404/
+Disallow: /403
+Disallow: /admin
+Disallow: /search
+Sitemap: http://vnukauto.com/sitemap.xml
+
+User-Agent: *
+Disallow: /404/
+Disallow: /403
+Disallow: /admin
+Disallow: /search
