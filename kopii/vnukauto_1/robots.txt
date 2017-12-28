@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 User-agent: Yandex
 Disallow: /404/
 Disallow: /403
@@ -17,24 +16,4 @@ User-Agent: *
 Disallow: /404/
 Disallow: /403
 Disallow: /admin
-=======
-User-agent: Yandex
-Disallow: /404/
-Disallow: /403
-Disallow: /admin
-Disallow: /search
-Host: vnukauto.com
- 
-User-agent: Googlebot
-Disallow: /404/
-Disallow: /403
-Disallow: /admin
-Disallow: /search
-Sitemap: http://vnukauto.com/sitemap.xml
-
-User-Agent: *
-Disallow: /404/
-Disallow: /403
-Disallow: /admin
->>>>>>> 22b89090880b6a9abb1725f3d04bc176363d07d2
 Disallow: /search
