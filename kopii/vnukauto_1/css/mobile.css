@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width: 1200px){
 .container {
     width: 1200px;
@@ -380,4 +381,388 @@
 		position: relative;
 		top: -60px;
 	}
+=======
+@media (min-width: 1200px){
+.container {
+    width: 1200px;
+	padding:0;
+}
+}
+
+@media(max-width:1199px){
+	.emp_fields_md{display:none;}	
+}
+
+@media(max-width:992px){
+	.emp_fields_ms,
+	.dottedP{display:none;}	
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.headerDesc h2{font-size:25px;margin-top:7px;}
+	.headerDesc p{font-size:18px;}
+	.headerPhone .phone{font-size:33px;padding-top:5px; text-align:center;}
+	
+	.orderCall{width:100%;}
+	.orderCall .middleBtn{width:199px; height:44px;    background-size: 464px;margin:0 auto;}
+	.orderCall span{font-size:16px;}
+	
+	.bannerTitle h2{font-size:35px;}
+	.bannerTitle h3{font-size:30px;}
+	.services{padding:0;}
+	.remont.service_db, .express.service_db{margin-left:57px;}
+	.diagnostic.service_db{margin-left:0;}
+	.services .service_db{width:220px; font-size:21px;padding-top:8px;}
+	.numerics_db .number{font-size:60px;}
+	.numerics_db .numDesc{font-size:18px;line-height:22px;}
+	.topOval{background-position:center;}
+	
+	.padTop45,.padTop80{padding-top:0;}
+	.priceList .bigBtn{float:none;margin: 0 auto;}
+	.timePrice .bigBtn{margin:0 auto;}
+	.someButtons .bottomOval{padding-top: 20px;padding-bottom: 30px;background-size: contain;}
+	
+	.painting_detailed .dropBtn:nth-of-type(4){    right: 35px;top: 20px;}
+	.painting_detailed .dropBtn:nth-of-type(8){bottom:-25px;right:390px;}
+	.painting_detailed .dropBtn:nth-of-type(9){right:110px;}
+	.adt_name{font-size:26px;}
+	.wing2{left:190px;}
+	.mirror{top: 232px;right: 337px;}
+	.roof{left:278px;}
+	.hood{left:360px;}
+	.door{left:263px;}
+	.thresholds{left:242px;}
+	.wing{left:331px;}
+	.bumper{left:412px;}
+	
+	.whyChooseUs h3{font-size:40px;}
+	.rv_text{width: 700px;font-size:16px;}
+	
+	footer .headerPhone .phone{font-size:25px;}
+	footer .orderCall{top:25px;}
+	.orderCall .middleBtn:hover {background-position: 0 -48px;}
+	.someButtons{margin-top:-50px;}
+}
+
+@media(max-width:991px){
+	.headerDesc{display:none;}
+}
+	
+@media(min-width:768px) and (max-width:991px){
+	.headerPhone .orderCall{position:relative;}
+	.headerPhone .orderCall,
+	.headerPhone .phone{display:inline-block;font-size:30px;}
+	.orderCall .middleBtn{width:199px; height:44px;    background-size: 464px;margin-left:20px;}
+	.orderCall span{font-size:16px;display:block;line-height:30px;}
+	.orderCall .middleBtn:hover {background-position: 0 -48px;}
+	
+	.navbar-default .navbar-nav>li>a{font-size:15px;}
+	.bannerTitle h2{font-size:40px;margin-top:15px;}
+	.bannerTitle h3{font-size:32px;}
+	.simpleForm h3{font-size:26px;}
+	.simpleForm p{font-size:16px;}
+	.simpleForm h4{font-size:20px;}
+	.simpleForm .middleBtn{left:15px;}
+	.main-banner .consultation{padding-bottom:46px;}
+
+	.diagnostic-banner li{font-size:20px;}
+	.diagnostic-banner .consultation{padding-bottom:29px;}
+	.remont-banner .consultation{padding-bottom:57px;}
+	
+	.services{padding:0;}
+	.diagnostic.service_db{margin-left:40px;}
+	.services .service_db{width:190px;margin-left:47px;padding-left: 53px; padding-top: 14px;font-size:18px;}
+	
+	.page_top_window {background-size:cover;background-position:center;}
+	
+	.numerics_db .number{font-size:60px;}
+	.numerics_db .numDesc{font-size:18px;line-height:22px;}
+	.topOval{background-position:center;}
+	.bottomOval{padding-top: 20px;padding-bottom: 10px;background-size: contain;} 
+	.numerics_db{margin-bottom:20px;}
+	.bottomOval .container .numerics_db:nth-of-type(2n){border:none;}
+	
+	.repair_services h2{font-size:35px;}
+	.padTop45,.padTop80{padding-top:0;}
+	.rpService_db{margin:0;}
+	.someButtons{margin-top:-50px;}
+	
+	.priceList .bigBtn{float:none;margin: 0 auto;}
+	.timePrice .bigBtn{margin:0 auto;}	
+	
+	.painting_detailed .dropBtn{
+	position:relative;
+	margin-bottom:15px;
+	top:auto !important;
+	left:auto !important;
+	right:auto !important;
+	bottom:auto !important;
+	float:left;margin:15px 8%;
+	}
+	.painting_detailed{background-position:top right; height:490px;}
+	.painting{background-position: 50% -100px;background-repeat:repeat-y;}
+	.painting h2{padding-top:50px;padding-bottom:40px;}
+	.also{padding-top: 42px;    padding-bottom: 30px;}
+	
+	.tireServices .col-sm-6:nth-of-type(2n) .dottedR,
+	.additionalPainting .col-sm-6:nth-of-type(3n) .dottedR{border:none;}
+	
+	.rv_text{
+		width: 480px !important;
+		font-size: 16px !important;
+		line-height: 18px !important;
+		}
+		
+	footer .headerPhone .phone{display:inline-block;padding-top:15px !important;}	
+	footer .orderCall{position:relative;top:auto !important;display:inline-block;}
+	.carParts{display:none;}
+	.slider{height:820px;}
+}
+
+@media(min-width:768px){
+	.navbar-header a,
+	#film_roll{display:none;}
+}
+
+@media(max-width:767px){
+	.services .service_db:hover, .services .service_db.active{background:none !important;}
+	body{padding-top:55px;}
+	.header_menu{top:0;}
+	.headerPhone div, .carParts,
+	 header,  .navbar-default .navbar-nav>li:not(:last-child)>a:after{display:none;}
+	.nav>li{margin:0;text-align:center;}
+	.navbar-nav>li>a{padding:10px 0;}
+	.navbar-default{
+		border:none;
+		border-radius:0;
+		background: #f2a946;
+		background: -moz-linear-gradient(top, #f2a946 0%, #ed952e 100%);
+		background: -webkit-linear-gradient(top, #f2a946 0%,#ed952e 100%);
+		background: linear-gradient(to bottom, #f2a946 0%,#ed952e 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a946', endColorstr='#ed952e',GradientType=0 );
+		border-bottom: solid 3px #cb8531;
+		}
+		
+	.bannerTitle h2{font-size:25px;padding:0;line-height:normal;}
+	.bannerTitle h3{font-size:22px;}
+	.page_top_window{background-size:cover;}
+	.page_top_window .container{padding:0;}
+	.simpleForm .middleBtn{left:15%;}
+	.service_db{display:block !important;margin-left: 15% !important;margin-bottom:30px !important;}
+	.topOval{background-position:center;}
+	.numerics_db{border:none !important;margin-bottom:20px !important;}
+	.numerics_db .number{font-size:46px;}
+	.bottomOval{background-size:contain;}
+	
+	.repair_services h2{font-size:25px;margin-top: 30px; margin-bottom:20px;}
+	.padTop45,.padTop80{padding-top:0;}
+	.rpService_db{height:auto; margin-bottom:30px;}
+	.rpService_db .rp_name{margin-top:0;}
+	
+	.someButtons{margin-top:-50px;}
+	.priceList .bigBtn{float:none;margin: 0 auto;}
+	.timePrice .bigBtn{margin:0 auto;}	
+	.bigBtn{
+		width:auto;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		border-radius:10px;
+	}
+	.someButtons .bottomOval{padding-bottom:30px;}
+	
+	.painting{background-repeat:repeat;}
+	.painting h2{padding-bottom:30px;padding-top:40px;font-size:34px;}
+	.painting_detailed .dropBtn{
+	position:relative !important;
+	margin:0 auto !important;
+	margin-bottom:15px !important;
+	top:auto !important;
+	bottom: auto !important;
+	left:auto !important;
+	right:auto !important;
+	}
+	.also{padding-top:35px; padding-bottom:20px;}
+	.painting .dottedR{display:none;}
+	.adt_name{margin-bottom:30px;}
+	.additionalPainting  .col-lg-12{padding:0;}
+	.additionalPainting h3{font-size: 20px;line-height: 23px;}
+	
+	.tireServices h2{padding-top:40px;font-size:30px;padding-bottom:0;}
+	.tireServices .dottedR{display:none;}
+	.trs_name {height: 40px;}
+	.trs_image{height:auto;}
+	.trs_db{margin:40px auto;}
+	.trs_special{margin-top:0;}
+	.alsoTireServices,.alsoTireServices .container{background:none;padding:0;}
+	.subscribe{margin-top:0;}
+	
+	.whyChooseUs h2{margin-top:0;padding-top:30px;font-size:28px;}
+	.whyChooseUs h3{font-size:25px;line-height:27px;margin-top:20px;}
+	.reason{margin-bottom:40px;}
+	
+	.rv_image{float:none !important;margin:0 auto !important;}
+	
+	.aboutUs h2{font-size:25px;line-height:27px;}
+	
+	.rmt_db::before,
+	.exp_db::before{display:none;}
+
+	.forRespMenu{display:block;}
+	
+	.reviews::after,
+	.slider .prev,
+	.slider .next,
+	.slide > img{display:none !important;}
+	
+	.slider{display:none;}
+	.rv_text{width:auto !important;float:none !important;font-size:16px;line-height:18px;margin-right:30px;margin-top:30px;margin-bottom:30px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:711px){	
+	.getting_price h3{line-height:30px !important;}
+}
+
+@media(max-width:640px){
+	
+	}
+	
+@media(min-width:640px) and (max-width:767px){
+
+}
+
+
+@media(max-width:570px){	
+	}
+
+@media(min-width:500px) and (max-width:639px){
+	
+}
+
+@media(max-width:520px){
+	.checkbox_agree input+label span{max-width:82%;}
+	}
+
+@media(max-width:499px){
+}
+
+
+
+@media (max-width:480px){
+	.sendQuote, .subscribe, .leaveReview,
+	.sendQuote a, .subscribe a, .leaveReview a{width:300px;}
+	
+	.sendQuote a,
+	.bigBtn a,
+	.subscribe a,
+	.leaveReview a{background:none !important;padding-left:0 !important;text-align:center;font-size:20px;}
+	
+	.subscribe a,
+	.leaveReview a{font-size:25px;}
+	
+	.middleBtn{
+		width:240px;
+		font-size:24px !important;
+		left:9% !important;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		border-radius:10px;
+	}
+	
+	#products li{width:120px;text-align:center !important}
+
+	.services .service_db{
+		background:none;
+		box-shadow:none;
+		display:inline-block !important;
+		margin:0!important;
+		padding:0 !important; 
+		width:32% !important;
+		height:85px; !important; 
+	}
+	.services .service_db span{display:none;}
+	.services .service_db:before{position:static;display:block;}
+	
+	.formBtn{height:0;}
+	.formBtn .middleBtn{
+		position: relative !important;
+		margin: 0 auto;
+		left: auto !important;
+		bottom: 0;
+		width: 210px;
+		font-size: 20px !important;
+		}
+	
+	.numerics_db{height:120px;}	
+	.numerics_db .number{font-size:22px;    background-size: contain;}
+	.numerics_db .numDesc{font-size:16px;line-height:18px;}
+	.popup-form p.txt{font-size:16px;}
+	
+	.popup-form input[type=submit]{
+		width:210px;
+		font-size:20px;
+		border-radius:10px;
+		}
+}	
+
+@media (min-width:395px) and (max-width:499px){
+		.checkbox_agree strong {
+			position: relative;
+			top: -23px;
+		}
+	}	
+@media (min-width:308px) and (max-width:394px){
+		.checkbox_agree strong {
+			position: relative;
+			top: -40px;
+		}
+	}		
+@media (min-width:321px) and (max-width:400px){
+	.da-slide .desc{top:93% !important;}
+	.calc_db{margin-top:25%;}
+}
+	
+@media (max-width:360px){
+	.selectors{padding:0;}
+	.calc_db .counter ul li{margin:0;}
+	.calc_db .counter ul {padding-left: 8px;}
+
+}
+
+@media(max-width:347px){
+	.servise_db {
+		float:none;
+		margin: 0 auto !important;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width:320px){
+	.da-slide .desc{top:86%;}
+	.calc_db{margin-top:25%;}
+	
+	
+	.checkbox_agree input+label span {
+		max-width: 80%;
+	}
+}
+
+@media (max-width:307px) {
+	.checkbox_agree strong {
+		position: relative;
+		top: -60px;
+	}
+>>>>>>> 22b89090880b6a9abb1725f3d04bc176363d07d2
 }
