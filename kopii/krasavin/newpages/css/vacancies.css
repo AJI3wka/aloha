@@ -1,0 +1,88 @@
+/*ВАКАНСИИ*/
+.div-container {
+    width: 960px; }
+.vacancies {
+    padding: 55px 30px 70px 30px;
+    text-align: center; }
+.vacancies-header {
+    background-color: #ff9600;
+    text-align: center;
+    margin: auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    width: 340px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.vacancies-header-h1 {
+    font-family: OpenSansBold;
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    padding: 15px 0px 17px 0px;
+    text-align: center;
+    line-height: 26px;
+    display: inline-block;
+}
+.vacancies-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap; }
+.vacancies-image img {
+    width: 200px;
+    height: 200px; }
+.vacancies-text {
+    text-align: left; }
+.vacancies-text p {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSansRegular;
+    font-size: 14px;
+    color: #000;
+    line-height: 18px;
+    white-space: pre-wrap;
+    margin-left: 20px; }
+.vacancies-text p span {
+    font-family: OpenSansBold;
+    font-size: 24px;
+    color: #000; }
+@media only screen and (max-width: 992px) {
+    .div-container {
+        width: 100%; }
+}
+
+@media only screen and (max-width: 480px) {
+    /**/
+    .div-container {
+        width: 100%; }
+    .vacancies-header {
+        width: 260px;
+        margin-bottom: 35px; }
+    .vacancies-container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 30px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .vacancies img {
+        width: 150px;
+        height: 150px; }
+    .vacancies-text p {
+        margin-left: 0px;
+        margin-top: 20px; } }

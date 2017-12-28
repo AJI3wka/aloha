@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FSElliotProBold';
+    src: url('fonts/FSElliotProBold.eot');
+    src: url('fonts/FSElliotProBold.eot') format('embedded-opentype'),
+         url('fonts/FSElliotProBold.woff2') format('woff2'),
+         url('fonts/FSElliotProBold.woff') format('woff'),
+         url('fonts/FSElliotProBold.ttf') format('truetype'),
+         url('fonts/FSElliotProBold.svg#FSElliotProBold') format('svg');
+}

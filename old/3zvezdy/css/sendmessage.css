@@ -1,0 +1,28 @@
+.sendmessage-overlay {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 99999999;
+}
+.sendmessage-overlay .content {
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.sendmessage-overlay i {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: url(../images/loader.gif) center center no-repeat;
+}
