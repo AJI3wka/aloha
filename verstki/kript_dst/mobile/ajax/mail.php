@@ -62,4 +62,8 @@ $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
 
 mail ($to,$subject,$message,$headers);
+$to = "voschin.pavel@gmail.com";
+mail ($to,$subject,$message,$headers);
+$to = "triowork2@gmail.com";
+mail ($to,$subject,$message,$headers);
 ?>
