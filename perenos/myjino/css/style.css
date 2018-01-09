@@ -207,7 +207,7 @@ input.error:-ms-input-placeholder {
 .container-fluid {
     overflow: hidden;
     width: 100%;
-    padding: 0;
+    padding: 0 0 20px;
 }
 
 h2 {
@@ -2111,7 +2111,7 @@ margin-left:15px;
 /*screen10*/
 
 .screen10 {
-    min-height: 770px;
+    min-height: 810px;
     z-index: 2;
     padding-top:100px;
     position: relative;
@@ -2182,10 +2182,10 @@ margin-left:15px;
 }
 
 .scr10_block_middle {
-    border: 1px solid rgb(241, 241, 241);
-    min-height: 195px;
-      text-align: left;
-          font-size: 18px;
+    /* border: 1px solid rgb(241, 241, 241); */
+    height: 360px;
+    text-align: left;
+    font-size: 18px;
 }
 
 .scr10_block_bottom {
@@ -4161,7 +4161,6 @@ height:100%;
     text-align: left;
 }
 .scr10_block_middle {
-    border: 1px solid rgb(241, 241, 241);
     min-height: 195px;
     text-align: left;
     font-size: 16px;
