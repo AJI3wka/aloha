@@ -68,6 +68,20 @@ window.addEvent('domready', function() {
     });
 });
 $(function() {
+    $('form').submit(function(e){
+        e.preventDefault();
+            var type=$(this).attr('method');
+            var url=$(this).attr('action');
+            var data=$(this).serialize();
+            var track_event=$(this).find('input[name="event"]').val();
+            $.ajax({type: type, url: url, data: data,
+                success : function(){                    
+                    $('#forms .container').hide();
+                    $('.successMessage').show();
+                    $('#forms').fadeIn('slow');
+                }
+            }); 
+    });
     $('.closeBtn').click(function() {
         $('body').toggleClass('modal-open');
         $('#forms').fadeOut('slow');
