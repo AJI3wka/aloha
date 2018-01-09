@@ -3,7 +3,7 @@
 
 
 //$to  = 'info@teplosmart.ru'; // -  вебмастер, который занимался данным сайтом
-$to  = 'santehexpert-tver@ya.ru';
+$to  = 'otoplenie116@mail.ru';
 
 $subject = 'Новый клиент на отопление загородного дома';
 
