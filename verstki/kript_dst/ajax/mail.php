@@ -60,7 +60,7 @@ $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
 
 mail ($to,$subject,$message,$headers);
-$to = "a.pavel@realtransit.ru";
+$to = "s.pavel@realtransit.ru";
 mail ($to,$subject,$message,$headers);
 $to = "triowork2@gmail.com";
 mail ($to,$subject,$message,$headers);
