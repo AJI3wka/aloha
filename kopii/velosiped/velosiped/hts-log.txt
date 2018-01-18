@@ -1,0 +1,36 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 16 Jan 2018 16:28:16 at http://solargroup.pro/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://solargroup.pro/ -O1 "D:\science\aloha\kopii\velosiped\velosiped" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:32:55	Error: 	"Not Found" (404) at link https://www.solarmotors.com/img/og-image_1200x1200.png (from solargroup.pro/)
+16:33:20	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/support@solargroup.pro (from solargroup.pro/)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/img/svg/icon_cross_black.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/img/svg/icon_cross_white.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/img/svg/zenfone_grad.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/support@solargroup.pro (from solargroup.pro/)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/get (from https://mc.yandex.ru/metrika/watch.js)
+16:33:26	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/path (from https://mc.yandex.ru/metrika/watch.js)
+16:33:28	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/banners.adfox.ru/ (from https://mc.yandex.ru/metrika/watch.js)
+16:33:28	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/awaps.yandex.net/ (from https://mc.yandex.ru/metrika/watch.js)
+16:33:28	Warning: 	Retry after error 500 () at link solargroup.pro/img/svg/icon_cross_black.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:28	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/img/svg/icon_cross_white.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:28	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/img/svg/zenfone_grad.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:29	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/support@solargroup.pro (from solargroup.pro/)
+16:33:29	Warning: 	Retry after error 500 () at link solargroup.pro/get (from https://mc.yandex.ru/metrika/watch.js)
+16:33:29	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/path (from https://mc.yandex.ru/metrika/watch.js)
+16:33:30	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/banners.adfox.ru/ (from https://mc.yandex.ru/metrika/watch.js)
+16:33:30	Warning: 	Retry after error 500 (Internal Server Error) at link solargroup.pro/awaps.yandex.net/ (from https://mc.yandex.ru/metrika/watch.js)
+16:33:30	Error: 	"" (500) after 2 retries at link solargroup.pro/img/svg/icon_cross_black.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:30	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/img/svg/icon_cross_white.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:30	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/img/svg/zenfone_grad.svg (from solargroup.pro/css/duyunov.min.css)
+16:33:30	Error: 	"" (500) after 2 retries at link solargroup.pro/get (from https://mc.yandex.ru/metrika/watch.js)
+16:33:30	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/path (from https://mc.yandex.ru/metrika/watch.js)
+16:33:31	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/banners.adfox.ru/ (from https://mc.yandex.ru/metrika/watch.js)
+16:33:31	Error: 	"Internal Server Error" (500) after 2 retries at link solargroup.pro/awaps.yandex.net/ (from https://mc.yandex.ru/metrika/watch.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 15 seconds : 131 links scanned, 105 files written (8258554 bytes overall) [7775622 bytes received at 24684 bytes/sec], 1704678 bytes transferred using HTTP compression in 17 files, ratio 55%, 3.1 requests per connection
+(9 errors, 16 warnings, 0 messages)

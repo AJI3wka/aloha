@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+solargroup.pro	TRUE	/	FALSE	1999999999	O	1
+.solargroup.pro	TRUE	/	FALSE	1999999999	__cfduid	d4f51c881d9ed2947f47e5cd38e84a1721516113209
+solargroup.pro	TRUE	/	FALSE	1999999999	PHPSESSID	c54a493c4452ce5febce160cef99ac4f
+

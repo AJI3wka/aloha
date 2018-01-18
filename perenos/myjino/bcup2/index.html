@@ -1,0 +1,2332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=980"> -->
+	<meta name="description" content='Отопление дома под ключ | Инженерные решения компании "Мой Дом"'>
+	<meta name="keywords" content='Отопление дома под ключ | Инженерные решения компании "Мой Дом"'>
+	<title>Отопление дома под ключ | Инженерные решения компании "Мой Дом"</title>
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+ <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css">
+    <!-- /slick -->
+    <!-- aos -->
+    <link rel="stylesheet" href="libs/aos-master/aos.css" media="screen">
+    <!-- /aos -->
+    <!-- flipclock -->
+    <link rel="stylesheet" href="libs/flipclock/flipclock.css">
+    <!-- /flipclock -->
+    <!-- fansybox -->
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+    <!-- /fansybox -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Calc style -->
+    <link rel="stylesheet" href="css/style_calc.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <!-- подключаем jquery -->
+<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script> <!-- подключаем плагин -->
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script> <!-- добавляем id видеофайла с Youtube -->
+</head>
+
+<body>
+
+
+	<!-- modal thanks -->
+	<div class=" my-modal-thanks" id="myThanks">
+		<div class="modal-bodys">
+			<!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+			<h3 class="modal-thanks-h3">Спасибо за заявку!</h3>
+			<p class="modal-thanks-p">Мы свяжемся с Вами в рабочее время:<br />Пн-Пт 8-00 до 21-00<br>Сб-Вс: 09:00-17:00</p>
+		</div>
+	</div>
+	<!-- /modal thanks -->
+	<!-- modal thanks calc -->
+	<div class=" my-modal-thanks" id="myThanksCalc">
+		<div class="modal-bodys">
+			<!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+			<h3 class="modal-thanks-h3">Спасибо за обращение!</h3>
+			<p class="modal-thanks-p">Приблизительный расчет вашей системы отопления отправлен вам на почту.</p>
+		</div>
+	</div>
+	<!-- /modal thanks calc -->
+	<!-- PopUp "Скачать инструкцию" -->
+	<div class="my_modal_window" id="pam_zak">
+		<form id="form-download" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Скачать инструкцию">
+			<input type="hidden" name="sp_addressbook" value="880893">
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Заполните поля<span>и мы вышлем Вам на почту<br />«22 ОШИБКИ ПРИ ВЫБОРЕ СИСТЕМЫ ОТОПЛЕНИЯ»</span></h1>
+			<p class="btn-center">
+				<input type="email" name="E-mail" placeholder="E-mail" class="form_input form_input_mail" required>
+			</p>
+						<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+				<p class="reason"></p>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition pamzak_btn btn-152">Скачать инструкцию БЕСПЛАТНО</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="myModal">
+		<form id="form-callback" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Заказ обратного звонка">
+			<input type="hidden" name="sp_addressbook" value="880870">
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для обратной связи<span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Задать вопрос</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="myModalPresent">
+		<form id="form-present" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Заказ подарка">
+			<input type="hidden" name="sp_addressbook" value="880898">
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для получения подарка <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+				<input type="email" name="E-mail" placeholder="E-mail" class="form_input form_input_mail">
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить сейчас</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="telMeMore">
+		<form id="form-type-of-heating" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Вид отопления - Выбрать">
+			<input type="hidden" name="sp_addressbook" value="880887">
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			
+			
+			
+			<h1 class="header_form_h1">Чтобы узнать стоимость <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Узнать стоимость</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="modalOrder">
+		<form id="form-our-works" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Кнопка с наших работ">
+			<input type="hidden" name="sp_addressbook" value="880904">
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="">
+			<input type="hidden" name="utm_medium" value="">
+			<input type="hidden" name="utm_campaign" value="">
+			<input type="hidden" name="utm_term" value="">
+			<input type="hidden" name="utm_content" value="">
+			<h1 class="header_form_h1">Для заказа <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="Имя" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="Телефон" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+				<input type="email" name="E-mail" placeholder="E-mail" class="form_input form_input_mail">
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Заказать сейчас</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys1">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Проект системы отопления">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys12">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Монтаж и обвязка котла">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys13">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Монтаж тёплого пола">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys14">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Монтаж радиаторов">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys15">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Монтаж бойлера">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys16">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Монтаж труб">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys2">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="в деревне Мендсары">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys21">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="поселок Черная Речка">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys22">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Всеволожский район ДНП Бабино">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys23">
+		<form id="form-optimal-ekonom" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Всеволожский район ДНП Мяглово">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+			<h1 class="header_form_h1">Для консультации специалиста <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="name" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="phone" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Получить консультацию</button>
+			</p>
+		</form>
+	</div>	
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys2">
+		<form id="form-optimal-optimal" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Подобрать оптимальное решение Оптимальный">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="">
+			<input type="hidden" name="utm_medium" value="">
+			<input type="hidden" name="utm_campaign" value="">
+			<input type="hidden" name="utm_term" value="">
+			<input type="hidden" name="utm_content" value="">
+			<h1 class="header_form_h1">Для расчета <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="Имя" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="Телефон" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+				<input type="email" name="E-mail" placeholder="E-mail" class="form_input form_input_mail">
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Рассчитать сейчас</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+	<!-- modal -->
+	<div class="my_modal_window" id="countMySys3">
+		<form id="form-optimal-premium" action="mail.php" method="post" class="modal_form my_form  transition">
+			<input type="hidden" name="project_name" value="Мой Дом">
+			<input type="hidden"  name="form_subject" value="Подобрать оптимальное решение Премиум">
+			
+
+			<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+			<input type="hidden" name="utm_source" value="">
+			<input type="hidden" name="utm_medium" value="">
+			<input type="hidden" name="utm_campaign" value="">
+			<input type="hidden" name="utm_term" value="">
+			<input type="hidden" name="utm_content" value="">
+			<h1 class="header_form_h1">Для расчета <span>заполните форму</span></h1>
+			<p class="btn-center">
+				<input type="text" name="Имя" placeholder="Имя" class="form_input form_input_name" required>
+			</p>
+			<p class="btn-center">
+				<input type="tel" name="Телефон" placeholder="Телефон" class="form_input form_input_phone" required>
+			</p>
+			<p class="btn-center">
+				<input type="email" name="E-mail" placeholder="E-mail" class="form_input form_input_mail">
+			</p>
+			<div class="checkbox checkbox-152">
+				<label>
+            <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+          </label>
+			</div>
+			<p class="btn-center">
+				<button type="submit" class="submit_btn transition btn-152">Рассчитать сейчас</button>
+			</p>
+		</form>
+	</div>
+	<!-- /modal -->
+
+	<input type="hidden" name="ab_test" id="ab_test" value="a">
+
+	<!-- container-fluid -->
+	<div class="container-fluid">
+		<!-- top_menu -->
+		<div class="row top_menu fixed">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="row" href="#top">
+							<div class="logo" href="#top">
+								<img src="img/myhouse.png" alt="logo" href="#top">
+							</div>
+							<a href="javascript:void(0)" class="transition hidden_trigger"></a>
+						</div>
+					</div>
+					<div class="col-md-7 col-sm-9">
+						<ul class="nav_list" id="navigation_list">
+							<li><a href="#calksys">Калькулятор cтоимости</a></li>
+							<li><a href="#portfolio">Наши работы</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+							<li><a href="#podarok">Книга в подарок!</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 hidden-sm hidden-xs">
+						<div class="row">
+							<div class="top_phone">
+								<div class="top_phone_num">
+									<p>+7 (812) 242-52-05</p>
+								</div>
+								<a href="#myModal" class="transition fancybox top_line_btn main_btn">Задать вопрос</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /top_menu -->
+		<!-- screen1 -->
+		<div class="row screen1" data-top="100">
+		    
+
+			<div class="container" id="top">
+				<div class="row">
+				    <h1 class="scr1_h1">
+				    <span>Монтаж отопления частного дома «Под ключ»</span>
+				    <br>
+				    <span>От <b>1290 руб/м2</b> с оборудованием</span>
+				    </h1>
+				    <div class="scr1_text_block">
+							<span>Оплата - <b>после монтажа</b> / Гарантия <b>2 года</b> / Нашли дешевле - <b>снизим цену</b></span>
+						</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="scr1_left_side">
+							<div class="scr1_form_wrapper">
+								<form id="form-first-screen" action="mail.php" method="post" class="scr1_form my_form transition">
+									<input type="hidden" name="project_name" value="'Мой Дом'">
+									<input type="hidden"  name="form_subject" value="Форма на первом экране">
+									<input type="hidden" name="sp_addressbook" value="880883">
+						
+									<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+									<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+									<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+									<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+									<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+									<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+									<h1 class="header_form_h1">Оставьте заявку<br><span1>что бы получить <b>смету бесплатно</b><br> и <b>скидку</b> на монтажные работы:</span1></h1>
+									<div class="discount"><span class="discount_count">30000</span>- ваша скидка!</div>
+									<textarea  hidden name="skidka" class="discount_count"></textarea>
+									<p class="btn-center">
+										<input type="text" name="name" placeholder="Как к Вас зовут?" class="form_input form_input_name" required>
+									</p>
+									<p class="btn-center">
+										<input type="tel" name="phone" placeholder="Ваш телефон" class="form_input form_input_phone" required>
+									</p>
+						
+									<p class="btn-center">
+										<button type="submit" class="submit_btn transition main_btn btn-152">Получить смету со скидкой</button>
+									</p>
+									<div class="checkbox checkbox-152">
+										<label>
+                                        <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+                                    </label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+              
+                  
+                  <div class="myvideo">
+                      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3u2SH_ypbJQ?controls=0&showinfo=0&rel=0&autoplay=0&loop=1" frameborder="0" allowfullscreen></iframe>
+				  </div>
+					</div>	
+			  </div>	
+		</div>
+		<!-- /screen1 -->
+
+
+		<!-- screen4 -->
+		<div class="row screen4" id="types" data-top="70">
+			<div class="container">
+				<div class="row">
+					<h2 class="scr4_h2">
+					Выберите подходящий вид отопления <br> для Вашего теплого дома
+						
+					</h2>
+									
+					<!-- scr4_blocks -->
+					<div class="scr4_blocks">
+						<!-- block -->
+						<div class="scr4_block_wrapper">
+							<div class="scr4_block transition">
+								<div class="scr4_block_ico_bg transition">
+									<div class="scr4_block_container">
+										<div class="scr4_block_top_content">
+											<div class="scr4_block_ico_wrapper transition" data-aos="zoom-in" data-aos-once="true">
+												<p><img src="img/scr4/1.png" alt="img"></p>
+											</div>
+											<div class="scr4_block_text_wrapper">
+												<p>Газовое <span>отопление</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="scr4_block_text_bg">
+									<div class="scr4_block_container">
+										<div class="scr4_text transition">
+										     
+                <p class="p4-1">Малое потребление энергии</p>
+                <p class="p4-1">Простота эксплуатации</p>
+                <p class="p4-1">Высокая эффективность</p>
+                <p class="p4-1">Не нуждается в запасе топлива</p>
+                <p class="p4-1">Способен обогреть огромный дом</p>
+               <br> <b>Расходы на отопление:</b><br>
+										   <b> ≈ 140 руб./м² за сезон*</b> <br>
+										</div>
+										<a href="javascript:void(0)" class="transition scr4_trigger"><i>Развернуть</i><span></span></a>
+									</div>
+								</div>
+								<div class="scr4_btn_wrapper">
+									<a href="#telMeMore" class="transition main_btn fancybox scr4_btn">Узнать стоимость</a>
+								</div>
+							</div>
+						</div>
+						<!-- /block -->
+						
+						<!-- block -->
+						<div class="scr4_block_wrapper">
+							<div class="scr4_block transition">
+								<div class="scr4_block_ico_bg transition">
+									<div class="scr4_block_container">
+										<div class="scr4_block_top_content">
+											<div class="scr4_block_ico_wrapper transition" data-aos="zoom-in" data-aos-once="true" data-aos-delay="400">
+												<p><img src="img/scr4/3.png" alt="img"></p>
+											</div>
+											<div class="scr4_block_text_wrapper">
+												<p>Электрическое <span>отопление</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="scr4_block_text_bg">
+									<div class="scr4_block_container">
+										<div class="scr4_text transition">
+                <p class="p4-1">Безопасный - нет открытого огня</p>
+                <p class="p4-1">Простота эксплуатации</p>
+                <p class="p4-1">Экологически чистый</p>
+                <p class="p4-1">Компактность, монтаж в любом месте</p>
+                <p class="p4-1">Отсутствием продуктов сгорания</p>
+                <p class="p4-1">Долговечность</p>
+               <br> <b>Расходы на отопление:</b><br>
+										   <b> ≈ 580 руб./м² за сезон*</b> <br>
+										</div>
+										<a href="javascript:void(0)" class="transition scr4_trigger"><i>Развернуть</i><span></span></a>
+									</div>
+								</div>
+								<div class="scr4_btn_wrapper">
+									<a href="#telMeMore" class="transition main_btn fancybox scr4_btn">Узнать стоимость</a>
+								</div>
+							</div>
+						</div>
+						<!-- /block -->
+
+						<!-- block -->
+						<div class="scr4_block_wrapper">
+							<div class="scr4_block transition">
+								<div class="scr4_block_ico_bg transition">
+									<div class="scr4_block_container">
+										<div class="scr4_block_top_content">
+											<div class="scr4_block_ico_wrapper transition" data-aos="zoom-in" data-aos-once="true" data-aos-delay="800">
+												<p><img src="img/scr4/4.png" alt="img"></p>
+											</div>
+											<div class="scr4_block_text_wrapper">
+												<p>Твердотопливное<span>отопление</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="scr4_block_text_bg">
+									<div class="scr4_block_container">
+										<div class="scr4_text transition">
+                <p class="p4-1">Рентабельность</p>
+                <p class="p4-1">Доступность топлива</p>
+                <p class="p4-1">Экологичность</p>
+                <p class="p4-1">Высокая энергоэффективность</p>
+                <p class="p4-1">Относительная дешевизна отопления за м²</p>
+                <p class="p4-1">Долговечность</p>
+               <br> <b>Расходы на отопление:</b><br>
+										   <b> ≈ 350 руб./м² за сезон*</b> <br>
+										</div>
+										<a href="javascript:void(0)" class="transition scr4_trigger"><i>Развернуть</i><span></span></a>
+									</div>
+								</div>
+								<div class="scr4_btn_wrapper">
+									<a href="#telMeMore" class="transition main_btn fancybox scr4_btn">Узнать стоимость</a>
+								</div>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr4_block_wrapper">
+							<div class="scr4_block transition">
+								<div class="scr4_block_ico_bg transition">
+									<div class="scr4_block_container">
+										<div class="scr4_block_top_content">
+											<div class="scr4_block_ico_wrapper transition" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
+												<p><img src="img/scr4/5.png" alt="img"></p>
+											</div>
+											<div class="scr4_block_text_wrapper">
+												<p>Дизельное <span>отопление</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="scr4_block_text_bg">
+									<div class="scr4_block_container">
+										<div class="scr4_text transition">
+										   <div class="box-4">
+                <p class="p4-1">Автономность</p>
+                <p class="p4-1">Не требуется никаких разрешений</p>
+                <p class="p4-1">Простая и надежная конструкция</p>
+                <p class="p4-1">Возможно дальнейшего переоборудования на газовое отопление</p>
+                <br> <b>Расходы на отопление:</b><br>
+										   <b> ≈ 450 руб./м² за сезон*</b> <br>
+										</div>
+										</div>
+										<a href="javascript:void(0)" class="transition scr4_trigger"><i>Развернуть</i><span></span></a>
+									</div>
+								</div>
+								<div class="scr4_btn_wrapper">
+									<a href="#telMeMore" class="transition main_btn fancybox scr4_btn">Узнать стоимость</a>
+								</div>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr4_block_wrapper">
+							<div class="scr4_block transition">
+								<div class="scr4_block_ico_bg transition">
+									<div class="scr4_block_container">
+										<div class="scr4_block_top_content">
+											<div class="scr4_block_ico_wrapper transition" data-aos="zoom-in" data-aos-once="true" data-aos-delay="1000">
+												<p><img src="img/scr4/6.png" alt="img"></p>
+											</div>
+											<div class="scr4_block_text_wrapper">
+												<p>Альтернативное<span>отопление</span> </p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="scr4_block_text_bg">
+									<div class="scr4_block_container">
+										<div class="scr4_text transition">
+                <p class="p4-1">Экономичность</p>
+                <p class="p4-1">Высокая надежность и долговечность</p>
+                <p class="p4-1">Экологичность</p>
+                <p class="p4-1">Пожаро-взрывобезопасность</p>
+                <p class="p4-1">Многофункциональность</p>
+                <p class="p4-1">Низкий уровень шума</p>
+                <p class="p4-1">Крайне простая электроника</p><br> <b>Расходы на отопление:</b><br>
+										   <b> от 90 руб./м² за сезон*</b> <br>
+										</div>
+										<a href="javascript:void(0)" class="transition scr4_trigger"><i>Развернуть</i><span></span></a>
+									</div>
+								</div>
+								<div class="scr4_btn_wrapper">
+									<a href="#telMeMore" class="transition main_btn fancybox scr4_btn">Узнать стоимость</a>
+								</div>
+							</div>
+						</div>
+						<!-- /block -->
+					</div>
+				</div>
+						<div class="row screen5" id="calksys" data-top="10">
+			<div class="container">
+				<div class="row">
+				    <h2 class="scr5_h2">Калькулятор рассчета стоимости <span>профессионального отопления для Вашего дома</span></h2>
+					<form id="form-calculator" action="mail.php" method="post" class="scr5_form my_form transition">
+					    <div class="scr5_form_wrapper_title">
+						<p>Заполните все поля и мы вышлем Вам расчет <b>со скидкой</b> на почту:</p>
+						</div>
+						<input type="hidden" name="project_name" value="Мой Дом">
+						<input type="hidden"  name="form_subject" value="Рассчитать стоимость">
+						<input type="hidden" name="sp_addressbook" value="880888">
+			
+						<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+						<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+						<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+						<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+						<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+						<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+						
+                    <textarea  hidden name="skidka" class="discount_count"></textarea>
+					
+						<div class="calk_container">
+							<div class="cc_row">
+								<div class="cc_inline">
+									<label for="sqr3">Площадь дома:</label>
+								</div>
+								<div class="cc_inline">
+									<input id="sqr3" type="text" name="all_square" placeholder="Например: 250">
+								</div>
+								<div class="cc_inline">
+									<p>м2</p>
+								</div>
+							</div>
+							<div class="cc_row">
+								<div class="cc_inline">
+									<label for="sqr2">Площадь теплого пола (если есть):</label>
+								</div>
+								<div class="cc_inline">
+									<input id="sqr2" type="text" name="small_square" placeholder="Например: 65">
+								</div>
+								<div class="cc_inline">
+									<p>м3</p>
+								</div>
+							</div>
+							<div class="cc_row">
+							<div class="cc_inline">
+									<label for="sqr1">Введите Ваш телефон:</label>
+								</div>
+								<div class="cc_inline">
+									<input id="sqr1" type="text" name="phone" placeholder="+7 (___)-___-__-__" required>
+								</div>
+								<div class="cc_inline">
+									<p></p>
+								</div>
+							</div>
+			</div>
+                              <div class="checkbox checkbox-152">
+								<label>
+                                <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+                              </label>
+                              </div>		<br>
+                              <div class="discount1">Ваша скидка: <span class="discount_count"></span>  <button type="submit" class="submit_btn transition btn-callback btn-152" data-action="calc">Рассчитать со скидкой</button></div><br>
+
+					
+					</form>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+		<!-- /screen4 -->
+		        <!-- screen9 -->
+		<div class="row screen9" id="podarok" data-top="80">
+			<div class="container">
+				<div class="row">
+					<div class="scr9_bg">
+					</div>
+					<h1 class="scr9_h1">МЫ ПОДГОТОВИЛИ ДЛЯ ВАС ПОДАРОК:</h1>
+					<h2 class="scr9_h2">«22 ОШИБКИ ПРИ ВЫБОРЕ СИСТЕМЫ ОТОПЛЕНИЯ»</h2>
+					<h2 class="scr9_h3">ЧТО НЕОБХОДИМО УЧЕСТЬ, ЕСЛИ ВЫ РЕШИЛИ УСТАНОВИТЬ ОТОПЛЕНИЕ В ЧАСТНОМ ДОМЕ?</h2>
+					<div class="scr9_text">
+						<p>Что полезного Вы узнаете?</p>
+					</div>
+					<div class="scr9_text1">
+					    <p>Как сэкономить до 50% на отопление дома</p>
+						<p>Какие самые распространенные ошибки совершают люди при установке системы отопления</p>
+						<p>На каком дополнительном оборудовании не стоит экономить, чтобы не испортить себе жизнь в будущем</p>
+						<p>Почему даже самый дорогой котел может принести большое количество проблем, если вы забудете учесть небольшой нюанс при монтаже</p>
+						<p>Как правильно просчитать и выбрать систему отопления для Вашего дома</p>
+						<p>Как проверить монтажную бригаду, на качество выполнимых работ</p>
+					</div>
+					<div class="scr9_img_wrapper">
+						<div class="scr9_img" data-aos="zoom-in" data-aos-once="true"><img src="img/images/9.png" alt="img"></div>
+					</div>
+
+					<div class="scr9_btn_wrapper">
+						<a href="#pam_zak" download class="transition scr9_btn main_btn fancybox">Скачать инструкцию бесплатно</a>
+					</div>
+					<div class="scr9_text2">
+						<p>.pdf, 5 мб.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /screen9 -->
+	
+		<!-- screen10 -->
+		<div class="row screen10">
+			<div class="container">
+				<div class="row">
+					<h2 class="scr10_h2">Вы можете заказать любые монтажные работы отдельно</h2>
+				</div>
+				<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								        <img src="img/scr10/15.jpg" alt="img"></div>
+									<p>Проект системы отопления</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>В проекте будет указано:</p>
+							<p>• точное расположение отопи-
+							тельного оборудования в доме;</p>
+							<p>• список оборудования;</p>
+							<p>• точные характеристики системы</p>
+							<p>(мощность, производительность</p>
+							<p>и другие параметры).</p>
+							</div>
+							<div class="scr10_block_bottom">
+							    <br><p>от 10 000 руб.</p>
+								<a href="#countMySys1" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+	<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								        <img src="img/scr10/18.jpg" alt="img"></div>
+									<p>Монтаж и обвязка котла</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>Установка котла под уровень (настенного или напольного)
+							<p>•Монтаж группы безопасности</p>
+							<p>•Подвод труб подачи и обратки</p>
+							<p>•Подключение котла</p>
+							<p>•Пусконаладочные работы</p>
+							</div>
+							<div class="scr10_block_bottom"> <br><p>от 6890 руб.</p>
+								<a href="#countMySys12" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								        <img src="img/scr10/17.jpg" alt="img"></div>
+									<p>Монтаж тёплого пола</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>Монтаж теплого пола под любое покрытие:</p>
+							<p>• под плитку;</p>
+							<p>• под линолеум;</p>
+							<p>• под ковролин</p>
+							</div>
+							<div class="scr10_block_bottom"> <br><p>от 350 руб./м²</p>
+								<a href="#countMySys13" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- /screen10 -->
+		
+
+        
+		<div class="row screen10">
+			<div class="container">
+				<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								        <img src="img/scr10/16.jpg" alt="img"></div>
+									<p>Монтаж радиаторов</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>За 1 день установим любые виды радиаторов:</p>
+							<p>• биметаллические;</p>
+							<p>• алюминиевые;</p>
+							<p>• стальные.</p>
+							</div>
+							<div class="scr10_block_bottom"><br><p>от 1990 руб.</p>
+								<a href="#countMySys14" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								        <img src="img/scr10/22.jpg" alt="img"></div>
+									<p>Монтаж бойлера</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>Грамотный монтаж бойлера обеспечит Вас достаточным количеством горячей воды.</p>
+
+							</div>
+							<div class="scr10_block_bottom"><br><p>от 6490 руб.</p>
+								<a href="#countMySys15" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+					</div>
+					<div class="col-md-4">
+					<div class="scr10_block_wrapper" data-aos="fade-right" data-aos-once="true">
+						<div class="scr10_block ">
+							<div class="scr10_block_top">
+								<div class="scr10_top_title">
+								    <div class="scr10_img" data-aos="zoom-in" data-aos-once="true">
+								    <img src="img/scr10/23.jpg" alt="img"></div>
+									<p>Монтаж труб</p>
+								</div>
+							</div>
+							<div class="scr10_block_middle">
+							<p>Благодаря использованию профессионального инструмента при монтаже труб Вы получите монолитное соединение, которое можно замуровывать в стены, стяжку.</p>
+
+							</div>
+							<div class="scr10_block_bottom"><br><p>от 290 руб.</p>
+								<a href="#countMySys16" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+							<!-- screen2 -->
+		<div class="row screen2"><h2 class="scr2_h2">Хотите узнать стоимость отопления Вашего дома?</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6-1">
+						
+						<div class="scr1_form_wrapper scr1_form_wrapper_bottom">
+								<form id="form-first-screen" action="mail.php" method="post" class="scr1_form my_form transition">
+									<input type="hidden" name="project_name" value="'Мой Дом'">
+									<input type="hidden"  name="form_subject" value="Форма с таблицей(смета)">
+									<input type="hidden" name="sp_addressbook" value="880883">
+						
+									<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+									<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+									<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+									<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+									<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+									<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+									<h1 class="header_form_h1">Оставьте заявку<br><span1>что бы получить <b>смету бесплатно</b><br> и <b>скидку</b> на монтажные работы:</span1></h1>
+									<div class="discount"><span class="discount_count">30000</span>- ваша скидка!</div>
+									<textarea  hidden name="skidka" class="discount_count"></textarea>
+									<p class="btn-center">
+										<input type="text" name="name" placeholder="Как к Вас зовут?" class="form_input form_input_name" required>
+									</p>
+									<p class="btn-center">
+										<input type="tel" name="phone" placeholder="Ваш телефон" class="form_input form_input_phone" required>
+									</p>
+						
+									<p class="btn-center">
+										<button type="submit" class="submit_btn transition main_btn btn-152">Получить смету со скидкой</button>
+									</p>
+									<div class="checkbox checkbox-152">
+										<label>
+                                        <input type="checkbox" name="check" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+                                    </label>
+									</div>
+								</form>
+							</div>
+						
+						
+					</div>
+					<div class="col-md-6">
+						<div class="scr2_img_wrapper">
+							<div class="scr2_img" data-aos="zoom-in" data-aos-once="true">
+								<br><img src="img/images/scr2.png" alt="img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /screen2 -->
+				<div class="block-2">
+            <div class="container">
+                            <div class="row">
+                    <div class="col-sm-12"><h2>Примеры наших работ</h2></div>
+                </div>  
+
+            
+                <div class="row">
+                    <div class="col-sm-6">
+
+
+                        <div id="main-2" role="main">
+                            <section class="slider">
+                                <div id="slider-2" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 5800%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;" class="flex-active-slide"><a class="fancybox" rel="port-03" href="port/03/01_b.jpg"><img src="port/03/01.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/02_b.jpg"><img src="port/03/02.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/03_b.jpg"><img src="port/03/03.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/04_b.jpg"><img src="port/03/04.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/05_b.jpg"><img src="port/03/05.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/06_b.jpg"><img src="port/03/06.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/07_b.jpg"><img src="port/03/07.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/08_b.jpg"><img src="port/03/08.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/09_b.jpg"><img src="port/03/09.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/10_b.jpg"><img src="port/03/10.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/11_b.jpg"><img src="port/03/11.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/12_b.jpg"><img src="port/03/12.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/13_b.jpg"><img src="port/03/13.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/14_b.jpg"><img src="port/03/14.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/15_b.jpg"><img src="port/03/15.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/16_b.jpg"><img src="port/03/16.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/17_b.jpg"><img src="port/03/17.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/18_b.jpg"><img src="port/03/18.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/19_b.jpg"><img src="port/03/19.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/20_b.jpg"><img src="port/03/20.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/21_b.jpg"><img src="port/03/21.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/22_b.jpg"><img src="port/03/22.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/23_b.jpg"><img src="port/03/23.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/24_b.jpg"><img src="port/03/24.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/25_b.jpg"><img src="port/03/25.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/26_b.jpg"><img src="port/03/26.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/27_b.jpg"><img src="port/03/27.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/28_b.jpg"><img src="port/03/28.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-03" href="port/03/29_b.jpg"><img src="port/03/29.jpg" draggable="false"></a></li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                                <div id="carousel-2" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 5800%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;" class="flex-active-slide"><img src="port/03/01_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/02_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/03_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/04_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/05_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/06_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/07_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/08_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/09_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/10_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/11_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/12_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/13_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/14_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/15_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/16_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/17_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/18_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/19_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/20_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/21_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/22_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/23_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/24_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/25_sm.jpg" draggable="false"></li>                                                                                
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/26_sm.jpg" draggable="false"></li>                                                                                
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/27_sm.jpg" draggable="false"></li>                                                                                
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/28_sm.jpg" draggable="false"></li>                                                                                
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/03/29_sm.jpg" draggable="false"></li>                                                                                                                                                                                                                                                
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                            </section>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h3>Монтаж системы отопления в доме,<br><span>деревня Игнатово</span></h3>
+                        <p>Мы сделали:</p>
+                        <div class="par-option prop-1">Смонтировали систему канализации;</div>
+                        <div class="par-option prop-2">Смонтировали систему водоснабжения с рециркуляцией горячей воды;</div>
+                        <div class="par-option prop-3">Установили 6 внутрипольных конвектора Изотерм;</div>             
+                        <div class="par-option prop-4">Установили 4 панельных  радиатора Purmo;</div>                          
+                        <div class="par-option prop-5">Смонтировали и запустили котельную на газовомкотле Viessman;</div>
+                        <div class="par-option prop-6">Смонтировали водоснабжение для дома;</div>             
+                        <div class="par-option prop-7">Стоимость работ и материалов: <strong>618 226 руб.</strong></div><br>
+<a href="#countMySys1" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>
+                </div>
+                
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-12">
+                        <div class="clock-header">Как мы работали на этом объекте по дням:</div>
+                    </div>
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3 colman">
+                        <div class="stage st-1"><strong>24 часа</strong> после обращения - составили проект и комплексную смету</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-2"><strong>2-5 день</strong>: обсудили детали, выехали на объект, подписали договор</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-3"><strong>5-8 день</strong>: сборка всех материалов для монтажа и доставка на объект</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-4"><strong>9-10 день</strong>: монтаж внутренней канализации</div>
+                        <div class="stick-1"></div>
+                    </div>        
+                </div>
+                <div class="line-holder-top">
+                    <div class="line-1"></div><div class="line-2"></div><div class="line-3"></div><div class="line-4"></div>              
+                </div>
+
+                <div class="line-holder-bot">
+                    <div class="line-5"></div><div class="line-6"></div><div class="line-7"></div><div class="line-8"></div>              
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-5"><strong>10-14 день</strong>: монтаж ХВС, ГВС и рециркуляции</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-6"><strong>14-20 день</strong>: <br>монтаж  теплого пола</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-7"><strong>21 день</strong>: <br>монтаж полусухой стяжки</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-8"><strong>21-26 день</strong>: монтаж насосных групп, запуск котельной</div>
+                        <div class="stick-2"></div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="block-2-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+
+
+                        <div id="main-1" role="main">
+                            <section class="slider">
+                                <div id="slider-1" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 4000%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;" class="flex-active-slide"><a class="fancybox" rel="port-02" href="port/02/01_b.jpg"><img src="port/02/01.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/02_b.jpg"><img src="port/02/02.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/03_b.jpg"><img src="port/02/03.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/04_b.jpg"><img src="port/02/04.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/05_b.jpg"><img src="port/02/05.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/06_b.jpg"><img src="port/02/06.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/07_b.jpg"><img src="port/02/07.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/08_b.jpg"><img src="port/02/08.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/09_b.jpg"><img src="port/02/09.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/10_b.jpg"><img src="port/02/10.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/11_b.jpg"><img src="port/02/11.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/12_b.jpg"><img src="port/02/12.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/13_b.jpg"><img src="port/02/13.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/14_b.jpg"><img src="port/02/14.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/15_b.jpg"><img src="port/02/15.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/16_b.jpg"><img src="port/02/16.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/17_b.jpg"><img src="port/02/17.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/18_b.jpg"><img src="port/02/18.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/19_b.jpg"><img src="port/02/19.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-02" href="port/02/20_b.jpg"><img src="port/02/20.jpg" draggable="false"></a></li>                                                                                                                                
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                                <div id="carousel-1" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 4000%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;" class="flex-active-slide"><img src="port/02/01_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/02_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/03_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/04_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/05_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/06_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/07_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/08_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/09_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/10_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/11_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/12_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/13_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/14_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/15_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/16_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/17_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/18_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/19_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/02/20_sm.jpg" draggable="false"></li>                                                                                                
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                            </section>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h3>Монтаж системы отопления в доме,<br><span>деревня Палкино</span></h3>
+                        <p>Мы сделали:</p>
+                        <div class="par-option prop-1">Смонтировали систему канализации;</div>
+                        <div class="par-option prop-2">Смонтировали систему водоснабжения с рециркуляцией горячей воды;</div>
+                        <div class="par-option prop-3">Установили сухую систему теплых полов - 80 м<sup>2</sup>;</div>             
+                        <div class="par-option prop-4">Установили 8 панельных радиаторов Purmo;</div>                          
+                        <div class="par-option prop-5">Смонтировали и запустили котельную на электрическом котле Proterm Skat12 с бойлером косвенного нагрева Dražice 200 литров. Произведена подготовка под установку газового котла.;</div>
+                        <div class="par-option prop-6">Смонтировали водоснабжение для дома от колодца;</div>             
+                        <div class="par-option prop-7">Стоимость работ и материалов: <strong>423 887 руб.</strong></div><br>
+<a href="#countMySys1" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>       
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-12">
+                        <div class="clock-header">Как мы работали на этом объекте по дням:</div>
+                    </div>
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3 colman">
+                        <div class="stage st-1"><strong>24 часа</strong> после обращения - составили проект и комплексную смету</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-2"><strong>2-5 день</strong>: обсудили детали, выехали на объект, подписали договор</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-3"><strong>5-8 день</strong>: сборка всех материалов для монтажа и доставка на объект</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-4"><strong>9-10 день</strong>: монтаж канализации</div>
+                        <div class="stick-1"></div>
+                    </div>        
+                </div>
+                <div class="line-holder-top">
+                    <div class="line-1"></div><div class="line-2"></div><div class="line-3"></div><div class="line-4"></div>              
+                </div>
+
+                <div class="line-holder-bot">
+                    <div class="line-5"></div><div class="line-6"></div><div class="line-7"></div><div class="line-8"></div>              
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-5"><strong>10-14 день</strong>: монтаж водоснабжения</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-6"><strong>14-20 день</strong>: монтаж сухой системы теплого водяного пола</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-7"><strong>20-25 день</strong>: монтаж котельного оборудования, запуск котельной</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-8"><strong>25-28 день</strong>: монтаж колодезного насоса</div>
+                        <div class="stick-2"></div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+        <div class="block-2">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-6">
+
+
+                        <div id="main" role="main">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 2600%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;" class="flex-active-slide">
+                                            <a class="fancybox" rel="port-01" href="port/01/01_b.jpg"><img src="port/01/01.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/02_b.jpg"><img src="port/01/02.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/03_b.jpg"><img src="port/01/03.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/04_b.jpg"><img src="port/01/04.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/05_b.jpg"><img src="port/01/05.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/06_b.jpg"><img src="port/01/06.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/07_b.jpg"><img src="port/01/07.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/08_b.jpg"><img src="port/01/08.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/09_b.jpg"><img src="port/01/09.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/10_b.jpg"><img src="port/01/10.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/11_b.jpg"><img src="port/01/11.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/12_b.jpg"><img src="port/01/12.jpg" draggable="false"></a>
+                                        </li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;">
+                                            <a class="fancybox" rel="port-01" href="port/01/13_b.jpg"><img src="port/01/13.jpg" draggable="false"></a>
+                                        </li>
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                                <div id="carousel" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 2600%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;" class="flex-active-slide">
+                                            <img src="port/01/01_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/02_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/03_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/04_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/05_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/06_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/07_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/08_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/09_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/10_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/11_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/12_sm.jpg" draggable="false">
+                                        </li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;">
+                                            <img src="port/01/13_sm.jpg" draggable="false">
+                                        </li>
+
+
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                            </section>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h3>Монтаж системы отопления в доме,<br><span>деревня Дмитровское</span></h3>
+                        <p>Мы сделали:</p>
+                        <div class="par-option prop-1">Смонтировали систему канализации;</div>
+                        <div class="par-option prop-2">Смонтировали систему водоснабжения с рециркуляцией горячей воды;</div>
+                        <div class="par-option prop-3">Установили бетонную систему теплых полов - 80 м<sup>2</sup>;</div>             
+                        <div class="par-option prop-4">Установили 4 панельных радиаторов Buderus;</div>                          
+                        <div class="par-option prop-5">Смонтировали и запустили котельную на газовом котле Viessman 24 кт с бойлером косвенного нагрева Dražice 200 литров;</div>
+                        <div class="par-option prop-6">Смонтировали водоснабжение для дома от скважины глубиной 60 метров;</div>             
+                        <div class="par-option prop-7">Стоимость работ и материалов: <strong>268 571 руб.</strong></div><br>
+<a href="#countMySys1" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>       
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-12">
+                        <div class="clock-header">Как мы работали на этом объекте по дням:</div>
+                    </div>
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3 colman">
+                        <div class="stage st-1"><strong>24 часа</strong> после обращения - составили проект и комплексную смету</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-2"><strong>2-5 день</strong>: обсудили детали, выехали на объект, подписали договор</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-3"><strong>5-8 день</strong>: сборка всех материалов для монтажа и доставка на объект</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-4"><strong>9-10 день</strong>: монтаж канализации</div>
+                        <div class="stick-1"></div>
+                    </div>        
+                </div>
+                <div class="line-holder-top">
+                    <div class="line-1"></div><div class="line-2"></div><div class="line-3"></div><div class="line-4"></div>              
+                </div>
+
+                <div class="line-holder-bot">
+                    <div class="line-5"></div><div class="line-6"></div><div class="line-7"></div><div class="line-8"></div>              
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-5"><strong>10-13 день</strong>: монтаж водоснабжения</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-6"><strong>13-18 день</strong>: монтаж бетонной системы теплого водяного пола;</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-7"><strong>18-22 день</strong>: монтаж котельного оборудования, запуск котельной</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-8"><strong>22-23 день</strong>: монтаж насоса в скважине</div>
+                        <div class="stick-2"></div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+        <div class="block-2-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+
+
+                        <div id="main-3" role="main">
+                            <section class="slider">
+                                <div id="slider-3" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 3800%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;" class="flex-active-slide"><a class="fancybox" rel="port-04" href="port/04/01_b.jpg"><img src="port/04/01.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/02_b.jpg"><img src="port/04/02.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/03_b.jpg"><img src="port/04/03.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/04_b.jpg"><img src="port/04/04.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/05_b.jpg"><img src="port/04/05.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/06_b.jpg"><img src="port/04/06.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/07_b.jpg"><img src="port/04/07.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/08_b.jpg"><img src="port/04/08.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/09_b.jpg"><img src="port/04/09.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/10_b.jpg"><img src="port/04/10.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/11_b.jpg"><img src="port/04/11.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/12_b.jpg"><img src="port/04/12.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/13_b.jpg"><img src="port/04/13.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/14_b.jpg"><img src="port/04/14.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/15_b.jpg"><img src="port/04/15.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/16_b.jpg"><img src="port/04/16.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/17_b.jpg"><img src="port/04/17.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/18_b.jpg"><img src="port/04/18.jpg" draggable="false"></a></li>
+                                        <li style="width: 555px; margin-right: 0px; float: left; display: block;"><a class="fancybox" rel="port-04" href="port/04/19_b.jpg"><img src="port/04/19.jpg" draggable="false"></a></li>                                
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                                <div id="carousel-3" class="flexslider">
+                                    
+                                <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 3800%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;" class="flex-active-slide"><img src="port/04/01_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/02_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/03_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/04_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/05_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/06_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/07_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/08_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/09_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/10_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/11_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/12_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/13_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/14_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/15_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/16_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/17_sm.jpg" draggable="false"></li>
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/18_sm.jpg" draggable="false"></li>            
+                                        <li style="width: 128px; margin-right: 14px; float: left; display: block;"><img src="port/04/19_sm.jpg" draggable="false"></li>            
+                                    </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"></a></li><li class="flex-nav-next"><a class="flex-next" href="#"></a></li></ul></div>
+                            </section>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h3>Монтаж системы отопления в доме,<br><span>деревня Палково</span></h3>
+                        <p>Мы сделали:</p>
+                        <div class="par-option prop-1">Смонтировали систему канализации;</div>
+                        <div class="par-option prop-2">Смонтировали систему водоснабжения с рециркуляцией горячей воды;</div>
+                        <div class="par-option prop-3">Установили бетонную систему теплых полов - 146 м<sup>2</sup>;</div>             
+                        <!-- <div class="par-option prop-4">Установили 4 панельных  радиатора Purmo;</div> -->                          
+                        <div class="par-option prop-5">Смонтировали и запустили котельную на электрическом котле Proterm Skat12 с бойлером косвенного нагрева Dražice 200 литров;</div>
+                        <div class="par-option prop-6">Смонтировали водоснабжение для дома от скважины глубиной 80 метров;</div>             
+                        <!-- <div class="par-option prop-8">Установили чистовую сантехнику:ванну, инсталляцию с унитазом, раковину, душ;</div>  -->                         
+                        <div class="par-option prop-7">Стоимость работ и материалов: <strong>234 479 руб.</strong></div><br>
+<a href="#countMySys1" class="main_btn scr10_block_btn fancybox">Получить консультацию</a>       
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-12">
+                        <div class="clock-header">Как мы работали на этом объекте по дням:</div>
+                    </div>
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3 colman">
+                        <div class="stage st-1"><strong>24 часа</strong> после обращения - составили проект и комплексную смету</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-2"><strong>2-5 день</strong>: обсудили детали, выехали на объект, подписали договор</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-3"><strong>5-8 день</strong>: сборка всех материалов для монтажа и доставка на объект</div>
+                        <div class="stick-1"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage st-4"><strong>9-10 день</strong>: монтаж канализации</div>
+                        <div class="stick-1"></div>
+                    </div>        
+                </div>
+                <div class="line-holder-top">
+                    <div class="line-1"></div><div class="line-2"></div><div class="line-3"></div><div class="line-4"></div>              
+                </div>
+
+                <div class="line-holder-bot">
+                    <div class="line-5"></div><div class="line-6"></div><div class="line-7"></div><div class="line-8"></div>              
+                </div>
+
+                <div class="row" style="width: 100%;margin: 0;">
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-5"><strong>10-13 день</strong>: монтаж водоснабжения</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-6"><strong>13-18 день</strong>: монтаж сухой системы теплого водяного пола</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-7"><strong>18-22 день</strong>: монтаж котельного оборудования, запуск котельной</div>
+                        <div class="stick-2"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="stage-2 st-8"><strong>22-23 день</strong>: монтаж насосных групп</div>
+                        <div class="stick-2"></div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+	
+        	
+				
+
+	<!-- screen15 -->
+		<div class="row screen15">
+			<div class="container">
+				<div class="row">
+					<h2 class="scr15_title">Мы гордимся не только нашими клиентами,<span> но и нашими партнерами!</span></h2>
+				</div>
+				<div class="scr15_slider1" data-aos="fade-up" data-aos-once="true">
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/1.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/2.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/13.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/7.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/8.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+					<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/15.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+										<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/11.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+										<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/5.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+										<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/14.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+										<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/12.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+										<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/10.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+															<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/9.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+															<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/3.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+																			<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/4.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+																			<!-- slide -->
+					<div>
+						<div class="scr15_slide1 partners_popup">
+							<p>
+								<img src="img/brand/16.png" alt="img">
+							</p>
+						</div>
+					</div>
+					<!-- slide -->
+				</div>
+				<div class="scr15_btns clearfix">
+					<button type="button" class="btn_sl transition btn_sl_pr"><span><img src="img/ico/sll.png" alt="img"></span>Назад</button>
+					<button type="button" class="btn_sl transition btn_sl_n">Вперед<span><img src="img/ico/slr.png" alt="img"></span></button>
+				</div>
+		</div></div>
+		<!-- /screen15 -->
+					<!-- screen13 -->
+		<div class="row screen13">
+			<div class="container">
+				<div class="row">
+					<h2 class="scr13_h2">Среднее время установки системы отопления  - 10 дней</h2>
+					<div class="scr13_blocks">
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true">
+							<div class="scr13_block_title">
+								<p>Заявка</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/1.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>01</p>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
+							<div class="scr13_block_title">
+								<p>Бесплатный замер</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/2.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>02</p>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="400">
+							<div class="scr13_block_title">
+								<p>Подбор оборудования</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/3.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>03</p>
+							</div>
+						</div>
+						<!-- /block -->
+						
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="800">
+							<div class="scr13_block_title">
+								<p>Бесплатная доставка</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/5.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>04</p>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="1000">
+							<div class="scr13_block_title">
+								<p>Монтаж / пусконаладочные работы</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/6.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>05</p>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr13_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
+							<div class="scr13_block_title">
+								<p>Оплата после проверки</p>
+							</div>
+							<div class="scr13_block_img">
+								<p>
+									<img src="img/scr13/4.png" alt="img">
+								</p>
+							</div>
+							<div class="scr13_block_arrow"></div>
+							<div class="scr13_block_num">
+								<p>06</p>
+							</div>
+						</div>
+						<!-- /block -->
+						<!-- block -->
+						<div class="scr13_last_block_wrapper" data-aos="zoom-in" data-aos-once="true" data-aos-delay="1200">
+							<div class="scr13_last_block">
+								<p><img src="img/scr13/7.png" alt="img"></p>
+							</div>
+						</div>
+						<!-- /block -->
+					</div>
+					<!-- blocks -->
+					<!-- form -->
+					<div class="scr13_form_wrapper" data-aos="fade-up" data-aos-once="true">
+						<div class="scr13_form_wrapper_title">
+							<p>Оставьте заявку что бы получить <br><b>смету</b> и <b>скидку</b> на монтажные работы:</p>
+							<div class="discount"><span class="discount_count">30000</span>- ваша скидка!</div>
+						</div>
+						<form id="form-steps" action="mail.php" method="post" class="scr5_form my_form  transition">
+							<input type="hidden" name="project_name" value="Мой Дом">
+							<input type="hidden"  name="form_subject" value="Экран 6 шагов на пути к Вашему теплому дому">
+							<input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+							<input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+							<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+							<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+							<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+							<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+							
+							<textarea  hidden name="skidka" class="discount_count"></textarea>
+							
+							<div class="form5_inputs">
+								<input type="text" name="name" placeholder="Ваше имя " class="form_input form_input_name" required>
+								<input type="tel" name="phone" placeholder="Ваш телефон" class="form_input form_input_phone" required>
+			
+								<button type="submit" class="submit_btn transition btn-152">Получить смету со скидкой</button>
+							</div>
+												<div class="checkbox checkbox-152">
+									<label>
+                                    <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+                                  </label>
+								</div>
+						</form>
+					</div>
+					<!-- /form -->
+				</div>
+			</div>
+		</div>
+		<!-- /screen13 -->
+
+			
+
+						<!-- map -->
+						<div class="row map">
+				<h2 class="scr17_title"><br>Смонтировали более 318 систем отопления:</h2>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1700f49cdf299ed282051abb6e32e8aae9040efa913020f61ad6864d2669039&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true"></script>
+
+		<!-- /map -->
+
+		<!-- screen17 -->
+							<div class="row" style="width: 100%;margin: 0;">
+				</div>
+		<div class="row screen17" id="contacts" data-top="80">
+		    <h2 class="scr17_title"><br>Наши контакты:</h2>
+			<div class="container">
+			    
+					<div class="col-sm-3">
+						<div class="scr17_block" data-aos="zoom-in" data-aos-once="true">
+							<div class="scr17_block_ico">
+								<div class="scr17_block_arr"></div>
+								<p><img src="img/scr17/1.png" alt="img"></p>
+							</div>
+							<div class="scr17_block_title">
+								<p>Адрес:</p>
+							</div>
+							<div class="scr17_block_text">
+								<p>г. Тверь<span>ул. Орджоникидзе, д. 44</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="scr17_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
+							<div class="scr17_block_ico">
+								<div class="scr17_block_arr"></div>
+								<p><img src="img/scr17/2.png" alt="img"></p>
+							</div>
+							<div class="scr17_block_title">
+								<p>Режим работы:</p>
+							</div>
+							<div class="scr17_block_text">
+								<p>Пн-Пт: 08:00-22:00 <span>Сб-Вс: 09:00-17:00</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="scr17_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="400">
+							<div class="scr17_block_ico">
+								<div class="scr17_block_arr"></div>
+								<p><img src="img/scr17/3.png" alt="img"></p>
+							</div>
+							<div class="scr17_block_title">
+								<p>Реквизиты:</p>
+							</div>
+							<div class="scr17_block_text">
+								<p>ООО "Мой Дом"<span>ИНН 6950149610</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="scr17_block" data-aos="zoom-in" data-aos-once="true" data-aos-delay="600">
+							<div class="scr17_block_ico">
+								<div class="scr17_block_arr"></div>
+								<p><img src="img/scr17/4.png" alt="img"></p>
+							</div>
+							<div class="scr17_block_title">
+								<p>Контакты:</p>
+							</div>
+							<div class="scr17_block_text">
+								<p>+7 (4822) 47-57-91<br>+7 (910) 647-57-92 <span>santehexpert-tver@ya.ru</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		
+		
+		<div class="row screen16">
+            <div class="container">
+                <div class="row">
+                    <div class="scr8_form_wrapper aos-init aos-animate" data-aos="fade-left" data-aos-once="true">
+                        <div class="manager_name">
+<div class="manager_descr">
+                                <p>Макаров Даниил
+                                    <span>ВЕДУЩИЙ МЕНЕДЖЕР</span> </p>
+                            </div>
+                        </div>
+                        <div class="scr1_form_wrapper">
+                            <form id="form-answer" action="mail.php" method="post" class="scr1_form my_form  transition" novalidate="novalidate">
+                                <input type="hidden" name="project_name" value="Pipeman">
+                                <input type="hidden"  name="form_subject" value="Экран с менеджером">
+                                <input type="hidden" name="sp_addressbook" value="1131967">
+                                <input type="hidden" name="csrf" value="274d28cd522ec6a2226453cc254ae96d">
+                                <input type="hidden" name="admin_email" value="santehexpert-tver@ya.ru">
+                               <input type="hidden" name="utm_source" value="<?=$_GET['utm_source']?>">
+			<input type="hidden" name="utm_medium" value="<?=$_GET['utm_medium']?>">
+			<input type="hidden" name="utm_campaign" value="<?=$_GET['utm_campaign']?>">
+			<input type="hidden" name="utm_term" value="<?=$_GET['utm_term']?>">
+			<input type="hidden" name="utm_content" value="<?=$_GET['utm_content']?>">
+                                <h1 class="header_form_h1">Остались вопросы?  <span>Оставьте заявку и наш менеджер<br> с удовольствием ответит на них!</span></h1>
+                                <p class="btn-center">
+                                    <input type="text" name="name" placeholder="Как Вас зовут? " class="form_input form_input_name" required="" aria-required="true">
+                                </p>
+                                <p class="btn-center">
+                                    <input type="tel" name="phone" placeholder="Ваш телефон" class="form_input form_input_phone" required="" aria-required="true">
+                                </p>
+                                
+                                <p class="btn-center">
+                                    <button type="submit" class="submit_btn transition main_btn btn-152">Получить консультацию</button>
+                                </p><br>
+                                <div class="checkbox checkbox-152">
+                                  <label>
+                                    <input type="checkbox" checked="checked"> Отправляя заявку, я принимаю <a href="/terms.pdf" target="_blank" title="Пользовательское соглашение">пользовательское соглашение</a> и подтверждаю, что ознакомлен и согласен с <a href="/privacy.pdf" target="_blank" title="Политика конфиденциальности">политикой конфиденциальности</a> данного сайта
+                                  </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<!-- footer -->
+		<div class="row footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer_logo">
+							<img src="img/myhouse.png" alt="logo" href="#top">
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="row">
+							<div class="copyright">
+								<p>© 2012 - 2017 | Все права защищены авторским правом</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footer_callback">
+							<p class="lptracker_phone callibri_phone">+7 (4822) 47-57-91 <br>+7 (910) 647-57-92</p>
+							<a href="#myModal" class="transition fancybox footer_callback_btn">Заказать обратный звонок</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- /screen17 -->
+		<!-- /footer -->
+</div>
+	<!-- /container-fluid -->
+
+	<!-- /form -->
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- slick -->
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="libs/slick/slick.js"></script>
+	<!-- /slick -->
+	
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	
+	<!-- fancybox -->
+	<script type="text/javascript" src="libs/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				// margin: 0
+				scrolling: 'yes',
+				fixed: false,
+				autoCenter: true,
+				centerOnScroll: true,
+				helpers: {
+					overlay: {
+						showEarly: false
+					}
+				}
+			});
+		});
+
+	</script>
+	<!-- /fancybox -->
+	<!-- validation -->
+	<script src="libs/jquery-validation/jquery.validate.js"></script>
+	<!-- /validation -->
+	<!-- masked-input -->
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<!-- /masked-input -->
+	<!-- flipclock -->
+	<script type="text/javascript" src="libs/flipclock/flipclock.min.js"></script>
+	<!-- /flipclock -->
+	<!-- aos -->
+	<script src="libs/aos-master/aos.js"></script>
+	<!-- /aos -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="libs/magnific-popup/magnific-popup.min.js"></script>
+	<!-- Calc -->
+	<script src="js/scripts_calc.js"></script>
+	<!-- Outgoing -->
+	<script src="js/outgoing-line.js"></script>
+
+	
+
+
+
+</body>
+
+</html>
