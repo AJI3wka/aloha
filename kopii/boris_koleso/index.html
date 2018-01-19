@@ -72,12 +72,6 @@
           <div class="sh-lead__note">Технологии нового поколения</div>
         </div>
       </div>
-      <div class="sh-top__col-rt">
-        <div class="sh-info">
-          <a class="sh-info__phone" href="tel:+74956461359">+7 (495) 646-13-59</a>
-          <div class="sh-info__addr">Зеленоград, Панфиловский проспект 10</div>
-        </div>
-      </div>
     </div>
   </div><!-- END sh-top -->
 
@@ -91,18 +85,10 @@
           <li class="sh-menu__item"><a class="sh-menu__link js-scroll-to" href="#company">О компании</a></li>
         </ul>
         <div class="sh-mobinfo">
-          <a class="sh-mobinfo__phone" href="tel:+74956461359">+7 (495) 646-13-59</a> 
+          <!--<a class="sh-mobinfo__phone" href="tel:+74956461359">+7 (495) 646-13-59</a>-->
           <a class="sh-mobinfo__mail" href="mailto:support@solargroup.pro">support@solargroup.pro</a>
           <div class="sh-mobinfo__addr">Зеленоград, Панфиловский проспект 10</div>
-          <ul class="sonet sh-mobinfo__sonet">
-            <li class="sonet__item"><a class="sonet__link icon-fb" target="_blank" href="https://www.facebook.com/groups/1186525781358249"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-vk" target="_blank" href="https://vk.com/duyunov_official"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-gp" target="_blank" href="https://plus.google.com/u/1/102494448651981142020"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-tw" target="_blank" href="https://twitter.com/DDuunov"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-ok" target="_blank" href="https://ok.ru/group/54547689242729"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-yt" target="_blank" href="https://www.youtube.com/channel/UCHrtI4vjbUChbFPrammi3lg/videos"></a></li>
-            <li class="sonet__item"><a class="sonet__link icon-in" target="_blank" href="https://www.instagram.com/asinhronnyedvigateliduunova"></a></li>
-          </ul>
+          
         </div>
       </div>
       <div class="sh-btm__mob">
@@ -111,11 +97,6 @@
             <span class="mobmenu__top"></span><span class="mobmenu__mid"></span><span class="mobmenu__btm"></span>
           </div>
         </a>
-      </div>
-      <div class="sh-btm__col-rt">
-        <div class="sh-login">
-          <a href="https://reg.solargroup.pro/site/login" class="sh-login__btn"><span>Вход в проект</span></a>
-        </div>
       </div>
     </div>
   </div><!-- END sh-btm -->
@@ -126,7 +107,6 @@
 <main class="site-main">
 
   <section class="sec-intro" id="sec-intro">
-    <div class="sec-intro__back"></div>
     <div class="sec-intro__front">
       <div class="container sec-intro__row">
         <div class="sec-intro__col-lt">
@@ -145,66 +125,11 @@
         </div>
         <div class="sec-intro__col-rt">
           <div class="form all-sections__form sec-intro__form">
-            <div class="form__title">Присоединиться</div>
-            <div class="form__note">Регистрация через социальные сети</div>
-            <div class="form__line">
-              <ul class="sonet form__sonet">
-                <li class="sonet__item"> 
-                <form action='https://www.facebook.com/v2.10/dialog/oauth' metod='get' id='submit_fb'>
-                <input type='hidden' name='client_id' value='1444615512318892'>    
-                <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/fb'>    
-                <input type='hidden' name='display' value='page'>
-                <input type='hidden' name='scope' value='email,public_profile'>
-                <input type='hidden' name='response_type' value='code'>
-                  <a class="sonet__link icon-fb" role="button" onclick='$("#submit_fb").submit()'></a>
-                </form>
-                </li>
-                <li class="sonet__item">
-                    <form action='https://oauth.vk.com/authorize' metod='get' id='submit_vk'>
-                    <input type='hidden' name='client_id' value='6242109'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/vk'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='4194304'>
-                    <input type='hidden' name='response_type' value='code'>
-                    <input type='hidden' name='v' value='5.69' >
-
-                    <a class="sonet__link icon-vk" role="button" onclick='$("#submit_vk").submit()'></a>
-                    </form>
-                </li>
-                <li class="sonet__item">
-                    <form action='https://accounts.google.com/o/oauth2/auth' metod='get' id='submit_gp'>
-                    <input type='hidden' name='client_id' value='314635983834-3s4affu1j9qg30ed9m5gkh0gnmucv80q.apps.googleusercontent.com'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/gp'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'>
-                    <input type='hidden' name='response_type' value='code'>
-
-                    <a class="sonet__link icon-gp" role="button" onclick='$("#submit_gp").submit()'></a>
-                    </form>
-                </li>
-                <!--<li class="sonet__item"><a class="sonet__link icon-tw" role="button" href="https://reg.solargroup.pro/social/twittersign"></a></li>-->
-              </ul>
-            </div>
-            <div class="form__note">или email</div>
-            <form action='http://solargroup.pro/site/senduser' method='get' id='regme' onsubmit='return submitForm(this);' version="1">
-                <input type="hidden" name="_csrf" value="R4niUymtJPLARg0Ual8o9xnjV1w9Exmo1OFBYOTBP_53uhr8W8i02we52ydQyHP3aXMYsfKzA7UE_dDCqhG2eQ==">                <div class="form__line">
-                  <input class="form__input" name="email" type="text" placeholder="E-mail">
-                  <p id='warning_email_1' style='color:#cc0011;display:none'></p>
-                </div>
                 <div class="form__line for-sumbmit">
                   <a class="btn btn_red" role="button" onclick="$('#regme').submit()">Зарегистрироваться<i class="btn__icon-rt icon-more-red"></i></a>
                 </div>
-            </form>   
-            <div class="form__note">
-              Пройдите регистрацию в 2 простых шага, для Вас станут
-              доступны все материалы и действующие предложения.
-            </div>
+            </form>
           </div>
-          <div class="sec-intro__note">
-            Смотрие другие видео и подписывайтесь на нас в
-            <a href="https://www.youtube.com/channel/UCHrtI4vjbUChbFPrammi3lg/videos" target="_blank">Youtube</a>
-          </div>
-        </div>
       </div><!-- END container -->
     </div><!-- END sec-intro__front -->
   </section><!-- END sec-intro -->
@@ -456,76 +381,6 @@
       </div>
     </div><!-- END container -->
   </section><!-- END sec-show -->
-
-  <section class="sec-subscribe">
-    <div class="container">
-      <h2 class="all-sections__title sec-subscribe__title">
-        Запишись на <strong>бесплатный вебинар</strong>, <br>
-        где мы подробно расскажем о нашем проекте
-      </h2>
-      <div class="sec-subscribe__wrap" id="subscribe-wrap">
-        <div class="sec-subscribe__back">
-          <div class="sec-subscribe__back-rotate" id="subscribe-rotate"></div>
-        </div>
-        <div class="form all-sections__form sec-subscribe__form">
-            <div class="form__title">Зарегистрируйтесь в проекте и получите доступ к расписанию новых вебинаров и записям прошедших вебинаров</div>
-            <div class="form__note">Регистрация через социальные сети</div>
-            <div class="form__line">
-              <ul class="sonet form__sonet">
-                <li class="sonet__item"> 
-                <form action='https://www.facebook.com/v2.10/dialog/oauth' metod='get' id='submit_fb'>
-                <input type='hidden' name='client_id' value='1444615512318892'>    
-                <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/fb'>    
-                <input type='hidden' name='display' value='page'>
-                <input type='hidden' name='scope' value='email,public_profile'>
-                <input type='hidden' name='response_type' value='code'>
-                  <a class="sonet__link icon-fb" role="button" onclick='$("#submit_fb").submit()'></a>
-                </form>
-                </li>
-                <li class="sonet__item">
-                    <form action='https://oauth.vk.com/authorize' metod='get' id='submit_vk'>
-                    <input type='hidden' name='client_id' value='6242109'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/vk'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='4194304'>
-                    <input type='hidden' name='response_type' value='code'>
-                    <input type='hidden' name='v' value='5.69' >
-
-                    <a class="sonet__link icon-vk" role="button" onclick='$("#submit_vk").submit()'></a>
-                    </form>
-                </li>
-                <li class="sonet__item">
-                    <form action='https://accounts.google.com/o/oauth2/auth' metod='get' id='submit_gp'>
-                    <input type='hidden' name='client_id' value='314635983834-3s4affu1j9qg30ed9m5gkh0gnmucv80q.apps.googleusercontent.com'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/gp'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'>
-                    <input type='hidden' name='response_type' value='code'>
-
-                    <a class="sonet__link icon-gp" role="button" onclick='$("#submit_gp").submit()'></a>
-                    </form>
-                </li>
-                <!--<li class="sonet__item"><a class="sonet__link icon-tw" role="button" href="https://reg.solargroup.pro/social/twittersign"></a></li>-->
-              </ul>
-            </div>
-            <div class="form__note">или email</div>
-            <form action='http://solargroup.pro/site/senduser' method='get' id='regme3' onsubmit='return submitForm(this);' version="3">
-                <input type="hidden" name="_csrf" value="R4niUymtJPLARg0Ual8o9xnjV1w9Exmo1OFBYOTBP_53uhr8W8i02we52ydQyHP3aXMYsfKzA7UE_dDCqhG2eQ==">                <div class="form__line">
-                  <input class="form__input" name="email" type="text" placeholder="E-mail">
-                  <p id='warning_email_3' style='color:#cc0011;display:none'></p>
-                </div>
-                <div class="form__line for-sumbmit">
-                  <a class="btn btn_red" role="button" onclick="$('#regme3').submit()">Зарегистрироваться<i class="btn__icon-rt icon-more-red"></i></a>
-                </div>
-            </form>   
-            <div class="form__note">
-              Пройдите регистрацию в 2 простых шага, для Вас станут
-              доступны все материалы и действующие предложения.
-            </div>
-          </div>
-      </div>
-    </div><!-- END container -->
-  </section><!-- END sec-subscribe -->
 
   <section class="sec-progress">
     <div class="container">
@@ -785,24 +640,6 @@
           <img class="sec-about__img" src="images/sec-about/about_01.jpg" data-action="zoom" alt="Коллектив предприятия">
         </div>
       </div>
-
-      <div class="sec-about__info">
-        <h3 class="sec-about__info-title">На чем будет зарабатывать компания:</h3>
-        <ul class="all-sections__list">
-          <li class="all-sections__list-item icon-list-page">
-            Продажи лицензий на право производства асинхронных двигателей Дуюнова
-          </li>
-          <li class="all-sections__list-item icon-list-gear">
-            Продажи технологического оборудования и оснастки для производства продукта
-          </li>
-          <li class="all-sections__list-item icon-list-plant">
-            Мультиплицирования и расширенного производства продукции
-          </li>
-          <li class="all-sections__list-item icon-list-bill">
-            Реализации готовой <br> продукции
-          </li>
-        </ul>
-      </div>
     </div><!-- END container -->
   </section><!-- END sec-about -->
 
@@ -881,60 +718,19 @@
     <div class="container sec-send__wrap">
 
       <div class="form all-sections__form sec-send__form">
-        <div class="form__title">Пройти регистрацию</div>
-        <div class="form__note">Регистрация через социальные сети</div>
         <div class="form__line">
           <ul class="sonet form__sonet">
-            <li class="sonet__item"> 
-                <form action='https://www.facebook.com/v2.10/dialog/oauth' metod='get' id='submit_fb'>
-                <input type='hidden' name='client_id' value='1444615512318892'>    
-                <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/fb'>    
-                <input type='hidden' name='display' value='page'>
-                <input type='hidden' name='scope' value='email,public_profile'>
-                <input type='hidden' name='response_type' value='code'>
-                  <a class="sonet__link icon-fb" role="button" onclick='$("#submit_fb").submit()'></a>
-                </form>
-                </li>
                 <li class="sonet__item">
-                    <form action='https://oauth.vk.com/authorize' metod='get' id='submit_vk'>
-                    <input type='hidden' name='client_id' value='6242109'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/vk'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='4194304'>
-                    <input type='hidden' name='response_type' value='code'>
-                    <input type='hidden' name='v' value='5.69' >
-
-                    <a class="sonet__link icon-vk" role="button" onclick='$("#submit_vk").submit()'></a>
-                    </form>
-                </li>
-                <li class="sonet__item">
-                    <form action='https://accounts.google.com/o/oauth2/auth' metod='get' id='submit_gp'>
-                    <input type='hidden' name='client_id' value='314635983834-3s4affu1j9qg30ed9m5gkh0gnmucv80q.apps.googleusercontent.com'>    
-                    <input type='hidden' name='redirect_uri' value='https://reg.solargroup.pro/social/gp'>    
-                    <input type='hidden' name='display' value='page'>
-                    <input type='hidden' name='scope' value='https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'>
-                    <input type='hidden' name='response_type' value='code'>
-
-                    <a class="sonet__link icon-gp" role="button" onclick='$("#submit_gp").submit()'></a>
-                    </form>
                 </li>
                 <!--<li class="sonet__item"><a class="sonet__link icon-tw" role="button" href="https://reg.solargroup.pro/social/twittersign"></a></li>-->
           </ul>
         </div>
-        <div class="form__note">или email</div>
             <form action='http://solargroup.pro/site/senduser' method='get' id='regme2' onsubmit='return submitForm(this);' version="2">
-                <input type="hidden" name="_csrf" value="R4niUymtJPLARg0Ual8o9xnjV1w9Exmo1OFBYOTBP_53uhr8W8i02we52ydQyHP3aXMYsfKzA7UE_dDCqhG2eQ==">                <div class="form__line">
-                  <input class="form__input" name="email" type="text" placeholder="E-mail">
-                  <p id='warning_email_2' style='color:#cc0011;display:none'></p>
-                </div>
+                <input type="hidden" name="_csrf" value="R4niUymtJPLARg0Ual8o9xnjV1w9Exmo1OFBYOTBP_53uhr8W8i02we52ydQyHP3aXMYsfKzA7UE_dDCqhG2eQ==">
                 <div class="form__line for-sumbmit">
                   <a class="btn btn_red" role="button" onclick="$('#regme2').submit()">Зарегистрироваться<i class="btn__icon-rt icon-more-red"></i></a>
                 </div>
-            </form>   
-        <div class="form__note">
-          Пройдите регистрацию в 2 простых шага, для Вас станут
-          доступны все материалы и действующие предложения.
-        </div>
+            </form> 
       </div>
       <div class="sec-send__text">
         <h2 class="all-sections__title sec-send__title">
@@ -1187,28 +983,8 @@
       <div class="sf-copy"  title="Авторские права защищены патентами.">&copy; &laquo;SolarGroup&raquo;, 2017</div>
       <ul class="sf-cont">
         <li class="sf-cont__item"><a class="sf-cont__link" href="mailto:support@solargroup.pro">support@solargroup.pro</a></li>
-        <li class="sf-cont__item"><a class="sf-cont__link" href="tel:+74956461359">+7 (495) 646-13-59</a></li>
+        
       </ul>
-    </div>
-  </div>
-  <div class="sf-nav">
-    <div class="container sf-nav__row">
-      <ul class="sonet sf-nav__sonet">
-        <li class="sonet__item"><a class="sonet__link icon-fb" target="_blank" href="https://www.facebook.com/groups/1186525781358249"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-vk" target="_blank" href="https://vk.com/duyunov_official"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-gp" target="_blank" href="https://plus.google.com/u/1/102494448651981142020"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-tw" target="_blank" href="https://twitter.com/DDuunov"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-ok" target="_blank" href="https://ok.ru/group/53483150115033"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-yt" target="_blank" href="https://www.youtube.com/channel/UCHrtI4vjbUChbFPrammi3lg/videos"></a></li>
-        <li class="sonet__item"><a class="sonet__link icon-in" target="_blank" href="https://www.instagram.com/duyunov_official/"></a></li>
-      </ul>
-      <nav class="sf-nav__menu">
-        <a class="sf-nav__link" href="https://reg.solargroup.pro/site/news/">Новости</a>
-        <a class="sf-nav__link" href="https://reg.solargroup.pro/site/webinars/">Вебинары</a>
-        <a class="sf-nav__link" href="https://reg.solargroup.pro/site/invest/">Инвестировать</a>
-        <a class="sf-nav__link" href="https://reg.solargroup.pro/site/banking/">Банкинг</a>
-        <a class="sf-nav__link" href="https://reg.solargroup.pro/site/forpartners/">Партнерам</a>
-      </nav>
     </div>
   </div>
   <div class="sf-btm">
@@ -1219,9 +995,9 @@
           <li><img src="img/payment/mastercard_gray.svg" alt="Mastercard"></li>
         </ul>
         <ul class="sf-btm__notes">
-          <li><a href="https://reg.solargroup.pro/public/non-disclosure_agreement.pdf" target="_blank">Политика конфиденциальности</a></li>
-          <li><a href="https://reg.solargroup.pro/public/risk_warning.pdf" target="_blank">Предупреждение о рисках</a></li>
-          <li><a href="file/address.pdf" target="_blank">Юридический адрес</a></li>
+          <li><a href="non-disclosure_agreement.pdf" target="_blank">Политика конфиденциальности</a></li>
+         <!--<li><a href="https://reg.solargroup.pro/public/risk_warning.pdf" target="_blank">Предупреждение о рисках</a></li>
+          <li><a href="file/address.pdf" target="_blank">Юридический адрес</a></li>-->
         </ul>
       </div>
       <div class="sf-btm__logos">

@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.vnukauto.com	TRUE	/	FALSE	1999999999	PHPSESSID	3df223e5f78ccc6d17d0955f16749229
-
