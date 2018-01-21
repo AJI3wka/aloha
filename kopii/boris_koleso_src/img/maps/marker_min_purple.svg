@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="20px" height="30px" viewBox="0 0 20 30" enable-background="new 0 0 20 30" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#971B70" d="M20,9.879C20,4.423,15.523,0,10,0S0,4.423,0,9.879
+	c0,1.482,0.331,2.889,0.923,4.15L9.959,30l9.043-15.814c0.021-0.044,0.043-0.089,0.064-0.134l0.028-0.057h0
+	C19.675,12.741,20,11.348,20,9.879z M10,14.762c-2.854,0-5.167-2.286-5.167-5.105S7.146,4.551,10,4.551s5.167,2.286,5.167,5.105
+	S12.854,14.762,10,14.762z"/>
+</svg>
