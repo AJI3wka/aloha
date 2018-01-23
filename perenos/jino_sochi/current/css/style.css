@@ -553,7 +553,7 @@ padding-top:50px;
 height:0;
 overflow:hidden;
 }
-.myvideo:after{
+/*.myvideo:after{
     display: block;
     position: absolute;
     left: 0;
@@ -562,7 +562,7 @@ overflow:hidden;
     height: 100%;
     z-index: 3;
     content: "";
-    }
+    }*/
 .myvideo iframe,.myvideo object,.myvideo embed {
 position:absolute;
 top:0;
