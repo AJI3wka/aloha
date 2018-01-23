@@ -1233,9 +1233,9 @@ abbr[title] {
 .form__title {
     margin: 10px 0 24px;
     color: #676767;
-    font-size: 24px;
+    font-size: 32px;
+    line-height: 40px;
     font-weight: 500;
-    line-height: 30px
 }
 
 .form__note {
@@ -2436,7 +2436,7 @@ img.zoom-img {
 
 .all-sections__title {
     margin: 0;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 44px;
 }
@@ -2938,7 +2938,7 @@ margin: 0 auto;
 }
 
 .sec-subscribe {
-    margin-bottom: 62px
+    padding-top: 60px;
 }
 
 .sec-subscribe__title {
@@ -2993,7 +2993,7 @@ margin: 0 auto;
     width: 272px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 150px;
+    padding-top: 30px;
 }
 
 .sec-subscribe__form .form__note {
@@ -3671,8 +3671,16 @@ margin: 0 auto;
 }
 
 @media (max-width:1280px) {
+
+    .form__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
     .sec-about__text {
         padding: 16px 32px
+    }
+    .sec-subscribe__form .for-sumbmit{
+        padding-top: 20px;
     }
     .sec-subscribe__wrap {
         width: 860px;
@@ -3696,7 +3704,8 @@ margin: 0 auto;
         padding: 12px 32px
     }
     .sec-subscribe__form .form__title {
-        display: none
+        /*display: none*/
+        margin-top: 30px;
     }
 }
 @media (max-width:880px) {
@@ -3739,6 +3748,9 @@ margin: 0 auto;
 @media (max-width:990px) {
     .sec-intro__row {
         display: block
+    }
+    .sec-subscribe__form .for-sumbmit{
+        padding-top: 60px;
     }
     .sec-intro__col-lt {
         -webkit-box-flex: 0;
@@ -3938,6 +3950,15 @@ margin: 0 auto;
     .all-sections__title {
         font-size: 22px;
         line-height: 28px
+    }
+    .sec-subscribe__form .form__title{
+        margin-top: 20px;
+    }
+    .sec-subscribe__form .for-sumbmit{
+        padding-top: 0;
+    }
+    .sec-subscribe__back-rotate{
+        display: none;
     }
     .all-sections__text {
         font-size: 14px;

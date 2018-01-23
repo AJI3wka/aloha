@@ -17,9 +17,10 @@
   <meta property="og:site_name"   content="Мотор-колесо Дуюнова. Технологии нового поколения.">
   <meta property="og:description" content="Мотор-колесо Дуюнова. Стань участником уникального инвестиционного проекта. Solarmotors - разработка и производство самых эффективных асинхронных двигателей в мире.">
   <!-- Favicon ================================================================================= -->
-  <link rel="icon" type="img/png" href="img/favicons/favicon-16x16.png" sizes="16x16"/>
-  <link rel="icon" type="img/png" href="img/favicons/favicon-32x32.png" sizes="32x32"/>
-  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon-152x152.png" sizes="152x152"/>
+  <link rel="icon" type="img/png" href="img/favicons/favicon-16x16.png?1" sizes="16x16"/>
+  <link rel="icon" type="img/png" href="img/favicons/favicon-32x32.png?1" sizes="32x32"/>
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon-152x152.png?1" sizes="152x152"/>
+  <link type="image/x-icon" href="img/favicons/favicon-32x32.png?1" rel="shortcut icon">
   <!-- Styles ================================================================================== -->
  
   <!--link rel="stylesheet" href="css/modify.css"/ --><!-- Быстрые правки и дополнения до их переноса в .less -->
@@ -136,7 +137,7 @@
         <div class="sec-intro__col-rt">
           <div class="form all-sections__form sec-intro__form">
                 <div class="form__line for-sumbmit">
-                  <a class="btn btn_red" role="button" onclick="$('#regme').submit()">Заригестрироватся<i class="btn__icon-rt icon-more-red"></i></a>
+                  <a class="btn btn_red" role="button" href="https://reg.solargroup.pro/gbj707">Зарегистрироватся<i class="btn__icon-rt icon-more-red"></i></a>
                 </div>
           </div>
       </div><!-- END container -->
@@ -375,13 +376,16 @@
         </div>
         <ul class="sec-show__picts">
           <li class="sec-show__pict">
-            <img class="sec-show__img" src="images/sec-show/show_01.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
+            <img class="sec-show__img lazyload blur-up" data-expand="-70"
+               src="images/sec-show/show_01_low.jpg" data-src="images/sec-show/show_01.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
           </li>
           <li class="sec-show__pict">
-            <img class="sec-show__img" src="images/sec-show/show_02.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
+            <img class="sec-show__img lazyload blur-up" data-expand="-70"
+               src="images/sec-show/show_02_low.jpg" data-src="images/sec-show/show_02.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
           </li>
           <li class="sec-show__pict">
-            <img class="sec-show__img" src="images/sec-show/show_03.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
+            <img class="sec-show__img lazyload blur-up" data-expand="-70"
+               src="images/sec-show/show_03_low.jpg" data-src="images/sec-show/show_03.jpg" data-action="zoom" alt="Шоу-рум проекта Дуюнова">
           </li>
         </ul>
       </div>
@@ -706,15 +710,15 @@
             </p>
             <ul class="sec-present__thumbs">
               <li class="sec-present__thumbs-item">
-                <img class="sec-present__thumbs-img" src="images/sec-present/poster_01_850x478.jpg" alt="Презентация колесо-мотора Дуюнова">
+                <img class="sec-present__thumbs-img" src="images/sec-present/poster_01_850x478_low.jpg" alt="Презентация колесо-мотора Дуюнова">
                 <a class="sec-present__thumbs-link js-video-set" data-video="WrE6r0LQD0M" data-poster="images/sec-present/poster_01_850x478.jpg" role="button"></a>
               </li>
               <li class="sec-present__thumbs-item">
-                <img class="sec-present__thumbs-img" src="images/sec-present/poster_02_850x478.jpg" alt="Презентация колесо-мотора Дуюнова">
+                <img class="sec-present__thumbs-img" src="images/sec-present/poster_02_850x478_low.jpg" alt="Презентация колесо-мотора Дуюнова">
                 <a class="sec-present__thumbs-link js-video-set" data-video="mCfoUmFuHKc" data-poster="images/sec-present/poster_02_850x478.jpg" role="button"></a>
               </li>
               <li class="sec-present__thumbs-item">
-                <img class="sec-present__thumbs-img" src="images/sec-present/poster_03_850x478.jpg" alt="Презентация колесо-мотора Дуюнова">
+                <img class="sec-present__thumbs-img" src="images/sec-present/poster_03_850x478_low.jpg" alt="Презентация колесо-мотора Дуюнова">
                 <a class="sec-present__thumbs-link js-video-set" data-video="jjDEWWf9hRk" data-poster="images/sec-present/poster_03_850x478.jpg" role="button"></a>
               </li>
             </ul>
@@ -735,12 +739,11 @@
                 <!--<li class="sonet__item"><a class="sonet__link icon-tw" role="button" href="https://reg.solargroup.pro/social/twittersign"></a></li>-->
           </ul>
         </div>
-            <form action='http://solargroup.pro/site/senduser' method='get' id='regme2' onsubmit='return submitForm(this);'>
-                <input type="hidden" name="_csrf" value="R4niUymtJPLARg0Ual8o9xnjV1w9Exmo1OFBYOTBP_53uhr8W8i02we52ydQyHP3aXMYsfKzA7UE_dDCqhG2eQ==">
+            <div>
                 <div class="form__line for-sumbmit">
-                  <a class="btn btn_red" role="button" onclick="$('#regme2').submit()">Заригестрироватся<i class="btn__icon-rt icon-more-red"></i></a>
+                  <a class="btn btn_red" role="button" href="https://reg.solargroup.pro/gbj707">Узнать подробнее<i class="btn__icon-rt icon-more-red"></i></a>
                 </div>
-            </form> 
+            </div> 
       </div>
       <div class="sec-send__text">
         <h2 class="all-sections__title sec-send__title">
@@ -916,98 +919,36 @@
           <li>Больший максимальный <br> момент на 20%</li>
           <li>Получение КПД и cos, близкий к номинальному <br> в диапазоне нагрузок от 20 до 140%</li>
         </ul>
-        <a class="btn btn_black sec-increase__more-btn" href="https://reg.solargroup.pro/site/register">Узнать подробнее <i class="btn__icon-rt icon-more-black"></i></a>
+        <a class="btn btn_black sec-increase__more-btn" href="https://reg.solargroup.pro/gbj707">Узнать подробнее <i class="btn__icon-rt icon-more-black"></i></a>
       </div>
     </div><!-- END container -->
   </section><!-- END sec-increase -->
 
-
-</main><!-- END site-main -->
-
-<script>
-    function submitForm(form)
-        {
-             
-            var data = new FormData(form);
-            var action = $(form).attr("action");
-            var version = $(form).attr("version");
-            
-            $('#warning_email_'+version).html('<img src="img/rl.gif">');
-            $('#warning_email_'+version).show();
-          
-            
-            if(action=='https://reg.solargroup.pro/reg/confirm')
-            {
-                return true;
-            }
-            
-            
-            $.ajax(
-            {
-                url : action,
-                type: "POST",
-                data : data,
-                processData: false,			
-                contentType: false,
-		success: function(data, textStatus, jqXHR) {
-                   
-                   if(data.status!='ok')
-                   {
-                       if(data.type=='wrong') {
-                             $('#warning_email_'+version).html('Введитие правильный Email');
-                             $('#warning_email_'+version).show();     
-                           }
-                        if(data.type=='exist') {
-                             $('#warning_email_'+version).html('Указанный Email уже занят.');
-                             $('#warning_email_'+version).show();     
-                           }
-                        if(data.type=='server') {
-                             $('#warning_email_'+version).html('Сервис регистарции времено недоступен.');
-                             $('#warning_email_'+version).show();     
-                           }   
-                   } else {
-                        $(form).attr("action",'https://reg.solargroup.pro/reg/confirm');
-                        $(form).submit();
-                   }
-                   
-                },
-                error: function(jqXHR, textStatus, errorThrown) {
-                    
-                    $('#warning_email_'+version).html('Ошибка отправки данных');
-                    $('#warning_email_'+version).show();
-                    return false;
-
-                }
-            });
-            
-            return false;
-           
-        }
-</script></div><!-- END site-wrapper -->
-
 <section class="sec-subscribe">
     <div class="container">
+      <h2 class="all-sections__title sec-subscribe__title">
+        Запишись на <strong>бесплатный вебинар</strong>, <br>
+        где мы подробно расскажем о нашем проекте
+      </h2>
       <div class="sec-subscribe__wrap" id="subscribe-wrap">
         <div class="sec-subscribe__back">
-          <h2 class="all-sections__title sec-subscribe__title">Зарегистрируйтесь в проекте и получите доступ к расписанию новых вебинаров и записям прошедших вебинаров</h2>
+          <div class="sec-subscribe__back-rotate scroll-pos-undefined window-width-0-to-infinity" id="subscribe-rotate" style="transform: rotate(67deg);"></div>
         </div>
         <div class="form all-sections__form sec-subscribe__form">
             <div class="form__title">Зарегистрируйтесь в проекте и получите доступ к расписанию новых вебинаров и записям прошедших вебинаров</div>
-            <div class="form__line">
-            <form action="/site/senduser" method="get" id="regme3" onsubmit="return submitForm(this);" version="3">
-                <input type="hidden" name="_csrf" value="y5PF2NVV49xnWDATMN0KAnkut9nlxWM7Mbtk-2WjIKJ9N6RRlaE69krtW_geeh2r9ehrp5Ad_Z3sFQJlUel3Iw==">
+            <div>
                 <div class="form__line for-sumbmit">
-                  <a class="btn btn_red" role="button" onclick="$('#regme3').submit()">Зарегистрироваться<i class="btn__icon-rt icon-more-red"></i></a>
+                  <a class="btn btn_red" role="button" href="https://reg.solargroup.pro/gbj707">Зарегистрироваться<i class="btn__icon-rt icon-more-red"></i></a>
                 </div>
-            </form>   
-            <div class="form__note">
-              Пройдите регистрацию в 2 простых шага, для Вас станут
-              доступны все материалы и действующие предложения.
-            </div>
+            </div>   
           </div>
       </div>
-    </div><!-- END container -->
+    </div>
   </section>
+
+</main><!-- END site-main -->
+</div><!-- END site-wrapper -->
+
 <!-- FOOTER ================================================================ -->
 <footer class="site-footer">
   <div class="sf-info">
