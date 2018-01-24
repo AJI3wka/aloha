@@ -684,6 +684,15 @@ html {
     overflow: hidden;
     z-index: 50;
 }
+.sitewriters {
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+    margin-left: 15px;
+    font-style: italic;
+    /* float: right; */
+    text-align: center;
+    line-height: 19px;
+}
 
 .container {
     position: relative;
@@ -4240,4 +4249,3 @@ body .mod_txt-orange {
     border: solid 1px #ccc;
     border-radius: 50%;
     z-index: 1;
-}
