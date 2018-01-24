@@ -29,7 +29,7 @@ $(document).ready(function(){
     
     // Анимация цены
     function printNumbersInterval() {
-        var i = 15000;
+        var i = 30000;
         var timerId = setInterval(function() {
             $('.discount_count').text(i + " руб.");
             if (i == 0) {
