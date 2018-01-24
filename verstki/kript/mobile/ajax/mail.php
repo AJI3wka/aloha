@@ -1,8 +1,6 @@
 <?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-
-
 $type = $_POST['type'];
 
 $give = $_POST['give'];
@@ -61,5 +59,9 @@ $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
 
+mail ($to,$subject,$message,$headers);
+$to = "s.pavel@realtransit.ru";
+mail ($to,$subject,$message,$headers);
+$to = "triowork2@gmail.com";
 mail ($to,$subject,$message,$headers);
 ?>
