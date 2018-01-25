@@ -1,8 +1,6 @@
 <?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-
-
 $type = $_POST['type'];
 
 $give = $_POST['give'];
