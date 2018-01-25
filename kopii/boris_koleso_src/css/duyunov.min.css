@@ -693,6 +693,14 @@ html {
     text-align: center;
     line-height: 19px;
 }
+.sitewriters .logo{
+    background: url(../img/logosite.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 142px;
+    height: 22px;
+    display: inline-block;
+}
 
 .container {
     position: relative;
