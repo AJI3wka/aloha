@@ -625,7 +625,7 @@ button, input, textarea {
                 }
             }
         }
-    }
+    } 
     .step2_b {
         display: none;
         h2 {
@@ -1732,6 +1732,7 @@ footer {
                             background-image: url(../img/icon2.png);
                             background-size: auto 22px;
                             background-position: 10px 6px;
+                        }
                         &[data-selected="litecoin"]{
                             background-image: url(../img/icon3.png);
                             background-size: auto 15px;
@@ -2147,4 +2148,4 @@ footer {
 .arcticmodal-container_i{margin:0 auto;height:100%;}
 .arcticmodal-container_i2{padding:0;margin:0;border:0;vertical-align:middle}
 #hidden-box{display:none;}
-     .error-input{border: 1px solid red!important}
+.error-input{border: 1px solid red!important}
