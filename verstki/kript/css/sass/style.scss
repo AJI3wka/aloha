@@ -1,4 +1,4 @@
-$fontfamily: 'GothamPro',sans-serif;
+$fontfamily: 'GothamPro',sans-serif;;;
 $afont: 'MuseoCyrl',sans-serif;
 $wievport: 1000px;
 #maket {
@@ -10,15 +10,15 @@ $wievport: 1000px;
     height: 7103px;
     opacity: 0.5;
     z-index: 20;
-    margin-top: 0;
+    margin-top: 0;  
 }
 @mixin ibw() {
-    text-align: center;
+    text-align: center;  
     font-size: 0;
     &>* {
         font-size: 1rem;
         display: inline-block;
-        vertical-align: top;
+        vertical-align: top; 
     }
 }
 @mixin sec() {
@@ -411,10 +411,10 @@ button, input, textarea {
                     font-family: $afont;
                     padding-left: 28px;
                     width: 147px;
-                    display: block;
+                    display: block;   
                     margin: 0;
                     border-bottom-left-radius: 21px;
-                    border-top-left-radius: 21px;
+                    border-top-left-radius: 21px;   
                 }
                 .valut {
                     float: right;
@@ -426,9 +426,9 @@ button, input, textarea {
                     font-size: 24px;
                     height: 42px;
                     line-height: 42px;
-                    width: 60px;
-                    color: #1f283b;
-                    font-family: $afont;
+                    width: 60px;  
+                    color: #1f283b; 
+                    font-family: $afont;     
                     position: relative;
                     border-bottom-right-radius: 21px;
                     border-top-right-radius: 21px;
@@ -438,7 +438,7 @@ button, input, textarea {
                         background-position: 10px center;
                         cursor: pointer;
                         &[data-selected="dollar"]{
-                            background-image: url(../img/dollar-ico.png);
+                            background-image: url(../img/dollar-ico.png); 
                         }
                         &[data-selected="euro"]{
                             background-image: url(../img/euro-ico.png);
@@ -1097,11 +1097,11 @@ footer {
 }    
  @media only screen and (max-width:1460px){
  .section > div, .head > div, header > div, section > div, footer > div{
-     max-width:764px;
+     max-width: 764px;
  }      
     
-.sec1 {
-    height: 807px;
+.sec1 {     
+    height: 612px;
 	background: url(../img/bg1_laptop.jpg) no-repeat center top; 
 	background-size: auto!important;
     .header {
@@ -1139,28 +1139,28 @@ footer {
         .right {
             float: right;
             line-height: 23px;
-            margin-top: 40px;
+            margin-top: 28px;
             color: white;
             text-align: right;
             width: 280px;
             .phone {
                 //color: white;
                 //font-family: $fontfamily;
-                font-size: 30px;
+                font-size: 23px;
                 font-weight: 400;
                 line-height: 28px;
                 display: block;
             }
             .adres {
                 //font-family: $fontfamily;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 17px;
-                margin-top: 7px;
-                text-align: left;
-                letter-spacing: 0.2px;
-                float: right;
-                margin-bottom: 50px;
+                   font-size: 10.7px;
+                    font-weight: 400;
+                    line-height: 14px;
+                    margin-top: 0px;
+                    text-align: left;
+                    letter-spacing: 0.2px;
+                    float: right;
+                    margin-bottom: 50px;
             }
             .telegram {
                 background: url(../img/telegram.png) no-repeat center;
@@ -1194,58 +1194,58 @@ footer {
     }
     h1 {
         font-family: $fontfamily;
-        font-size: 36px;
+        font-size: 27px;
         font-weight: 400;
-        line-height: 48px;
+        line-height: 37px;
         color: #0d2a66;
         text-align: left;
-        margin-top: 30px;
+        margin-top: 14px;
         letter-spacing: 0.7px;
     }
     p {
         color: #0d2a66;
-        font-family: $afont;
-        font-size: 16px;
-        line-height: 27px;
-        margin-top: 36px;
+        font-family: "MuseoCyrl", sans-serif;
+        font-size: 12px;
+        line-height: 21px;
+        margin-top: 26px;
     }
     .btn {
-        width: 234px;
-        height: 54px;
-        background-color: #283a83;
-        border-radius: 27px;
-        text-align: center;
-        line-height: 54px;
-        color: white;
-        margin-top: 105px;
-        font-size: 17px;
-        cursor: pointer;
-        transition: all 0.25s;
-        outline: 0;
+            width: 181px;
+            height: 41px;
+            background-color: #283a83;
+            border-radius: 27px;
+            text-align: center;
+            line-height: 41px;
+            color: white;
+            margin-top: 79px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.25s;
+            outline: 0;
         &:hover{
             background-color: #112e75;
         }
     }
 }
-.section {
-    height: 880px;
-    background: url(../img/bg2.jpg)no-repeat center;
-    
+.section {  
+    height: 673px;
+    background: url(../img/bg2.jpg) no-repeat center;
+     
     &.sec2 {
         div {
         }
         .video-wrap{
-            width: 850px;
-            height: 434px;
-            background-color: rgb(138, 138, 138);
-            border: 15px solid white;
-            background: white;
-            box-shadow: 0 1px 8px rgba(29, 29, 29, 0.4);
-            margin: 189px auto 0;
-            border-radius: 15px;
+                width: 645px;
+                height: 336px;
+                background-color: #8a8a8a;
+                border: 11px solid white;
+                background: white;
+                box-shadow: 0 1px 8px rgba(29, 29, 29, 0.4);
+                margin: 147px auto 0;
+                border-radius: 10px; 
             .video {
-                width: 820px;
-                height: 414px;
+                width: 623px;
+                height: 314px;
                 display: block;
             }
         }
@@ -1253,101 +1253,106 @@ footer {
 }
 .sec3 {
     background: url(../img/bg3.jpg) no-repeat center top;
-    height: 813px;
-    h2 {
-        color: #0d2a66;
-        font-family: $fontfamily;
-        font-size: 39px;
-        font-weight: 400;
-        line-height: 40px;
-        text-align: left;
-        margin-top: 61px;
-        margin-left: 25px;
-        letter-spacing: 1px;
-        margin-bottom: 65px;
+    height: 615px;
+    h2 {    
+    color: #0d2a66;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    margin-top: 46px;
+    margin-left: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 44px;
     }
     .ul {
-        .li {
-            width: 400px;
-            height: 90px;
-            float: left;
-            margin-left: 26px;
-            margin-right: -15px;
-            margin-bottom: 41px;
+        .li {    
+        width: 315px;
+        height: 68px;
+        float: left;
+        margin-left: 21px;
+        margin-right: -26px;
+        margin-bottom: 35px;
             .img {
                 float: left;
                 width: 80px;
                 height: 90px;
                 &.img1 {
                     background-image: url(../img/img1.png);
-                    background-position: 3px 10px;
+                    background-position: 3px 11px;
                     background-repeat: no-repeat;
+                    background-size: 51px;
+
                 }
-                &.img2 {
-                    background-image: url(../img/img2.png);
-                    background-position: 8px 16px;
-                    background-repeat: no-repeat;
+                &.img2 {   
+                                background-image: url(../img/img2.png);
+                                background-position: 9px 18px;
+                                background-repeat: no-repeat;
+                                background-size: 46px;        
                 }
                 &.img3 {
                     background-image: url(../img/img3.png);
                     background-position: 4px 13px;
                     background-repeat: no-repeat;
+                    background-size: 56px;
                 }
                 &.img4 {
                     background-image: url(../img/img4.png);
                     background-position: 11px 3px;
                     background-repeat: no-repeat;
+                    background-size: 43px;
                 }
                 &.img5 {
                     background-image: url(../img/img5.png);
                     background-position: 11px 3px;
                     background-repeat: no-repeat;
+                    background-size: 42px;
                 }
-                &.img6 {
-                    background-image: url(../img/img6.png);
-                    background-position: 17px 13px;
-                    background-repeat: no-repeat;
+                &.img6 {    
+                            background-image: url(../img/img6.png);
+                            background-position: 18px 10px;
+                            background-repeat: no-repeat;
+                            background-size: 41px;
                 }
             }
             .text {
-                float: left;
-                margin-left: 42px;
-                font-size: 18px;
-                font-family: $fontfamily;
-                
-                color: #0d2a66;
-                line-height: 28px;
-                font-weight: 400;
-                margin-top: 14px;
+                   float: left;
+                    margin-left: 15px;
+                    font-size: 13.5px;
+                    font-family: "GothamPro", sans-serif;
+                    color: #0d2a66;
+                    line-height: 18px;
+                    font-weight: 400;
+                    margin-top: 20px;
             }
         }
     }
 }
 .sec4 {
     background: url(../img/bg4.jpg) no-repeat center top;
-    height: 667px;
+    height: 507px;
     .step1 {
         display: block;
-        h2 {
-            padding-top: 86px;
-            text-align: center;
-            color: white;
-            font-family: $fontfamily;
-            font-size: 40px;
-            font-weight: 400;
-            line-height: 44px;
-            letter-spacing: 0.7px;
+        h2 {    
+        padding-top: 63px;
+        text-align: center;
+        color: white;
+        font-family: "GothamPro", sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.2px;
         }
         .block {
             text-align: center;
             .item {
                 display: inline-block;
                 vertical-align: top;
-                width: 277px;
-                height: 302px;
+                width: 203px;
+                height: 230px;
                 background-color: #e8edff;
-                border-radius: 23px;
-                margin: 39px 23px 0px;
+                border-radius: 15px;
+                margin:28px 21px 0px;
                 padding-top: 30px;
                 cursor: pointer;
                 transition: all 0.25s;
@@ -1360,26 +1365,29 @@ footer {
                 .img {
                     height: 120px;
                     margin-bottom: 51px;
-                    &.img1 {
-                        background-image: url(../img/buyvaluta.png);
-                        background-position: 83px 11px;
+                    &.img1 {    
+                    background-image: url(../img/buyvaluta.png);
+                    background-position:center 3px;
+                    background-size: 83px;
                     }
                     &.img2 {
                         background-image: url(../img/buyvaluta2.png);
-                        background-position: 83px 11px;
+                        background-position:center 4px;
+                        background-size: 83px;
+
                     }
                 }
                 .btn {
-                    width: 151px;
-                    height: 52px;
+                    width: 116px;
+                    height: 42px;
                     background-color: white;
-                    line-height: 52px;
+                    line-height: 42px;
                     color: #0d2a66;
-                    font-family: $afont;
-                    font-size: 19px;
+                    font-family: "MuseoCyrl", sans-serif;
+                    font-size: 15px;
                     border-radius: 26px;
-                    margin: 0 auto;
-                    box-shadow: 0 0 22.3px 1.7px rgba(255,255,255,0.1);
+                    margin: -48px auto;
+                    box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1);
                 }
             }
         }
@@ -1387,62 +1395,63 @@ footer {
     .step2 {
         display: none;
         h2 {
-            text-align: center;
-            color: white;
-            font-family: $fontfamily;
-            font-weight: 400;
-            font-size: 40px;
-            padding-top: 96px;
+                text-align: center;
+                color: white;
+                font-family: "GothamPro", sans-serif;
+                font-weight: 400;
+                font-size: 31px;
+                padding-top: 69px;
         }
         .block {
-            background-color: white;
-            margin: 10px auto 0;
-            padding-top: 21px;
-            text-align: left;
-            width: 640px;
-            height: 386px;
-            margin-top: 66px;
-            border-radius: 22px;
-            padding-left: 90px;
-            position: relative;
-            .label1 {
-                font-size: 20px;
+                background-color: white;
+                margin: 10px 154px 0;
                 padding-top: 21px;
+                text-align: left;
+                width: 486px;
+                height: 296px;
+                margin-top: 46px;
+                border-radius: 17px;
+                padding-left: 66px;
+                position: relative;
+            .label1 {    
+            font-size: 14px;
+            padding-top: 9px;
             }
             .summ-wrap {
-                border-radius: 23px;
-                border: 1px solid rgba(145,154,187,0.43);
-                width: 212px;
-                background-color: white;
-                height: 44px;
-                margin-top: 14px;
-                margin-left: 3px;
+                   border-radius: 23px;
+                    border: 1px solid rgba(145, 154, 187, 0.43);
+                    width: 160px;
+                    background-color: white;
+                    height: 34px;
+                    margin-top: 14px;
+                    margin-left: 3px;;
                 .number {
-                    float: left;
-                    font-size: 24px;
-                    height: 42px;
-                    line-height: 42px;
-                    font-family: $afont;
-                    padding-left: 28px;
-                    width: 147px;
+                   float: left;
+                    font-size: 20px;
+                    height: 28px;
+                    line-height: 34px;
+                    font-family: "MuseoCyrl", sans-serif;
+                    padding-left: 22px;
+                    width: 111px;
                     display: block;
                     margin: 0;
-                    border-bottom-left-radius: 21px;
-                    border-top-left-radius: 21px;
+                    border-bottom-left-radius: 11px;
+                    border-top-left-radius: 17px;
                 }
                 .valut {
                     float: right;
                     background-color: #c2c9e2;
                     background-image: url(../img/galka.png);
-                    background-position: 32px 17px;
+                    background-position: 22px 12px;
                     background-repeat: no-repeat;
+                    background-size: auto 8px;
                     color: white;
                     font-size: 24px;
-                    height: 42px;
+                    height: 32px;
                     line-height: 42px;
-                    width: 60px;
+                    width: 47px;
                     color: #1f283b;
-                    font-family: $afont;
+                    font-family: "MuseoCyrl", sans-serif;
                     position: relative;
                     border-bottom-right-radius: 21px;
                     border-top-right-radius: 21px;
@@ -1451,14 +1460,18 @@ footer {
                         height: 42px;
                         background-position: 10px center;
                         cursor: pointer;
-                        &[data-selected="dollar"]{
+                        &[data-selected="dollar"]{    
                             background-image: url(../img/dollar-ico.png);
+                            background-size: auto 18px;
+                            background-position: 10px 7px;
                         }
                         &[data-selected="euro"]{
                             background-image: url(../img/euro-ico.png);
                         }
-                        &[data-selected="ruble"]{
+                        &[data-selected="ruble"]{   
                             background-image: url(../img/ruble-ico.png);
+                            background-size: auto 15px;
+                            background-position: 6px 7px;
                         }
                     }
                     .select{
@@ -1500,21 +1513,21 @@ footer {
                 }
             }
             .label2 {
-                font-size: 18px;
-                padding-top: 28px;
-                margin-left: 6px;
-                
+                    font-size: 14px;
+                    padding-top: 18px;
+                    margin-left: 3px;
+ 
             }
             .line {
-                margin-top: 16px;
+                margin-top: 14px;
                 .curs {
-                    float: left;
-                    font-size: 23px;
-                    font-family: $afont;
-                    height: 44px;
-                    line-height: 44px;
-                    padding-right: 22px;
-                    padding-left: 5px;
+                            float: left;
+                            font-size: 21px;
+                            font-family: "MuseoCyrl", sans-serif;
+                            height: 34px;
+                            line-height: 34px;
+                            padding-right: 22px;
+                            padding-left: 5px;
                 }
                 .type {
                     float: left;
@@ -1522,8 +1535,8 @@ footer {
                     overflow: hidden;
                     border: 1px solid #c2c9e2;
                     color: white;
-                    width: 377px;
-                    height: 44px;
+                    width: 288px;
+                    height: 34px;
                     border-radius: 30px;
                     .bitcoin {
                         cursor: pointer;
@@ -1531,15 +1544,16 @@ footer {
                         float: left;
                         background-color: #e8edff;
                         background-image: url(../img/icon1.png);
-                        background-position: 18px 10px;
+                        background-position: 14px 6px;
+                        background-size: auto 18px;
                         background-repeat: no-repeat;
-                        padding-left: 47px;
-                        font-size:15px;
+                        padding-left: 34px;
+                        font-size: 12px;
                         color: #505568;
                         opacity: 0.76;
-                        width: 116px;                        
+                        width: 89px;
                         height: 42px;
-                        line-height: 42px;
+                        line-height: 30px;
                         &.active{
                             opacity: 1;
                             background-color: white;
@@ -1549,22 +1563,23 @@ footer {
                             opacity: 1;
                         }
                     }
-                    .efirium {  
-                        cursor: pointer;  
-                        transition: all 0.25s;                    
-                        height: 42px;
-                        line-height: 42px;
-                        float: left;
-                        border-left: 1px solid  #c2c9e2;
-                        background-color:#e8edff;
-                        background-image: url(../img/icon2.png);
-                        background-position: 13px 10px;
-                        background-repeat: no-repeat;
-                        padding-left: 38px;
-                        font-size:15px;
-                        width: 127px;
-                        color: #505568;
-                        opacity: 0.76;
+                    .efirium { 
+                                 cursor: pointer;
+                                transition: all 0.25s;
+                                height: 32px;
+                                line-height: 32px;
+                                float: left;
+                                border-left: 1px solid #c2c9e2;
+                                background-color: #e8edff;
+                                background-image: url(../img/icon2.png);
+                                background-position: 8px 5px;
+                                background-size: auto 20px;
+                                background-repeat: no-repeat;
+                                padding-left: 28px;
+                                font-size: 12px;
+                                width: 97px;
+                                color: #505568;
+                                opacity: 0.76;
                         &.active{
                             opacity: 1;
                             background-color: white;
@@ -1577,17 +1592,18 @@ footer {
                     .litecoin {
                         cursor: pointer;
                         transition: all 0.25s;
-                        height: 42px;
-                        line-height: 42px;
+                        height: 34px;
+                        line-height: 32px;
                         float: left;
                         border-left: 1px solid #c2c9e2;
-                        background-color:#e8edff;
+                        background-color: #e8edff;
                         background-image: url(../img/icon3.png);
-                        background-position: 14px 10px;
+                        background-position: 10px 8px;
                         background-repeat: no-repeat;
-                        padding-left: 43px;
-                        width: 132px;
-                        font-size:15px;
+                        background-size: auto 15px;
+                        padding-left: 30px;
+                        width: 100px;
+                        font-size: 12px;
                         color: #505568;
                         opacity: 0.76;
                         &.active{
@@ -1602,85 +1618,85 @@ footer {
                 }
             }
             .back{
-                width: 101px;
-                height: 54px;
-                border: 1px solid rgba(145, 154, 187, 0.43);
-                border-radius: 27px;
-                margin-top: 40px;
-                float: left;
-                margin-right: 26px;
-                color: rgb(80, 85, 104);
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 52px;
-                text-align: center;
-                cursor: pointer;
+                    width: 101px;
+                    height: 41px;
+                    border: 1px solid rgba(145, 154, 187, 0.43);
+                    border-radius: 27px;
+                    margin-top: 30px;
+                    float: right;
+                    margin-right: 26px;
+                    color: #505568;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    text-align: center;
+                    cursor: pointer;
                 &:hover{
                     text-decoration: underline;
                 }
             }
             .btn {
-                float: left;
-                width: 237px;
-                height: 54px;
-                background-color: #283a83;
-                border-radius: 27px;
-                text-align: center;
-                line-height: 54px;
-                margin-top: 40px;
-                color:white;
-                margin-left: 4px;
-                padding-right: 4px;
-                cursor: pointer;
-                transition: all 0.25s;
-                outline: 0;
+                    float: left;
+                    width: 177px;
+                    height: 41px;
+                    background-color: #283a83;
+                    border-radius: 27px;
+                    text-align: center;
+                    line-height: 41px;
+                    margin-top: 30px;
+                    color: white;
+                    margin-left: 4px;
+                    padding-right: 4px;
+                    cursor: pointer;
+                    transition: all 0.25s;
+                    outline: 0;
                 &:hover{
-                    background-color: #112e75;
-                }
-            }
-        }
+                    background-color: #112e75;           
+                }  
+            }         
+        } 
     }
     .step2_b {
-        display: none;
+        display: none;  
         h2 {
-            text-align: center;
-            color: white;
-            font-family: $fontfamily;
-            font-weight: 400;
-            font-size: 40px;
-            padding-top: 96px;
+                text-align: center;
+                color: white;
+                font-family: "GothamPro", sans-serif;
+                font-weight: 400;
+                font-size: 31px;
+                padding-top: 69px;
         }
         .block {
-            background-color: white;
-            margin: 10px auto 0;
-            padding-top: 21px;
-            text-align: left;
-            width: 640px;
-            height: 386px;
-            margin-top: 66px;
-            border-radius: 22px;
-            padding-left: 90px;
-            position: relative;
-            .label1 {
-                font-size: 20px;
+                background-color: white;
+                margin: 10px 154px 0;
                 padding-top: 21px;
+                text-align: left;
+                width: 486px;
+                height: 296px;
+                margin-top: 46px;
+                border-radius: 17px;
+                padding-left: 66px;
+                position: relative;
+            .label1 {    
+             font-size: 14px;
+             padding-top: 9px;
             }
             .summ-wrap {
                 border-radius: 23px;
-                border: 1px solid rgba(145,154,187,0.43);
-                width: 212px;
+                border: 1px solid rgba(145, 154, 187, 0.43);
+                width: 160px;
                 background-color: white;
-                height: 44px;
+                height: 34px;
                 margin-top: 14px;
-                margin-left: 3px;
+                margin-left: 3px;;
                 .number {
                     float: left;
                     font-size: 24px;
-                    height: 42px;
-                    line-height: 42px;
-                    font-family: $afont;
-                    padding-left: 28px;
-                    width: 147px;
+                    height: 32px;
+                    line-height: 32px;
+                    font-family: "MuseoCyrl", sans-serif;
+                    padding-left: 18px;
+                    width: 104px;
                     display: block;
                     margin: 0;
                     border-bottom-left-radius: 21px;
@@ -1690,13 +1706,13 @@ footer {
                     float: right;
                     background-color: #c2c9e2;
                     background-image: url(../img/galka.png);
-                    background-position: 32px 17px;
+                    background-position: 30px 14px;
                     background-repeat: no-repeat;
                     color: white;
                     font-size: 24px;
-                    height: 42px;
-                    line-height: 42px;
-                    width: 60px;
+                    height: 32px;
+                    line-height: 32px;
+                    width: 54px;
                     color: #1f283b;
                     font-family: $afont;
                     position: relative;
@@ -1709,12 +1725,17 @@ footer {
                         cursor: pointer;
                         &[data-selected="bitcoin"]{
                             background-image: url(../img/icon1.png);
+                            background-size: auto 18px;
+                            background-position: 10px 8px;
                         }
                         &[data-selected="ethereum"]{
                             background-image: url(../img/icon2.png);
-                        }
+                            background-size: auto 22px;
+                            background-position: 10px 6px;
                         &[data-selected="litecoin"]{
                             background-image: url(../img/icon3.png);
+                            background-size: auto 15px;
+                            background-position: 10px 10px;
                         }
                     }
                     .select{
@@ -1742,30 +1763,36 @@ footer {
                         }
                         .bitcoin{
                             background-image: url(../img/icon1.png);
+                            background-size: auto 18px;
+                            background-position: 10px 10px;
                         }
                         .efirium{
                             background-image: url(../img/icon2.png);
+                            background-size: auto 21px;
+                            background-position: 10px 10px;;
                         }
                         .litecoin{
                             background-image: url(../img/icon3.png);
+                            background-size: auto 15px;
+                            background-position: 10px 10px;
                         }
                     }
                 }
             }
             .label2 {
-                font-size: 18px;
-                padding-top: 28px;
-                margin-left: 6px;
+                    font-size: 14px;
+                    padding-top: 14px;
+                    margin-left: 6px;
                 
             }
             .line {
-                margin-top: 16px;
+                margin-top: 14px;
                 .curs {
                     float: left;
                     font-size: 23px;
                     font-family: $afont;
-                    height: 44px;
-                    line-height: 44px;
+                    height: 34px;
+                    line-height: 34px;
                     padding-right: 22px;
                     padding-left: 5px;
                 }
@@ -1786,13 +1813,14 @@ footer {
                         background-image: url(../img/dollar-ico.png);
                         background-position: 18px center;
                         background-repeat: no-repeat;
+                        background-size: auto 20px;
                         padding-left: 47px;
-                        font-size:15px;
+                        font-size: 15px;
                         color: #505568;
                         opacity: 0.76;
-                        width: 106px;                        
-                        height: 42px;
-                        line-height: 44px;
+                        width: 106px;
+                        height: 32px;
+                        line-height: 32px;
                         &.active{
                             opacity: 1;
                             background-color: white;
@@ -1828,21 +1856,23 @@ footer {
                         }
                     }
                     .ruble {
-                        cursor: pointer;
-                        transition: all 0.25s;
-                        height: 42px;
-                        line-height: 42px;
-                        float: left;
-                        border-left: 1px solid #c2c9e2;
-                        background-color:#e8edff;
-                        background-image: url(../img/ruble-ico.png);
-                        background-position: 14px 10px;
-                        background-repeat: no-repeat;
-                        padding-left: 43px;
-                        width: 102px;
-                        font-size:15px;
-                        color: #505568;
-                        opacity: 0.76;
+                            cursor: pointer;
+                            transition: all 0.25s;
+                            height: 32px;
+                            line-height: 32px;
+                            float: left;
+                            border-left: 1px solid #c2c9e2;
+                            background-color: #e8edff;
+                            background-image: url(../img/ruble-ico.png);
+                            background-position: 14px 10px;
+                            background-repeat: no-repeat;
+                            background-size: auto 17px;
+                            background-position: 13px 9px;
+                            padding-left: 43px;
+                            width: 102px;
+                            font-size: 15px;
+                            color: #505568;
+                            opacity: 0.76;
                         &.active{
                             opacity: 1;
                             background-color: white;
@@ -1856,38 +1886,37 @@ footer {
             }
             .back{
                 width: 101px;
-                height: 54px;
+                height: 41px;
                 border: 1px solid rgba(145, 154, 187, 0.43);
                 border-radius: 27px;
                 margin-top: 40px;
-                float: left;
+                float: right;
                 margin-right: 26px;
-                color: rgb(80, 85, 104);
+                color: #505568;
                 font-size: 15px;
                 font-weight: 400;
-                line-height: 52px;
+                line-height: 41px;
                 text-align: center;
                 cursor: pointer;
                 &:hover{
                     text-decoration: underline;
                 }
             }
-            .btn {
-                float: left;
-                
-                width: 237px;
-                height: 54px;
-                background-color: #283a83;
-                border-radius: 27px;
-                text-align: center;
-                line-height: 54px;
-                margin-top: 40px;
-                color:white;
-                margin-left: 4px;
-                padding-right: 4px;
-                cursor: pointer;
-                transition: all 0.25s;
-                outline: 0;
+            .btn {    
+                    float: left;
+                    width: 177px;
+                    height: 41px;
+                    background-color: #283a83;
+                    border-radius: 27px;
+                    text-align: center;
+                    line-height: 41px;
+                    margin-top: 40px;
+                    color: white;
+                    margin-left: 4px;
+                    padding-right: 4px;
+                    cursor: pointer;
+                    transition: all 0.25s;
+                    outline: 0;
                 &:hover{
                     background-color: #112e75;
                 }
@@ -1899,61 +1928,61 @@ footer {
         h2 {
             text-align: center;
             color: white;
-            font-family: $fontfamily;
-            font-size: 40px;
+            font-family: "GothamPro", sans-serif;
+            font-size: 29px;
             font-weight: 400;
-            line-height: 45px;
-            margin-top: 85px;
+            line-height: 35px;
+            margin-top: 62px;
             letter-spacing: 0px;
         }
         .form {
-            margin: 19px auto 0;
-            text-align: center;
-            width: 639px;
-            height: 374px;
-            background-color: #e8edff;
-            border-radius: 23px;
-            padding-top: 27px;
-            position: relative;
+                margin: 13px auto 0;
+                text-align: center;
+                width: 488px;
+                height: 285px;
+                background-color: #e8edff;
+                border-radius: 17px;
+                padding-top: 15px;
+                position: relative;
             .back{
-                color: #505568;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 27px;
-                display: inline-block;
-                cursor: pointer;
-                margin-top: 16px;
+                       color: #505568;
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 27px;
+                        display: inline-block;
+                        cursor: pointer;
+                        margin-top: 9px;
                 &:hover{
                     text-decoration: underline;
                 }
             }
             .text {
                 color: #0d2a66;
-                font-family: $fontfamily;
-                font-size: 19px;
+                font-family: "GothamPro", sans-serif;
+                font-size: 14px;
                 font-weight: 400;
-                line-height: 37px;
-                padding-top: 6px;
-                margin-bottom: 9px;
+                line-height: 10px;
+                padding-top: 18px;
+                margin-bottom: 13px;
             }
             .input {
-                font-size: 18px;
-                text-align: center;
-                width: 233px;
-                height: 45px;
-                background-color: white;
-                border: 1px solid rgba(145,154,187,0.43);
-                border-radius: 23px;
-                margin-bottom: 5px;
+                    font-size: 14px;
+                    text-align: center;
+                    width: 182px;
+                    height: 41px;
+                    background-color: white;
+                    border: 1px solid rgba(145, 154, 187, 0.43);
+                    border-radius: 23px;
+                    margin-bottom: -4px;
             }
             .button {
                 color: white;
-                margin: 25px auto 0;
+                margin: 24px auto 0;
                 display: block;
                 text-align: center;
-                font-size: 15px;
-                width: 234px;
-                height: 54px;
+                font-size: 12px;
+                width: 178px;
+                height: 40px;
                 background-color: #283a83;
                 border-radius: 27px;
                 cursor: pointer;
@@ -1967,59 +1996,61 @@ footer {
     }
 }
 footer {
-    background-color: #374786;
-    height: 132px;
+    background-color: #6975a4;
+    height: 98px;
     .left {
-        margin-top: 46px;
+        margin-top: 31px;
         float: left;
         .token {
             color: white;
             font-family: $afont;
-            font-size: 24px;
+            font-size: 19px;
             line-height: 20px;
         }
         .fiz {
-            color: white;
-            font-family: $fontfamily;
-            font-size: 13px;
-            font-weight: 400;
-            line-height: 34px;
-            margin-left: 3px;
-            letter-spacing: 1.3px;
-            opacity: 0.86;
+                color: white;
+                font-family: "GothamPro", sans-serif;
+                font-size: 8.4px;
+                font-weight: 400;
+                line-height: 19px;
+                margin-left: 5px;
+                letter-spacing: 1.2px;
+                opacity: 0.86;
         }
     }
     .right {
         float: right;
         .phone {
-            margin-top: 31px;
-            font-size: 30px;
+            margin-top: 18px;
+            font-size: 22px;
             font-weight: 400;
             line-height: 28px;
-            margin-left: 4px;
-            letter-spacing: 0.4px;
+            margin-left: 0px;
+            letter-spacing: 0.7px;
             color: white;
-            display: block;
+            display: block; 
         }
         .addr {
-            font-size: 15px;
+            font-size: 10px;
             font-weight: 400;
-            line-height: 19px;
-            margin-top: 5px;
+            line-height: 13px;
+            margin-top: 2px;
             text-align: left;
             letter-spacing: 0.2px;
             float: right;
             color: white;
+            margin-right: 19px;
         }
     }
     .confidential {
-        font-size: 14px;
-        float: right;
-        text-align: center;
-        margin-right: 154px;
-        margin-top: 49px;
-        color: white;
-        cursor: pointer;
+           font-size: 10.6px;
+            float: right;
+            text-align: center;
+            margin-right: 122px;
+            margin-top: 37px;
+            color: white;
+            cursor: pointer;
+            line-height: 13px;
         &:hover{
             text-decoration: underline;
         }
@@ -2116,4 +2147,4 @@ footer {
 .arcticmodal-container_i{margin:0 auto;height:100%;}
 .arcticmodal-container_i2{padding:0;margin:0;border:0;vertical-align:middle}
 #hidden-box{display:none;}
-.error-input{border: 1px solid red!important}
+     .error-input{border: 1px solid red!important}
