@@ -1299,7 +1299,8 @@ footer {
     height: 507px; }
     /* line 1334, D:/science/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step1 {
-      display: block; }
+      display: none;
+      }
       /* line 1336, D:/science/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step1 h2 {
         padding-top: 63px;
@@ -1359,7 +1360,8 @@ footer {
             box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
     /* line 1395, D:/science/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2 {
-      display: none; }
+      display: block;
+      }
       /* line 1397, D:/science/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 h2 {
         text-align: center;
@@ -1587,20 +1589,21 @@ footer {
           border: 1px solid rgba(145, 154, 187, 0.43);
           border-radius: 27px;
           margin-top: 30px;
-          float: right;
-          margin-right: 26px;
+          float: left;
+          margin-left: 21px;
           color: #505568;
           font-size: 15px;
           font-weight: 400;
           line-height: 36px;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          }
           /* line 1634, D:/science/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .back:hover {
             text-decoration: underline; }
         /* line 1638, D:/science/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .btn {
-          float: left;
+          float: right;
           width: 177px;
           height: 41px;
           background-color: #283a83;
@@ -1609,11 +1612,12 @@ footer {
           line-height: 41px;
           margin-top: 30px;
           color: white;
-          margin-left: 4px;
+          margin-right: 10px;
           padding-right: 4px;
           cursor: pointer;
           transition: all 0.25s;
-          outline: 0; }
+          outline: 0;
+          }
           /* line 1653, D:/science/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .btn:hover {
             background-color: #112e75; }
