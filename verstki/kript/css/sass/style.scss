@@ -625,7 +625,7 @@ button, input, textarea {
                 }
             }
         }
-    }
+    } 
     .step2_b {
         display: none;
         h2 {
@@ -953,7 +953,7 @@ button, input, textarea {
     }
 }
 footer {
-    background-color: #374786;
+    background-color: #6975a4;
     height: 132px;
     .left {
         margin-top: 46px;
@@ -1101,7 +1101,7 @@ footer {
  }      
     
 .sec1 {     
-    height: 612px;
+    height: 605px;
 	background: url(../img/bg1_laptop.jpg) no-repeat center top; 
 	background-size: auto!important;
     .header {
@@ -1228,8 +1228,11 @@ footer {
     }
 }
 .section {  
-    height: 673px;
-    background: url(../img/bg2.jpg) no-repeat center;
+    height: 669px;
+    background: url(../img/bg2_laptop.jpg) no-repeat center;
+    background-position: center;
+    background-size: auto !important;  
+    
      
     &.sec2 {
         div {
@@ -1252,8 +1255,9 @@ footer {
     }
 }
 .sec3 {
-    background: url(../img/bg3.jpg) no-repeat center top;
+    background: url(../img/bg3_laptop.jpg) no-repeat center top;
     height: 615px;
+    background-size:auto!important;
     h2 {    
     color: #0d2a66;
     font-size: 29px;
@@ -1329,8 +1333,9 @@ footer {
     }
 }
 .sec4 {
-    background: url(../img/bg4.jpg) no-repeat center top;
+    background: url(../img/bg4_laptop.jpg) no-repeat center top;
     height: 507px;
+    background-size:auto!important;
     .step1 {
         display: block;
         h2 {    
@@ -1352,7 +1357,7 @@ footer {
                 height: 230px;
                 background-color: #e8edff;
                 border-radius: 15px;
-                margin:28px 21px 0px;
+                margin:46px 21px 0px;
                 padding-top: 30px;
                 cursor: pointer;
                 transition: all 0.25s;
@@ -1373,7 +1378,7 @@ footer {
                     &.img2 {
                         background-image: url(../img/buyvaluta2.png);
                         background-position:center 4px;
-                        background-size: 83px;
+                        background-size: 83px;       
 
                     }
                 }
@@ -1395,16 +1400,18 @@ footer {
     .step2 {
         display: none;
         h2 {
-                text-align: center;
-                color: white;
-                font-family: "GothamPro", sans-serif;
-                font-weight: 400;
-                font-size: 31px;
-                padding-top: 69px;
+                   padding-top: 63px;
+    text-align: center;
+    color: white;
+    font-family: "GothamPro", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.2px;
         }
         .block {
                 background-color: white;
-                margin: 10px 154px 0;
+                margin: 10px auto 0;
                 padding-top: 21px;
                 text-align: left;
                 width: 486px;
@@ -1415,7 +1422,7 @@ footer {
                 position: relative;
             .label1 {    
             font-size: 14px;
-            padding-top: 9px;
+            padding-top: 11px;
             }
             .summ-wrap {
                    border-radius: 23px;
@@ -1423,7 +1430,7 @@ footer {
                     width: 160px;
                     background-color: white;
                     height: 34px;
-                    margin-top: 14px;
+                    margin-top: 8px;
                     margin-left: 3px;;
                 .number {
                    float: left;
@@ -1448,7 +1455,7 @@ footer {
                     color: white;
                     font-size: 24px;
                     height: 32px;
-                    line-height: 42px;
+                    line-height: 32px;
                     width: 47px;
                     color: #1f283b;
                     font-family: "MuseoCyrl", sans-serif;
@@ -1457,7 +1464,7 @@ footer {
                     border-top-right-radius: 21px;
                     .current{
                         width: 100%;
-                        height: 42px;
+                        height: 32px;
                         background-position: 10px center;
                         cursor: pointer;
                         &[data-selected="dollar"]{    
@@ -1479,14 +1486,14 @@ footer {
                         position: absolute;
                         left: 0;
                         top: 100%;
-                        width: 40px;
+                        width: 32px;
                         z-index: 2;
                         border-left:  1px solid rgba(145,154,187,0.43);
                         border-right: 1px solid rgba(145,154,187,0.43);
                         background-color: #c2c9e2;
                         border-top:  1px solid rgba(145,154,187,0.43);
                         .item{
-                            height: 43px;
+                            height: 32px;
                             border-bottom: 1px solid rgba(145,154,187,0.43);
                             width: 100%;
                             background-position: 10px center;
@@ -1499,14 +1506,19 @@ footer {
                         }
                         .dollar{
                             background-image: url(../img/dollar-ico.png);
+                            background-size: auto 18px;
+                            background-position: 10px 7px;
                             
                         }
                         .euro{
                             background-image: url(../img/euro-ico.png);
+
                             
                         }
                         .ruble{
                             background-image: url(../img/ruble-ico.png);
+                            background-size: auto 15px;
+                            background-position: 10px 7px;
                             
                         }
                     }
@@ -1519,7 +1531,7 @@ footer {
  
             }
             .line {
-                margin-top: 14px;
+                margin-top: 10px;
                 .curs {
                             float: left;
                             font-size: 21px;
@@ -1618,38 +1630,39 @@ footer {
                 }
             }
             .back{
-                        width: 101px;
+                        width: 76px;
                         height: 41px;
                         border: 1px solid rgba(145, 154, 187, 0.43);
                         border-radius: 27px;
-                        margin-top: 30px;
+                        margin-top: 25px;
                         float: left;
-                        margin-left: 21px;
+                        margin-left: 5px;
                         color: #505568;
-                        font-size: 15px;
+                        font-size: 12px;
                         font-weight: 400;
                         line-height: 36px;
                         text-align: center;
                         cursor: pointer;
+                        margin-right: 11px;
                 &:hover{
                     text-decoration: underline;
                 }
             }
             .btn {
-                        float: right;
-                        width: 177px;
-                        height: 41px;
-                        background-color: #283a83;
-                        border-radius: 27px;
-                        text-align: center;
-                        line-height: 41px;
-                        margin-top: 30px;
-                        color: white;
-                        margin-right: 10px;
-                        padding-right: 4px;
-                        cursor: pointer;
-                        transition: all 0.25s;
-                        outline: 0;
+                            float: right;
+                            width: 177px;
+                            height: 41px;
+                            background-color: #283a83;
+                            border-radius: 27px;
+                            text-align: center;
+                            line-height: 41px;
+                            margin-top: 25px;
+                            color: white;
+                            margin-right: 141px;
+                            padding-right: 4px;
+                            cursor: pointer;
+                            transition: all 0.25s;
+                            outline: 0;
                 &:hover{
                     background-color: #112e75;           
                 }  
@@ -1659,16 +1672,18 @@ footer {
     .step2_b {
         display: none;  
         h2 {
-                text-align: center;
-                color: white;
-                font-family: "GothamPro", sans-serif;
-                font-weight: 400;
-                font-size: 31px;
-                padding-top: 69px;
+                    padding-top: 63px;
+    text-align: center;
+    color: white;
+    font-family: "GothamPro", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.2px;
         }
         .block {
                 background-color: white;
-                margin: 10px 154px 0;
+                margin: 10px auto 0;
                 padding-top: 21px;
                 text-align: left;
                 width: 486px;
@@ -1691,7 +1706,7 @@ footer {
                 margin-left: 3px;;
                 .number {
                     float: left;
-                    font-size: 24px;
+                    font-size: 20px;
                     height: 32px;
                     line-height: 32px;
                     font-family: "MuseoCyrl", sans-serif;
@@ -1732,6 +1747,7 @@ footer {
                             background-image: url(../img/icon2.png);
                             background-size: auto 22px;
                             background-position: 10px 6px;
+                        }
                         &[data-selected="litecoin"]{
                             background-image: url(../img/icon3.png);
                             background-size: auto 15px;
@@ -1750,7 +1766,7 @@ footer {
                             background-color: #c2c9e2;
                         border-top:  1px solid rgba(145,154,187,0.43);
                         .item{
-                            height: 43px;
+                            height: 32px;
                             border-bottom: 1px solid rgba(145,154,187,0.43);
                             width: 100%;
                             background-position: 10px center;
@@ -1764,17 +1780,17 @@ footer {
                         .bitcoin{
                             background-image: url(../img/icon1.png);
                             background-size: auto 18px;
-                            background-position: 10px 10px;
+                            background-position: 11px 7px;
                         }
                         .efirium{
                             background-image: url(../img/icon2.png);
                             background-size: auto 21px;
-                            background-position: 10px 10px;;
+                            background-position: 12px 6px;
                         }
                         .litecoin{
                             background-image: url(../img/icon3.png);
                             background-size: auto 15px;
-                            background-position: 10px 10px;
+                            background-position: 13px 8px;
                         }
                     }
                 }
@@ -1786,7 +1802,7 @@ footer {
                 
             }
             .line {
-                margin-top: 14px;
+                margin-top: 10px;
                 .curs {
                     float: left;
                     font-size: 23px;
@@ -1803,7 +1819,7 @@ footer {
                     border: 1px solid #c2c9e2;
                     color: white;
                     width: 210px;
-                    height: 44px;
+                    height: 33px;
                     border-radius: 30px;
                     .dollar {
                         cursor: pointer;
@@ -1813,7 +1829,7 @@ footer {
                         background-image: url(../img/dollar-ico.png);
                         background-position: 18px center;
                         background-repeat: no-repeat;
-                        background-size: auto 20px;
+                        background-size: auto 18px;
                         padding-left: 47px;
                         font-size: 15px;
                         color: #505568;
@@ -1866,7 +1882,7 @@ footer {
                             background-image: url(../img/ruble-ico.png);
                             background-position: 14px 10px;
                             background-repeat: no-repeat;
-                            background-size: auto 17px;
+                            background-size: auto 15px;
                             background-position: 13px 9px;
                             padding-left: 43px;
                             width: 102px;
@@ -1885,19 +1901,19 @@ footer {
                 }
             }
             .back{
-                width: 101px;
-                height: 41px;
-                border: 1px solid rgba(145, 154, 187, 0.43);
-                border-radius: 27px;
-                margin-top: 40px;
-                float: right;
-                margin-right: 26px;
-                color: #505568;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 41px;
-                text-align: center;
-                cursor: pointer;
+                    width: 101px;
+                    height: 41px;
+                    border: 1px solid rgba(145, 154, 187, 0.43);
+                    border-radius: 27px;
+                    margin-top: 25px;
+                    float: left;
+                    margin-right: 25px;
+                    color: #505568;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 38px;
+                    text-align: center;
+                    cursor: pointer;
                 &:hover{
                     text-decoration: underline;
                 }
@@ -1910,7 +1926,7 @@ footer {
                     border-radius: 27px;
                     text-align: center;
                     line-height: 41px;
-                    margin-top: 40px;
+                    margin-top: 25px;
                     color: white;
                     margin-left: 4px;
                     padding-right: 4px;
@@ -1926,14 +1942,15 @@ footer {
     .step3 {
         display: none;
         h2 {
-            text-align: center;
-            color: white;
-            font-family: "GothamPro", sans-serif;
-            font-size: 29px;
-            font-weight: 400;
-            line-height: 35px;
-            margin-top: 62px;
-            letter-spacing: 0px;
+                padding-top: 63px;
+    text-align: center;
+    color: white;
+    font-family: "GothamPro", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+    margin-top:0px;
         }
         .form {
                 margin: 13px auto 0;
@@ -1944,6 +1961,8 @@ footer {
                 border-radius: 17px;
                 padding-top: 15px;
                 position: relative;
+
+    margin-top: 46px;
             .back{
                        color: #505568;
                         font-size: 11px;
@@ -2147,4 +2166,4 @@ footer {
 .arcticmodal-container_i{margin:0 auto;height:100%;}
 .arcticmodal-container_i2{padding:0;margin:0;border:0;vertical-align:middle}
 #hidden-box{display:none;}
-     .error-input{border: 1px solid red!important}
+.error-input{border: 1px solid red!important}
