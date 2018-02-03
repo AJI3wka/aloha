@@ -136,6 +136,9 @@ button, input, textarea {
                 font-weight: 400;
                 line-height: 28px;
                 display: block;
+                width: 255px;
+                text-align: left;
+                float: right;
             }
             .adres {
                 //font-family: $fontfamily;
@@ -147,6 +150,7 @@ button, input, textarea {
                 letter-spacing: 0.2px;
                 float: right;
                 margin-bottom: 50px;
+                width: 255px;
             }
             .telegram {
                 background: url(../img/telegram.png) no-repeat center;
@@ -221,7 +225,7 @@ button, input, textarea {
         div {
         }
         .video-wrap{
-            width: 850px;
+            width: 744px;
             height: 434px;
             background-color: rgb(138, 138, 138);
             border: 15px solid white;
@@ -230,8 +234,8 @@ button, input, textarea {
             margin: 189px auto 0;
             border-radius: 15px;
             .video {
-                width: 820px;
-                height: 414px;
+                width: 714px;
+                height: 404px;
                 display: block;
             }
         }
@@ -381,7 +385,7 @@ button, input, textarea {
             padding-top: 96px;
         }
         .block {
-            background-color: white;
+            background-color: #e8edff;
             margin: 10px auto 0;
             padding-top: 21px;
             text-align: left;
@@ -637,7 +641,7 @@ button, input, textarea {
             padding-top: 96px;
         }
         .block {
-            background-color: white;
+            background-color: #e8edff;
             margin: 10px auto 0;
             padding-top: 21px;
             text-align: left;
@@ -982,7 +986,6 @@ footer {
             font-size: 30px;
             font-weight: 400;
             line-height: 28px;
-            margin-left: 4px;
             letter-spacing: 0.4px;
             color: white;
             display: block;
@@ -1150,6 +1153,9 @@ footer {
                 font-weight: 400;
                 line-height: 28px;
                 display: block;
+                width:198px;
+                text-align: left;
+                float: right;
             }
             .adres {
                 //font-family: $fontfamily;
@@ -1161,6 +1167,8 @@ footer {
                     letter-spacing: 0.2px;
                     float: right;
                     margin-bottom: 50px;
+                width:198px;
+                text-align: left;
             }
             .telegram {
                 background: url(../img/telegram.png) no-repeat center;
@@ -1238,7 +1246,7 @@ footer {
         div {
         }
         .video-wrap{
-                width: 645px;
+            	width: 580px;
                 height: 336px;
                 background-color: #8a8a8a;
                 border: 11px solid white;
@@ -1247,7 +1255,7 @@ footer {
                 margin: 147px auto 0;
                 border-radius: 10px; 
             .video {
-                width: 623px;
+                width: 558px;
                 height: 314px;
                 display: block;
             }
@@ -1434,16 +1442,16 @@ footer {
                     margin-left: 3px;;
                 .number {
                    float: left;
-                    font-size: 20px;
-                    height: 28px;
-                    line-height: 34px;
+                    font-size: 18px;
+                    height: 32px;
+                    line-height: 32px;
                     font-family: "MuseoCyrl", sans-serif;
                     padding-left: 22px;
                     width: 111px;
                     display: block;
                     margin: 0;
-                    border-bottom-left-radius: 11px;
-                    border-top-left-radius: 17px;
+                    border-bottom-left-radius: 32px;
+                    border-top-left-radius: 32px;
                 }
                 .valut {
                     float: right;
@@ -1478,7 +1486,7 @@ footer {
                         &[data-selected="ruble"]{   
                             background-image: url(../img/ruble-ico.png);
                             background-size: auto 15px;
-                            background-position: 6px 7px;
+                            background-position: 6px 8px;
                         }
                     }
                     .select{
@@ -1564,8 +1572,8 @@ footer {
                         color: #505568;
                         opacity: 0.76;
                         width: 89px;
-                        height: 42px;
-                        line-height: 30px;
+                        height: 34px;
+                        line-height: 34px;
                         &.active{
                             opacity: 1;
                             background-color: white;
@@ -1578,8 +1586,8 @@ footer {
                     .efirium { 
                                  cursor: pointer;
                                 transition: all 0.25s;
-                                height: 32px;
-                                line-height: 32px;
+                                height: 34px;
+                                line-height: 34px;
                                 float: left;
                                 border-left: 1px solid #c2c9e2;
                                 background-color: #e8edff;
@@ -1605,7 +1613,7 @@ footer {
                         cursor: pointer;
                         transition: all 0.25s;
                         height: 34px;
-                        line-height: 32px;
+                        line-height: 34px;
                         float: left;
                         border-left: 1px solid #c2c9e2;
                         background-color: #e8edff;
@@ -1640,7 +1648,7 @@ footer {
                         color: #505568;
                         font-size: 12px;
                         font-weight: 400;
-                        line-height: 36px;
+                        line-height: 39px;
                         text-align: center;
                         cursor: pointer;
                         margin-right: 11px;
@@ -1735,23 +1743,23 @@ footer {
                     border-top-right-radius: 21px;
                     .current{
                         width: 100%;
-                        height: 42px;
+                        height: 32px;
                         background-position: 10px center;
                         cursor: pointer;
                         &[data-selected="bitcoin"]{
                             background-image: url(../img/icon1.png);
                             background-size: auto 18px;
-                            background-position: 10px 8px;
+                            background-position: 10px 7px;
                         }
                         &[data-selected="ethereum"]{
                             background-image: url(../img/icon2.png);
                             background-size: auto 22px;
-                            background-position: 10px 6px;
+                            background-position: 10px 5px;
                         }
                         &[data-selected="litecoin"]{
                             background-image: url(../img/icon3.png);
                             background-size: auto 15px;
-                            background-position: 10px 10px;
+                            background-position: 10px 8px;
                         }
                     }
                     .select{
@@ -1827,7 +1835,7 @@ footer {
                         float: left;
                         background-color: #e8edff;
                         background-image: url(../img/dollar-ico.png);
-                        background-position: 18px center;
+                        background-position: 18px 6px;
                         background-repeat: no-repeat;
                         background-size: auto 18px;
                         padding-left: 47px;
@@ -1883,7 +1891,7 @@ footer {
                             background-position: 14px 10px;
                             background-repeat: no-repeat;
                             background-size: auto 15px;
-                            background-position: 13px 9px;
+                            background-position: 13px 8px;
                             padding-left: 43px;
                             width: 102px;
                             font-size: 15px;
@@ -2048,6 +2056,8 @@ footer {
             letter-spacing: 0.7px;
             color: white;
             display: block; 
+            text-align: left;
+            width: 198px;
         }
         .addr {
             font-size: 10px;
@@ -2058,7 +2068,9 @@ footer {
             letter-spacing: 0.2px;
             float: right;
             color: white;
-            margin-right: 19px;
+            margin-right: 13px;
+            text-align: left;
+            width: 185px;
         }
     }
     .confidential {
