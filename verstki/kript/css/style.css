@@ -1,4 +1,4 @@
-/* line 4, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 4, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0;
@@ -10,7 +10,7 @@
   z-index: 20;
   margin-top: 0; }
 
-/* line 39, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 39, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 47, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 47, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -27,22 +27,22 @@
   height: 0;
   clear: both; }
 
-/* line 54, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 54, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 57, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 57, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
   font-weight: 400; }
 
-/* line 63, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 63, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 h3 {
   font-weight: 300; }
 
-/* line 66, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 66, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 body {
   font-family: "GothamPro", sans-serif;
   font-size: 14px;
@@ -51,24 +51,24 @@ body {
   color: black;
   background-color: #fff; }
 
-/* line 74, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 74, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 79, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 79, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 a, button {
   cursor: pointer; }
 
-/* line 82, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 82, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 button, input, textarea {
   outline: none;
   border: none;
   margin: 0 5px;
   vertical-align: middle; }
 
-/* line 88, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 88, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .section, .head, header, section, footer {
   width: 100%;
   min-width: 1000px;
@@ -76,7 +76,7 @@ button, input, textarea {
   position: relative;
   z-index: 2;
   background-size: cover !important; }
-  /* line 31, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 31, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .section > div, .head > div, header > div, section > div, footer > div {
     max-width: 1000px;
     position: relative;
@@ -84,31 +84,31 @@ button, input, textarea {
     height: 100%;
     margin: 0 auto; }
 
-/* line 91, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 91, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .sec1 {
   height: 807px;
   background: url(../img/bg1.jpg) no-repeat center top; }
-  /* line 95, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 95, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 .header .left {
     margin-top: 43px;
     float: left; }
-    /* line 98, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 98, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .left .logo {
       background: url(../img/logo.png) no-repeat;
       width: 45px;
       height: 45px;
       float: left; }
-    /* line 104, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 104, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .left .logo-text {
       float: left;
       margin-left: 23px; }
-      /* line 107, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 107, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .left .logo-text .token {
         color: #183e8c;
         font-family: "MuseoCyrl", sans-serif;
         font-size: 24px;
         line-height: 20px; }
-      /* line 113, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 113, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .left .logo-text .fizobmen {
         color: #183e8c;
         font-family: "GothamPro", sans-serif;
@@ -118,7 +118,7 @@ button, input, textarea {
         margin-left: 3px;
         letter-spacing: 1.3px;
         opacity: 0.86; }
-  /* line 125, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 125, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 .header .right {
     float: right;
     line-height: 23px;
@@ -126,13 +126,16 @@ button, input, textarea {
     color: white;
     text-align: right;
     width: 280px; }
-    /* line 132, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 132, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .right .phone {
       font-size: 30px;
       font-weight: 400;
       line-height: 28px;
-      display: block; }
-    /* line 140, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      display: block;
+      width: 255px;
+      text-align: left;
+      float: right; }
+    /* line 143, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .right .adres {
       font-size: 14px;
       font-weight: 400;
@@ -141,8 +144,9 @@ button, input, textarea {
       text-align: left;
       letter-spacing: 0.2px;
       float: right;
-      margin-bottom: 50px; }
-    /* line 151, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      margin-bottom: 50px;
+      width: 255px; }
+    /* line 155, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .right .telegram {
       background: url(../img/telegram.png) no-repeat center;
       width: 37px;
@@ -153,10 +157,10 @@ button, input, textarea {
       position: relative;
       top: 0;
       transition: all 0.25s; }
-      /* line 161, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 165, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .telegram:hover {
         top: -5px; }
-    /* line 165, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 169, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .right .viber {
       margin-top: 13px;
       background: url(../img/viber.png) no-repeat center;
@@ -167,10 +171,10 @@ button, input, textarea {
       position: relative;
       top: 0;
       transition: all 0.25s; }
-      /* line 175, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 179, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .viber:hover {
         top: -5px; }
-  /* line 181, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 185, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 h1 {
     font-family: "GothamPro", sans-serif;
     font-size: 36px;
@@ -180,14 +184,14 @@ button, input, textarea {
     text-align: left;
     margin-top: 30px;
     letter-spacing: 0.7px; }
-  /* line 191, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 195, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 p {
     color: #0d2a66;
     font-family: "MuseoCyrl", sans-serif;
     font-size: 16px;
     line-height: 27px;
     margin-top: 36px; }
-  /* line 198, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 202, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 .btn {
     width: 234px;
     height: 54px;
@@ -201,17 +205,17 @@ button, input, textarea {
     cursor: pointer;
     transition: all 0.25s;
     outline: 0; }
-    /* line 211, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 215, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .btn:hover {
       background-color: #112e75; }
 
-/* line 216, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 220, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .section {
   height: 880px;
   background: url(../img/bg2.jpg) no-repeat center; }
-  /* line 223, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 227, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .section.sec2 .video-wrap {
-    width: 850px;
+    width: 744px;
     height: 434px;
     background-color: #8a8a8a;
     border: 15px solid white;
@@ -219,17 +223,17 @@ button, input, textarea {
     box-shadow: 0 1px 8px rgba(29, 29, 29, 0.4);
     margin: 189px auto 0;
     border-radius: 15px; }
-    /* line 232, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 236, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .section.sec2 .video-wrap .video {
-      width: 820px;
-      height: 414px;
+      width: 714px;
+      height: 404px;
       display: block; }
 
-/* line 240, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 244, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .sec3 {
   background: url(../img/bg3.jpg) no-repeat center top;
   height: 813px; }
-  /* line 243, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 247, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec3 h2 {
     color: #0d2a66;
     font-family: "GothamPro", sans-serif;
@@ -241,7 +245,7 @@ button, input, textarea {
     margin-left: 25px;
     letter-spacing: 1px;
     margin-bottom: 65px; }
-  /* line 256, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 260, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec3 .ul .li {
     width: 400px;
     height: 90px;
@@ -249,42 +253,42 @@ button, input, textarea {
     margin-left: 26px;
     margin-right: -15px;
     margin-bottom: 41px; }
-    /* line 263, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 267, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec3 .ul .li .img {
       float: left;
       width: 80px;
       height: 90px; }
-      /* line 267, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 271, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img1 {
         background-image: url(../img/img1.png);
         background-position: 3px 10px;
         background-repeat: no-repeat; }
-      /* line 272, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 276, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img2 {
         background-image: url(../img/img2.png);
         background-position: 8px 16px;
         background-repeat: no-repeat; }
-      /* line 277, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 281, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img3 {
         background-image: url(../img/img3.png);
         background-position: 4px 13px;
         background-repeat: no-repeat; }
-      /* line 282, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 286, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img4 {
         background-image: url(../img/img4.png);
         background-position: 11px 3px;
         background-repeat: no-repeat; }
-      /* line 287, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 291, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img5 {
         background-image: url(../img/img5.png);
         background-position: 11px 3px;
         background-repeat: no-repeat; }
-      /* line 292, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 296, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img.img6 {
         background-image: url(../img/img6.png);
         background-position: 17px 13px;
         background-repeat: no-repeat; }
-    /* line 298, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 302, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec3 .ul .li .text {
       float: left;
       margin-left: 42px;
@@ -295,14 +299,14 @@ button, input, textarea {
       font-weight: 400;
       margin-top: 14px; }
 
-/* line 312, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 316, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .sec4 {
   background: url(../img/bg4.jpg) no-repeat center top;
   height: 667px; }
-  /* line 315, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 319, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec4 .step1 {
     display: block; }
-    /* line 317, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 321, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step1 h2 {
       padding-top: 86px;
       text-align: center;
@@ -312,10 +316,10 @@ button, input, textarea {
       font-weight: 400;
       line-height: 44px;
       letter-spacing: 0.7px; }
-    /* line 327, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 331, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step1 .block {
       text-align: center; }
-      /* line 329, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 333, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step1 .block .item {
         display: inline-block;
         vertical-align: top;
@@ -330,22 +334,22 @@ button, input, textarea {
         outline: 0;
         position: relative;
         top: 0px; }
-        /* line 343, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 347, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step1 .block .item:hover {
           top: -5px; }
-        /* line 346, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 350, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step1 .block .item .img {
           height: 120px;
           margin-bottom: 51px; }
-          /* line 349, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 353, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step1 .block .item .img.img1 {
             background-image: url(../img/buyvaluta.png);
             background-position: 83px 11px; }
-          /* line 353, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 357, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step1 .block .item .img.img2 {
             background-image: url(../img/buyvaluta2.png);
             background-position: 83px 11px; }
-        /* line 358, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 362, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step1 .block .item .btn {
           width: 151px;
           height: 52px;
@@ -357,10 +361,10 @@ button, input, textarea {
           border-radius: 26px;
           margin: 0 auto;
           box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
-  /* line 373, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 377, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec4 .step2 {
     display: none; }
-    /* line 375, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 379, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2 h2 {
       text-align: center;
       color: white;
@@ -368,9 +372,9 @@ button, input, textarea {
       font-weight: 400;
       font-size: 40px;
       padding-top: 96px; }
-    /* line 383, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 387, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2 .block {
-      background-color: white;
+      background-color: #e8edff;
       margin: 10px auto 0;
       padding-top: 21px;
       text-align: left;
@@ -380,11 +384,11 @@ button, input, textarea {
       border-radius: 22px;
       padding-left: 90px;
       position: relative; }
-      /* line 394, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 398, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .label1 {
         font-size: 20px;
         padding-top: 21px; }
-      /* line 398, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 402, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .summ-wrap {
         border-radius: 23px;
         border: 1px solid rgba(145, 154, 187, 0.43);
@@ -393,7 +397,7 @@ button, input, textarea {
         height: 44px;
         margin-top: 14px;
         margin-left: 3px; }
-        /* line 406, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 410, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .summ-wrap .number {
           float: left;
           font-size: 24px;
@@ -406,7 +410,7 @@ button, input, textarea {
           margin: 0;
           border-bottom-left-radius: 21px;
           border-top-left-radius: 21px; }
-        /* line 419, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 423, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .summ-wrap .valut {
           float: right;
           background-color: #c2c9e2;
@@ -423,22 +427,22 @@ button, input, textarea {
           position: relative;
           border-bottom-right-radius: 21px;
           border-top-right-radius: 21px; }
-          /* line 435, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 439, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .summ-wrap .valut .current {
             width: 100%;
             height: 42px;
             background-position: 10px center;
             cursor: pointer; }
-            /* line 440, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 444, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .current[data-selected="dollar"] {
               background-image: url(../img/dollar-ico.png); }
-            /* line 443, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 447, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .current[data-selected="euro"] {
               background-image: url(../img/euro-ico.png); }
-            /* line 446, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 450, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .current[data-selected="ruble"] {
               background-image: url(../img/ruble-ico.png); }
-          /* line 450, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 454, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .summ-wrap .valut .select {
             display: none;
             position: absolute;
@@ -450,7 +454,7 @@ button, input, textarea {
             border-right: 1px solid rgba(145, 154, 187, 0.43);
             background-color: #c2c9e2;
             border-top: 1px solid rgba(145, 154, 187, 0.43); }
-            /* line 461, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 465, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .select .item {
               height: 43px;
               border-bottom: 1px solid rgba(145, 154, 187, 0.43);
@@ -459,27 +463,27 @@ button, input, textarea {
               cursor: pointer;
               background-color: transparent;
               transition: all 0.25s; }
-              /* line 469, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 473, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .select .item:hover {
                 background-color: white; }
-            /* line 473, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 477, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .select .dollar {
               background-image: url(../img/dollar-ico.png); }
-            /* line 477, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 481, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .select .euro {
               background-image: url(../img/euro-ico.png); }
-            /* line 481, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 485, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .select .ruble {
               background-image: url(../img/ruble-ico.png); }
-      /* line 488, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 492, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .label2 {
         font-size: 18px;
         padding-top: 28px;
         margin-left: 6px; }
-      /* line 494, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 498, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .line {
         margin-top: 16px; }
-        /* line 496, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 500, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .line .curs {
           float: left;
           font-size: 23px;
@@ -488,7 +492,7 @@ button, input, textarea {
           line-height: 44px;
           padding-right: 22px;
           padding-left: 5px; }
-        /* line 505, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 509, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .line .type {
           float: left;
           border-radius: 40px;
@@ -498,7 +502,7 @@ button, input, textarea {
           width: 377px;
           height: 44px;
           border-radius: 30px; }
-          /* line 514, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 518, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .line .type .bitcoin {
             cursor: pointer;
             transition: all 0.25s;
@@ -514,15 +518,15 @@ button, input, textarea {
             width: 116px;
             height: 42px;
             line-height: 42px; }
-            /* line 529, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 533, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .bitcoin.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 534, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 538, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .bitcoin:hover {
               opacity: 1; }
-          /* line 538, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 542, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .line .type .efirium {
             cursor: pointer;
             transition: all 0.25s;
@@ -539,15 +543,15 @@ button, input, textarea {
             width: 127px;
             color: #505568;
             opacity: 0.76; }
-            /* line 554, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 558, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .efirium.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 559, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 563, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .efirium:hover {
               opacity: 1; }
-          /* line 563, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 567, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .line .type .litecoin {
             cursor: pointer;
             transition: all 0.25s;
@@ -564,15 +568,15 @@ button, input, textarea {
             font-size: 15px;
             color: #505568;
             opacity: 0.76; }
-            /* line 579, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 583, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .litecoin.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 584, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 588, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .litecoin:hover {
               opacity: 1; }
-      /* line 590, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 594, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .back {
         width: 101px;
         height: 54px;
@@ -587,10 +591,10 @@ button, input, textarea {
         line-height: 52px;
         text-align: center;
         cursor: pointer; }
-        /* line 604, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 608, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .back:hover {
           text-decoration: underline; }
-      /* line 608, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 612, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block .btn {
         float: left;
         width: 237px;
@@ -606,13 +610,13 @@ button, input, textarea {
         cursor: pointer;
         transition: all 0.25s;
         outline: 0; }
-        /* line 623, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 627, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .btn:hover {
           background-color: #112e75; }
-  /* line 629, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 633, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec4 .step2_b {
     display: none; }
-    /* line 631, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 635, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2_b h2 {
       text-align: center;
       color: white;
@@ -620,9 +624,9 @@ button, input, textarea {
       font-weight: 400;
       font-size: 40px;
       padding-top: 96px; }
-    /* line 639, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 643, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2_b .block {
-      background-color: white;
+      background-color: #e8edff;
       margin: 10px auto 0;
       padding-top: 21px;
       text-align: left;
@@ -632,11 +636,11 @@ button, input, textarea {
       border-radius: 22px;
       padding-left: 90px;
       position: relative; }
-      /* line 650, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 654, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .label1 {
         font-size: 20px;
         padding-top: 21px; }
-      /* line 654, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 658, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .summ-wrap {
         border-radius: 23px;
         border: 1px solid rgba(145, 154, 187, 0.43);
@@ -645,7 +649,7 @@ button, input, textarea {
         height: 44px;
         margin-top: 14px;
         margin-left: 3px; }
-        /* line 662, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 666, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .summ-wrap .number {
           float: left;
           font-size: 24px;
@@ -658,7 +662,7 @@ button, input, textarea {
           margin: 0;
           border-bottom-left-radius: 21px;
           border-top-left-radius: 21px; }
-        /* line 675, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 679, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .summ-wrap .valut {
           float: right;
           background-color: #c2c9e2;
@@ -675,22 +679,22 @@ button, input, textarea {
           position: relative;
           border-bottom-right-radius: 21px;
           border-top-right-radius: 21px; }
-          /* line 691, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 695, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .summ-wrap .valut .current {
             width: 100%;
             height: 42px;
             background-position: 10px center;
             cursor: pointer; }
-            /* line 696, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 700, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="bitcoin"] {
               background-image: url(../img/icon1.png); }
-            /* line 699, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 703, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="ethereum"] {
               background-image: url(../img/icon2.png); }
-            /* line 702, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 706, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="litecoin"] {
               background-image: url(../img/icon3.png); }
-          /* line 706, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 710, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .summ-wrap .valut .select {
             display: none;
             position: absolute;
@@ -702,7 +706,7 @@ button, input, textarea {
             border-right: 1px solid rgba(145, 154, 187, 0.43);
             background-color: #c2c9e2;
             border-top: 1px solid rgba(145, 154, 187, 0.43); }
-            /* line 717, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 721, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .select .item {
               height: 43px;
               border-bottom: 1px solid rgba(145, 154, 187, 0.43);
@@ -711,27 +715,27 @@ button, input, textarea {
               cursor: pointer;
               background-color: transparent;
               transition: all 0.25s; }
-              /* line 725, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 729, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .select .item:hover {
                 background-color: white; }
-            /* line 729, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 733, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .select .bitcoin {
               background-image: url(../img/icon1.png); }
-            /* line 732, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 736, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .select .efirium {
               background-image: url(../img/icon2.png); }
-            /* line 735, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 739, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .select .litecoin {
               background-image: url(../img/icon3.png); }
-      /* line 741, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 745, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .label2 {
         font-size: 18px;
         padding-top: 28px;
         margin-left: 6px; }
-      /* line 747, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 751, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .line {
         margin-top: 16px; }
-        /* line 749, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 753, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .line .curs {
           float: left;
           font-size: 23px;
@@ -740,7 +744,7 @@ button, input, textarea {
           line-height: 44px;
           padding-right: 22px;
           padding-left: 5px; }
-        /* line 758, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 762, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .line .type {
           float: left;
           border-radius: 40px;
@@ -750,7 +754,7 @@ button, input, textarea {
           width: 210px;
           height: 44px;
           border-radius: 30px; }
-          /* line 767, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 771, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .line .type .dollar {
             cursor: pointer;
             transition: all 0.25s;
@@ -766,15 +770,15 @@ button, input, textarea {
             width: 106px;
             height: 42px;
             line-height: 44px; }
-            /* line 782, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 786, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .dollar.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 787, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 791, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .dollar:hover {
               opacity: 1; }
-          /* line 791, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 795, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .line .type .euro {
             cursor: pointer;
             transition: all 0.25s;
@@ -791,15 +795,15 @@ button, input, textarea {
             width: 87px;
             color: #505568;
             opacity: 0.76; }
-            /* line 807, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 811, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .euro.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 812, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 816, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .euro:hover {
               opacity: 1; }
-          /* line 816, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 820, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .line .type .ruble {
             cursor: pointer;
             transition: all 0.25s;
@@ -816,15 +820,15 @@ button, input, textarea {
             font-size: 15px;
             color: #505568;
             opacity: 0.76; }
-            /* line 832, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 836, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .ruble.active {
               opacity: 1;
               background-color: white;
               color: #0d2a66; }
-            /* line 837, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 841, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .ruble:hover {
               opacity: 1; }
-      /* line 843, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 847, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .back {
         width: 101px;
         height: 54px;
@@ -839,10 +843,10 @@ button, input, textarea {
         line-height: 52px;
         text-align: center;
         cursor: pointer; }
-        /* line 857, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 861, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .back:hover {
           text-decoration: underline; }
-      /* line 861, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 865, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block .btn {
         float: left;
         width: 237px;
@@ -858,13 +862,13 @@ button, input, textarea {
         cursor: pointer;
         transition: all 0.25s;
         outline: 0; }
-        /* line 877, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 881, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .btn:hover {
           background-color: #112e75; }
-  /* line 883, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 887, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec4 .step3 {
     display: none; }
-    /* line 885, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 889, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step3 h2 {
       text-align: center;
       color: white;
@@ -874,7 +878,7 @@ button, input, textarea {
       line-height: 45px;
       margin-top: 85px;
       letter-spacing: 0px; }
-    /* line 895, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 899, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step3 .form {
       margin: 19px auto 0;
       text-align: center;
@@ -884,7 +888,7 @@ button, input, textarea {
       border-radius: 23px;
       padding-top: 27px;
       position: relative; }
-      /* line 904, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 908, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 .form .back {
         color: #505568;
         font-size: 15px;
@@ -893,10 +897,10 @@ button, input, textarea {
         display: inline-block;
         cursor: pointer;
         margin-top: 16px; }
-        /* line 912, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 916, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .back:hover {
           text-decoration: underline; }
-      /* line 916, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 920, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 .form .text {
         color: #0d2a66;
         font-family: "GothamPro", sans-serif;
@@ -905,7 +909,7 @@ button, input, textarea {
         line-height: 37px;
         padding-top: 6px;
         margin-bottom: 9px; }
-      /* line 925, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 929, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 .form .input {
         font-size: 18px;
         text-align: center;
@@ -915,7 +919,7 @@ button, input, textarea {
         border: 1px solid rgba(145, 154, 187, 0.43);
         border-radius: 23px;
         margin-bottom: 5px; }
-      /* line 935, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 939, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 .form .button {
         color: white;
         margin: 25px auto 0;
@@ -929,25 +933,25 @@ button, input, textarea {
         cursor: pointer;
         transition: all 0.25s;
         outline: 0; }
-        /* line 948, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 952, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .button:hover {
           background-color: #112e75; }
 
-/* line 955, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 959, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 footer {
   background-color: #6975a4;
   height: 132px; }
-  /* line 958, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 962, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   footer .left {
     margin-top: 46px;
     float: left; }
-    /* line 961, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 965, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .left .token {
       color: white;
       font-family: "MuseoCyrl", sans-serif;
       font-size: 24px;
       line-height: 20px; }
-    /* line 967, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 971, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .left .fiz {
       color: white;
       font-family: "GothamPro", sans-serif;
@@ -957,20 +961,19 @@ footer {
       margin-left: 3px;
       letter-spacing: 1.3px;
       opacity: 0.86; }
-  /* line 978, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 982, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   footer .right {
     float: right; }
-    /* line 980, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 984, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .right .phone {
       margin-top: 31px;
       font-size: 30px;
       font-weight: 400;
       line-height: 28px;
-      margin-left: 4px;
       letter-spacing: 0.4px;
       color: white;
       display: block; }
-    /* line 990, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 993, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .right .addr {
       font-size: 15px;
       font-weight: 400;
@@ -980,7 +983,7 @@ footer {
       letter-spacing: 0.2px;
       float: right;
       color: white; }
-  /* line 1001, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1004, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   footer .confidential {
     font-size: 14px;
     float: right;
@@ -989,15 +992,15 @@ footer {
     margin-top: 49px;
     color: white;
     cursor: pointer; }
-    /* line 1009, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1012, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .confidential:hover {
       text-decoration: underline; }
 
-/* line 1014, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 1017, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #hidden-box {
   display: none; }
 
-/* line 1018, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 1021, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #okgo {
   width: 400px;
   background: white;
@@ -1005,23 +1008,23 @@ footer {
   position: relative;
   text-align: center;
   border-radius: 24px; }
-  /* line 1025, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1028, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #okgo .close {
     position: absolute;
     right: 15px;
     top: 10px;
     cursor: pointer;
     text-decoration: underline; }
-    /* line 1031, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1034, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #okgo .close:hover {
       text-decoration: none; }
-  /* line 1036, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1039, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #okgo p {
     text-align: center;
     font-size: 24px;
     line-height: 36px; }
 
-/* line 1044, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 1047, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #form-error-pop {
   width: 400px;
   background: white;
@@ -1029,23 +1032,23 @@ footer {
   position: relative;
   text-align: center;
   border-radius: 24px; }
-  /* line 1051, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1054, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #form-error-pop .close {
     position: absolute;
     right: 15px;
     top: 10px;
     cursor: pointer;
     text-decoration: underline; }
-    /* line 1057, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1060, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #form-error-pop .close:hover {
       text-decoration: none; }
-  /* line 1062, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1065, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #form-error-pop p {
     text-align: center;
     font-size: 24px;
     line-height: 36px; }
 
-/* line 1069, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 1072, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #conf {
   width: 800px;
   background: white;
@@ -1053,57 +1056,57 @@ footer {
   position: relative;
   text-align: left;
   border-radius: 24px; }
-  /* line 1076, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1079, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #conf .close {
     position: absolute;
     right: 15px;
     top: 10px;
     cursor: pointer;
     text-decoration: underline; }
-    /* line 1082, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1085, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #conf .close:hover {
       text-decoration: none; }
-  /* line 1087, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1090, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #conf h3 {
     font-size: 36px;
     line-height: 48px;
     margin-bottom: 30px; }
-  /* line 1093, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1096, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #conf p {
     font-size: 18px;
     line-height: 26px; }
 
 @media only screen and (max-width: 1460px) {
-  /* line 1099, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1102, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .section > div, .head > div, header > div, section > div, footer > div {
     max-width: 764px; }
-  /* line 1103, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1106, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec1 {
     height: 605px;
     background: url(../img/bg1_laptop.jpg) no-repeat center top;
     background-size: auto !important; }
-    /* line 1108, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1111, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .left {
       margin-top: 33px;
       float: left; }
-      /* line 1111, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1114, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .left .logo {
         background: url(../img/logo.png) no-repeat;
         width: 36px;
         height: 36px;
         float: left;
         background-size: contain; }
-      /* line 1118, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1121, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .left .logo-text {
         float: left;
         margin-left: 16px; }
-        /* line 1121, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1124, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec1 .header .left .logo-text .token {
           color: #183e8c;
           font-family: "MuseoCyrl", sans-serif;
           font-size: 19px;
           line-height: 20px; }
-        /* line 1127, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1130, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec1 .header .left .logo-text .fizobmen {
           color: #183e8c;
           font-family: "GothamPro", sans-serif;
@@ -1113,7 +1116,7 @@ footer {
           margin-left: 3px;
           letter-spacing: 1.3px;
           opacity: 0.86; }
-    /* line 1139, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1142, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .header .right {
       float: right;
       line-height: 23px;
@@ -1121,13 +1124,16 @@ footer {
       color: white;
       text-align: right;
       width: 280px; }
-      /* line 1146, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1149, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .phone {
         font-size: 23px;
         font-weight: 400;
         line-height: 28px;
-        display: block; }
-      /* line 1154, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        display: block;
+        width: 198px;
+        text-align: left;
+        float: right; }
+      /* line 1160, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .adres {
         font-size: 10.7px;
         font-weight: 400;
@@ -1136,8 +1142,10 @@ footer {
         text-align: left;
         letter-spacing: 0.2px;
         float: right;
-        margin-bottom: 50px; }
-      /* line 1165, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        margin-bottom: 50px;
+        width: 198px;
+        text-align: left; }
+      /* line 1173, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .telegram {
         background: url(../img/telegram.png) no-repeat center;
         width: 37px;
@@ -1148,10 +1156,10 @@ footer {
         position: relative;
         top: 0;
         transition: all 0.25s; }
-        /* line 1175, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1183, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec1 .header .right .telegram:hover {
           top: -5px; }
-      /* line 1179, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1187, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .header .right .viber {
         margin-top: 13px;
         background: url(../img/viber.png) no-repeat center;
@@ -1162,10 +1170,10 @@ footer {
         position: relative;
         top: 0;
         transition: all 0.25s; }
-        /* line 1189, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1197, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec1 .header .right .viber:hover {
           top: -5px; }
-    /* line 1195, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1203, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 h1 {
       font-family: "GothamPro", sans-serif;
       font-size: 27px;
@@ -1175,14 +1183,14 @@ footer {
       text-align: left;
       margin-top: 14px;
       letter-spacing: 0.7px; }
-    /* line 1205, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1213, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 p {
       color: #0d2a66;
       font-family: "MuseoCyrl", sans-serif;
       font-size: 12px;
       line-height: 21px;
       margin-top: 26px; }
-    /* line 1212, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1220, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec1 .btn {
       width: 181px;
       height: 41px;
@@ -1196,18 +1204,18 @@ footer {
       cursor: pointer;
       transition: all 0.25s;
       outline: 0; }
-      /* line 1225, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1233, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec1 .btn:hover {
         background-color: #112e75; }
-  /* line 1230, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1238, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .section {
     height: 669px;
     background: url(../img/bg2_laptop.jpg) no-repeat center;
     background-position: center;
     background-size: auto !important; }
-    /* line 1240, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1248, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .section.sec2 .video-wrap {
-      width: 645px;
+      width: 580px;
       height: 336px;
       background-color: #8a8a8a;
       border: 11px solid white;
@@ -1215,17 +1223,17 @@ footer {
       box-shadow: 0 1px 8px rgba(29, 29, 29, 0.4);
       margin: 147px auto 0;
       border-radius: 10px; }
-      /* line 1249, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1257, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .section.sec2 .video-wrap .video {
-        width: 623px;
+        width: 558px;
         height: 314px;
         display: block; }
-  /* line 1257, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1265, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec3 {
     background: url(../img/bg3_laptop.jpg) no-repeat center top;
     height: 615px;
     background-size: auto !important; }
-    /* line 1261, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1269, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec3 h2 {
       color: #0d2a66;
       font-size: 29px;
@@ -1236,7 +1244,7 @@ footer {
       margin-left: 22px;
       letter-spacing: 1px;
       margin-bottom: 44px; }
-    /* line 1273, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1281, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec3 .ul .li {
       width: 315px;
       height: 68px;
@@ -1244,48 +1252,48 @@ footer {
       margin-left: 21px;
       margin-right: -26px;
       margin-bottom: 35px; }
-      /* line 1280, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1288, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .img {
         float: left;
         width: 80px;
         height: 90px; }
-        /* line 1284, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1292, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img1 {
           background-image: url(../img/img1.png);
           background-position: 3px 11px;
           background-repeat: no-repeat;
           background-size: 51px; }
-        /* line 1291, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1299, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img2 {
           background-image: url(../img/img2.png);
           background-position: 9px 18px;
           background-repeat: no-repeat;
           background-size: 46px; }
-        /* line 1297, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1305, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img3 {
           background-image: url(../img/img3.png);
           background-position: 4px 13px;
           background-repeat: no-repeat;
           background-size: 56px; }
-        /* line 1303, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1311, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img4 {
           background-image: url(../img/img4.png);
           background-position: 11px 3px;
           background-repeat: no-repeat;
           background-size: 43px; }
-        /* line 1309, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1317, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img5 {
           background-image: url(../img/img5.png);
           background-position: 11px 3px;
           background-repeat: no-repeat;
           background-size: 42px; }
-        /* line 1315, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1323, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec3 .ul .li .img.img6 {
           background-image: url(../img/img6.png);
           background-position: 18px 10px;
           background-repeat: no-repeat;
           background-size: 41px; }
-      /* line 1322, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1330, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec3 .ul .li .text {
         float: left;
         margin-left: 15px;
@@ -1295,15 +1303,15 @@ footer {
         line-height: 18px;
         font-weight: 400;
         margin-top: 20px; }
-  /* line 1335, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 1343, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   .sec4 {
     background: url(../img/bg4_laptop.jpg) no-repeat center top;
     height: 507px;
     background-size: auto !important; }
-    /* line 1339, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1347, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step1 {
       display: block; }
-      /* line 1341, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1349, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step1 h2 {
         padding-top: 63px;
         text-align: center;
@@ -1313,10 +1321,10 @@ footer {
         font-weight: 400;
         line-height: 34px;
         letter-spacing: 0.2px; }
-      /* line 1351, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1359, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step1 .block {
         text-align: center; }
-        /* line 1353, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1361, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step1 .block .item {
           display: inline-block;
           vertical-align: top;
@@ -1331,24 +1339,24 @@ footer {
           outline: 0;
           position: relative;
           top: 0px; }
-          /* line 1367, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1375, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step1 .block .item:hover {
             top: -5px; }
-          /* line 1370, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1378, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step1 .block .item .img {
             height: 120px;
             margin-bottom: 51px; }
-            /* line 1373, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1381, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step1 .block .item .img.img1 {
               background-image: url(../img/buyvaluta.png);
               background-position: center 3px;
               background-size: 83px; }
-            /* line 1378, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1386, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step1 .block .item .img.img2 {
               background-image: url(../img/buyvaluta2.png);
               background-position: center 4px;
               background-size: 83px; }
-          /* line 1385, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1393, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step1 .block .item .btn {
             width: 116px;
             height: 42px;
@@ -1360,10 +1368,10 @@ footer {
             border-radius: 26px;
             margin: -48px auto;
             box-shadow: 0 0 22.3px 1.7px rgba(255, 255, 255, 0.1); }
-    /* line 1400, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1408, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2 {
       display: none; }
-      /* line 1402, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1410, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 h2 {
         padding-top: 63px;
         text-align: center;
@@ -1373,7 +1381,7 @@ footer {
         font-weight: 400;
         line-height: 34px;
         letter-spacing: 0.2px; }
-      /* line 1412, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1420, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2 .block {
         background-color: #e8edff;
         margin: 10px auto 0;
@@ -1385,11 +1393,11 @@ footer {
         border-radius: 17px;
         padding-left: 66px;
         position: relative; }
-        /* line 1423, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1431, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .label1 {
           font-size: 14px;
           padding-top: 11px; }
-        /* line 1427, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1435, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .summ-wrap {
           border-radius: 23px;
           border: 1px solid rgba(145, 154, 187, 0.43);
@@ -1398,20 +1406,20 @@ footer {
           height: 34px;
           margin-top: 8px;
           margin-left: 3px; }
-          /* line 1435, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1443, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .summ-wrap .number {
             float: left;
-            font-size: 20px;
-            height: 28px;
-            line-height: 34px;
+            font-size: 18px;
+            height: 32px;
+            line-height: 32px;
             font-family: "MuseoCyrl", sans-serif;
             padding-left: 22px;
             width: 111px;
             display: block;
             margin: 0;
-            border-bottom-left-radius: 11px;
-            border-top-left-radius: 17px; }
-          /* line 1448, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            border-bottom-left-radius: 32px;
+            border-top-left-radius: 32px; }
+          /* line 1456, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .summ-wrap .valut {
             float: right;
             background-color: #c2c9e2;
@@ -1429,26 +1437,26 @@ footer {
             position: relative;
             border-bottom-right-radius: 21px;
             border-top-right-radius: 21px; }
-            /* line 1465, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1473, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .current {
               width: 100%;
               height: 32px;
               background-position: 10px center;
               cursor: pointer; }
-              /* line 1470, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1478, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .current[data-selected="dollar"] {
                 background-image: url(../img/dollar-ico.png);
                 background-size: auto 18px;
                 background-position: 10px 7px; }
-              /* line 1475, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1483, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .current[data-selected="euro"] {
                 background-image: url(../img/euro-ico.png); }
-              /* line 1478, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1486, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .current[data-selected="ruble"] {
                 background-image: url(../img/ruble-ico.png);
                 background-size: auto 15px;
-                background-position: 6px 7px; }
-            /* line 1484, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                background-position: 6px 8px; }
+            /* line 1492, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .summ-wrap .valut .select {
               display: none;
               position: absolute;
@@ -1460,7 +1468,7 @@ footer {
               border-right: 1px solid rgba(145, 154, 187, 0.43);
               background-color: #c2c9e2;
               border-top: 1px solid rgba(145, 154, 187, 0.43); }
-              /* line 1495, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1503, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .select .item {
                 height: 32px;
                 border-bottom: 1px solid rgba(145, 154, 187, 0.43);
@@ -1469,31 +1477,31 @@ footer {
                 cursor: pointer;
                 background-color: transparent;
                 transition: all 0.25s; }
-                /* line 1503, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                /* line 1511, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
                 .sec4 .step2 .block .summ-wrap .valut .select .item:hover {
                   background-color: white; }
-              /* line 1507, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1515, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .select .dollar {
                 background-image: url(../img/dollar-ico.png);
                 background-size: auto 18px;
                 background-position: 10px 7px; }
-              /* line 1513, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1521, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .select .euro {
                 background-image: url(../img/euro-ico.png); }
-              /* line 1518, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1526, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .summ-wrap .valut .select .ruble {
                 background-image: url(../img/ruble-ico.png);
                 background-size: auto 15px;
                 background-position: 10px 7px; }
-        /* line 1527, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1535, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .label2 {
           font-size: 14px;
           padding-top: 18px;
           margin-left: 3px; }
-        /* line 1533, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1541, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .line {
           margin-top: 10px; }
-          /* line 1535, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1543, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .line .curs {
             float: left;
             font-size: 21px;
@@ -1502,7 +1510,7 @@ footer {
             line-height: 34px;
             padding-right: 22px;
             padding-left: 5px; }
-          /* line 1544, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1552, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .line .type {
             float: left;
             border-radius: 40px;
@@ -1512,7 +1520,7 @@ footer {
             width: 288px;
             height: 34px;
             border-radius: 30px; }
-            /* line 1553, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1561, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .bitcoin {
               cursor: pointer;
               transition: all 0.25s;
@@ -1527,22 +1535,22 @@ footer {
               color: #505568;
               opacity: 0.76;
               width: 89px;
-              height: 42px;
-              line-height: 30px; }
-              /* line 1569, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              height: 34px;
+              line-height: 34px; }
+              /* line 1577, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .bitcoin.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1574, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1582, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .bitcoin:hover {
                 opacity: 1; }
-            /* line 1578, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1586, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .efirium {
               cursor: pointer;
               transition: all 0.25s;
-              height: 32px;
-              line-height: 32px;
+              height: 34px;
+              line-height: 34px;
               float: left;
               border-left: 1px solid #c2c9e2;
               background-color: #e8edff;
@@ -1555,20 +1563,20 @@ footer {
               width: 97px;
               color: #505568;
               opacity: 0.76; }
-              /* line 1595, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1603, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .efirium.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1600, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1608, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .efirium:hover {
                 opacity: 1; }
-            /* line 1604, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1612, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2 .block .line .type .litecoin {
               cursor: pointer;
               transition: all 0.25s;
               height: 34px;
-              line-height: 32px;
+              line-height: 34px;
               float: left;
               border-left: 1px solid #c2c9e2;
               background-color: #e8edff;
@@ -1581,15 +1589,15 @@ footer {
               font-size: 12px;
               color: #505568;
               opacity: 0.76; }
-              /* line 1621, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1629, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .litecoin.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1626, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1634, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2 .block .line .type .litecoin:hover {
                 opacity: 1; }
-        /* line 1632, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1640, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .back {
           width: 76px;
           height: 41px;
@@ -1601,14 +1609,14 @@ footer {
           color: #505568;
           font-size: 12px;
           font-weight: 400;
-          line-height: 36px;
+          line-height: 39px;
           text-align: center;
           cursor: pointer;
           margin-right: 11px; }
-          /* line 1647, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1655, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .back:hover {
             text-decoration: underline; }
-        /* line 1651, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1659, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2 .block .btn {
           float: right;
           width: 177px;
@@ -1624,13 +1632,13 @@ footer {
           cursor: pointer;
           transition: all 0.25s;
           outline: 0; }
-          /* line 1666, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1674, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2 .block .btn:hover {
             background-color: #112e75; }
-    /* line 1672, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1680, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step2_b {
       display: none; }
-      /* line 1674, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1682, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b h2 {
         padding-top: 63px;
         text-align: center;
@@ -1640,7 +1648,7 @@ footer {
         font-weight: 400;
         line-height: 34px;
         letter-spacing: 0.2px; }
-      /* line 1684, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1692, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step2_b .block {
         background-color: #e8edff;
         margin: 10px auto 0;
@@ -1652,11 +1660,11 @@ footer {
         border-radius: 17px;
         padding-left: 66px;
         position: relative; }
-        /* line 1695, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1703, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .label1 {
           font-size: 14px;
           padding-top: 9px; }
-        /* line 1699, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1707, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .summ-wrap {
           border-radius: 23px;
           border: 1px solid rgba(145, 154, 187, 0.43);
@@ -1665,7 +1673,7 @@ footer {
           height: 34px;
           margin-top: 14px;
           margin-left: 3px; }
-          /* line 1707, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1715, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .summ-wrap .number {
             float: left;
             font-size: 20px;
@@ -1678,7 +1686,7 @@ footer {
             margin: 0;
             border-bottom-left-radius: 21px;
             border-top-left-radius: 21px; }
-          /* line 1720, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1728, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .summ-wrap .valut {
             float: right;
             background-color: #c2c9e2;
@@ -1695,28 +1703,28 @@ footer {
             position: relative;
             border-bottom-right-radius: 21px;
             border-top-right-radius: 21px; }
-            /* line 1736, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1744, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .current {
               width: 100%;
-              height: 42px;
+              height: 32px;
               background-position: 10px center;
               cursor: pointer; }
-              /* line 1741, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1749, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="bitcoin"] {
                 background-image: url(../img/icon1.png);
                 background-size: auto 18px;
-                background-position: 10px 8px; }
-              /* line 1746, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                background-position: 10px 7px; }
+              /* line 1754, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="ethereum"] {
                 background-image: url(../img/icon2.png);
                 background-size: auto 22px;
-                background-position: 10px 6px; }
-              /* line 1751, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                background-position: 10px 5px; }
+              /* line 1759, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .current[data-selected="litecoin"] {
                 background-image: url(../img/icon3.png);
                 background-size: auto 15px;
-                background-position: 10px 10px; }
-            /* line 1757, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                background-position: 10px 8px; }
+            /* line 1765, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .summ-wrap .valut .select {
               display: none;
               position: absolute;
@@ -1728,7 +1736,7 @@ footer {
               border-right: 1px solid rgba(145, 154, 187, 0.43);
               background-color: #c2c9e2;
               border-top: 1px solid rgba(145, 154, 187, 0.43); }
-              /* line 1768, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1776, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .select .item {
                 height: 32px;
                 border-bottom: 1px solid rgba(145, 154, 187, 0.43);
@@ -1737,33 +1745,33 @@ footer {
                 cursor: pointer;
                 background-color: transparent;
                 transition: all 0.25s; }
-                /* line 1776, D:/science/aloha/verstki/kript/css/sass/style.scss */
+                /* line 1784, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
                 .sec4 .step2_b .block .summ-wrap .valut .select .item:hover {
                   background-color: white; }
-              /* line 1780, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1788, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .select .bitcoin {
                 background-image: url(../img/icon1.png);
                 background-size: auto 18px;
                 background-position: 11px 7px; }
-              /* line 1785, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1793, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .select .efirium {
                 background-image: url(../img/icon2.png);
                 background-size: auto 21px;
                 background-position: 12px 6px; }
-              /* line 1790, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1798, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .summ-wrap .valut .select .litecoin {
                 background-image: url(../img/icon3.png);
                 background-size: auto 15px;
                 background-position: 13px 8px; }
-        /* line 1798, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1806, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .label2 {
           font-size: 14px;
           padding-top: 14px;
           margin-left: 6px; }
-        /* line 1804, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1812, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .line {
           margin-top: 10px; }
-          /* line 1806, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1814, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .line .curs {
             float: left;
             font-size: 23px;
@@ -1772,7 +1780,7 @@ footer {
             line-height: 34px;
             padding-right: 22px;
             padding-left: 5px; }
-          /* line 1815, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1823, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .line .type {
             float: left;
             border-radius: 40px;
@@ -1782,14 +1790,14 @@ footer {
             width: 210px;
             height: 33px;
             border-radius: 30px; }
-            /* line 1824, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1832, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .dollar {
               cursor: pointer;
               transition: all 0.25s;
               float: left;
               background-color: #e8edff;
               background-image: url(../img/dollar-ico.png);
-              background-position: 18px center;
+              background-position: 18px 6px;
               background-repeat: no-repeat;
               background-size: auto 18px;
               padding-left: 47px;
@@ -1799,15 +1807,15 @@ footer {
               width: 106px;
               height: 32px;
               line-height: 32px; }
-              /* line 1840, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1848, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .dollar.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1845, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1853, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .dollar:hover {
                 opacity: 1; }
-            /* line 1849, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1857, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .euro {
               cursor: pointer;
               transition: all 0.25s;
@@ -1824,15 +1832,15 @@ footer {
               width: 87px;
               color: #505568;
               opacity: 0.76; }
-              /* line 1865, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1873, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .euro.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1870, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1878, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .euro:hover {
                 opacity: 1; }
-            /* line 1874, D:/science/aloha/verstki/kript/css/sass/style.scss */
+            /* line 1882, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
             .sec4 .step2_b .block .line .type .ruble {
               cursor: pointer;
               transition: all 0.25s;
@@ -1845,21 +1853,21 @@ footer {
               background-position: 14px 10px;
               background-repeat: no-repeat;
               background-size: auto 15px;
-              background-position: 13px 9px;
+              background-position: 13px 8px;
               padding-left: 43px;
               width: 102px;
               font-size: 15px;
               color: #505568;
               opacity: 0.76; }
-              /* line 1892, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1900, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .ruble.active {
                 opacity: 1;
                 background-color: white;
                 color: #0d2a66; }
-              /* line 1897, D:/science/aloha/verstki/kript/css/sass/style.scss */
+              /* line 1905, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
               .sec4 .step2_b .block .line .type .ruble:hover {
                 opacity: 1; }
-        /* line 1903, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1911, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .back {
           width: 101px;
           height: 41px;
@@ -1874,10 +1882,10 @@ footer {
           line-height: 38px;
           text-align: center;
           cursor: pointer; }
-          /* line 1917, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1925, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .back:hover {
             text-decoration: underline; }
-        /* line 1921, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1929, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step2_b .block .btn {
           float: left;
           width: 177px;
@@ -1893,13 +1901,13 @@ footer {
           cursor: pointer;
           transition: all 0.25s;
           outline: 0; }
-          /* line 1936, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1944, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step2_b .block .btn:hover {
             background-color: #112e75; }
-    /* line 1942, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 1950, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     .sec4 .step3 {
       display: none; }
-      /* line 1944, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1952, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 h2 {
         padding-top: 63px;
         text-align: center;
@@ -1910,7 +1918,7 @@ footer {
         line-height: 34px;
         letter-spacing: 0.2px;
         margin-top: 0px; }
-      /* line 1955, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 1963, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       .sec4 .step3 .form {
         margin: 13px auto 0;
         text-align: center;
@@ -1921,7 +1929,7 @@ footer {
         padding-top: 15px;
         position: relative;
         margin-top: 46px; }
-        /* line 1966, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1974, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .back {
           color: #505568;
           font-size: 11px;
@@ -1930,10 +1938,10 @@ footer {
           display: inline-block;
           cursor: pointer;
           margin-top: 9px; }
-          /* line 1974, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 1982, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step3 .form .back:hover {
             text-decoration: underline; }
-        /* line 1978, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1986, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .text {
           color: #0d2a66;
           font-family: "GothamPro", sans-serif;
@@ -1942,7 +1950,7 @@ footer {
           line-height: 10px;
           padding-top: 18px;
           margin-bottom: 13px; }
-        /* line 1987, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 1995, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .input {
           font-size: 14px;
           text-align: center;
@@ -1952,7 +1960,7 @@ footer {
           border: 1px solid rgba(145, 154, 187, 0.43);
           border-radius: 23px;
           margin-bottom: -4px; }
-        /* line 1997, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        /* line 2005, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
         .sec4 .step3 .form .button {
           color: white;
           margin: 24px auto 0;
@@ -1966,24 +1974,24 @@ footer {
           cursor: pointer;
           transition: all 0.25s;
           outline: 0; }
-          /* line 2010, D:/science/aloha/verstki/kript/css/sass/style.scss */
+          /* line 2018, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
           .sec4 .step3 .form .button:hover {
             background-color: #112e75; }
-  /* line 2017, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 2025, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   footer {
     background-color: #6975a4;
     height: 98px; }
-    /* line 2020, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2028, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .left {
       margin-top: 31px;
       float: left; }
-      /* line 2023, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2031, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       footer .left .token {
         color: white;
         font-family: "MuseoCyrl", sans-serif;
         font-size: 19px;
         line-height: 20px; }
-      /* line 2029, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2037, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       footer .left .fiz {
         color: white;
         font-family: "GothamPro", sans-serif;
@@ -1993,10 +2001,10 @@ footer {
         margin-left: 5px;
         letter-spacing: 1.2px;
         opacity: 0.86; }
-    /* line 2040, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2048, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .right {
       float: right; }
-      /* line 2042, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2050, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       footer .right .phone {
         margin-top: 18px;
         font-size: 22px;
@@ -2005,8 +2013,10 @@ footer {
         margin-left: 0px;
         letter-spacing: 0.7px;
         color: white;
-        display: block; }
-      /* line 2052, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        display: block;
+        text-align: left;
+        width: 198px; }
+      /* line 2062, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       footer .right .addr {
         font-size: 10px;
         font-weight: 400;
@@ -2016,8 +2026,10 @@ footer {
         letter-spacing: 0.2px;
         float: right;
         color: white;
-        margin-right: 19px; }
-    /* line 2064, D:/science/aloha/verstki/kript/css/sass/style.scss */
+        margin-right: 13px;
+        text-align: left;
+        width: 185px; }
+    /* line 2076, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     footer .confidential {
       font-size: 10.6px;
       float: right;
@@ -2027,13 +2039,13 @@ footer {
       color: white;
       cursor: pointer;
       line-height: 13px; }
-      /* line 2073, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2085, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       footer .confidential:hover {
         text-decoration: underline; }
-  /* line 2078, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 2090, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #hidden-box {
     display: none; }
-  /* line 2082, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 2094, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #okgo {
     width: 400px;
     background: white;
@@ -2041,22 +2053,22 @@ footer {
     position: relative;
     text-align: center;
     border-radius: 24px; }
-    /* line 2089, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2101, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #okgo .close {
       position: absolute;
       right: 15px;
       top: 10px;
       cursor: pointer;
       text-decoration: underline; }
-      /* line 2095, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2107, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       #okgo .close:hover {
         text-decoration: none; }
-    /* line 2100, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2112, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #okgo p {
       text-align: center;
       font-size: 24px;
       line-height: 36px; }
-  /* line 2108, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 2120, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #form-error-pop {
     width: 400px;
     background: white;
@@ -2064,22 +2076,22 @@ footer {
     position: relative;
     text-align: center;
     border-radius: 24px; }
-    /* line 2115, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2127, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #form-error-pop .close {
       position: absolute;
       right: 15px;
       top: 10px;
       cursor: pointer;
       text-decoration: underline; }
-      /* line 2121, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2133, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       #form-error-pop .close:hover {
         text-decoration: none; }
-    /* line 2126, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2138, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #form-error-pop p {
       text-align: center;
       font-size: 24px;
       line-height: 36px; }
-  /* line 2133, D:/science/aloha/verstki/kript/css/sass/style.scss */
+  /* line 2145, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
   #conf {
     width: 800px;
     background: white;
@@ -2087,27 +2099,27 @@ footer {
     position: relative;
     text-align: left;
     border-radius: 24px; }
-    /* line 2140, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2152, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #conf .close {
       position: absolute;
       right: 15px;
       top: 10px;
       cursor: pointer;
       text-decoration: underline; }
-      /* line 2146, D:/science/aloha/verstki/kript/css/sass/style.scss */
+      /* line 2158, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
       #conf .close:hover {
         text-decoration: none; }
-    /* line 2151, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2163, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #conf h3 {
       font-size: 36px;
       line-height: 48px;
       margin-bottom: 30px; }
-    /* line 2157, D:/science/aloha/verstki/kript/css/sass/style.scss */
+    /* line 2169, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
     #conf p {
       font-size: 18px;
       line-height: 26px; } }
 
-/* line 2163, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2175, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .arcticmodal-container, .arcticmodal-overlay {
   position: fixed;
   left: 0;
@@ -2116,7 +2128,7 @@ footer {
   bottom: 0;
   z-index: 1000; }
 
-/* line 2164, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2176, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .arcticmodal-container {
   overflow: auto;
   margin: 0;
@@ -2124,27 +2136,27 @@ footer {
   border: 0;
   border-collapse: collapse; }
 
-/* line 2165, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2177, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 :first-child + html .arcticmodal-container {
   height: 100%; }
 
-/* line 2166, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2178, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .arcticmodal-container_i {
   margin: 0 auto;
   height: 100%; }
 
-/* line 2167, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2179, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .arcticmodal-container_i2 {
   padding: 0;
   margin: 0;
   border: 0;
   vertical-align: middle; }
 
-/* line 2168, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2180, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 #hidden-box {
   display: none; }
 
-/* line 2169, D:/science/aloha/verstki/kript/css/sass/style.scss */
+/* line 2181, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/css/sass/style.scss */
 .error-input {
   border: 1px solid red !important; }
 
