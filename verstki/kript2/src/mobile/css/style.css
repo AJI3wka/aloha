@@ -1,0 +1,152 @@
+/* line 30, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 31, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+:after, :before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+/* line 32, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+  content: none; }
+
+/* line 33, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em; }
+
+/* line 34, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+body {
+  font-family: "GothamPro", sans-serif, sans-serif;
+  font-weight: 400;
+  color: #141414; }
+
+/* line 35, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+/* line 36, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+button, input, textarea {
+  outline: none; }
+
+/* line 37, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+section {
+  width: 100%;
+  min-width: 340px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+  /* line 21, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  section > div {
+    max-width: 340px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+
+/* line 41, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+#maket {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: url(../maket.jpg) no-repeat top center;
+  height: 13200px;
+  opacity: 0.5;
+  z-index: 10; }
+
+/* line 52, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+.sec1 img {
+  width: 100%; }
+
+/* line 55, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+.sec1 h1 {
+  font-size: 26px;
+  color: white;
+  line-height: 44px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -44px;
+  padding: 0 29px; }
+
+/* line 67, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+.sec2 {
+  background: url(../img/bg2.jpg) no-repeat top; }
+  /* line 70, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  .sec2 > div {
+    padding-left: 28px; }
+  /* line 73, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  .sec2 .left {
+    padding-top: 27px; }
+    /* line 78, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+    .sec2 .left h3 {
+      font-size: 20px;
+      line-height: 26px;
+      letter-spacing: 0.4px;
+      color: #0d2a66;
+      font-weight: 400;
+      text-align: left; }
+    /* line 87, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+    .sec2 .left p {
+      margin-top: 24px;
+      font-size: 21px;
+      margin-bottom: 32px;
+      line-height: 25px;
+      letter-spacing: -0.7px; }
+  /* line 106, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  .sec2 .right p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 35px;
+    letter-spacing: -0.3px; }
+  /* line 120, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  .sec2 ul {
+    font-size: 26px;
+    margin-left: 89px;
+    clear: both;
+    padding-top: 23px;
+    padding-right: 129px; }
+    /* line 128, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+    .sec2 ul .li {
+      font-size: 17px;
+      padding-left: 5px;
+      margin-bottom: 19px; }
+  /* line 134, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+  .sec2 .button {
+    width: 234px;
+    height: 54px;
+    border-radius: 27px;
+    color: white;
+    text-align: center;
+    line-height: 51px;
+    letter-spacing: -0.1px;
+    padding-left: 30px;
+    background-image: url(../img/arrowleft.png);
+    background-color: #283a83;
+    background-size: 23px 5px;
+    background-position: 35px 25px;
+    margin-top: 37px;
+    margin-left: 23px;
+    font-size: 16px;
+    transition: all 0.25s;
+    cursor: pointer; }
+    /* line 152, D:/science/aloha/verstki/kript2/src/mobile/css/sass/style.scss */
+    .sec2 .button:hover {
+      background-color: #112e75; }
+
+/*# sourceMappingURL=style.css.map */

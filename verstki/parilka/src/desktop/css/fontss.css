@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../fonts/GOTHICB.eot');
+    src: url('../fonts/GOTHICB.eot') format('embedded-opentype'),
+         url('../fonts/GOTHICB.woff2') format('woff2'),
+         url('../fonts/GOTHICB.woff') format('woff'),
+         url('../fonts/GOTHICB.ttf') format('truetype'),
+         url('../fonts/GOTHICB.svg#GOTHICB') format('svg');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/GOTHICI.eot');
+    src: url('../fonts/GOTHICI.eot') format('embedded-opentype'),
+         url('../fonts/GOTHICI.woff2') format('woff2'),
+         url('../fonts/GOTHICI.woff') format('woff'),
+         url('../fonts/GOTHICI.ttf') format('truetype'),
+         url('../fonts/GOTHICI.svg#GOTHICI') format('svg');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/GOTHIC.eot');
+    src: url('../fonts/GOTHIC.eot') format('embedded-opentype'),
+         url('../fonts/GOTHIC.woff2') format('woff2'),
+         url('../fonts/GOTHIC.woff') format('woff'),
+         url('../fonts/GOTHIC.ttf') format('truetype'),
+         url('../fonts/GOTHIC.svg#GOTHIC') format('svg');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-weight: 800;
+    font-style: italic;
+    src: url('../fonts/GOTHICBI.eot');
+    src: url('../fonts/GOTHICBI.eot') format('embedded-opentype'),
+         url('../fonts/GOTHICBI.woff2') format('woff2'),
+         url('../fonts/GOTHICBI.woff') format('woff'),
+         url('../fonts/GOTHICBI.ttf') format('truetype'),
+         url('../fonts/GOTHICBI.svg#GOTHICBI') format('svg');
+}
+@font-face {
+    font-family: 'Avantibold';
+    src: url('../fonts/6442.eot');
+    src: url('../fonts/6442.eot') format('embedded-opentype'),
+         url('../fonts/6442.woff2') format('woff2'),
+         url('../fonts/6442.woff') format('woff'),
+         url('../fonts/6442.ttf') format('truetype'),
+         url('../fonts/6442.svg#6442') format('svg');
+}
