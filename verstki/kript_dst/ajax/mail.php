@@ -2,6 +2,7 @@
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $type = $_POST['type'];
+$telegram = $_POST['telegram'];
 
 $give = $_POST['give'];
 $count_give = $_POST['count_give'];
@@ -35,6 +36,7 @@ $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 $to = "8880700@gmail.com";
 
 $message .= "Имя: $name\n";
+$message .= "Телеграм: $telegram\n";
 $message .= "Телефон: $phone\n\n";
 
 $message .= "Покупает/продает криптовалюту(buy/sell): $type\n";

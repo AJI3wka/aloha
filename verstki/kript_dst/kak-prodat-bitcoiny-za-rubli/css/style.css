@@ -1,0 +1,184 @@
+/* line 30, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 31, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+:after, :before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+/* line 32, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
+  content: none; }
+
+/* line 33, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em; }
+
+/* line 34, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+body {
+  font-family: "GothamPro", sans-serif, sans-serif;
+  font-weight: 400;
+  color: #141414; }
+
+/* line 35, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+/* line 36, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+button, input, textarea {
+  outline: none; }
+
+/* line 37, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+section {
+  width: 100%;
+  min-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+  /* line 21, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+  section > div {
+    max-width: 1000px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+
+/* line 41, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+#maket {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: url(../maket.jpg) no-repeat top center;
+  height: 13200px;
+  opacity: 0.5;
+  z-index: 10; }
+
+/* line 52, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+.sec1 img {
+  width: 100%;
+  display: block; }
+
+/* line 56, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+.sec1 h1 {
+  font-family: "GothamPro", sans-serif;
+  font-size: 33px;
+  color: white;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 43%;
+  margin-top: -24px; }
+
+/* line 68, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+.sec2 {
+  background: url(../img/bg2.jpg) no-repeat top;
+  overflow: inherit; }
+  /* line 71, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+  .sec2 > div {
+    padding-top: 1px; }
+  /* line 74, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+  .sec2 .main {
+    margin-left: 56px;
+    margin-right: 38px;
+    margin-top: -11px; }
+    /* line 79, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+    .sec2 .main h2 {
+      font-size: 24px;
+      line-height: 30px;
+      color: #0d2a66;
+      font-weight: 400;
+      text-align: left;
+      margin-top: 50px; }
+      /* line 86, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main h2:nth-of-type(1) {
+        margin-top: 0; }
+      /* line 90, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main h2:before, .sec2 .main h2:after {
+        content: none; }
+    /* line 94, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+    .sec2 .main p {
+      margin-top: 20px;
+      font-size: 18px;
+      margin-bottom: 27px;
+      line-height: 25px;
+      letter-spacing: -0.6px; }
+      /* line 100, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main p:before, .sec2 .main p:after {
+        content: none; }
+    /* line 106, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+    .sec2 .main .right {
+      float: right;
+      width: 374px;
+      height: 220px;
+      background-color: #5c5c5c;
+      border: 11px solid white;
+      box-shadow: 0 6px 32px rgba(0, 0, 0, 0.44);
+      margin-top: 70px;
+      border-radius: 11px;
+      margin-left: 70px;
+      margin-bottom: 70px; }
+      /* line 117, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main .right .video {
+        width: 352px;
+        height: 198px; }
+    /* line 124, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+    .sec2 .main ul {
+      font-size: 26px;
+      margin-left: 34px;
+      padding-top: 25px;
+      padding-right: 65px; }
+      /* line 129, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main ul:before, .sec2 .main ul:after {
+        content: none; }
+      /* line 134, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main ul .li {
+        font-size: 17px;
+        padding-left: 5px;
+        margin-bottom: 21px;
+        letter-spacing: -0.1px; }
+        /* line 139, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+        .sec2 .main ul .li:before, .sec2 .main ul .li:after {
+          content: none; }
+    /* line 144, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+    .sec2 .main .button {
+      width: 234px;
+      height: 54px;
+      border-radius: 27px;
+      color: white;
+      text-align: center;
+      line-height: 55px;
+      padding-left: 30px;
+      background-image: url(../img/arrowleft.png);
+      background-color: #283a83;
+      background-size: 23px 5px;
+      background-position: 35px 25px;
+      margin-top: 73px;
+      margin-left: 1px;
+      font-size: 17px;
+      transition: all 0.25s;
+      cursor: pointer;
+      font-family: "MuseoCyrl", sans-serif;
+      display: block;
+      margin-bottom: 50px; }
+      /* line 164, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript2/src/desktop_old/css/sass/style.scss */
+      .sec2 .main .button:hover {
+        background-color: #112e75; }
+
+/*# sourceMappingURL=style.css.map */

@@ -88,8 +88,8 @@ button, input, textarea {
     @include sec();
 }
 .sec1 {
-    height: 848px;
-    background: url(../img/bgmobile2.jpg) no-repeat center bottom;
+    height: 830px;
+    background: url(../img/newbg1.jpg) no-repeat center bottom;
     .header {
         background-color: rgb(23,37,93);
         height: 65px;
@@ -99,7 +99,7 @@ button, input, textarea {
             margin-left: 23px;
             .logo {
                 background: url(../img/logo.png) no-repeat;
-                width: 45px;
+                width: 45px; 
                 height: 45px;
                 float: left;
             }
@@ -160,7 +160,7 @@ button, input, textarea {
             background-image: url(../img/phone.png);
             width: 50px;
             height: 50px;
-            margin-right: 22px;
+            margin-right: 24px;
             margin-top: 17px;
         }
     }
@@ -202,99 +202,120 @@ button, input, textarea {
     }
 }
 .section {
-    height: 325px;
-    background: url(../img/bg2.jpg)no-repeat center;
+    height: 413px;
+    background: url(../img/newbg2.jpg)no-repeat center;
     &.sec2 {
         div {
         }
         h2 {
-            color: #0d2a66;
-            font-size: 21px;
+            color: white;
+            font-size: 22px;
             line-height: 26px;
-            padding-top: 20px;
+            padding-top: 72px;
+            
         }
         .video {
-            width: 100%;
-            height: 161px;
-            margin: 43px auto 0;
+                width: 100%;
+                height: 161px;
+                margin: 37px auto 0;
         }
     }
 }
 .sec3 {
-    background: url(../img/bgmobile.jpg) no-repeat center bottom;
-    height: 745px;
+    background: url(../img/newbg3.jpg) no-repeat center bottom;
+    height: 575px;
     h2 {
-        color: #0d2a66;
-        font-size: 21px;
-        line-height: 26px;
-        padding-top: 39px;
-        margin-bottom: 21px;
+            color: #2d467a;
+            font-size: 22px;
+            line-height: 26px;
+            padding-top: 28px;
     }
-    .ul {
-        .li {
+    .slider-wrap{
+        height: 500px;
+    }
+    ul {
+        list-style: none;
+        position: relative;
+        li {
+            
             width: 100%;
-            padding-left: 17px;
-            margin-right: -15px;
             margin-bottom: 3px;
             .img {
-                float: left;
-                width: 80px;
-                height: 60px;
-                background-color: white;
+                width:100%;
+                height: 180px;
                 &.img1 {
-                    background-image: url(../img/iconmobile1.png);
-                    background-position: 11px 11px;
-                    background-repeat: no-repeat;
+                    background-image: url(../img/img1.png);
+                    background-position: center 24px;
                 }
                 &.img2 {
-                    background-image: url(../img/iconmobile2.png);
-                    background-position: 11px 16px;
-                    background-repeat: no-repeat;
-                    height: 66px;
+                    background-image: url(../img/img2.png);
+                    background-position: center 30px;
                 }
                 &.img3 {
-                    background-image: url(../img/iconmobile3.png);
-                    background-position: 12px 7px;
-                    background-repeat: no-repeat;
-                    height: 73px;
+                    background-image: url(../img/img3.png);
                 }
                 &.img4 {
-                    background-image: url(../img/iconmobile4.png);
-                    background-position: 13px 12px;
-                    background-repeat: no-repeat;
-                    height: 72px;
+                    background-image: url(../img/img4.png);
+                    background-position: center 41px;
                 }
                 &.img5 {
-                    background-image: url(../img/iconmobile5.png);
-                    background-position: 13px 6px;
-                    background-repeat: no-repeat;
-                    height: 76px;
+                    background-image: url(../img/img5.png);
+                    background-position: center 36px;
                 }
                 &.img6 {
-                    background-image: url(../img/iconmobile6.png);
-                    background-position: 11px 13px;
-                    background-repeat: no-repeat;
-                    height: 80px;
+                    background-image: url(../img/img6.png);
+                    background-position: center 34px;
                 }
             }
-            .text {
-                float: left;
-                margin-left: 15px;
-                font-size: 17px;
-                font-weight: 400;
-                line-height: 23px;
-                font-family: $fontfamily;
-                color: #0d2a66;
-                margin-top: 13px;
+        }
+        h3 {
+            text-align: left;
+            font-size: 30px;
+            margin-top: 3px;
+            line-height: 33px;
+            margin-left: 28px;
+                font-size: 22px;
+            padding-right: 20px;
+            &.small{
+                font-size: 24px;
+            }
+        }
+        p{
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 0.1px;
+            margin-left: 28px;
+            margin-top: 16px;
+            padding-right: 20px;
+        }
+    }
+    .slide {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 38px;        
+        text-align: center;
+        a {
+            background: white;
+            width: 11px;
+            height: 11px;
+            border: 1px solid #283a83;
+            display: inline-block;
+            margin: 0 2.5px;
+            border-radius: 100%;
+            &.active{
+                background: #283a83;
             }
         }
     }
+    
+    
 }
 .sec4 {
-    background: url(../img/bg4.jpg) no-repeat center top;
+    background: url(../img/newbg4.jpg) no-repeat center top;
     width: 100%;
+    padding-bottom: 20px;
     .step1 {
-        height: 557px;
         background-color: #17255d;
         h2 {
             font-size: 21px;
@@ -352,7 +373,6 @@ button, input, textarea {
     }
     .step2 {
         display: none;
-        min-height: 557px;
         padding-bottom: 24px;
         background-color: #17255d;
         h2 {
@@ -575,7 +595,6 @@ button, input, textarea {
     }
     .step2_b {
         display: none;
-        min-height: 557px;
         padding-bottom: 24px;
         background-color: #17255d;
         h2 {
@@ -778,7 +797,6 @@ button, input, textarea {
     }
     .step3 {
         display: none;
-        padding-bottom: 50px;
         h2 {
             width: 289px;
             height: 43px;
@@ -787,22 +805,24 @@ button, input, textarea {
             font-size: 20px;
             font-weight: 400;
             line-height: 26px;
-            padding-top: 25px;
+            padding-top: 56px;
             margin-left: 7px;
         }
         .form {
             text-align: center;
             width: 277px;
-            height: 352px;
+            height: 428px;
             background-color: #e8edff;
             border-radius: 23px;
-            margin: 62px auto 0;
+            margin: 60px auto 0;
+            padding-top: 5px;
             .text {
-                font-size: 18px;
-                color: blue;
-                line-height: 32px;
-                text-align: center;
-                padding-top: 25px;
+                        color: #0d2a66;
+                        font-family: GothamPro;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        padding-top: 23px;
             }
             .input {
                 width: 231px;
@@ -813,14 +833,14 @@ button, input, textarea {
                 text-align: center;
                 font-size: 18px;
                 display: block;
-                margin: 11px auto 0;
+                margin: 10px auto 0;
             }
             .button {
                 width: 234px;
                 height: 54px;
                 background-color: #283a83;
                 border-radius: 27px;
-                margin: 31px auto 0;
+                margin: 24px auto 0;
                 display: block;
                 color: white;
                 font-size: 18px;
@@ -845,16 +865,17 @@ button, input, textarea {
 }
 footer {
     width: 100%;
-    height: 147px;
-    background-color: #6975a4;
+    background-color: #17255d;
     .left {
-        float: left;
-        width: 200px;
+        background:url(../img/token.png) no-repeat center;
+        background-size:45px 45px;
+        background-position: 25px 28px;        width: 100%;
         .token {
-            margin-left: 24px;
-            padding-top: 17px;
+            
+            margin-left: 80px;
+            padding-top: 23px;
             color: white;
-            font-family: $afont;
+            font-family: $afont; 
             font-size: 24px;
             line-height: 28px;
         }
@@ -864,17 +885,29 @@ footer {
             font-family: $fontfamily;
             font-size: 14px;
             font-weight: 400;
-            line-height: 28px;
-            margin-left: 24px;
-            padding-top: 10px;
+            line-height: 16px;
+            margin-left: 81px;
+            padding-top: 7px;
             letter-spacing: -0.2px;
+        }
+        .phone {
+            background: url(../img/phonemobile.png) no-repeat center;
+            background-position: 2px 3px;
+            width: 40px;
+            float: right;
+            height: 40px;
+            margin-right: 26px;
+            margin-top: 24px;
+            &:hover {
+            }
         }
         .confidential {
             font-size: 13px;
+            float: left;
             color: white;
             text-align: left;
-            padding-top: 12px;
-            margin-left: 24px;
+            padding-top: 24px;
+            margin-left: 26px;
             cursor: pointer;
             &:hover {
                 text-decoration: underline;
@@ -882,44 +915,30 @@ footer {
         }
     }
     .right {
-        padding-top: 18px;
-        width: 120px;
+        padding-top: 29px;
+        width: 100%;
         //background-color: #6975a4;
-        float: left;
-        .phone {
-            background: url(../img/phonemobile.png) no-repeat center;
-            background-position: 2px 3px;
-            width: 40px;
-            float: right;
-            margin-right: 30px;
-            margin-left: 23px;
+        .viber {
+            background: url(../img/vibermobile.png) no-repeat center;
+            background-position: 1px 1px;
+            width: 45px;
+            margin-right: 148px;
+            margin-left: 6px;
             height: 40px;
-            display: inline-block;
+            float: right;
             &:hover {
             }
         }
         .telegram {
-            background: url(../img/telegrammobile.png) no-repeat center;
-            background-position: 3px 1px;
-            width: 40px;
-            float: left;
-            height: 40px;
-            display: inline-block;
-            margin-left: 14px;
+                background: url(../img/telegrammobile.png) no-repeat center;
+                background-position: 6px 1px;
+                        width: 43px;
+                        float: left;
+                        height: 40px;
+                        margin-left: 11px;
             &:hover {
             }
-        }
-        .viber {
-            background: url(../img/vibermobile.png) no-repeat center;
-            background-position: 2px 0px;
-            width: 40px;
-            float: left;
-            height: 40px;
-            display: inline-block;
-            margin-left: 10px;
-            &:hover {
-            }
-        }
+        } 
     }
 }
 

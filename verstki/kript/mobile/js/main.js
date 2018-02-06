@@ -1,3 +1,12 @@
+$.arcticmodal('setDefault', {
+    overlay:{
+        css:{
+            backgroundColor: '#131e48',
+            opacity: .88
+        }
+    }
+});
+
 var courses = {
     bit_dol: 1,
     bit_rub: 1 * 1,
@@ -165,6 +174,24 @@ function get_course() {
 $(document).ready(function() {
 
     get_course();
+
+
+
+slider2 = $('.sec3').find('ul').bxSlider({
+        infiniteLoop: true,
+        pagerCustom:'.slide',
+        controls: false,
+        pager:true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+    onSlideNext:function($slideElement, oldIndex, newIndex){},
+      onSlidePrev:function($slideElement, oldIndex, newIndex){ },
+      onSliderLoad:function(){
+      }
+    });
 
     $('input[name="name"]').blur(function() {
         if ($(this).val().length < 2) {

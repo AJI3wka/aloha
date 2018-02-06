@@ -1,3 +1,12 @@
+$.arcticmodal('setDefault', {
+    overlay:{
+        css:{
+            backgroundColor: '#131e48',
+            opacity: .88
+        }
+    }
+});
+
 var courses = {
     bit_dol: 1,
     bit_rub: 1 * 1,
@@ -161,9 +170,21 @@ function get_course() {
 
     }
 
+    function getURLParameter(name) {
+        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
+    }
+function init_open_blog(){
+    var open = getURLParameter('open');
+    if (open=="blog") {
+        $('.blog-pop').arcticmodal();
+    }
+
+}
+
 $(document).ready(function() {
 
     get_course();
+    init_open_blog();
 
     $('input[name="name"]').blur(function() {
         if ($(this).val().length < 2) {
@@ -183,10 +204,14 @@ $(document).ready(function() {
     $('input[name="phone"]').focus(function() {
         $(this).removeClass('error-input');
     });
+    $('.blog').click(function(){
+        $('.blog-pop').arcticmodal();
+    });
+    $('.blog-pop .close').click(function(){
+        $(this).closest('.blog-pop').arcticmodal('close');
+    });
 
-    function getURLParameter(name) {
-        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
-    }
+
 
     function run_geo(geo_url) {
         $.ajax({
@@ -228,7 +253,22 @@ $(document).ready(function() {
     });
 
 
-
+slider2 = $('.sec3').find('ul').bxSlider({
+        infiniteLoop: true,
+        pagerCustom:'.pager',
+        controls: false,
+        pager:true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+    onSlideNext:function($slideElement, oldIndex, newIndex){},
+      onSlidePrev:function($slideElement, oldIndex, newIndex){ },
+      onSliderLoad:function(){
+      }
+    });
+    
 
 
     $('<input type="hidden" />').attr({

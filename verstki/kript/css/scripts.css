@@ -466,7 +466,11 @@ footer .left .logo{
 	vertical-align: middle;
 }
 
-
+.blog-pop{
+	width: 588px;
+	background: white;
+	border-radius: 25px;
+}
 
 .sec5 .block_2 .right img{
     animation-name: spin1;
