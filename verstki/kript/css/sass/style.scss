@@ -661,9 +661,11 @@ button, input, textarea {
                 text-align: center;
                 cursor: pointer;
                 transition: all 0.25s;
+                
                 &:hover{
-                    background-color:#e8edff;
-                }
+                    background-color:#223172;
+                    color:white;
+                }  
             }
             .btn {
                 float: left;
@@ -676,7 +678,7 @@ button, input, textarea {
                 margin-top: 40px;
                 color:white;
                 margin-left: 4px;
-                padding-right: 4px;
+                padding-right: 4px; 
                 cursor: pointer;
                 transition: all 0.25s;
                 outline: 0;
@@ -916,8 +918,10 @@ button, input, textarea {
                 text-align: center;
                 cursor: pointer;
                 transition: all 0.25s;
+                
                 &:hover{
-                    background-color:#283a83;
+                    background-color:#223172;
+                    color:white;
                 }
             }
             .btn {
@@ -971,8 +975,9 @@ button, input, textarea {
                 display: inline-block;
                 cursor: pointer;
                 margin-top: 16px;
+                text-decoration: underline;
                 &:hover{
-                    background-color:#283a83;  
+                    text-decoration: none;
                 }
             }
             .text {
@@ -1021,6 +1026,10 @@ footer {
     .left {
         margin-top: 43px;
         float: left;
+
+    background: url(../img/logo2.png) no-repeat;
+    padding-left: 60px;
+    background-position: 0px -2px;
         .token {
             color: white;
             font-family: $afont;
@@ -1066,7 +1075,7 @@ footer {
         line-height: 18px;
         float: right;
         text-align: left;
-        margin-right: 130px;
+        margin-right: 70px;
         margin-top: 48px;
         color: white;
         cursor: pointer;
@@ -1083,7 +1092,7 @@ footer {
         color: white;
         line-height: 38px;
         border-radius: 22px;
-        margin-right: 120px;
+        margin-right: 80px;
         margin-top: 44px;
         cursor: pointer;
         transition: all 0.25s;
@@ -1762,6 +1771,8 @@ footer {
                             cursor: pointer;
                             margin-right: 11px;
                             background:#e8edff;
+
+                        transition:all 0.25s;
                 &:hover{
                     background-color:#223172;
                     color:white;
@@ -2035,10 +2046,11 @@ footer {
                         text-align: center;
                         cursor: pointer;
                         background: #e8edff;
-                &:hover{
-                    background-color:#223172;
-                    color:white;
-                }
+                        transition:all 0.25s;
+                        &:hover{
+                            background-color:#223172;
+                            color:white;
+                        }
             }
             .btn {    
                     float: left;
@@ -2092,9 +2104,10 @@ footer {
                         display: inline-block;
                         cursor: pointer;
                         margin-top: 9px;
-                &:hover{
-                    background-color:#283a83;
-                }
+                            text-decoration: underline;
+                        &:hover{
+                            text-decoration: none;
+                        }
             }
             .text {
                 color: #0d2a66;
@@ -2142,7 +2155,7 @@ footer {
         margin-top: 31px;
         float: left;
         padding-bottom: 25px;
-        padding-left: 80px;
+        padding-left: 60px;
         background: url(../img/logo2.png) no-repeat center;
         background-position: 10px 1px; 
         background-size: 38px;
