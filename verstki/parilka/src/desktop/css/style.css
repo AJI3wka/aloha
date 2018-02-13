@@ -1,4 +1,4 @@
-/* line 32, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 30, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 33, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 31, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -14,43 +14,41 @@
   height: 0;
   clear: both; }
 
-/* line 34, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 32, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 35, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 33, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
   font-weight: 300; }
 
-/* line 36, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 34, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 body {
   font-family: "Century Gothic", sans-serif;
   font-weight: 400;
   color: #141414; }
 
-/* line 37, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 35, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 38, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 36, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 button, input, textarea {
   outline: none; }
 
-/* line 39, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 37, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 section {
   width: 100%;
   min-width: 1200px;
   overflow: hidden;
   position: relative;
-  z-index: 2;
-  min-height: 600px;
-  background-size: cover !important; }
-  /* line 23, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  z-index: 2; }
+  /* line 21, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   section > div {
     max-width: 1200px;
     position: relative;
@@ -59,7 +57,7 @@ section {
     margin: 0 auto;
     padding: 0 15px; }
 
-/* line 43, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 41, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0px;
@@ -68,26 +66,27 @@ section {
   background: url(../maket.jpg) no-repeat top center;
   height: 13200px;
   opacity: 0.5;
-  z-index: 10; }
+  z-index: 10;
+  display: none; }
 
-/* line 53, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 52, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec1 {
   min-height: 137px;
   height: 90px;
   background-color: white;
   border-bottom: 1px solid black;
   overflow: inherit; }
-  /* line 59, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 58, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec1 .header {
     min-height: 90px; }
-    /* line 61, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 60, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec1 .header .left {
       display: inline-block;
       float: left;
       width: 380px;
       padding-top: 8px;
       height: 80px; }
-      /* line 67, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 66, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec1 .header .left .logo {
         font-size: 18px;
         color: black;
@@ -99,7 +98,7 @@ section {
         width: 200px;
         height: 76px;
         padding-top: 27px; }
-      /* line 81, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 80, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec1 .header .left .exp {
         float: left;
         font-size: 17px;
@@ -107,14 +106,14 @@ section {
         margin-left: 8px;
         line-height: 18px;
         letter-spacing: -0.6px; }
-    /* line 92, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 91, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec1 .header .right {
       padding-top: 7px;
       display: inline-block;
       float: right;
       height: 90px;
       margin-right: 0px; }
-      /* line 98, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 97, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec1 .header .right .phone {
         background: url(../img/phone.png) no-repeat center;
         background-position: 12px 14px;
@@ -126,7 +125,7 @@ section {
         line-height: 29px;
         font-family: "Avantibold";
         letter-spacing: 0px; }
-      /* line 112, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 111, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec1 .header .right .button {
         float: right;
         width: 200px;
@@ -141,17 +140,17 @@ section {
         margin-top: 17px;
         text-align: center;
         line-height: 55px; }
-  /* line 133, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 132, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec1 .menu {
     clear: both; }
-    /* line 135, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 134, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec1 .menu ul {
       height: 47px;
       text-align: center;
       list-style: none;
       font-size: 0;
       padding-top: 13px; }
-      /* line 143, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 142, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec1 .menu ul .li {
         height: 33px;
         color: #404040;
@@ -165,22 +164,23 @@ section {
         cursor: pointer;
         border-bottom: 5px solid transparent;
         transition: all 0.25s; }
-        /* line 157, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        /* line 156, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
         .sec1 .menu ul .li.active, .sec1 .menu ul .li:hover {
           height: 36px;
           border-bottom: 5px solid #fccd11; }
 
-/* line 167, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 166, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec2 {
   background: url(../img/bg1_1.jpg) no-repeat center;
   height: 794px;
-  padding-top: 41px; }
+  padding-top: 41px;
+  background-size: auto; }
   /* line 172, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec2 .yellow {
     height: 443px;
     width: 730px;
     margin-left: 170px;
-    border: 8px solid #fccd11;
+    border: 8px solid transparent;
     padding-left: 91px;
     padding-top: 26px;
     padding-right: 67px; }
@@ -255,26 +255,81 @@ section {
     .sec2 .katalogwrap .update {
       text-align: right;
       font-size: 17px;
-      line-height: 55px;
+      line-height: 56px;
       margin-right: 0px;
       letter-spacing: 0.2px; }
-  /* line 272, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 271, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec2 .slide-control {
-    width: 250px;
-    height: 80px;
-    margin: 0px auto;
-    font-size: 25px; }
+    width: 100%;
+    height: 64px;
+    font-size: 25px;
+    clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 67px;
+    text-align: center; }
+    /* line 280, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec2 .slide-control .arowleft {
+      height: 39px;
+      width: 41px;
+      float: left;
+      margin-left: 491px;
+      background: url(../img/arrowleft1.png) no-repeat center;
+      background-position: 3px 0px; }
+    /* line 288, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec2 .slide-control .arowright {
+      float: right;
+      height: 39px;
+      width: 41px;
+      margin-right: 494px;
+      background: url(../img/arrowright1.png) no-repeat center;
+      background-position: 4px 2px; }
+    /* line 296, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec2 .slide-control ul {
+      margin-top: 8px;
+      display: inline-block;
+      list-style-type: none; }
+      /* line 300, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec2 .slide-control ul .li {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        border: 2px solid #fccd11;
+        margin: 0px auto; }
+        /* line 306, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec2 .slide-control ul .li.active {
+          background-color: #fccd11; }
 
-/* line 289, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 321, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec3 {
   background: url(../img/bg2.jpg) no-repeat center;
-  height: 880px; }
-  /* line 292, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  height: 880px;
+  border-top: 1px solid #fccd11;
+  overflow: initial;
+  z-index: 4px; }
+  /* line 327, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec3 .akcija {
+    width: 463px;
+    height: 71px;
+    font-size: 28px;
+    color: green;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 19px;
+    padding-left: 53px;
+    margin: -72px auto 0;
+    background-color: white;
+    background: url(../img/sale.png) no-repeat right;
+    background-position: 388px 15px;
+    border-top: 1px solid #fccd11;
+    border-left: 1px solid #fccd11;
+    border-right: 1px solid #fccd11; }
+  /* line 344, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec3 .left {
     width: 470px;
     float: left;
     padding-top: 125px; }
-    /* line 296, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 348, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left h2 {
       font-size: 62px;
       font-weight: 700;
@@ -285,7 +340,7 @@ section {
       padding-right: 32px;
       text-align: center;
       letter-spacing: 2.5px; }
-    /* line 308, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 360, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left p {
       text-align: right;
       font-size: 37px;
@@ -293,13 +348,13 @@ section {
       color: orange;
       padding-right: 66px;
       margin-top: 36px; }
-      /* line 315, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 367, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec3 .left p .fevral {
         font-size: 27px;
         line-height: 27px;
         color: green;
         font-weight: 400; }
-    /* line 322, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 374, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left .buttn {
       margin-top: 163px;
       text-align: center;
@@ -309,72 +364,88 @@ section {
       height: 58px;
       line-height: 53px;
       font-family: "Century Gothic"; }
-    /* line 332, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 384, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left .calculator {
       margin-top: 71px;
       height: 141px; }
-    /* line 336, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 388, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left h3 {
       float: left;
       font-size: 20px; }
-    /* line 341, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 393, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .left .timer {
-      margin-top: 34px;
+      margin-top: 15px;
       width: 471px;
-      height: 136px; }
-      /* line 345, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      height: 106px;
+      display: inline-block;
+      float: left; }
+      /* line 401, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec3 .left .timer .schet {
         border: 4px solid orange;
         text-align: center;
-        padding-top: 15px;
-        margin-top: 17px;
-        margin-left: 12px;
-        float: left;
-        width: 105px;
+        width: 103px;
         height: 105px;
-        font-size: 56px; }
-        /* line 355, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        font-size: 56px;
+        float: left;
+        padding-top: 13px; }
+        /* line 409, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
         .sec3 .left .timer .schet .small {
-          font-size: 20px; }
-  /* line 365, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          font-size: 20px;
+          display: block;
+          line-height: 20px; }
+        /* line 417, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec3 .left .timer .schet.schet2 {
+          margin-left: 20px; }
+        /* line 420, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec3 .left .timer .schet.schet3 {
+          margin-left: 18px; }
+        /* line 423, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec3 .left .timer .schet.schet4 {
+          margin-left: 18px; }
+  /* line 435, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec3 .right {
     float: right;
     width: 520px; }
-    /* line 368, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 438, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right .bonus {
-      padding-top: 86px;
-      padding-left: 50px; }
-    /* line 373, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      padding-top: 86px; }
+    /* line 442, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right ul {
-      margin-top: 28px; }
-    /* line 377, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      margin-top: 31px;
+      padding-left: 8px; }
+    /* line 449, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right .zakaz {
       font-size: 18px;
       line-height: 29px;
+      padding-left: 48px;
       background: url(../img/home.png) no-repeat center;
-      background-position: 10px 10px; }
-    /* line 384, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      background-position: 5px 13px; }
+    /* line 457, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right .free {
       font-size: 23px;
       font-weight: 700;
       color: green; }
-    /* line 389, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 462, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right .li {
       background: url(../img/plus.png) no-repeat center;
-      line-height: 34px;
-      background-position: 3px 10px;
-      font-size: 18px; }
-    /* line 395, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-    .sec3 .right .vugoda {
-      margin-top: 15px;
+      line-height: 26px;
+      background-position: 2px 4px;
       font-size: 18px;
-      font-weight: 600; }
-    /* line 400, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      padding-left: 42px;
+      margin-bottom: 10px;
+      list-style: none; }
+    /* line 471, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec3 .right .vugoda {
+      margin-top: 21px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 49px; }
+    /* line 477, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec3 .right .green {
       margin-left: 6px;
       font-size: 24px;
       color: green; }
-  /* line 407, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 484, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec3 .mangal {
     height: 40px;
     font-size: 18px;
@@ -382,79 +453,96 @@ section {
     margin-top: 2px;
     line-height: 34px;
     color: green;
+    padding-left: 50px;
     background: url(../img/present.png) no-repeat center;
-    background-position: 10px 10px; }
+    background-position: 7px 2px; }
 
-/* line 422, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-.sec4 h1 {
-  font-size: 38px;
-  padding-top: 77px; }
-
-/* line 426, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-.sec4 .line {
-  background-color: #fccd11;
-  width: 112px;
-  height: 3px;
-  margin: 0 auto;
-  margin-top: 22px; }
-
-/* line 433, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-.sec4 ul {
-  margin-top: 96px;
-  list-style: none;
-  text-align: center;
-  float: left; }
-  /* line 440, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-  .sec4 ul .li {
-    width: 138px;
-    display: inline-block;
-    height: 138px;
-    background-color: #ffbe10;
-    border-radius: 100%;
-    float: left;
-    text-align: center;
-    margin: auto 77px; }
-    /* line 449, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-    .sec4 ul .li .img {
-      margin: 0px 25px;
-      height: 126px; }
-      /* line 452, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-      .sec4 ul .li .img.img1 {
-        background-image: url(../img/ico1.png);
-        background-position: 5px 32px;
-        background-repeat: no-repeat; }
-      /* line 457, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-      .sec4 ul .li .img.img2 {
-        background-image: url(../img/ico2.png);
-        background-position: 5px 32px;
-        background-repeat: no-repeat; }
-      /* line 462, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-      .sec4 ul .li .img.img3 {
-        background-image: url(../img/ico3.png);
-        background-position: 5px 32px;
-        background-repeat: no-repeat; }
-      /* line 467, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-      .sec4 ul .li .img.img4 {
-        background-image: url(../img/ico4.png);
-        background-position: 5px 32px;
-        background-repeat: no-repeat; }
-    /* line 474, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
-    .sec4 ul .li .text {
+/* line 499, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec4 {
+  height: 600px; }
+  /* line 501, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec4 h1 {
+    font-size: 38px;
+    padding-top: 77px; }
+  /* line 505, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec4 .line {
+    background-color: #fccd11;
+    width: 112px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 22px; }
+  /* line 512, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec4 ul {
+    margin-top: 96px;
+    list-style: none;
+    text-align: center; }
+    /* line 518, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec4 ul .li {
+      width: 200px;
+      display: inline-block;
       text-align: center;
-      font-size: 22px;
-      width: 300px;
-      height: 50px;
-      margin: 0px auto;
-      line-height: 25px; }
+      margin: auto 53px;
+      position: relative;
+      vertical-align: top; }
+      /* line 525, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec4 ul .li.left {
+        margin-left: 0; }
+      /* line 528, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec4 ul .li.right {
+        margin-right: 0; }
+      /* line 531, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec4 ul .li .img {
+        margin: 0 auto;
+        background-color: #fccd11;
+        border-radius: 100%;
+        height: 138px;
+        width: 138px; }
+        /* line 538, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec4 ul .li .img.img1 {
+          background-image: url(../img/ico1.png);
+          background-position: 30px 32px;
+          background-repeat: no-repeat; }
+        /* line 543, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec4 ul .li .img.img2 {
+          background-image: url(../img/ico2.png);
+          background-position: 32px 32px;
+          background-repeat: no-repeat; }
+        /* line 548, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec4 ul .li .img.img3 {
+          background-image: url(../img/ico3.png);
+          background-position: 35px 32px;
+          background-repeat: no-repeat; }
+        /* line 553, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec4 ul .li .img.img4 {
+          background-image: url(../img/ico4.png);
+          background-position: 36px 34px;
+          background-repeat: no-repeat; }
+      /* line 560, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec4 ul .li .text {
+        text-align: center;
+        font-size: 23px;
+        width: 300px;
+        height: 50px;
+        margin: 0px auto;
+        line-height: 50px;
+        margin-left: -150px;
+        position: absolute;
+        left: 50%;
+        top: 162px; }
+        /* line 571, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec4 ul .li .text span {
+          vertical-align: middle;
+          line-height: 25px;
+          display: inline-block; }
 
-/* line 488, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 584, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 h1 {
   font-size: 40px;
   padding-top: 50px;
   letter-spacing: -0.9px;
   margin-right: 6px; }
 
-/* line 494, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 590, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 .line {
   background-color: #fccd11;
   width: 112px;
@@ -462,29 +550,32 @@ section {
   margin: 0 auto;
   margin-top: 20px; }
 
-/* line 501, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 597, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 p {
   width: 100%;
   padding-top: 51px;
   font-size: 18px;
   line-height: 24px; }
 
-/* line 509, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 605, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 ul {
-  margin-top: 49px; }
+  margin-top: 25px; }
 
-/* line 512, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 608, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 .li {
   font-size: 18px;
   margin-left: 10px;
   line-height: 24px; }
+  /* line 613, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec5 .li first {
+    list-style: none; }
 
-/* line 518, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 617, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 .text1 {
   margin-top: 27px;
   font-size: 18px; }
 
-/* line 524, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 623, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec5 .text2 {
   font-size: 30px;
   text-align: center;
@@ -492,23 +583,23 @@ section {
   line-height: 32px;
   margin-left: 9px; }
 
-/* line 532, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 631, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec6 {
   background: url(../img/bg3.jpg) no-repeat center;
   height: 640px;
   margin-top: 77px; }
-  /* line 536, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 635, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec6 .left {
     padding-top: 162px;
     float: left;
     text-align: center; }
-    /* line 541, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 640, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .left .tablet h2 {
       font-size: 36px;
       padding-top: 35px;
       margin-left: 166px;
       color: #ceb806; }
-    /* line 548, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 647, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .left .tablet p {
       text-align: left;
       color: black;
@@ -517,20 +608,20 @@ section {
       font-size: 22px;
       line-height: 25px;
       font-style: italic; }
-    /* line 558, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 657, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .left .tablet .img1 {
       margin-left: 161px;
       background: url(../img/doska.png) no-repeat center;
       background-position: 10px 11px;
       height: 88px;
       width: 150px; }
-  /* line 570, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 669, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec6 .right {
     float: right;
     padding-top: 152px;
     width: 400px;
     text-align: center; }
-    /* line 576, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 675, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .right p {
       margin-top: 33px;
       color: white;
@@ -540,14 +631,14 @@ section {
       line-height: 24px;
       letter-spacing: -0.4px;
       font-style: italic; }
-    /* line 586, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 685, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .right h3 {
       margin-left: 42px;
       margin-right: 37px;
       color: white;
       font-size: 17px;
       letter-spacing: 0.5px; }
-    /* line 593, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 692, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .right .text3 {
       margin-top: 14px;
       font-size: 25px;
@@ -556,14 +647,14 @@ section {
       line-height: 30px;
       letter-spacing: -0.5px;
       color: white; }
-    /* line 602, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 701, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .right .line {
       margin-left: 165px;
       margin-top: 25px;
       width: 53px;
       height: 1px;
       background-color: #ceb806; }
-    /* line 609, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 708, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec6 .right .buttn {
       color: black;
       padding-top: 18px;
@@ -575,33 +666,33 @@ section {
       background-position: 17px 4px;
       background-color: #ceb806; }
 
-/* line 624, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 723, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec7 h2 {
   padding-top: 79px;
   font-size: 38px;
   margin-right: 7px; }
 
-/* line 629, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 728, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec7 .line {
   margin-top: 25px;
   width: 110px;
   height: 1px;
   background-clip: #ceb806; }
 
-/* line 635, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 734, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec7 .ul {
   padding-top: 82px; }
-  /* line 637, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 736, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec7 .ul .li {
     width: 500px;
     float: left;
     margin-left: 100px;
     margin-right: -100px;
     min-height: 160px; }
-    /* line 643, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 742, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec7 .ul .li:nth-of-type(2n-1) {
       clear: both; }
-    /* line 646, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 745, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec7 .ul .li .h4 {
       font-size: 24px;
       width: 383px;
@@ -611,7 +702,7 @@ section {
       margin-left: 50px;
       height: 29px;
       border-bottom: 2px solid #ceb806; }
-    /* line 656, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 755, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec7 .ul .li .img {
       float: left;
       width: 156px;
@@ -619,42 +710,42 @@ section {
       margin-top: -31px;
       border-radius: 81px;
       border: 4px solid #ceb806; }
-      /* line 663, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 762, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img1 {
         background: url(../img/kryg1.png) no-repeat center;
         background-position: -12px -11px; }
-      /* line 669, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 768, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img2 {
         background: url(../img/kryg2.png) no-repeat center;
         background-position: -11px -14px;
         margin-bottom: 21px; }
-      /* line 675, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 774, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img3 {
         background: url(../img/kryg3.png) no-repeat center;
         background-position: -12px -11px; }
-      /* line 680, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 779, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img4 {
         background: url(../img/kryg4.png) no-repeat center;
         background-position: -12px -11px;
         margin-bottom: 56px; }
-      /* line 686, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 785, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img5 {
         background: url(../img/kryg5.png) no-repeat center;
         background-position: -12px -11px; }
-      /* line 691, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 790, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img6 {
         background: url(../img/kryg6.png) no-repeat center;
         background-position: -12px -11px;
         margin-bottom: 15px; }
-      /* line 697, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 796, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img7 {
         background: url(../img/kryg7.png) no-repeat center;
         background-position: -12px -11px; }
-      /* line 702, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 801, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec7 .ul .li .img.img8 {
         background: url(../img/kryg8.png) no-repeat center;
         background-position: -12px -11px; }
-    /* line 707, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 806, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec7 .ul .li .text {
       margin-top: 7px;
       text-align: left;
@@ -663,7 +754,7 @@ section {
       line-height: 21px;
       float: left; }
 
-/* line 723, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 822, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec7 .button {
   color: black;
   text-align: center;
@@ -676,21 +767,22 @@ section {
   text-transform: uppercase;
   margin: 100px auto 0; }
 
-/* line 740, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 837, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec8 {
-  height: 1372px;
-  padding-top: 85px; }
-  /* line 743, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  height: 1200px;
+  padding-top: 85px;
+  overflow: auto !important; }
+  /* line 841, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec8 h4 {
     font-size: 38px; }
-  /* line 746, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 844, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec8 .proektu {
     font-size: 20px;
     text-align: center;
     background-position: 288px 7px;
     height: 40px;
     line-height: 43px; }
-    /* line 752, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 850, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec8 .proektu span {
       vertical-align: middle;
       display: inline-block;
@@ -701,44 +793,376 @@ section {
       position: relative;
       top: -2px;
       background: url(../img/okey.png) no-repeat center; }
-  /* line 765, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 863, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec8 .line2 {
     width: 110px;
     height: 3px;
     background-color: #fccd11;
     margin: 16px auto 0; }
+  /* line 870, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec8 > div {
+    height: initial; }
+  /* line 874, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec8 > div.block {
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 100%;
+    height: 870px;
+    margin-top: 67px;
+    position: relative;
+    padding: 0;
+    background-image: url(../img/mak1.jpg);
+    background-size: auto !important;
+    border-top: 5px solid #fccd11;
+    background-position: center -7px;
+    border-bottom: 5px solid #fccd11; }
+    /* line 21, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div {
+      max-width: 1200px;
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      margin: 0 auto;
+      padding: 0 15px; }
+    /* line 887, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div {
+      width: 100%;
+      max-width: 100%; }
+      /* line 890, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .left {
+        float: left;
+        width: 568px;
+        margin-top: 8px; }
+        /* line 895, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .left .ul .li {
+          height: 97px;
+          margin-top: 9px;
+          display: block;
+          border: 2px solid #fccd11;
+          text-align: left;
+          font-size: 18px;
+          padding-top: 24px;
+          padding-left: 81px;
+          line-height: 27px; }
+      /* line 909, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right {
+        width: 1102px;
+        float: right; }
+        /* line 912, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top1 {
+          float: left; }
+          /* line 914, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top1 h3 {
+            text-align: left;
+            font-size: 24px;
+            font-weight: 600;
+            padding-left: 35px;
+            margin-top: 22px; }
+          /* line 921, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top1 ul {
+            margin-top: 17px;
+            padding-left: 53px; }
+          /* line 925, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top1 .li {
+            font-size: 19px;
+            line-height: 23px;
+            margin-bottom: 1px; }
+        /* line 932, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top2 {
+          width: 300px;
+          float: left;
+          margin-left: 38px; }
+          /* line 937, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena h5 {
+            text-align: left;
+            font-size: 23px;
+            font-weight: 700;
+            margin-top: 23px;
+            text-align: left; }
+            /* line 943, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+            .sec8 > div.block > div .right .top2 .cena h5 span {
+              text-decoration: line-through;
+              font-size: 18px;
+              font-weight: 400;
+              padding-left: 14px; }
+          /* line 952, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena .green {
+            color: green;
+            font-size: 33px;
+            font-weight: 700;
+            height: 120px;
+            padding-top: 12px;
+            background: url(../img/green.png) no-repeat center;
+            background-position: 80px 82px; }
+          /* line 962, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena ul {
+            padding-left: 22px; }
+            /* line 964, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+            .sec8 > div.block > div .right .top2 .cena ul .li {
+              font-size: 17px;
+              line-height: 25px; }
+          /* line 969, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena h3 {
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600; }
+        /* line 979, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top3 {
+          float: right;
+          width: 320px;
+          margin-top: 40px; }
+          /* line 983, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top3 h3 {
+            font-size: 23px;
+            margin-top: 22px;
+            font-weight: 600; }
+          /* line 988, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top3 .btn {
+            margin-top: 17px;
+            list-style: none;
+            text-align: center;
+            color: white; }
+            /* line 995, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+            .sec8 > div.block > div .right .top3 .btn .li {
+              background-color: #4b8903;
+              width: 320px;
+              height: 54px;
+              margin-top: 15px;
+              font-size: 18px;
+              line-height: 51px; }
+      /* line 1009, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .bottom .left {
+        float: left;
+        margin-top: 18px;
+        width: 345px;
+        height: 573px;
+        margin-left: 34px; }
+        /* line 1015, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .bottom .left ul {
+          width: 345px;
+          margin-bottom: 5px; }
+          /* line 1018, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .bottom .left ul .img1 {
+            width: 345px;
+            height: 285px;
+            background: url(../img/sparom3.jpg) no-repeat center;
+            background-position: 15px 1px;
+            border: 3px solid #fccd11; }
+          /* line 1025, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .bottom .left ul .img2 {
+            width: 345px;
+            height: 285px;
+            background: url(../img/sparom4.jpg) no-repeat center;
+            background-position: 1px 0px;
+            margin-top: 4px;
+            border: 3px solid #fccd11; }
+      /* line 1038, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .bottom .right {
+        float: right;
+        margin-top: 22px;
+        width: 716px;
+        height: 564px;
+        background: url(../img/home2.png) no-repeat center;
+        background-position: -210px -145px; }
+  /* line 1053, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec8 .last h3 {
+    font-size: 20px;
+    margin-top: 77px;
+    line-height: 26px; }
+  /* line 1058, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec8 .last .ul {
+    display: inline-block;
+    margin-top: 66px; }
+    /* line 1061, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 .last .ul .li {
+      padding-left: 28px;
+      border: 2px solid #fccd11;
+      width: 370px;
+      height: 53px;
+      background-color: white;
+      float: left;
+      line-height: 49px;
+      font-size: 18px;
+      font-style: italic;
+      text-align: left; }
+      /* line 1073, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 .last .ul .li.btn2 {
+        margin-left: 31px; }
+      /* line 1077, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 .last .ul .li.btn3 {
+        background-color: #4b8903;
+        margin-left: 29px;
+        text-align: left;
+        font-style: normal;
+        color: white;
+        height: 53px;
+        font-size: 18px;
+        line-height: 51px;
+        padding-left: 102px;
+        border: none; }
 
-/* line 774, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+@media only screen and (max-width: 1670px) {
+  /* line 1116, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec8 > div.block {
+    background-size: 1226px !important;
+    height: 636px; }
+    /* line 1120, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div .left {
+      width: 417px;
+      margin-top: 1px;
+      margin-left: 0px;
+      margin-left: 4px; }
+      /* line 1125, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .left .ul .li {
+        height: 73px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        font-size: 13.5px;
+        padding-top: 25px;
+        padding-left: 54px;
+        line-height: 15px; }
+    /* line 1137, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div .right {
+      width: 800px; }
+      /* line 1141, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right .top1 h3 {
+        margin-top: 14px;
+        padding-left: 11px;
+        font-size: 18px; }
+      /* line 1146, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right .top1 ul {
+        margin-top: 11px;
+        padding-left: 29px; }
+      /* line 1151, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right .top1 .li {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 1px; }
+      /* line 1158, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right .top2 {
+        width: 231px;
+        float: left;
+        margin-left: 22px; }
+        /* line 1164, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top2 .cena h5 {
+          font-size: 18px;
+          margin-top: 14px; }
+          /* line 1167, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena h5 span {
+            font-size: 12px; }
+        /* line 1173, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top2 .cena .green {
+          padding-top: 7px;
+          font-size: 24px;
+          background-size: 20px;
+          background-position: 57px 59px;
+          height: 82px; }
+        /* line 1181, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top2 .cena ul {
+          padding-left: 17px; }
+          /* line 1184, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top2 .cena ul .li {
+            font-size: 13px;
+            line-height: 18px; }
+        /* line 1189, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top2 .cena h3 {
+          text-align: left;
+          font-size: 13px;
+          font-weight: 600;
+          padding-top: 6px; }
+      /* line 1200, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .right .top3 {
+        float: right;
+        width: 239px; }
+        /* line 1203, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top3 h3 {
+          font-size: 17px;
+          margin-top: 3px; }
+        /* line 1207, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .right .top3 .btn {
+          width: 240px;
+          margin-top: 12px; }
+          /* line 1211, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+          .sec8 > div.block > div .right .top3 .btn .li {
+            background-color: green;
+            width: 240px;
+            height: 41px;
+            font-size: 13px;
+            line-height: 37px;
+            color: white;
+            margin-top: 10px; }
+    /* line 1226, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div .bottom .left {
+      margin-left: 12px;
+      margin-top: 15px;
+      width: 252px;
+      height: 420px; }
+      /* line 1231, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec8 > div.block > div .bottom .left ul {
+        width: 252px; }
+        /* line 1233, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .bottom .left ul .img1 {
+          background-position: 18px 1px;
+          border: 2px solid #fccd11;
+          background-size: 221px;
+          width: 252px;
+          height: 208px; }
+        /* line 1241, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        .sec8 > div.block > div .bottom .left ul .img2 {
+          width: 252px;
+          height: 208px;
+          background: url(../img/sparom4.jpg) no-repeat center;
+          background-position: 1px 0px;
+          margin-top: 4px;
+          border: 2px solid #fccd11;
+          background-size: 248px; }
+    /* line 1255, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec8 > div.block > div .bottom .right {
+      border: 2px solid #fccd11;
+      float: right;
+      margin-right: 5px;
+      margin-top: 16px;
+      width: 526px;
+      height: 416px;
+      background: url(../img/home2.png) no-repeat center;
+      background-position: 0px 0px;
+      background-size: contain; } }
+
+/* line 1299, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec9 {
   padding-top: 83px; }
-  /* line 776, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1301, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec9 h2 {
     font-size: 38px;
     letter-spacing: 0.2px; }
-  /* line 780, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1305, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec9 .line {
     width: 110px;
     height: 3px;
     margin-top: 20px; }
-  /* line 786, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1311, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec9 .left {
     margin-top: 67px;
     width: 730px;
     float: left;
     display: inline-block; }
-    /* line 791, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1316, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .left .li {
       width: 351px;
       height: 175px;
       float: left;
       margin-right: 13px;
       margin-bottom: 18px; }
-      /* line 797, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1322, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .left .li.ly {
         width: 701px;
         height: 156px;
         margin-top: 12px; }
-      /* line 803, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1328, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .left .li h3 {
         text-align: left;
         font-size: 20px;
@@ -748,7 +1172,7 @@ section {
         border-bottom: 1px solid #fccd11;
         margin-bottom: 16px;
         padding-left: 12px; }
-      /* line 813, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1338, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .left .li .btn {
         border: 1px solid #cbcbcb;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
@@ -761,15 +1185,15 @@ section {
         line-height: 47px;
         font-size: 18px;
         font-style: italic; }
-        /* line 826, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        /* line 1351, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
         .sec9 .left .li .btn.btn1 {
           width: 167px; }
-        /* line 831, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        /* line 1356, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
         .sec9 .left .li .btn.btn2 {
           width: 338px;
           margin-top: 11px;
           font-size: 18px; }
-        /* line 841, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+        /* line 1366, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
         .sec9 .left .li .btn.btn3 {
           width: 100%;
           font-size: 17px;
@@ -777,12 +1201,12 @@ section {
           text-align: left;
           padding-left: 11px;
           letter-spacing: 0.5px; }
-      /* line 850, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1375, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .left .li .line {
         width: 337px;
         height: 3px;
         background-color: #fccd11; }
-      /* line 856, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1381, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .left .li .btn4 {
         border: 1px solid #cbcbcb;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
@@ -796,7 +1220,7 @@ section {
         font-size: 17px;
         font-style: italic;
         background-color: #fccd11; }
-    /* line 872, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1397, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .left .ras4et {
       width: 700px;
       height: 60px;
@@ -805,7 +1229,7 @@ section {
       text-align: center;
       font-size: 18px;
       line-height: 62px; }
-  /* line 883, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1408, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec9 .right {
     float: right;
     margin-top: 91px;
@@ -813,30 +1237,30 @@ section {
     height: 636px;
     border: 1px solid #fccd11;
     text-align: center; }
-    /* line 890, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1415, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .right h4 {
       margin-top: 27px;
       font-size: 26px;
       margin-right: 23px; }
-    /* line 895, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1420, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .right p {
       font-size: 18px;
       margin-top: 17px;
       margin-right: 17px;
       line-height: 24px;
       letter-spacing: 0.2px; }
-      /* line 901, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1426, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right p span {
         color: #404040;
         text-decoration: underline; }
-    /* line 906, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1431, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .right .img {
       height: 207px;
       width: 100%;
       background: url(../img/domik.png) no-repeat center;
       background-position: 27px 15px;
       background-size: contain; }
-    /* line 914, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1439, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec9 .right .ul .li {
       width: 300px;
       height: 40px;
@@ -845,7 +1269,7 @@ section {
       margin-top: 7px;
       margin-bottom: 25px;
       letter-spacing: -0.5px; }
-      /* line 925, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1450, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right .ul .li .input1 {
         background: url(../img/face.png) no-repeat center;
         background-position: 8px 12px;
@@ -856,7 +1280,7 @@ section {
         padding-left: 37px;
         border: 1px solid rgba(116, 116, 116, 0.4);
         box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41); }
-      /* line 937, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1462, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right .ul .li .input2 {
         background: url(../img/phone2.png) no-repeat center;
         background-position: 10px 10px;
@@ -866,7 +1290,7 @@ section {
         text-align: left;
         padding-left: 37px;
         border: 1px solid #f9c40b; }
-      /* line 948, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1473, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right .ul .li .input3 {
         background: url(../img/dwnld.png) no-repeat center;
         background-position: 9px 9px;
@@ -881,7 +1305,7 @@ section {
         letter-spacing: -0.4px;
         font-style: italic;
         padding-bottom: 15px; }
-      /* line 964, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1489, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right .ul .li .input4 {
         width: 121px;
         height: 40px;
@@ -893,7 +1317,7 @@ section {
         border: 1px solid rgba(116, 116, 116, 0.4);
         box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
         border-top-left-radius: none; }
-      /* line 978, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1503, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec9 .right .ul .li .input5 {
         margin-top: 17px;
         width: 100%;
@@ -904,26 +1328,26 @@ section {
         color: white;
         line-height: 47px; }
 
-/* line 998, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1523, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec10 .para {
   text-align: center;
   font-size: 20px;
   padding-top: 5px;
   line-height: 26px; }
 
-/* line 1005, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1530, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec10 h1 {
   padding-top: 98px;
   font-size: 38px; }
 
-/* line 1009, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1534, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec10 .line {
   width: 110px;
   height: 3px;
   background-color: #fccd11;
   margin: 20px auto; }
 
-/* line 1016, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1541, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec10 .map {
   max-width: 100%;
   padding: 0;
@@ -933,7 +1357,7 @@ section {
   margin-top: 48px;
   position: relative;
   background-color: #fccd11; }
-  /* line 1025, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1550, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec10 .map .dostavka {
     top: 0;
     position: absolute;
@@ -941,19 +1365,19 @@ section {
     width: 400px;
     margin-left: -585px;
     height: 100%; }
-    /* line 1032, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1557, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec10 .map .dostavka p {
       margin-top: 25px;
       font-size: 18px;
       line-height: 24px;
       text-align: left;
       padding-left: 41px; }
-  /* line 1042, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1567, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec10 .map .btn {
     margin-top: 21px;
     height: 45px;
     padding: 0 15px 0 19px; }
-    /* line 1048, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1573, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec10 .map .btn .input1 {
       text-align: left;
       width: 245px;
@@ -966,7 +1390,7 @@ section {
       background-color: white;
       padding-left: 24px;
       padding-top: 13px; }
-    /* line 1062, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1587, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec10 .map .btn .input2 {
       float: right;
       width: 120px;
@@ -977,27 +1401,28 @@ section {
       padding-right: 30px;
       font-size: 18px;
       padding-top: 14px; }
-  /* line 1074, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1599, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec10 .map .stoimoctb {
     width: 366px;
     margin: 29px auto 0px;
     height: 114px;
-    border: 2px solid white; }
-    /* line 1079, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    border: 2px solid white;
+    background-color: #fccd11; }
+    /* line 1605, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec10 .map .stoimoctb .left {
       float: left;
       text-align: center;
       width: 165px;
       padding-top: 22px;
       font-size: 17px; }
-      /* line 1085, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1611, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec10 .map .stoimoctb .left span {
         display: block;
         color: green;
         font-weight: 800;
         font-size: 24px;
         margin-top: 15px; }
-    /* line 1093, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1619, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec10 .map .stoimoctb .right {
       float: right;
       text-align: center;
@@ -1005,7 +1430,7 @@ section {
       padding-top: 22px;
       font-size: 17px;
       padding-right: 21px; }
-      /* line 1101, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      /* line 1627, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
       .sec10 .map .stoimoctb .right span {
         display: block;
         color: green;
@@ -1013,33 +1438,33 @@ section {
         font-size: 24px;
         margin-top: 15px; }
 
-/* line 1120, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1646, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec11 h2 {
   padding-top: 84px;
   font-size: 38px;
   padding-right: 20px;
   letter-spacing: 0.5px; }
 
-/* line 1126, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1652, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec11 .line {
   width: 110px;
   height: 3px;
   background-color: #fccd11;
   margin: 19px auto; }
 
-/* line 1132, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+/* line 1658, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
 .sec11 .block {
   width: 572px;
   height: 1445px;
   box-shadow: 0 0 10px #7d7979;
   margin-top: 46px; }
-  /* line 1137, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1663, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block.block1 {
     float: left; }
-  /* line 1140, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1666, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block.block2 {
     float: right; }
-  /* line 1144, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1670, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block h3 {
     margin: 31px auto;
     width: 500px;
@@ -1047,7 +1472,7 @@ section {
     height: 71px;
     line-height: 80px;
     margin-bottom: 44px; }
-    /* line 1152, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    /* line 1678, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
     .sec11 .block h3 span {
       font-size: 20px;
       line-height: 26px;
@@ -1055,34 +1480,426 @@ section {
       vertical-align: middle;
       font-weight: 700;
       padding-bottom: 14px; }
-  /* line 1163, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1689, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part h4 {
     background: url(../img/palo4ka.png) no-repeat center;
+    background-size: 480px;
     height: 35px;
     font-size: 22px;
-    background-position: 72px 24px; }
-  /* line 1169, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    background-position: 54px 24px; }
+  /* line 1696, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part p {
     font-size: 19px;
     text-align: left;
     margin-left: 82px;
     padding-top: 13px;
     line-height: 26px;
-    padding-right: 21px;
-    font-style:;
-    }
-  /* line 1177, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    padding-right: 21px; }
+  /* line 1704, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part.part1 {
-    height: 260px;
-    }
-  /* line 1180, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    height: 260px; }
+  /* line 1707, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part.part2 {
     height: 416px; }
-  /* line 1183, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1710, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part.part3 {
     height: 311px; }
-  /* line 1186, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  /* line 1713, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
   .sec11 .block .part.part4 {
     height: 120px; }
+
+/* line 1722, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 h2 {
+  font-size: 38px;
+  padding-top: 83px; }
+
+/* line 1726, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 .line {
+  width: 110px;
+  height: 3px;
+  background-color: #fccd11;
+  margin: 20px auto; }
+
+/* line 1732, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 .ul {
+  display: inline-block;
+  margin-top: 45px; }
+  /* line 1735, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec12 .ul .li {
+    border: 1px solid #fccd11;
+    width: 370px;
+    height: 65px;
+    float: left;
+    text-align: center;
+    line-height: 62px;
+    font-size: 22px; }
+    /* line 1746, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec12 .ul .li.btn2 {
+      margin-left: 28px; }
+    /* line 1750, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec12 .ul .li.btn3 {
+      background-color: #fccd11;
+      margin-left: 31px; }
+
+/* line 1758, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 .line2 {
+  margin-top: 2px;
+  width: 1171px;
+  height: 4px;
+  background-color: #fccd11;
+  clear: both; }
+
+/* line 1768, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 .slide {
+  margin-top: 29px; }
+  /* line 1770, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec12 .slide .left {
+    background: url(../img/sparom1.png) no-repeat center;
+    background-position: 71px 1px;
+    width: 568px;
+    height: 374px;
+    float: left; }
+    /* line 1776, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec12 .slide .left .img1 {
+      background: url(../img/arrowleft.png) no-repeat left;
+      background-position: 0px 0px;
+      height: 67px;
+      margin-top: 146px; }
+  /* line 1784, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec12 .slide .right {
+    background: url(../img/sparom2.png) no-repeat center;
+    background-position: 0px 1px;
+    width: 568px;
+    height: 374px;
+    float: right; }
+    /* line 1790, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec12 .slide .right .img2 {
+      background: url(../img/arrowright.png) no-repeat right;
+      background-position: 539px 0px;
+      height: 67px;
+      margin-top: 147px; }
+
+/* line 1801, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec12 .icons {
+  height: 25px;
+  width: 106px;
+  margin: 49px auto; }
+  /* line 1806, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec12 .icons ul .li {
+    border: 2px solid #fccd11;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-left: 9px;
+    list-style: none; }
+    /* line 1813, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec12 .icons ul .li.active {
+      background-color: #fccd11; }
+
+/* line 1823, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec13 h3 {
+  font-size: 39px;
+  margin-top: 26px; }
+
+/* line 1827, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec13 .line {
+  width: 110px;
+  height: 3px;
+  background-color: #fccd11;
+  margin: 20px auto; }
+
+/* line 1833, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec13 .videos {
+  margin-top: 64px; }
+  /* line 1835, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec13 .videos .left {
+    background: url(../img/tipok.png) no-repeat center;
+    background-position: 71px 1px;
+    width: 570px;
+    height: 371px;
+    float: left; }
+    /* line 1841, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec13 .videos .left .img {
+      background: url(../img/arrowleft.png) no-repeat left;
+      background-position: 0px 0px;
+      height: 67px;
+      margin-top: 121px; }
+  /* line 1848, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec13 .videos .right {
+    background: url(../img/tipok.png) no-repeat center;
+    background-position: 2px 1px;
+    width: 570px;
+    height: 370px;
+    float: right; }
+    /* line 1855, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec13 .videos .right .img {
+      background: url(../img/arrowright.png) no-repeat right;
+      background-position: 540px 0px;
+      height: 67px;
+      margin-top: 121px; }
+
+/* line 1864, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec13 .slide {
+  height: 25px;
+  width: 88px;
+  margin: 50px auto; }
+  /* line 1869, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec13 .slide ul .li {
+    border: 2px solid #fccd11;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-left: 9px;
+    list-style: none; }
+    /* line 1876, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec13 .slide ul .li.active {
+      background-color: #fccd11; }
+
+/* line 1885, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec14 {
+  margin-top: 21px;
+  height: 224px;
+  background-color: #e4edfc; }
+  /* line 1889, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec14 h3 {
+    font-size: 24px;
+    padding-top: 34px;
+    line-height: 29px; }
+  /* line 1894, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec14 .ul {
+    display: inline-block;
+    margin-top: 38px; }
+    /* line 1897, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec14 .ul .li {
+      padding-left: 28px;
+      box-shadow: inset 4px 4px 4px 0px rgba(0, 0, 0, 0.7);
+      width: 370px;
+      height: 53px;
+      background-color: white;
+      float: left;
+      line-height: 49px;
+      font-size: 18px;
+      font-style: italic;
+      text-align: left; }
+      /* line 1909, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec14 .ul .li.btn2 {
+        margin-left: 31px; }
+      /* line 1913, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .sec14 .ul .li.btn3 {
+        background-color: #fccd11;
+        margin-left: 29px;
+        text-align: center;
+        font-style: normal; }
+
+/* line 1923, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.sec15 {
+  height: 207px;
+  background-color: #fcc228; }
+  /* line 1928, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec15 .li {
+    width: 251px;
+    text-align: left;
+    padding-left: 40px;
+    margin: 35px auto;
+    font-size: 16px;
+    line-height: 18px; }
+    /* line 1935, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec15 .li.block1 {
+      background: url(../img/ico5.png) no-repeat center;
+      background-position: 0px 0px;
+      float: left;
+      line-height: 21px; }
+    /* line 1942, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec15 .li.block2 {
+      background: url(../img/ico6.png) no-repeat center;
+      background-position: 2px 3px;
+      float: left;
+      margin-left: 46px;
+      line-height: 21px;
+      width: 261px;
+      padding-left: 53px; }
+    /* line 1951, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec15 .li.block3 {
+      background: url(../img/ico7.png) no-repeat center;
+      background-position: 9px 3px;
+      float: left;
+      margin-left: 80px;
+      line-height: 21px;
+      width: 261px;
+      padding-left: 53px; }
+    /* line 1961, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .sec15 .li.block4 {
+      background: url(../img/ico8.png) no-repeat center;
+      background-position: -1px 3px;
+      width: 134px;
+      float: right;
+      line-height: 21px;
+      padding-left: 44px; }
+  /* line 1971, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec15 .line {
+    margin: 1px auto;
+    width: 103px;
+    height: 1px;
+    background-color: white; }
+  /* line 1977, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .sec15 p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 16px; }
+
+/* line 2184, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+.pop3b {
+  width: 1170px;
+  height: 773px;
+  border: 5px solid #fccd11;
+  position: relative; }
+  /* line 2191, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .head {
+    font-size: 18px;
+    padding-top: 19px;
+    padding-left: 65px;
+    height: 46px;
+    border-bottom: 1px solid black;
+    width: 100%; }
+  /* line 2201, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .close {
+    background: url(../img/close2.png) no-repeat center;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 2px;
+    top: 2px; }
+  /* line 2210, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .left {
+    clear: both;
+    float: left;
+    width: 730px;
+    height: 604px;
+    padding-left: 63px; }
+  /* line 2217, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b h2 {
+    padding-top: 34px;
+    font-size: 30px;
+    padding-right: 59px;
+    margin-bottom: 46px; }
+  /* line 2223, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .line {
+    height: 21px;
+    width: 633px;
+    border: 1px solid #fccd11;
+    background: url(../img/bgline.png) no-repeat center;
+    background-position: 0px 0px;
+    margin-bottom: 48px; }
+    /* line 2231, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .line .lineleft {
+      width: 131px;
+      height: 19px;
+      float: left;
+      text-align: center;
+      background-color: #fccd11;
+      font-size: 16px;
+      line-height: 19px; }
+  /* line 2244, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b ul .li {
+    list-style: none;
+    width: 405px;
+    height: 20px;
+    margin: 0 5px 16px;
+    margin-left: 0;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 79px;
+    padding-right: 10px;
+    border: 2px solid #fccd11; }
+    /* line 2255, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b ul .li.block1 {
+      font-size: 15px;
+      background: url(../img/galka.png) no-repeat center;
+      background-position: 15px 12px; }
+    /* line 2260, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b ul .li.block2 {
+      background: url(../img/negalka.png) no-repeat center;
+      background-position: 18px 14px; }
+  /* line 2268, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .right {
+    float: right;
+    width: 362px;
+    height: 563px;
+    margin-top: 32px;
+    margin-right: 66px;
+    border: 1px solid #fccd11; }
+    /* line 2275, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .right .mawka {
+      height: 145px;
+      text-align: center;
+      width: 145px;
+      font-size: 18px;
+      font-weight: 700;
+      margin-left: 107px;
+      margin-top: 25px;
+      background: url(../img/maria.png) no-repeat center;
+      background-position: -82px -3px;
+      border-radius: 100%;
+      background-size: 257px; }
+    /* line 2289, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .right .exppert {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 18px; }
+      /* line 2294, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .pop3b .right .exppert span {
+        font-weight: 200;
+        font-size: 18px; }
+    /* line 2300, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .right .vopros {
+      margin-top: 36px;
+      font-size: 18px;
+      margin-left: 30px;
+      height: 27px;
+      width: 303px;
+      border-bottom: 1px solid black; }
+    /* line 2308, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .right p {
+      padding-top: 17px;
+      font-size: 17px;
+      text-align: left;
+      padding-left: 29px;
+      line-height: 24px; }
+  /* line 2316, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+  .pop3b .bottom {
+    font-size: 27px;
+    width: 100%;
+    height: 112px;
+    clear: both;
+    padding-top: 40px; }
+    /* line 2323, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+    .pop3b .bottom .lane {
+      border-top: 6px solid #fccd11; }
+      /* line 2325, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .pop3b .bottom .lane .btn1 {
+        width: 584px;
+        float: left;
+        height: 67px;
+        text-align: center;
+        line-height: 66px;
+        font-size: 32px;
+        background: url(../img/arrowleft3.png) no-repeat left;
+        background-position: 65px 21px;
+        background-color: #e0e9f2;
+        color: black; }
+      /* line 2337, D:/science/aloha/verstki/parilka/src/desktop/css/sass/style.scss */
+      .pop3b .bottom .lane .btn2 {
+        width: 576px;
+        float: right;
+        height: 67px;
+        text-align: center;
+        line-height: 66px;
+        font-size: 32px;
+        background: url(../img/arrowright3.png) no-repeat center;
+        background-position: 500px 18px;
+        background-color: #fccd11;
+        color: black; }
 
 /*# sourceMappingURL=style.css.map */
