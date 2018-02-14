@@ -50,8 +50,10 @@ section{
 }
 .sec1 {
     img{
-        width: 100%;
         display: block;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
     }
         h1 {
             font-family: $fontfamily;
@@ -66,8 +68,14 @@ section{
     }
 }
 .sec2 {
-    background:url(../img/bg2.jpg)no-repeat top;
     overflow: inherit; 
+    &>img{
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+        top: 0;
+        
+    }
     &>div{
         padding-top: 1px;
     }
