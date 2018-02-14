@@ -68,7 +68,6 @@ section{
     }
 }
 .sec2 {
-    overflow: inherit; 
     &>img{
         position: absolute;
         left: 50%;
@@ -82,7 +81,6 @@ section{
     .main {
         margin-left: 56px;
         margin-right: 38px;
-        margin-top: -11px;
         
             h2 {
                 font-size: 24px;
