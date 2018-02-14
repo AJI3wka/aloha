@@ -103,8 +103,8 @@ function get_course() {
 };
     function calculate() {
         var $wrap = $('.s2:visible');
-        var give = $wrap.find('.valut').find('.current').attr('data-selected');
-        var get = $wrap.find('.type').children('.active').attr('data-type');
+        var get = $wrap.find('.valut').find('.current').attr('data-selected');
+        var give = $wrap.find('.type').children('.active').attr('data-type');
         //alert(get);
         var give_count = parseFloat($wrap.find('.number').val());
         var get_count = 0;
@@ -165,15 +165,15 @@ function get_course() {
 
         $('form').find('input[name="give"]').val(give);
         $('form').find('input[name="count_give"]').val(give_count);
-        $('form').find('input[name="get"]').val(get);
-        $('form').find('input[name="count_get"]').val(get_count);
+        // $('form').find('input[name="get"]').val(get);
+        // $('form').find('input[name="count_get"]').val(get_count);
         $wrap.find('.curs').html(get_count);
 
     }
 
 $(document).ready(function() {
 
-    get_course();
+   
 
 
 

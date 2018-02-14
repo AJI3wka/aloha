@@ -6,8 +6,6 @@ $telegram = $_POST['telegram'];
 
 $give = $_POST['give'];
 $count_give = $_POST['count_give'];
-$get = $_POST['get'];
-$count_get = $_POST['count_get'];
 
 
 $utm_source = $_POST['utm_source'];
@@ -42,8 +40,6 @@ $message .= "Телефон: $phone\n\n";
 $message .= "Покупает/продает криптовалюту(buy/sell): $type\n";
 $message .= "Отдает: $give\n";
 $message .= "В количестве: $count_give\n";
-$message .= "Получит: $get\n";
-$message .= "В количестве: $count_get\n";
 
 $message .= "\n";
 $message .= "Источник: $utm_source\n";

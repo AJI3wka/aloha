@@ -103,8 +103,8 @@ function get_course() {
 };
     function calculate() {
         var $wrap = $('.s2:visible');
-        var give = $wrap.find('.valut').find('.current').attr('data-selected');
-        var get = $wrap.find('.line').find('.type').children('.active').attr('data-type');
+        var get = $wrap.find('.valut').find('.current').attr('data-selected');
+        var give = $wrap.find('.line').find('.type').children('.active').attr('data-type');
         //alert(get);
         var give_count = parseFloat($wrap.find('.number').val());
         var get_count = 0;
@@ -164,8 +164,8 @@ function get_course() {
 
         $('form').find('input[name="give"]').val(give);
         $('form').find('input[name="count_give"]').val(give_count);
-        $('form').find('input[name="get"]').val(get);
-        $('form').find('input[name="count_get"]').val(get_count);
+        // $('form').find('input[name="get"]').val(get);
+        // $('form').find('input[name="count_get"]').val(get_count);
         $wrap.find('.curs').html(get_count);
 
     }
@@ -183,7 +183,6 @@ function init_open_blog(){
 
 $(document).ready(function() {
 
-    get_course();
     init_open_blog();
 
     $('input[name="name"]').blur(function() {
@@ -256,7 +255,9 @@ $(document).ready(function() {
 slider2 = $('.sec3').find('ul').bxSlider({
         infiniteLoop: true,
         pagerCustom:'.pager',
-        controls: false,
+        controls: true,
+        nextSelector:'#arr1r',
+        prevSelector:'#arr1l',
         pager:true,
         auto: false,
         speed: 500,
@@ -407,7 +408,6 @@ slider2 = $('.sec3').find('ul').bxSlider({
                     $('#okgo').arcticmodal();
                     $('input[name="name"]').val('');
                     $('input[name="phone"]').val('');
-
                 }
             });
         } else {
@@ -437,6 +437,9 @@ slider2 = $('.sec3').find('ul').bxSlider({
 
     $('.confidential').click(function() {
         $('#conf').arcticmodal();
-    })
+    });
+
+
+
 
 });

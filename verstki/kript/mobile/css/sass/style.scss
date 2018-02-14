@@ -23,7 +23,7 @@ $wievport: 320px;
 }
 @mixin sec() {
     width: 100%;
-    min-width: $wievport;
+    min-width: $wievport; 
     overflow: hidden;
     position: relative;
     z-index: 2;
@@ -383,7 +383,7 @@ button, input, textarea {
         }
         .block {
             width: 277px;
-            min-height: 431px;
+	        min-height: 341px;
             background-color: #e8edff;
             border-radius: 23px;
             margin: 10px auto 0;
@@ -484,7 +484,7 @@ button, input, textarea {
                 margin: 14px auto 0;
                 &>span{
                     float: left;
-	               line-height: 32px;
+                   line-height: 32px;
                     margin-bottom: 6px;
                 }
                 .curs {
@@ -493,69 +493,49 @@ button, input, textarea {
                     font-family: $afont;
                     margin-top: 0px;
                     text-align: left;
-	               line-height: 32px;
+                   line-height: 32px;
                     margin-bottom: 6px;
                 }
                 .type {
                     width: 211px;
-                    height: 141px;
+                    height: 94px;
                     border: 1px solid rgba(145,154,187,0.43);
                     border-radius: 23px;
                     overflow: hidden;
                     margin: 16px auto 0;
                     text-align: left;
                 }
-                .bitcoin {
+                .dollar {
                     height: 46px;
                     line-height: 48px;
                     padding-left: 54px;
                     font-size: 17px;
-                    background-image: url(../img/icon1.png);
+                    background-image: url(../img/dollar-ico.png);
+                    background-position: 26px 10px;
+                    opacity: 0.76;
+                    background-color: #e8edff;
+                    cursor: pointer;
+                    transition: all 0.25s;
+                    &.active {
+                        opacity: 1;
+                        background-color: white;
+                    }
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                .ruble {
+                    height: 46px;
+                    line-height: 48px;
+                    padding-left: 54px;
+                    font-size: 17px;
+                    background-image: url(../img/ruble-ico.png);
                     background-position: 26px 13px;
                     opacity: 0.76;
                     background-color: #e8edff;
                     cursor: pointer;
                     transition: all 0.25s;
-                    &.active {
-                        opacity: 1;
-                        background-color: white;
-                    }
-                    &:hover {
-                        opacity: 1;
-                    }
-                }
-                .efirium {
-                    height: 46px;
-                    line-height: 48px;
-                    padding-left: 54px;
-                    font-size: 17px;
-                    background-image: url(../img/icon2.png);
-                    background-position: 26px 11px;
                     border-top: 1px solid rgba(145,154,187,0.43);
-                    opacity: 0.76;
-                    background-color: #e8edff;
-                    cursor: pointer;
-                    transition: all 0.25s;
-                    &.active {
-                        opacity: 1;
-                        background-color: white;
-                    }
-                    &:hover {
-                        opacity: 1;
-                    }
-                }
-                .litecoin {
-                    height: 46px;
-                    line-height: 48px;
-                    padding-left: 54px;
-                    font-size: 17px;
-                    background-image: url(../img/icon3.png);
-                    background-position: 28px 11px;
-                    border-top: 1px solid rgba(145,154,187,0.43);
-                    opacity: 0.76;
-                    background-color: #e8edff;
-                    cursor: pointer;
-                    transition: all 0.25s;
                     &.active {
                         opacity: 1;
                         background-color: white;
@@ -706,7 +686,7 @@ button, input, textarea {
                 margin: 14px auto 0;
                 &>span{
                     float: left;
-	               line-height: 32px;
+                   line-height: 32px;
                     margin-bottom: 6px;
                 }
                 .curs {
@@ -715,25 +695,25 @@ button, input, textarea {
                     font-family: $afont;
                     margin-top: 0px;
                     text-align: left;
-	               line-height: 32px;
+                   line-height: 32px;
                     margin-bottom: 6px;
                 }
                 .type {
                     width: 211px;
-                    height: 94px;
+                    height: 141px;
                     border: 1px solid rgba(145,154,187,0.43);
                     border-radius: 23px;
                     overflow: hidden;
                     margin: 16px auto 0;
                     text-align: left;
                 }
-                .dollar {
+                .bitcoin {
                     height: 46px;
                     line-height: 48px;
                     padding-left: 54px;
                     font-size: 17px;
-                    background-image: url(../img/dollar-ico.png);
-                    background-position: 26px 10px;
+                    background-image: url(../img/icon1.png);
+                    background-position: 26px 13px;
                     opacity: 0.76;
                     background-color: #e8edff;
                     cursor: pointer;
@@ -746,18 +726,38 @@ button, input, textarea {
                         opacity: 1;
                     }
                 }
-                .ruble {
+                .efirium {
                     height: 46px;
                     line-height: 48px;
                     padding-left: 54px;
                     font-size: 17px;
-                    background-image: url(../img/ruble-ico.png);
-                    background-position: 26px 13px;
+                    background-image: url(../img/icon2.png);
+                    background-position: 26px 11px;
+                    border-top: 1px solid rgba(145,154,187,0.43);
                     opacity: 0.76;
                     background-color: #e8edff;
                     cursor: pointer;
                     transition: all 0.25s;
+                    &.active {
+                        opacity: 1;
+                        background-color: white;
+                    }
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                .litecoin {
+                    height: 46px;
+                    line-height: 48px;
+                    padding-left: 54px;
+                    font-size: 17px;
+                    background-image: url(../img/icon3.png);
+                    background-position: 28px 11px;
                     border-top: 1px solid rgba(145,154,187,0.43);
+                    opacity: 0.76;
+                    background-color: #e8edff;
+                    cursor: pointer;
+                    transition: all 0.25s;
                     &.active {
                         opacity: 1;
                         background-color: white;
