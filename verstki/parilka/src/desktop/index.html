@@ -1,309 +1,599 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<title>Главная</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="css/fontss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <title>Главная</title>
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="css/libs.css" />
+    <link rel="stylesheet" type="text/css" href="css/fontss.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-
-<section class="sec1">
-   <div>
+<header>
+    <div>
         <div class="header">
             <div class="left">
-                <div class="logo">Компания<br>С ЛЕГКИМ ПАРОМ</div>
-                <div class="exp">Производитель бань<br> с 15 летним опытом</div>
+                <p class="logo"><span class="company">Компания</span> <br><span class="name">С легким паром</span></p>
+                <p class="descr">Производитель бань<br> с 15 летним опытом</p>
                 
             </div>
             <div class="right">
-                <div class="phone">8 (800) 350-03-93<br>8 (931) 341-66-26</div>
-                <div class="button">ЗАКАЗАТЬ ЗВОНОК</div>
+                <a class="btn pop-btn btn-animation" href="#zz-pop">Заказать звонок</a>
+                <span>
+                    <a href="tel:88003500393">8 (800) 350-03-93</a> <br>
+                    <a href="tel:89313416626">8 (931) 341-66-26</a>
+                </span>
             </div>
-            <div class="menu">
-                <ul>
-                    <li class="li">Описание</li>
-                    <li class="li active">Проекты</li>
-                    <li class="li">Фото</li>
-                    <li class="li">Комплектация</li>
-                    <li class="li">Доставка</li>
-                    <li class="li">Отзывы</li>
-                    <li class="li">Контакты</li>
-                </ul>
+            <div class="menu" id="menu">
+                <a href="#sec4">Описание</a>
+                <a href="#sec7">Проекты</a>
+                <a href="#sec11">Фото</a>
+                <a href="#sec6">Комплектация</a>
+                <a href="#sec9">Доставка</a>
+                <a href="#sec12">Отзывы</a>
+                <a href="#footer">Контакты</a>
             </div>
         </div>
     </div>
-</section>
-<section class="sec2">
+</header>
+<section class="sec1">
     <div>
-        <div class=yellow>
-        <h1>ГОТОВАЯ БАНЯ</h1>
-        <ul>
-            <li class="li">- с фундаментом</li>
-            <li class="li">- печью</li>
-            <li class="li">- электрикой</li>
-            <li class="li">- мебелью</li>
-            
-        </ul>
-        <h2>Уже через <span>2 недели</span><br>на свой участок</h2>
-            <p>Оплатите после просмотра!<br>Доставка по РФ и СНГ</p>
-        </div>
-        <div class="katalogwrap">
-            <div class="katalog">Скачайте полный<br>каталог на бани с ценами</div>
-            <div class="button">Скачать каталог<br><span class="razmer">Размер : 2.1 Мб</span>
-            <div class="update">Обновлено:19.12.2017</div>
-            </div>
-            
-            </div>
-        
-            <div class="slide-control">
-            <div class="arowleft"></div>
-            <div class="arowright"></div>
+        <div class="main">
+            <h1>Готовая баня</h1>
             <ul>
-                <li class="li"></li>
-                <li class="li active"></li>
-                <li class="li"></li>
+                <li>- с фундаментом</li>
+                <li>- печью</li>
+                <li>- электрикой</li>
+                <li>- мебелью</li>                
             </ul>
+            <h2>Уже через <span>2 недели</span><br> на свой участок</h2>
+            <p>Оплатите после просмотра!<br> <span>Доставка по РФ и СНГ</span></p>
+        </div>
+        <div class="download">
+            <p>Скачайте полный<br>каталог на бани с ценами</p>
+            <a class="pop-btn btn-animation" href="#katalog-pop">Скачать каталог<br> <span>Размер: 2.1 Мб</span></a>
+            <span class="update">Обновлено: 19.12.2017</span>
+        </div>
+    
+        <!-- <div class="slide-control">
+            <a href="#" class="arr left"></a>
+            <div class="pager">
+                <a href="#"></a>
+                <a href="#" class="active"></a>
+                <a href="#"></a>
+            </div> 
+            <a href="#" class="arr right"></a>
+        </div> -->
+        <a class="action" href="#sec2">Акция до 31 декабря</a>
+    </div>
+</section>
+<section class="sec2" id="sec2">
+    <div>
+        <div class="left">
+            <h2>Зимняя <br>акция!</h2>
+            <p class="p">Успей согреться<br> <span>до 31 февраля</span></p>
+            <a class="pop-btn btn-animation" href="#action-pop">узнать подробности</a>
+            <div class="timer-wrap">
+                <p class="action">До конца акции осталось:</p>
+                <div class="timer" id="timer">
+                    <div class="schet">
+                        <span class="time" id="t_day">00</span>
+                        <span class="small">Дней</span>
+                    </div>
+                    <div class="schet">
+                        <span class="time" id="t_hour">00</span>
+                        <span class="small">Часов</span>
+                    </div>
+                    <div class="schet">
+                        <span class="time" id="t_min">00</span>
+                        <span class="small">Минут</span>
+                    </div>
+                    <div class="schet">
+                        <span class="time" id="t_sec">00</span>
+                        <span class="small">Секунд</span>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="right">
+            <h3>Закажите баню до 31 февраля 2018 года<br>и получите <span>бесплатно:</span></h3>
+            <ul>                
+                <li>Утепление потолка и пола до 100 мм (4000 руб)</li>
+                <li>Дополнительный набор печных камней (1000 руб)</li>
+                <li>Дополнительные лавки в баню (2000 руб)</li>
+                <li>Покраска наличников и углов бани в красивый<br>коричневый цвет (3000 руб)</li>
+                <li>Пол 36 мм!</li>
+            </ul>
+            <p class="main">Ваша выгода:<span>10 000 руб!</span></p>
+            <p class="also">А также в подарок мангал для шашлыка!</p>
+        </div>
     </div>
 </section>
 <section class="sec3">
-   
     <div>
-       <div class="akcija">АКЦИЯ ДО 31 ДЕКАБРЯ</div>
-        <div class="left">
-            <h2>ЗИМНЯЯ<br>АКЦИЯ!</h2>
-            <p>Успей согреться<span class="fevral"><br>до 31 февраля</span></p>
-            <div class="buttn">узнать подробности</div>
-            <div class="calculator">
-                <h3>До конца акции осталось:</h3>
-                <div class="timer">
-                   <div class="schet schet1">44<span class="small">Дней</span></div>
-                     <div class="schet schet2">07<span class="small">Часов</span></div>
-                     <div class="schet schet3">20<span class="small">Минут</span></div>
-                     <div class="schet schet4">47<span class="small">Секунд</span></div>
-                </div>
-            </div>
-        </div>
-            <div class="right">
-                <div class="bonus">
-                <div class="zakaz">ЗАКАЖИТЕ БАНЮ ДО 31 ФЕВРАЛЯ 2018 ГОДА<br>И ПОЛУЧИТЕ<span class="free"> БЕСПЛАТНО :</span></div>
-                <ul>
-                    
-                    <li class="li">Утепление потолка и пола до 100 мм (4000 руб)</li>
-                    <li class="li">Допольнительный набор печных камней(1000 руб)</li>
-                    <li class="li">Дополнительные лавки в баню(2000 руб)</li>
-                    <li class="li">Покраска наличников и углов бани в красивый<br>коричневый цвет(3000 руб)</li>
-                    <li class="li">Пол 36 мм!</li>
-                    
-                </ul>
-                <div class="vugoda">Ваша выгода:<span class="green">10 000 руб!<br></span></div>
-                <div class="mangal">А также в подарок мангал для шашлыка!</div>
-                </div>
-            </div>
-        </div>
-</section>
-<section class="sec4">
-    <div>
-        <h1>Преимущества за нами</h1>
+        <h2>Преимущества за нами</h2>
         <div class="line"></div>
         <ul>
-            <li class="li left">
-                <div class="img img1"></div>
-                <div class="text"><span>Гарантия 12 месяцев</span></div>
+            <li>
+                <div class="ico ico1"></div>
+                <p><span>Гарантия 12 месяцев</span></p>
             </li>
-            <li class="li">
-                <div class="img img2"></div>
-                <div class="text"><span>Собственное<br>производство</span></div>
+            <li>
+                <div class="ico ico2"></div>
+                <p><span>Собственное<br>производство</span></p>
             </li>
-            <li class="li">
-                <div class="img img3"></div>
-                <div class="text"><span>Наличный и безналичный<br>расчеты при получении</span></div>
+            <li>
+                <div class="ico ico3"></div>
+                <p><span>Наличный и безналичный<br>расчеты при получении</span></p>
             </li>
-            <li class="li right">
-                <div class="img img4"></div>
-                <div class="text"><span>Официальный<br>договор</span></div>
+            <li>
+                <div class="ico ico4"></div>
+                <p><span>Официальный<br>договор</span></p>
             </li>
         </ul>
     </div>
 </section>
-<section class="sec5">
-   <div>
-    <h1>Наша компания</h1>
-    <div class="line"></div>
-    <p>Мы занимаемся производством готовых бань с 2011 года. За это время было изготовлено более 500 различных бань<br>по индивидуальным и типовым заказам - это и бани-бочки, квадро-бочки, японские, русские и финские бани, а также<br>на  внутреннем рынке и не только появилась модель овало-бочки --это также наша разработка.<br><br>С 2015 года мы расширили область деятельности и теперь готовы предложить вам множество моделей недорогих дачных<br>домиков, беседок, купелей.Также можем построить на вашем участке деревянную террасу или навес.</p>
-    <ul>
-        <li class="li first">Наше производство включает:</li>
-        <li class="li">Пилораму Р 63</li>
-        <li class="li">Ленточную пилораму</li>
-        <li class="li">Строгальные станки Weinig</li>
-        <li class="li">Сушильная камера</li>
-        <li class="li">Сборочный цех</li>
-        <li class="li">Линия раскроя пиломатериала</li>
-        <li class="li">Столярный цех</li>
-        <div class="text1">Наша компания предоставляет полный комплекс услуг, от проектирования до строительства "под ключ".</div>
-        <div class="text2">Мы ценим каждого клиента, и надеемся что, выбрав нас,<br>Вы останетесь довольны! </div>
-    </ul>
+<section class="sec4" id="sec4">
+    <div>
+        <h2>Наша компания</h2>
+        <div class="line"></div>
+        <p class="text">Мы занимаемся производством готовых бань с 2011 года. За это время было изготовлено более 500 различных бань <br>по индивидуальным и типовым заказам - это и бани-бочки, квадро-бочки, японские, русские и финские бани, а также <br>на внутреннем рынке и не только появилась модель овало-бочки – это также наша разработка.<br><br>C 2015 года мы расширили область деятельности и теперь готовы предложить вам множество моделей недорогих дачных домиков, беседок, купелей. Также можем построить на вашем участке деревянную террасу или навес.</p>
+        <ul>
+            <li>Наше производство включает:</li>
+            <li>Пилораму Р 63</li>
+            <li>Ленточную пилораму</li>
+            <li>Строгальные станки Weinig</li>
+            <li>Сушильная камера</li>
+            <li>Сборочный цех</li>
+            <li>Линия раскроя пиломатериала</li>
+            <li>Столярный цех</li>
+        </ul>
+        <p class="text">Наша компания предоставляет полный комплекс услуг, от проектирования до строительства «под ключ».</p>
+        <p class="after-text">Мы ценим каждого клиента, и надеемся что, выбрав нас,<br>Вы останетесь довольны! </p>
     </div>
 </section>
-<section class="sec6">
-<div>
-    <div class="left">
-        <div class="tablet">
+<section class="sec5">
+    <div>
+        <div class="left">
             <h2>Пройдите тест!</h2>
             <p>Какая баня подойдет<br>именно Вам?</p>
-        <div class="img1"></div>
+            <div class="ico"></div>
         </div>
-    </div>
         <div class="right">
-           <h3>Планируете покупать баню?</h3>
-            <div class="text3">Пройдите тест и получите проект<br>будущей бани с расчетом цены</div>
+            <h3>Планируете покупать баню?</h3>
+            <p class="heading">Пройдите тест и получите проект<br>будущей бани с расчетом цены</p>
             <div class="line"></div>
-            <p>Тест,который разроботали наши техники,<br>поможет вам определится с выбором<br>и сэкономить ваше время.</p>
-            <div class="buttn">ПРОЙТИ ТЕСТ!</div>
+            <p class="text">Тест, который разроботали наши техники,<br>поможет вам определиться с выбором<br>и сэкономит ваше время.</p>
+            <a class="pop-btn btn-animation" href="#test-pop">Пройти тест!</a>
         </div>
     </div>
 </section>
-<section class="sec7">
-   <div>
-    <h2>Краткое описание бани</h2>
-    <div class="line"></div>
-    <div class="ul">
-        <div class="li">
-           <div class="h4">ФУНДАМЕНТ</div>
-            <div class="img img1"></div>
-                <div class="text">Опорно-столбчатый<br>(входит в стоимость)</div>
-        </div>
-        <div class="li">
-           <div class="h4">Стены</div>
-            <div class="img img2"></div>
-                <div class="text">Профилированный брус 100х150 /<br> 150х150<br><span>или (по желанию)</span><br>Несущий каркас с утеплением<br>минераловатными базальтовыми<br>плитами 100 / 150 мм</div>
-        </div>
-        <div class="li">
-           <div class="h4">Пол</div>
-            <div class="img img3"></div>
-                <div class="text">Черновой и чистовой. Утепленный<br> минерально ватой ISOVER или<br> URSA на 50 мм + прокладка<br> пароизоляции <span>с двух сторон</span></div>
-        </div>
-        <div class="li">
-           <div class="h4">Крыша и кровля</div>
-            <div class="img img4"></div>
-                <div class="text">Крыша двухскатная и <span>только у нас<br> с коньком 0,30 м за счет чего<br> имеет привлекательный<br> внешний вид!</span> Кровля -<br> гофрированный<span> профнастил,</span><br> вместо кладкого оцинкованного<br> железа</div>
-        </div>
-        <div class="li">
-           <div class="h4">Окна</div>
-            <div class="img img5"></div>
-                <div class="text">Двойные деревянные стеклопакеты<br> фурнитурой</div>
-        </div>
-        <div class="li">
-           <div class="h4">Двери</div>
-            <div class="img img6"></div>
-                <div class="text">!Деревянные <span>с фурнитурой</span></div>
-        </div>
-        <div class="li">
-           <div class="h4">Отделка</div>
-            <div class="img img7"></div>
-            <div class="text">Полная под ключ. Подробно в полной<br> спецификации <span class="blue">(ниже)</span>.<span>Только у нас<br> вагонка в парном отделении<br> класса А (без сучков, светлая<br> и красивая!)</span></div>
-        </div>
-        <div class="li">
-           <div class="h4">Печь</div>
-            <div class="img img8"></div>
-                <div class="text">Металлическая Каменка-2 с баком<br> для горячей воды и местом под<br> камни. <span>Комплект камней<br> "Габбро-диабаз" в подарок.</span><br>(Замена на дачник- 12 бесплатно)</div>
-        </div>
-        </div>
-        <div class="button">получить подробную спецификацию на все бани</div>
-        
-    </div>
-</section>
-<section class="sec8">
+<section class="sec6" id="sec6">
     <div>
-        <h4>Проекты готовых перевозных бань</h4>
-        <div class="proektu"><span></span>Выберите интересующий вас проект и оставьте заявку</div>
-            <div class="line2"></div>
-    
-    
-    
-    
+        <h2>Краткое описание бани</h2>
+        <div class="line"></div>
+        <ul>
+            <li>
+                <p class="h4">Фундамент</p>
+                <span class="img img1"></span>
+                <p class="text">Опорно-столбчатый<br>(входит в стоимость)</p>
+            </li>
+            <li>
+                <p class="h4">Стены</p>
+                <span class="img img2"></span>
+                <p class="text">Профилированный брус 100х150 /<br> 150х150<br><span>или (по желанию)</span><br>Несущий каркас с утеплением<br>минераловатными базальтовыми<br>плитами 100 / 150 мм</p>
+            </li>
+            <li>
+                <p class="h4">Пол</p>
+                <span class="img img3"></span>
+                <p class="text">Черновой и чистовой. Утепленный<br> минерально ватой ISOVER или<br> URSA на 50 мм + прокладка<br> пароизоляции <span>с двух сторон</span></p>
+            </li>
+            <li>
+                <p class="h4">Крыша и кровля</p>
+                <span class="img img4"></span>
+                <p class="text">Крыша двухскатная и <span>только у нас<br> с коньком 0,30 м за счет чего<br> имеет привлекательный<br> внешний вид!</span> Кровля -<br> гофрированный<span> профнастил,</span><br> вместо кладкого оцинкованного<br> железа</p>
+            </li>
+            <li>
+                <p class="h4">Окна</p>
+                <span class="img img5"></span>
+                <p class="text">Двойные деревянные стеклопакеты<br> фурнитурой</p>
+            </li>
+            <li>
+                <p class="h4">Двери</p>
+                <span class="img img6"></span>
+                <p class="text">Деревянные <span>с фурнитурой</span></p>
+            </li>
+            <li>
+                <p class="h4">Отделка</p>
+                <span class="img img7"></span>
+                <p class="text">Полная под ключ. Подробно в полной<br> спецификации <span class="blue">(ниже)</span>.<span>Только у нас<br> вагонка в парном отделении<br> класса А (без сучков, светлая<br> и красивая!)</span></p>
+            </li>
+            <li>
+                <p class="h4">Печь</p>
+                <span class="img img8"></span>
+                <p class="text">Металлическая Каменка-2 с баком<br> для горячей воды и местом под<br> камни. <span>Комплект камней<br> "Габбро-диабаз" в подарок.</span><br>(Замена на дачник- 12 бесплатно)</p>
+            </li>
+        </ul>
+        <a class="pop-btn btn-animation" href="#specific-pop">получить подробную спецификацию на все бани</a>
+    </div>
+</section>
+<section class="sec7" id="sec7">
+    <div>
+        <h2>Проекты готовых перевозных бань</h2>
+        <p class="heading"><span></span>Выберите интересующий вас проект и оставьте заявку</p>
+        <div class="line"></div>
     </div>
     <div class="block">
         <div>
             <div class="left">
-                <div class="ul">
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</div>
-                    <div class="li">№2. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х4 М</div>
-                    <div class="li">№3. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ<br> С КРЫЛЕЧКОМ 2,3х5 М</div>
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</div>
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ<br> С КРЫЛЕЧКОМ 2,3х3 М</div>
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ  2,3х3 М</div>
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ<br> С КРЫЛЕЧКОМ 2,3х3 М</div>
-                    <div class="li">№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</div>
-                </div>
-            </div>
-            <div class="right">
-               <div class="top1">
-                <h3>СОСТОИТ ИЗ:</h3>
                 <ul>
-                    <li class="li">комната отдыха</li>
-                    <li class="li">фундамент</li>
-                    <li class="li">печь</li>
-                    <li class="li">электрика</li>
-                    <li class="li">полная внутренняя отделка</li>
-                    <li class="li">банная мебель</li>
-                    <li class="li">парная, совмещенная с помывочной</li>
-                    <li class="li">и другое (в спецификации)</li>
+                    <li class="active" data-target="gp-1"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-2"><span>№2. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х4 М</span></li>
+                    <li data-target="gp-3"><span>№3. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х5 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-4"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-5"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-6"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-7"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-8"><span>№1. ПЕРЕВОЗНАЯ МОБИЛЬНАЯ БАНЯ 2,3х3 М</span></li>
                 </ul>
             </div>
-            <div class="top2">
-                <div class="cena">
-                    <h5>ЦЕНА: <span>113 000 руб</span></h5>
-                    <div class="green">103 000 руб</div>
-                    <h3>В подарок до 08.01:</h3>
+            <div class="right active" id="gp-1">
+                <div class="top1">
+                    <span>Состоит из:</span>
                     <ul>
-                        <li class="li">мангал для шашлыка</li>
-                        <li class="li">дополнительные камни</li>
-                        <li class="li">банный веник</li>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
                     </ul>
                 </div>
-            </div>
-            <div class="top3">
-                <h3>В НАЛИЧИИ</h3>
-                <ul class=btn>
-                    <li class="li">Получить консультацию</li>
-                    <li class="li">Купить в кредит</li>
-                </ul>
-            </div>
-            <div class="bottom">
-                <div class="left">
-                   <ul>
-                    <div class="img1"></div>
-                    <div class="img2"></div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">113 000 руб</span></span>
+                    <span class="new">103 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
                     </ul>
                 </div>
-                <div class="right"></div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn btn-animation" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn btn-animation" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
             </div>
+            <div class="right" id="gp-2">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">123 000 руб</span></span>
+                    <span class="new">113 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-3">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">133 000 руб</span></span>
+                    <span class="new">123 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-4">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">143 000 руб</span></span>
+                    <span class="new">133 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-5">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">153 000 руб</span></span>
+                    <span class="new">143 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-6">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">163 000 руб</span></span>
+                    <span class="new">153 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-7">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">173 000 руб</span></span>
+                    <span class="new">123 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
+            </div>
+            <div class="right" id="gp-8">
+                <div class="top1">
+                    <span>Состоит из:</span>
+                    <ul>
+                        <li>комната отдыха</li>
+                        <li>фундамент</li>
+                        <li>печь</li>
+                        <li>электрика</li>
+                        <li>полная внутренняя отделка</li>
+                        <li>банная мебель</li>
+                        <li>парная, совмещенная с помывочной</li>
+                        <li>и другое (в спецификации)</li>
+                    </ul>
+                </div>
+                <div class="top2">
+                    <span class="price">Цена: <span class="old">183 000 руб</span></span>
+                    <span class="new">123 000 руб</span>
+                    <span class="gift">В подарок до 08.01:</span>
+                    <ul>
+                        <li>мангал для шашлыка</li>
+                        <li>дополнительные камни</li>
+                        <li>банный веник</li>
+                    </ul>
+                </div>
+                <div class="top3">
+                    <span>В наличии</span>
+                    <a class="pop-btn" href="#consult-pop">Получить консультацию</a>
+                    <a class="pop-btn" href="#kredit-pop">Купить в кредит</a>
+                </div>
+                <div class="bottom project-gallery">
+                    <div class="left">
+                        <a rel="nofollow" class="img" href="img/gal1.jpg">
+                            <img src="img/gal1.jpg" alt="">
+                        </a>
+                        <a rel="nofollow" class="img" href="img/gal2.jpg"><img src="img/gal2.jpg" alt=""></a>
+                    </div>
+                    <a rel="nofollow" href="img/gal3.jpg" class="img_b"><img src="img/gal3.jpg" alt=""></a>
+                    <a rel="nofollow" href="img/gal1.jpg"></a>
+                    <a rel="nofollow" href="img/gal2.jpg"></a>
+                    <a rel="nofollow" href="img/gal3.jpg"></a>
+                </div>
             </div>
             
         </div>
     </div>
     <div class="last">
-        <h3>Если вы найдете баню такой же комплектации и на таких же условиях как у нас,<br>свяжитесь с нами и мы сделаем Вам скидку 3% от цены конкурентов</h3>
-        <div class="ul">
-            <div class="li btn1">Ваше имя</div>
-            <div class="li btn2">Ваш телефон</div>
-            <div class="li btn3">ОСТАВИТЬ ЗАЯВКУ</div>
-        </div>
-        
+        <p>Если вы найдете баню такой же комплектации и на таких же условиях как у нас, <br>свяжитесь с нами и мы сделаем Вам скидку 3% от цены конкурентов</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="phone" placeholder="Ваш телефон">
+            <button class="btn-animation" type="submit">Оставить заявку</button>
+        </form>
     </div>
 </section>
-<section class="sec9">
-   <div>
-    <h2>Калькулятор стоимости</h2>
-    <div class="line"></div>
+<section class="sec8">
+    <div>
+        <h2>Калькулятор стоимости</h2>
+        <div class="line"></div>
         <div class="left">
             <div class="ul">
-                <div class="li">
-                    <h3>Выберете длинну:</h3>
+                <div class="li btn-wrap" data-target="length">
+                    <p>Выберете длинну:</p>
                     <div class="btn">3 м</div>
                     <div class="btn">4 м</div>
                     <div class="btn active">5 м</div>
@@ -313,8 +603,8 @@
                     <div class="btn">9 м</div>
                     <div class="btn">10 м</div>
                 </div>
-                <div class="li">
-                    <h3>Выберете ширину:</h3>
+                <div class="li btn-wrap" data-target="width">
+                    <p>Выберете ширину:</p>
                     <div class="btn">3 м</div>
                     <div class="btn">4 м</div>
                     <div class="btn active">5 м</div>
@@ -322,364 +612,439 @@
                     <div class="btn">7 м</div>
                     <div class="btn">8 м</div>
                     <div class="btn">9 м</div>
-                    <div class="btn">10 м</div>
-                    
+                    <div class="btn">10 м</div>                    
                 </div>
-                <div class="li">
-                    <h3>Фундамент:</h3>
-                    <div class="btn btn1">Блочный</div>
+                <div class="li btn-wrap" data-target="fundament">
+                    <p>Фундамент:</p>
+                    <div class="btn btn1 active">Блочный</div>
                     <div class="btn btn1">Монолитный</div>
                     <div class="btn btn2">Свайно-винтовой</div>
                 </div>
-                <div class="li">
-                    <h3>Наличие террасы:</h3>
-                    <div class="btn">Да</div>
+                <div class="li btn-wrap" data-target="terasa">
+                    <p>Наличие террасы:</p>
+                    <div class="btn active">Да</div>
                     <div class="btn">Нет</div>
                 </div>
                 <div class="li ly">
-                    <h3>Комментарии:</h3>
-                    <div class="btn btn3">Вы можете написать ваши пожелания</div>
-                </div>
-                
+                    <p class="full">Комментарии:</p>
+                    <textarea name="comment" placeholder="Вы можете написать ваши пожелания"></textarea>
+                </div>                
             </div>
-            <div class="ras4et">ПОЛУЧИТЬ РАСЧЕТ</div>
+            <a class="pop-btn calculate btn-animation" href="#calculate-pop">ПОЛУЧИТЬ РАСЧЕТ</a>
         </div>
         <div class="right">
-            <h4>У ВАС СВОЙ ПРОЕКТ?</h4>
-            <p>Пришлите нам проект<br>
-            на почту <span>79616080656@ya.ru</span>,<br>и мы сделаем расчет</p>
+            <p class="heading">У вас свой проект?</p>
+            <p class="send-us">Пришлите нам проект<br> на почту <a href="mailto:79616080656@ya.ru?subject=Проект" target="_blank">79616080656@ya.ru</a>,<br>и мы сделаем расчет</p>
             <div class="img"></div>
-            <div class="ul">
-               <div class="li">
-                <div class="input1">Ваше имя</div>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="text" name="phone" placeholder="Ваш телефон">
+                <div class="helper">
+                    <input type="file" name="upload" id="upload_hidden" onchange="document.getElementById('upload_visible').value = this.value.replace('C:\\fakepath\\','');" />
+                    <div class="help-btn" onclick="document.getElementById('upload_hidden').click();">Выберите файл</div>
+                    <input type="text" readonly="readonly" id="upload_visible" onclick="document.getElementById('upload_hidden').click();" placeholder="Дом баня1..."/>
                 </div>
-                <div class="li">
-                <div class="input2">Ваш телефон</div>
-                </div>
-                <div class="li">
-                <div class="input3">Выберите файл</div>
-                <div class="input4">Дом Баня1...</div>
-                </div>
-                <div class="li">
-                <div class="input5">ПОСЧИТАЙТЕ МОЙ ПРОЕКТ</div>
-                </div>
+                <button class="btn-animation" type="submit">Посчитайте мой проект</button>
+            </form>
+        </div>
+    </div>
+    </section>
+<section class="sec9" id="sec9">
+    <div>
+        <h2>Расчет стоимости доставки</h2>
+        <div class="line"></div>
+        <p class="p">Окончательная цена бани складывается из стоимости самой бани, <br>дополнительных опций (по желанию), а также стоимости доставки <br>от нашей строительной базы (г. Пестово, Новгородская область) до вашего участка.</p>
+    </div>
+    <div class="map">
+        <div class="map-wrap" id="map-canvas"></div>
+        <div class="wrap">
+            <div class="form">
+                <input type="text" name="addr" id="finder" placeholder="Введите место доставки">
+                <!-- <button>Найти</button> -->
+            </div>
+            <p class="descr">Для расчёта стоимости доставки введите название населённого пункта в строке поиска <br>или выберите непосредственно на карте место доставки бани нажатием левой кнопки мыши.</p>
+            <div class="price">
+                <p class="left">Стоимость:<span>0 руб</span></p>
+                <p class="right">Киллометраж:<span>0 км</span></p>
             </div>
         </div>
     </div>
 </section>
 <section class="sec10">
     <div>
-    <h1>Расчет стоимости доставки</h1>
-        <div class="line"></div>
-    <p class="para">Окончательная цена бани складывается из стоимости самой бани,<br>дополнительных опций (по желанию), а также стоимости доставки<br>от нашей строительной базы (г. Пестово, Новгородская область) до вашего участка.</p>
-    </div>
-        <div class="map">
-            <div class="dostavka">
-                <div class="btn">
-                    <div class="input1">Место доставки</div>
-                    <div class="input2">Найти</div>
-                </div>
-                <p>Для расчёта стоимости доставки<br>введите название населённого<br>пункта в строке поиска<br>или выберите непосредественно<br>на карте место доставки бани<br>нажатием левой кнопки мыши.</p>
-                <div class="stoimoctb">
-                    <div class="left">СТОИМОСТЬ:<span>10 000 РУБ</span></div>
-                    <div class="right">КИЛЛОМЕТРАЖ:<span>155 КМ</span></div>
-                </div>
-            </div>
-        </div>
-</section>
-<section class="sec11">
-    <div>
-    <h2>Проблемы,с которыми вы можете столкнутся</h2>
+        <h2>Проблемы,с которыми вы можете столкнуться</h2>
         <div class="line"></div>
         <div class="block block1">
-            <h3><span>С ЭТИМИ ПРОБЛЕМАМИ СТАЛКИВАЕТСЯ<br> 80%КЛИЕНТОВ</span></h3>
+            <h3><span>С этими проблемами сталкивается <br>80% клиентов</span></h3>
             <div class="part part1">
                 <h4>Чернеет и синеет брус внутри бани</h4>
-                <p>Многие производители бань просто-напросто<br>
-                    экономят на всем, в том числе и на закупке<br>
-                    древесины, покупая дешевый, сырой брус.<br>
-                    Поэтому, после привоза бани к Вам на участок,<br>
-                    примерно через неделю брус начинает чернеть<br>
-                    и синеть и образовываться грибок, который<br>
-                    вывести практически невозможно.</p>
+                <p>Многие производители бань просто-напросто <br>экономят на всем, в том числе и на закупке <br>древесины, покупая дешевый, сырой брус. <br>Поэтому, после привоза бани к Вам на участок, <br>примерно через неделю брус начинает чернеть <br>и синеть и образовываться грибок, который <br>вывести практически невозможно.</p>
             </div>
             <div class="part part2">
                 <h4>Быстрая доставка за несколько дней</h4>
-                <p>Многие компании обещают поставить баню<br> 
-                    в течение нескольких дней. В таких компаниях<br>
-                    строительство бани занимает 1-2 дня.<br> 
-                    Это напрямую сказывается на качестве<br> 
-                    изготовления: не соблюдение уровня каждого<br>
-                    венца, что в дальнейшем, при усадке, приводит<br>
-                    к «перекосу» бани; отсутствие джута между<br> 
-                    венцами, что приводит к сквознякам зимой;<br>
-                    запилы сделанные на скорую руку, которые<br>
-                    покупатели начинают замечать спустя<br>
-                    несколько дней использования бани и т.д.</p>
+                <p>Многие компании обещают поставить баню <br>в течение нескольких дней. В таких компаниях <br>строительство бани занимает 1-2 дня. <br>Это напрямую сказывается на качестве <br>изготовления: не соблюдение уровня каждого <br>венца, что в дальнейшем, при усадке, приводит <br>к «перекосу» бани; отсутствие джута между <br>венцами, что приводит к сквознякам зимой; <br>запилы сделанные на скорую руку, которые <br>покупатели начинают замечать спустя <br>несколько дней использования бани и т.д.</p>
             </div>
             <div class="part part3">
                 <h4>Доставка включена в стоимость</h4>
-                <p>Большинство компаний включает 500 км<br> 
-                    в стоимость бани, называя это бесплатной<br>
-                    доставкой. Если вы находитесь менее 500 км<br>
-                    от производственной базы, то вы выкидываете<br>
-                    лишние деньги, которые могли бы сэкономить.<br>
-                    Если вы находитесь более 500 км<br> 
-                    от производственной базы, то компания<br> 
-                    в любом случае вам прибавит к стоимости<br>
-                    недостающие километры.</p>
+                <p>Большинство компаний включает 500 км <br>в стоимость бани, называя это бесплатной <br>доставкой. Если вы находитесь менее 500 км <br>от производственной базы, то вы выкидываете <br>лишние деньги, которые могли бы сэкономить. <br>Если вы находитесь более 500 км <br>от производственной базы, то компания <br>в любом случае вам прибавит к стоимости <br>недостающие километры.</p>
             </div>
             <div class="part part4">
                 <h4>При усадке бруса появляются щели</h4>
-                <p>В подавляющем большинстве строительных<br>
-                    компаний работники сколачивают венцы сруба,<br>
-                    не утапливая шляпку гвоздя глубоко в брус.<br> 
-                    Не утопленный гвоздь при усадке упирается<br>
-                     острием в брус и шляпкой может выжимать<br>
-                    верхний ряд сруба. И так все гвозди. Через<br>
-                    несколько месяцев, появляются щели по всей<br>
-                    бане, в которые не только задувает воздух,<br>
-                    но и попадает вода и снег.</p>
+                <p>В подавляющем большинстве строительных <br>компаний работники сколачивают венцы сруба, <br>не утапливая шляпку гвоздя глубоко в брус. <br>Не утопленный гвоздь при усадке упирается <br>острием в брус и шляпкой может выжимать <br>верхний ряд сруба. И так все гвозди. Через <br>несколько месяцев, появляются щели по всей <br>бане, в которые не только задувает воздух, <br>но и попадает вода и снег.</p>
             </div>
         </div>
         <div class="block block2">
-            <h3><span>ПОЧЕМУ С НАМИ НЕТ ТАКИХ ПРОБЛЕМ?</span></h3>
+            <h3><span>Почему с нами нет таких проблем?</span></h3>
             <div class="part part1">
                 <h4>Используем только качественный брус</h4>
-                <p>Для строительства бань мы используем только<br>
-                    качественную древесину, которую покупаем<br>
-                    уже на протяжении более 10 лет у одного<br>
-                    проверенного поставщика.</p>
+                <p>Для строительства бань мы используем только <br>качественную древесину, которую покупаем <br>уже на протяжении более 10 лет у одного <br>проверенного поставщика.</p>
             </div>
             <div class="part part2">
                 <h4>Доставка в течение 2 недель</h4>
-                <p>В нашей компании строительство производят<br>
-                    квалифицированные работники под чутким<br>
-                    руководством бригадира и управляющего<br>
-                    базой, который отвечает за качество «своей<br>
-                    головой». Изготовление стандартной бани<br>
-                    контролируется на каждом этапе, и время<br>
-                    изготовления занимает в среднем 5-7 дней.<br>
-                    К сожалению, мы вынуждены отказывать людям,<br>
-                    которые хотят получить баню как можно скорее<br>
-                    и качественно. Это противоречит нашим<br>
-                    принципам, так как мы знаем, что за несколько<br>
-                    дней сделать баню  хорошо и без халтуры<br>
-                    – невозможно!</p>
+                <p>В нашей компании строительство производят <br>квалифицированные работники под чутким <br>руководством бригадира и управляющего <br>базой, который отвечает за качество «своей <br>головой». Изготовление стандартной бани <br>контролируется на каждом этапе, и время <br>изготовления занимает в среднем 5-7 дней. <br>К сожалению, мы вынуждены отказывать людям, <br>которые хотят получить баню как можно скорее <br>и качественно. Это противоречит нашим <br>принципам, так как мы знаем, что за несколько <br>дней сделать баню  хорошо и без халтуры <br>– невозможно!</p>
             </div>
             <div class="part part3">
                 <h4>Доставка рассчитывается отдельно</h4>
-                <p>В нашей компании доставка рассчитывается<br>
-                    отдельно по специальной карте,<br>
-                    представленной на сайте. Это позволяет<br>
-                    не только более прозрачно видеть, из чего<br>
-                    формируется цена, но и сэкономить<br> 
-                    Ваши деньги на доставке бани.</p>
+                <p>В нашей компании доставка рассчитывается <br>отдельно по специальной карте, <br>представленной на сайте. Это позволяет <br>не только более прозрачно видеть, из чего <br>формируется цена, но и сэкономить <br>Ваши деньги на доставке бани.</p>
             </div>
             <div class="part part4">
                 <h4>Грамотная сборка, правильная усадка</h4>
-                <p>Прежде чем забить гвоздь, мы высверливам<br>
-                    глухое отверстие, диаметром чуть больше<br>
-                    шляпки гвоздя, гвоздь забивается и добойником,<br>
-                    утапливается в брус. При такой сборке,<br>
-                    в процессе усадки, гвоздь не вылезет выше<br>
-                    плоскости бруса, и щелей не появляется.<br>
-                    Кроме того, гвозди сильнее притягивают один<br>
-                    венец к другому, чего не добиться деревянным<br>
-                    нагелем.</p>
+                <p>Прежде чем забить гвоздь, мы высверливам <br>глухое отверстие, диаметром чуть больше <br>шляпки гвоздя, гвоздь забивается и добойником, <br>утапливается в брус. При такой сборке, <br>в процессе усадки, гвоздь не вылезет выше <br>плоскости бруса, и щелей не появляется. <br>Кроме того, гвозди сильнее притягивают один <br>венец к другому, чего не добиться деревянным <br>нагелем.</p>
             </div>
         </div>
     </div>
 </section>
-<section class="sec12">
+<section class="sec11" id="sec11">
     <div>
         <h2>Фотографии готовых проектов</h2>
         <div class="line"></div>
-        <div class="ul">
-            <div class="li btn1">Внешний вид бань</div>
-            <div class="li btn2">Внутренняя отделка бань</div>
-            <div class="li btn3">Разгрузка на участке клиента</div>
+        <div class="nav">
+            <a href="#photo-slide-1" class="active">Внешний вид бань</a>
+            <a href="#photo-slide-2">Внутренняя отделка бань</a>
+            <a href="#photo-slide-3">Разгрузка на участке клиента</a>
         </div>
-           <div class="line2"></div>
-            <div class="slide">
-                <div class="left">
-                    <div class="img1"></div>
+        <div class="slider active" id="photo-slide-1">
+            <div class="wrap">
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
                 </div>
-                <div class="right">
-                    <div class="img2"></div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>   
+            </div>
+            <div class="controls">
+                <div class="arrow left" id="sld1l"></div>
+                <div class="arrow right" id="sld1r"></div>
+            </div>
+            <div class="pager" id="pager1">
+                <a href="#" data-slide-index="0"></a>
+                <a href="#" data-slide-index="1"></a>
+                <a href="#" data-slide-index="2"></a>
+            </div>
+        </div>
+        <div class="slider" id="photo-slide-2">
+            <div class="wrap">
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
                 </div>
             </div>
-            <div class="icons">
-                <ul>
-                    <li class="li"></li>
-                    <li class="li active"></li>
-                    <li class="li"></li>
-                    <li class="li"></li>
-                </ul>
+            <div class="controls">
+                <div class="arrow left" id="sld2l"></div>
+                <div class="arrow right" id="sld2r"></div>
+            </div>
+            <div class="pager" id="pager2">
+                <a href="#" data-slide-index="0"></a>
+                <a href="#" data-slide-index="1"></a>
+                <a href="#" data-slide-index="2"></a>
             </div>
         </div>
-   
+        <div class="slider" id="photo-slide-3">
+            <div class="wrap">
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sparom1.jpg" alt="">
+                    <img src="img/sparom1.jpg" alt="">
+                </div>
+            </div>
+            <div class="controls">
+                <div class="arrow left" id="sld3l"></div>
+                <div class="arrow right" id="sld3r"></div>
+            </div>
+            <div class="pager" id="pager3">
+                <a href="#" data-slide-index="0"></a>
+                <a href="#" data-slide-index="1"></a>
+                <a href="#" data-slide-index="2"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec12" id="sec12">
+    <div>
+        <h2>Отзывы</h2>
+        <div class="line"></div>        
+        <div class="slider" id="slider-otz">
+            <div class="wrap">
+                <div class="sld">
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>                    
+                </div>
+                <div class="sld">
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>                    
+                </div>
+                <div class="sld">
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>
+                    <div class="slide" data-video-id="yuPhAMEzAFk">
+                        <img src="img/preview.jpg" alt="">
+                        <span>Нажмите для запуска видео</span>
+                    </div>                    
+                </div>
+            </div>
+            <div class="controls">
+                <div class="arrow left" id="sld4l"></div>
+                <div class="arrow right" id="sld4r"></div>
+            </div>
+            <div class="pager" id="pager4">
+                <a href="#" data-slide-index="0"></a>
+                <a href="#" data-slide-index="1"></a>
+                <a href="#" data-slide-index="2"></a>
+            </div>
+        </div>
+    </div>
 </section>
 <section class="sec13">
     <div>
-        <h3>Отзывы</h3>
-        <div class="line"></div>
-        <div class="videos">
-           <div class="left">
-            <div class="img"></div>
-            </div>
-            <div class="right">
-                <div class="img"></div>
-            </div>
-        </div>
-         <div class="slide">
-             <ul>
-                    <li class="li"></li>
-                    <li class="li active"></li>
-                    <li class="li"></li>
-                </ul>
-         </div>
+        <h2>Появились вопросы? <br>Задавайте!</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="phone" placeholder="Ваш телефон">
+            <button class="btn-animation">Оставить заявку</button>
+        </form>
     </div>
 </section>
-<section class="sec14">
+<footer id="footer">
     <div>
-        <h3>Появились вопросы?<br>Задавайте!</h3>
-        <div class="ul">
-            <div class="li btn1">Ваше имя</div>
-            <div class="li btn2">Ваш телефон</div>
-            <div class="li btn3">ОСТАВИТЬ ЗАЯВКУ</div>
-        </div>
-    </div>
-</section>
-<section class="sec15">
-    <div>
-        <div class="ul">
-            <div class="li block1">8 (800) 350-03-93<br>8 (931) 341-66-26<br>Максим</div>
-            <div class="li block2">79313416626@ya.ru<br>Ведущий специалист<br>Максим викторович</div>
-            <div class="li block3">174510,<br>Новгородская обл.,<br>г, Пестово, ул. Дачная, 25</div>
-            <div class="li block4">9:00-21:00<br>Без обеда<br>и выходных</div>
-        </div>
+        <ul>
+            <li class="li1"><a href="tel:88003500393">8 (800) 350-03-93</a> <br><a href="tel:89313416626">8 (931) 341-66-26</a> <br>Максим</li>
+            <li class="li2"><a href="mailto:79313416626@ya.ru">79313416626@ya.ru</a> <br>Ведущий специалист <br>Максим викторович</li>
+            <li class="li3">174510, <br>Новгородская обл., <br>г, Пестово, ул. Дачная, 25</li>
+            <li class="li4">9:00-21:00 <br>Без обеда <br>и выходных</li>
+        </ul>
         <div class="line"></div>
-        <p>Компания «С Легким Паром» © 2016. Все права на сайт строго защищены.<br>
-            Любое копирование запрещено и будет преследоваться<br>
-            по действующим законам Российской Федерации</p>
+        <p>Компания «С Легким Паром» © 2016. Все права на сайт строго защищены. <br>Любое копирование запрещено и будет преследоваться <br>по действующим законам Российской Федерации</p>
     </div>
-</section>
-<!--
-<div class="pop1">
-   <div class="close"></div>
-    <h2>СКАЧАЙТЕ ПОЛНЫЙ КАТАЛОГ<br> НА БАНИ С ЦЕНАМИ</h2>
-   
-    <p>Введите вашу электронную почту<br>и мы отправим вам полный каталог<br>на бани с ценами</p>
-    <div class="email">Ваш E-mail</div>
-    <div class="buttn">Скачать каталог<br><span>Размер: 2,1 мб</span></div>
-    <div class="update">Обновлен:12.12.2012</div>
-</div>
--->
-<!--
-<div class="pop2">
-   <div class="close"></div>
-    <h2>ЗАКАЖИТЕ ЗВОНОК ЭКСПЕРТА</h2>
-    <p>Наш эксперт свяжется с вами<br>в первую свободную минуту</p>
-    <div class="slide">
-      <div class="left">
-        </div> 
-       <div class="maria"></div>
-        <div class="right"></div>
-    </div>
-    <div class="expert">МАРИЯ<br><span>Руководитель отдела продаж</span></div>
-    
-     
-    <div class="ul"> 
-               <div class="li">
-                <input class="input1" placeholder="Ваше имя">
+</footer>
+<div id="hidden-box">
+    <div class="pop-box pop2" id="zz-pop">
+        <div class="close"></div>
+        <p class="heading">Закажите звонок эксперта</p>
+        <p class="descr">Наш эксперт свяжется с вами <br>в первую свободную минуту</p>
+        <div class="slider">
+            <div class="wrap" id="pop1slide">
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Мария</span>
+                        <span class="person">Руководитель отдела продаж</span>
+                    </p>                    
                 </div>
-                <div class="li">
-                <input class="input2" placeholder="Ваш телефон">
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Ксения</span>
+                        <span class="person">Руководитель отдела качества</span>
+                    </p>                    
                 </div>
-                <div class="li">
-                <button class="input3">Заказать звонок</button>
-        </div> 
-</div>
-    </div>
--->
-<!--
-<div class="pop3">
-    <div class="head">Узнайте стоимость и комплектацию вашей  будущей бани</div>
-    <div class="close"></div>
-    <div class="left">
-        <h2>КАКУЮ ШИРИНУ БАНИ ВЫ БЫ ВЫБРАЛИ?</h2>
-        <div class="line">
-            <div class="lineleft">15%</div>
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Вика</span>
+                        <span class="person">Менеджер по работе с клиентами</span>
+                    </p>                    
+                </div>
+            </div>
+            <div class="arrow left" id="arrl1"></div>
+            <div class="arrow right" id="arrr1"></div>
         </div>
-        <ul>
-            <li class="li block1">3 М</li>
-            <li class="li block1">4 М</li>
-            <li class="li block1">5 М</li>
-            <li class="li block2"></li>
-            <li class="li block3"></li>
-            <li class="li block4"></li>
-        </ul>
+        <form action="#" method="post">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+            <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+            <button class="btn-animation">Заказать звонок</button>
+        </form>
     </div>
-    <div class="right">
-        <div class="mawka"></div>
-        <div class="exppert">МАРИЯ<br><span>Эксперт по баням</span></div>
-        <div class="vopros">Вопрос 1 из 5</div> 
-        <p>Стиль кухни влияет на её стоимость.<br> 
-            Например, декоративные<br> 
-        элементы увеличивают це    ну кухонь<br> 
-            в стиле ар-деко и классика. А для<br>
-            кухонь в стилях лофт и минимализм<br> 
-            влияющим фактором будет<br>
-            материал и качество отделки<br>
-            фасадов, а так же количество<br>
-            встроенной техники.</p>
-    </div>
-    <div class="bottom">
-  <div class="lane">
-      <div class="btn1">Назад</div>
-      <div class="btn2">Далее</div>
-  </div>
-        
-    </div> 
-</div>
--->
-<div class="pop3b">
-    <div class="head">Узнайте стоимость и комплектацию вашей  будущей бани</div>
-    <div class="close"></div>
-    <div class="left">
-        <h2>КАКУЮ ШИРИНУ БАНИ ВЫ БЫ ВЫБРАЛИ?</h2>
-        <div class="line">
-            <div class="lineleft">15%</div>
+    <div class="pop-box pop2" id="consult-pop">
+        <div class="close"></div>
+        <p class="heading">Получить консультацию</p>
+        <p class="descr">Наш эксперт свяжется с вами <br>в первую свободную минуту</p>
+        <div class="slider">
+            <div class="wrap" id="pop2slide">
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Мария</span>
+                        <span class="person">Руководитель отдела продаж</span>
+                    </p>                    
+                </div>
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Ксения</span>
+                        <span class="person">Руководитель отдела качества</span>
+                    </p>                    
+                </div>
+                <div class="slide">
+                    <img src="img/maria.jpg" alt="">
+                    <p>
+                        <span class="name">Вика</span>
+                        <span class="person">Менеджер по работе с клиентами</span>
+                    </p>                    
+                </div>
+            </div>
+            <div class="arrow left" id="arrl2"></div>
+            <div class="arrow right" id="arrr2"></div>
         </div>
-        <ul>
-            <li class="li block1">С крылечком</li>
-            <li class="li block2">Без крылечка</li>
-            
-        </ul>
+        <form action="#" method="post">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+            <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+            <button class="btn-animation">Получить консультацию</button>
+        </form>
     </div>
-    <div class="right">
-        <div class="mawka"></div>
-        <div class="exppert">МАРИЯ<br><span>Эксперт по баням</span></div>
-        <div class="vopros">Вопрос 1 из 5</div> 
-        <p>Стиль кухни влияет на её стоимость.<br> 
-            Например, декоративные<br> 
-        элементы увеличивают це    ну кухонь<br> 
-            в стиле ар-деко и классика. А для<br>
-            кухонь в стилях лофт и минимализм<br> 
-            влияющим фактором будет<br>
-            материал и качество отделки<br>
-            фасадов, а так же количество<br>
-            встроенной техники.</p>
+    <div class="pop-box pop1" id="katalog-pop">
+        <div class="close"></div>
+        <p class="heading">Скачайте полный каталог <br>на бани с ценами</p>
+        <div class="img"></div>
+        <p class="descr">Введите вашу электронную почту<br>и мы отправим вам полный каталог<br>на бани с ценами</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Ваш E-mail" class="active">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <button class="button">Скачать каталог<br><span>Размер: 2,1 Мб</span></button>
+        </form>
+        <span class="update">Обновлен:12.12.2012</span>
     </div>
-    <div class="bottom">
-  <div class="lane">
-      <div class="btn1">Назад</div>
-      <div class="btn2">Далее</div>
-  </div>
-        
-    </div> 
+    <div class="pop-box pop2 short" id="action-pop">
+        <div class="close"></div>
+        <p class="heading">Узнать подробности нашей акции</p>
+        <p class="descr">Введите вашу электронную почту, <br>и мы направим вам подробное <br>описание нашей акции</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Ваш email" class="active">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <button class="btn-animation">Узнать подробности</button>
+        </form>
+    </div>
+    <div class="pop-box pop2 short" id="specific-pop">
+        <div class="close"></div>
+        <p class="heading">Получить подробную спецификацию</p>
+        <p class="descr">Введите вашу электронную почту, <br>и мы направим вам подробную <br>спецификацию на все бани</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Ваш email" class="active">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <button class="btn-animation">Получить спецификацию</button>
+        </form>
+    </div>
+    <div class="pop-box pop2 short" id="kredit-pop">
+        <div class="close"></div>
+        <p class="heading">Купить в кредит</p>
+        <p class="descr">Введите Ваши контактные данные, <br>и мы свяжемся с вами <br>для обсуждения условий кредитования</p>
+        <form action="#" method="post">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+            <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+            <button class="btn-animation">Купить в кредит</button>
+        </form>
+    </div>
+    <div class="pop-box pop2 short" id="calculate-pop">
+        <div class="close"></div>
+        <p class="heading">Получить расчет</p>
+        <p class="descr">Введите Ваши контактные данные, <br>для получения расчета цены <br>выбранной конфигурации бани</p>
+        <form action="#" method="post">
+            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+            <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+            <input type="hidden" name="length">
+            <input type="hidden" name="width">
+            <input type="hidden" name="fundament">
+            <input type="hidden" name="terasa">
+            <input type="hidden" name="comment">
+            <button class="btn-animation">Получить расчет</button>
+        </form>
+    </div>
+    <div class="pop-box pop3" id="test-pop">
+        <div class="close"></div>
+        <p class="heading">Узнайте стоимость и комплектацию вашей  будущей бани</p>
+        <div class="left">
+            <p>Какую ширину бани вы бы выбрали?</p>
+            <div class="progress">
+                <div class="current">15%</div>
+            </div>
+            <div class="select">
+                <div class="var text active">С крылечком</div>
+                <div class="var text">Без крылечка</div>
+                <!-- <div class="var width active">3 м</div>
+                <div class="var width">4 м</div>
+                <div class="var width">5 м</div>
+                <div class="var img"><img src="img/var1.jpg" alt=""></div>
+                <div class="var img"><img src="img/var2.jpg" alt=""></div>
+                <div class="var img"><img src="img/var3.jpg" alt=""></div> -->
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/maria.jpg" alt="">
+            <p class="expert">
+                <span class="name">МАРИЯ</span>
+                <span class="person">Эксперт по баням</span>
+            </p>
+            <p class="status">Вопрос 1 из 5</p>
+            <p class="question">Стиль кухни влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</p>
+        </div>
+        <div class="nav">
+            <a href="#" class="back">Назад</a>
+            <a href="#" class="forward">Далее</a>
+        </div>        
+    </div>
+    <div class="pop-box pop-mini" id="okgo">
+        <div class="close"></div>        
+        <p>Спасибо,<br>ваша заявка принята!<br>Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+    <div class="pop-box pop-mini" id="form-error-pop">
+        <div class="close"></div>
+        <p id="form-error-text"></p>
+    </div>
 </div>
+<script src="js/init.js"></script>
 </body>
-<div id="maket"></div>
 </html>
