@@ -251,6 +251,49 @@ button, input, textarea {
     height: 780px;
     position: relative;
     overflow: hidden;
+        .arr {
+            height: 44px;
+            width: 44px;
+            position: relative;
+            transition:all 0.25s;
+            &.left{
+                background-image: url(../img/strelka.png);
+                height: 44px;
+                width: 44px;
+                left: -50px;
+                top: 165px;
+                transition: all 0.25s;
+                position: absolute;
+                &:hover{
+                    left: -52px;
+
+                }
+            }
+            &.right{
+                background-image: url(../img/strelka2.png);
+                height: 44px;
+                width: 44px;
+                right: -50px;
+                top: 165px;
+                transition: all 0.25s;
+                position: absolute;
+                &:hover{
+                    right: -52px;
+                }
+            }
+            a{
+                font-size:0;
+                position:absolute;
+                left:0;
+                top:0;
+                width:100%;
+                height:100%;
+                opacity:0;
+            }
+            
+          }
+    
+    
     h2 {
         color: #0d2a66;
         font-family: $fontfamily;
@@ -298,6 +341,9 @@ button, input, textarea {
         margin-left: -960px;
         list-style: none;
         max-width: 1920px;
+        
+      
+        
         ul {
             width:1920px;
             position: absolute;
@@ -337,6 +383,8 @@ button, input, textarea {
                     margin-left: -960px;
                     z-index: 1;
                     top: 0;
+                    
+                    
                     &.img1 {
                         background-image: url(../img/img1.png);
                         background-position: center 28%;
@@ -453,6 +501,7 @@ button, input, textarea {
             .label1 {
                 font-size: 20px;
                 padding-top: 21px;
+             color: #0d2a66;
             }
             .summ-wrap {
                 border-radius: 23px;
@@ -469,11 +518,11 @@ button, input, textarea {
                     line-height: 42px;
                     font-family: $afont;
                     padding-left: 28px;
-                    width: 147px;
+                    font-weight: 300;
+                    width: 100%;
                     display: block;   
                     margin: 0;
-                    border-bottom-left-radius: 21px;
-                    border-top-left-radius: 21px;   
+                    border-radius: 21px; 
                 }
                 .valut {
                     float: right;
@@ -551,41 +600,42 @@ button, input, textarea {
                 
             }
             .line {
-                margin-top: 16px;
-//                .curs {
-//                    float: left;
-//                    font-size: 23px;
-//                    font-family: $afont;
-//                    height: 44px;
-//                    line-height: 44px;
-//                    padding-right: 22px;
-//                    padding-left: 5px;
-//                }
+    margin-top: 49px;
+    margin-bottom: 10px;
+                .curs {
+                    float: left;
+                    font-size: 23px;
+                    font-family: $afont;
+                    height: 44px;
+                    line-height: 44px;
+                    padding-right: 22px;
+                    padding-left: 5px;
+                }
                 .type {
                     float: left;
                     border-radius: 40px;
                     overflow: hidden;
                     border: 1px solid #c2c9e2;
                     color: white;
-                    width: 377px;
+                    width: 210px;
                     height: 44px;
                     border-radius: 30px;
-                    .bitcoin {
+                    .dollar {
                         cursor: pointer;
                         transition: all 0.25s;
                         float: left;
                         background-color: #e8edff;
-                        background-image: url(../img/icon1.png);
-                        background-position: 18px 10px;
+                        background-image: url(../img/dollar-ico.png);
+                        background-position: 22px center;
                         background-repeat: no-repeat;
                         padding-left: 47px;
                         font-size:15px;
                         color: #505568;
                         opacity: 0.76;
-                        width: 116px;                        
+                        width: 106px;                        
                         height: 42px;
-                        line-height: 42px;
-                        &.active{
+                        line-height: 44px;
+                        &.active{ 
                             opacity: 1;
                             background-color: white;
                             color: #0d2a66;
@@ -594,20 +644,20 @@ button, input, textarea {
                             opacity: 1;
                         }
                     }
-                    .efirium {  
+                    .euro {  
                         cursor: pointer;  
                         transition: all 0.25s;                    
                         height: 42px;
-                        line-height: 42px;
+                        line-height: 44px;
                         float: left;
                         border-left: 1px solid  #c2c9e2;
                         background-color:#e8edff;
-                        background-image: url(../img/icon2.png);
-                        background-position: 13px 10px;
+                        background-image: url(../img/euro-ico.png);
+                        background-position: 13px center;
                         background-repeat: no-repeat;
                         padding-left: 38px;
                         font-size:15px;
-                        width: 127px;
+                        width: 87px;
                         color: #505568;
                         opacity: 0.76;
                         &.active{
@@ -619,7 +669,7 @@ button, input, textarea {
                             opacity: 1;
                         }
                     }
-                    .litecoin {
+                    .ruble {
                         cursor: pointer;
                         transition: all 0.25s;
                         height: 42px;
@@ -627,11 +677,11 @@ button, input, textarea {
                         float: left;
                         border-left: 1px solid #c2c9e2;
                         background-color:#e8edff;
-                        background-image: url(../img/icon3.png);
-                        background-position: 14px 10px;
+                        background-image: url(../img/ruble-ico.png);
+                        background-position: 14px center;
                         background-repeat: no-repeat;
-                        padding-left: 43px;
-                        width: 132px;
+                        padding-left: 35px;
+                        width: 102px;
                         font-size:15px;
                         color: #505568;
                         opacity: 0.76;
@@ -713,6 +763,7 @@ button, input, textarea {
             .label1 {
                 font-size: 20px;
                 padding-top: 21px;
+             color: #0d2a66;
             }
             .summ-wrap {
                 border-radius: 23px;
@@ -726,14 +777,13 @@ button, input, textarea {
                     float: left;
                     font-size: 24px;
                     height: 42px;
-                    line-height: 42px;
                     font-family: $afont;
                     padding-left: 28px;
+                    font-weight: 300;
                     width: 147px;
                     display: block;
                     margin: 0;
-                    border-bottom-left-radius: 21px;
-                    border-top-left-radius: 21px;
+                    border-radius: 21px;
                 }
                 .valut {
                     float: right;
@@ -808,42 +858,44 @@ button, input, textarea {
                 
             }
             .line {
-                margin-top: 16px;
-                .curs {
-                    float: left;
-                    font-size: 23px;
-                    font-family: $afont;
-                    height: 44px;
-                    line-height: 44px;
-                    padding-right: 22px;
-                    padding-left: 5px;
-                }
+    margin-top: 49px;
+    margin-bottom: 10px;
+
+//                .curs {
+//                    float: left;
+//                    font-size: 23px;
+//                    font-family: $afont;
+//                    height: 44px;
+//                    line-height: 44px;
+//                    padding-right: 22px;
+//                    padding-left: 5px;
+//                }
                 .type {
                     float: left;
                     border-radius: 40px;
                     overflow: hidden;
                     border: 1px solid #c2c9e2;
                     color: white;
-                    width: 210px;
+                    width: 377px;
                     height: 44px;
                     border-radius: 30px;
-                    .dollar {
+                    .bitcoin {
                         cursor: pointer;
                         transition: all 0.25s;
                         float: left;
                         background-color: #e8edff;
-                        background-image: url(../img/dollar-ico.png);
-                        background-position: 18px center;
-                        background-repeat: no-repeat;
+                        background-image: url(../img/icon1.png); 
+                        background-position: 18px 10px;
+                        background-repeat:  no-repeat;
                         padding-left: 47px;
                         font-size:15px;
                         color: #505568;
                         opacity: 0.76;
-                        width: 106px;                        
-                        height: 42px;
-                        line-height: 44px;
+                        width: 116px;                        
+                        height: 42px;    
+                        line-height: 42px; 
                         &.active{
-                            opacity: 1;
+                            opacity: 1;   
                             background-color: white;
                             color: #0d2a66;
                         }
@@ -851,20 +903,20 @@ button, input, textarea {
                             opacity: 1;
                         }
                     }
-                    .euro {  
+                    .efirium {  
                         cursor: pointer;  
                         transition: all 0.25s;                    
                         height: 42px;
-                        line-height: 44px;
+                        line-height: 42px;
                         float: left;
                         border-left: 1px solid  #c2c9e2;
                         background-color:#e8edff;
-                        background-image: url(../img/euro-ico.png);
-                        background-position: 13px center;
+                        background-image: url(../img/icon2.png);
+                        background-position: 13px 10px;
                         background-repeat: no-repeat;
                         padding-left: 38px;
                         font-size:15px;
-                        width: 87px;
+                        width: 127px;
                         color: #505568;
                         opacity: 0.76;
                         &.active{
@@ -876,7 +928,7 @@ button, input, textarea {
                             opacity: 1;
                         }
                     }
-                    .ruble {
+                    .litecoin {
                         cursor: pointer;
                         transition: all 0.25s;
                         height: 42px;
@@ -884,11 +936,11 @@ button, input, textarea {
                         float: left;
                         border-left: 1px solid #c2c9e2;
                         background-color:#e8edff;
-                        background-image: url(../img/ruble-ico.png);
+                        background-image: url(../img/icon3.png);
                         background-position: 14px 10px;
                         background-repeat: no-repeat;
                         padding-left: 43px;
-                        width: 102px;
+                        width: 132px;
                         font-size:15px;
                         color: #505568;
                         opacity: 0.76;
@@ -1397,6 +1449,18 @@ footer {
         span{
         }
     }
+
+    .arr {
+        transform:scale(0.76);
+        &.left{
+            top: 125px;
+        }
+        &.right{
+            top: 125px;
+        }
+        
+      }
+
     .pager{
         max-width: 960px;
         bottom: 165px;
@@ -1549,6 +1613,7 @@ footer {
             .label1 {    
             font-size: 14px;
             padding-top: 11px;
+             color: #0d2a66;
             }
             .summ-wrap {
                    border-radius: 23px;
@@ -1558,18 +1623,18 @@ footer {
                     height: 34px;
                     margin-top: 8px;
                     margin-left: 3px;;
-                .number {
+                .number { 
                    float: left;
-                    font-size: 18px;
-                    height: 32px;
-                    line-height: 32px;
+                    font-size: 17px;
+                    height: 32px; 
+                    line-height: 32px; 
                     font-family: "MuseoCyrl", sans-serif;
                     padding-left: 22px;
-                    width: 111px;
+                    font-weight: 300;   
+                    width: 111px;  
                     display: block;
                     margin: 0;
-                    border-bottom-left-radius: 32px;
-                    border-top-left-radius: 32px;
+                    border-radius: 32px;
                 }
                 .valut {
                     float: right;
@@ -1657,283 +1722,8 @@ footer {
  
             }
             .line {
-                margin-top: 10px;
-                .curs {
-                            float: left;
-                            font-size: 21px;
-                            font-family: "MuseoCyrl", sans-serif;
-                            height: 34px;
-                            line-height: 34px;
-                            padding-right: 22px;
-                            padding-left: 5px;
-                }
-                .type {
-                    float: left;
-                    border-radius: 40px;
-                    overflow: hidden;
-                    border: 1px solid #c2c9e2;
-                    color: white;
-                    width: 288px;
-                    height: 34px;
-                    border-radius: 30px;
-                    .bitcoin {
-                        cursor: pointer;
-                        transition: all 0.25s;
-                        float: left;
-                        background-color: #e8edff;
-                        background-image: url(../img/icon1.png);
-                        background-position: 14px 6px;
-                        background-size: auto 18px;
-                        background-repeat: no-repeat;
-                        padding-left: 34px;
-                        font-size: 12px;
-                        color: #505568;
-                        opacity: 0.76;
-                        width: 89px;
-                        height: 34px;
-                        line-height: 34px;
-                        &.active{
-                            opacity: 1;
-                            background-color: white;
-                            color: #0d2a66;
-                        }
-                        &:hover{
-                            opacity: 1;
-                        }
-                    }
-                    .efirium { 
-                                 cursor: pointer;
-                                transition: all 0.25s;
-                                height: 34px;
-                                line-height: 34px;
-                                float: left;
-                                border-left: 1px solid #c2c9e2;
-                                background-color: #e8edff;
-                                background-image: url(../img/icon2.png);
-                                background-position: 8px 5px;
-                                background-size: auto 20px;
-                                background-repeat: no-repeat;
-                                padding-left: 28px;
-                                font-size: 12px;
-                                width: 97px;
-                                color: #505568;
-                                opacity: 0.76;
-                        &.active{
-                            opacity: 1;
-                            background-color: white;
-                            color: #0d2a66;
-                        }
-                        &:hover{
-                            opacity: 1;
-                        }
-                    }
-                    .litecoin {
-                        cursor: pointer;
-                        transition: all 0.25s;
-                        height: 34px;
-                        line-height: 34px;
-                        float: left;
-                        border-left: 1px solid #c2c9e2;
-                        background-color: #e8edff;
-                        background-image: url(../img/icon3.png);
-                        background-position: 10px 8px;
-                        background-repeat: no-repeat;
-                        background-size: auto 15px;
-                        padding-left: 30px;
-                        width: 100px;
-                        font-size: 12px;
-                        color: #505568;
-                        opacity: 0.76;
-                        &.active{
-                            opacity: 1;
-                            background-color: white;
-                            color: #0d2a66;
-                        }
-                        &:hover{
-                            opacity: 1;
-                        }
-                    }
-                }
-            }
-            .back{
-                            width: 76px;
-                            height: 41px;
-                            border: 1px solid rgba(145, 154, 187, 0.43);
-                            border-radius: 27px;
-                            margin-top: 25px;
-                            float: left;
-                            margin-left: 5px;
-                            color: #505568;
-                            font-size: 12px;
-                            font-weight: 400;
-                            line-height: 39px;
-                            text-align: center;
-                            cursor: pointer;
-                            margin-right: 11px;
-                            background:#e8edff;
-
-                        transition:all 0.25s;
-                &:hover{
-                    background-color:#223172;
-                    color:white;
-                }
-            }
-            .btn {
-                            float: right;
-                            width: 177px;
-                            height: 41px;
-                            background-color: #283a83;
-                            border-radius: 27px;
-                            text-align: center;
-                            line-height: 41px;
-                            margin-top: 25px;
-                            color: white;
-                            margin-right: 141px;
-                            padding-right: 4px;
-                            cursor: pointer;
-                            transition: all 0.25s;
-                            outline: 0;
-                &:hover{
-                    background-color: #112e75;           
-                }  
-            }         
-        } 
-    }
-    .step2_b {
-        display: none;  
-        h2 {
-                     
-        padding-top: 72px;
-        text-align: center;
-        color: white;
-        font-family: "GothamPro", sans-serif;
-        font-size: 29px;
-        font-weight: 400;
-        line-height: 34px;
-        letter-spacing: 0.2px;
-        }
-        .block {
-                background-color: #e8edff;
-                margin: 10px auto 0;
-                padding-top: 21px;
-                text-align: left;
-                width: 486px;
-                height: 296px;
-                margin-top: 30px;
-                border-radius: 17px;
-                padding-left: 66px;
-                position: relative;
-            .label1 {    
-             font-size: 14px;
-             padding-top: 9px;
-            }
-            .summ-wrap {
-                border-radius: 23px;
-                border: 1px solid rgba(145, 154, 187, 0.43);
-                width: 160px;
-                background-color: white;
-                height: 34px;
-                margin-top: 14px;
-                margin-left: 3px;;
-                .number {
-                    float: left;
-                    font-size: 20px;
-                    height: 32px;
-                    line-height: 32px;
-                    font-family: "MuseoCyrl", sans-serif;
-                    padding-left: 18px;
-                    width: 104px;
-                    display: block;
-                    margin: 0;
-                    border-bottom-left-radius: 21px;
-                    border-top-left-radius: 21px;
-                }
-                .valut {
-                    float: right;
-                    background-color: #c2c9e2;
-                    background-image: url(../img/galka.png);
-                    background-position: 30px 14px;
-                    background-repeat: no-repeat;
-                    color: white;
-                    font-size: 24px;
-                    height: 32px;
-                    line-height: 32px;
-                    width: 54px;
-                    color: #1f283b;
-                    font-family: $afont;
-                    position: relative;
-                    border-bottom-right-radius: 21px;
-                    border-top-right-radius: 21px;
-                    .current{
-                        width: 100%;
-                        height: 32px;
-                        background-position: 10px center;
-                        cursor: pointer;
-                        &[data-selected="bitcoin"]{
-                            background-image: url(../img/icon1.png);
-                            background-size: auto 18px;
-                            background-position: 10px 7px;
-                        }
-                        &[data-selected="ethereum"]{
-                            background-image: url(../img/icon2.png);
-                            background-size: auto 22px;
-                            background-position: 10px 5px;
-                        }
-                        &[data-selected="litecoin"]{
-                            background-image: url(../img/icon3.png);
-                            background-size: auto 15px;
-                            background-position: 10px 8px;
-                        }
-                    }
-                    .select{
-                        display: none;
-                        position: absolute;
-                        left: 0;
-                        top: 100%;
-                        width: 40px;
-                        z-index: 2;
-                        border-left:  1px solid rgba(145,154,187,0.43);
-                        border-right: 1px solid rgba(145,154,187,0.43);
-                            background-color: #c2c9e2;
-                        border-top:  1px solid rgba(145,154,187,0.43);
-                        .item{
-                            height: 32px;
-                            border-bottom: 1px solid rgba(145,154,187,0.43);
-                            width: 100%;
-                            background-position: 10px center;
-                            cursor: pointer;
-                            background-color: transparent;
-                            transition: all 0.25s;
-                            &:hover{
-                                background-color: white;
-                            }
-                        }
-                        .bitcoin{
-                            background-image: url(../img/icon1.png);
-                            background-size: auto 18px;
-                            background-position: 11px 7px;
-                        }
-                        .efirium{
-                            background-image: url(../img/icon2.png);
-                            background-size: auto 21px;
-                            background-position: 12px 6px;
-                        }
-                        .litecoin{
-                            background-image: url(../img/icon3.png);
-                            background-size: auto 15px;
-                            background-position: 13px 8px;
-                        }
-                    }
-                }
-            }
-            .label2 {
-                    font-size: 14px;
-                    padding-top: 14px;
-                    margin-left: 6px;
-                
-            }
-            .line {
-                margin-top: 10px;
+                margin-top: 37px;
+                margin-bottom: 11px;
                 .curs {
                     float: left;
                     font-size: 23px;
@@ -2032,20 +1822,299 @@ footer {
                 }
             }
             .back{
-                        width: 101px;
-                        height: 41px;
-                        border: 1px solid rgba(145, 154, 187, 0.43);
-                        border-radius: 27px;
-                        margin-top: 25px;
-                        float: left;
-                        margin-right: 25px;
-                        color: #505568;
-                        font-size: 15px;
-                        font-weight: 400;
-                        line-height: 38px;
-                        text-align: center;
+                            width: 76px;
+                            height: 41px;
+                            border: 1px solid rgba(145, 154, 187, 0.43);
+                            border-radius: 27px;
+                            margin-top: 25px;
+                            float: left;
+                            margin-left: 5px;
+                            color: #505568;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 39px;
+                            text-align: center;
+                            cursor: pointer;
+                            margin-right: 11px;
+                            background:#e8edff;
+
+                        transition:all 0.25s;
+                &:hover{
+                    background-color:#223172;
+                    color:white;
+                }
+            }
+            .btn {
+                            float: right;
+                            width: 177px;
+                            height: 41px;
+                            background-color: #283a83;
+                            border-radius: 27px;
+                            text-align: center;
+                            line-height: 41px;
+                            margin-top: 25px;
+                            color: white;
+                            margin-right: 141px;
+                            padding-right: 4px;
+                            cursor: pointer;
+                            transition: all 0.25s;
+                            outline: 0;
+                &:hover{
+                    background-color: #112e75;           
+                }  
+            }         
+        } 
+    }
+    .step2_b {
+        display: none;  
+        h2 {
+                     
+        padding-top: 72px;
+        text-align: center;
+        color: white;
+        font-family: "GothamPro", sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.2px;
+        }
+        .block {
+                background-color: #e8edff;
+                margin: 10px auto 0;
+                padding-top: 21px;
+                text-align: left;
+                width: 486px;
+                height: 296px;
+                margin-top: 30px;
+                border-radius: 17px;
+                padding-left: 66px;
+                position: relative;
+            .label1 {    
+             font-size: 14px;
+             padding-top: 9px;
+             color: #0d2a66;
+            }
+            .summ-wrap {
+                border-radius: 23px;
+                border: 1px solid rgba(145, 154, 187, 0.43);
+                width: 160px;
+                background-color: white;
+                height: 34px;
+                margin-top: 14px;
+                margin-left: 3px;;
+                .number {
+                    float: left;
+                    font-size: 17px;
+                    height: 32px;
+                    font-family: "MuseoCyrl", sans-serif;
+                    font-weight: 300;
+                    padding-left: 18px;
+                    width: 104px;
+                    display: block;
+                    margin: 0;
+                    border-radius: 21px;
+                }
+                .valut {
+                    float: right;
+                    background-color: #c2c9e2;
+                    background-image: url(../img/galka.png);
+                    background-position: 30px 14px;
+                    background-repeat: no-repeat;
+                    color: white;
+                    font-size: 24px;
+                    height: 32px;
+                    line-height: 32px;
+                    width: 54px;
+                    color: #1f283b;
+                    font-family: $afont;
+                    position: relative;
+                    border-bottom-right-radius: 21px;
+                    border-top-right-radius: 21px;
+                    .current{
+                        width: 100%;
+                        height: 32px;
+                        background-position: 10px center;
                         cursor: pointer;
-                        background: #e8edff;
+                        &[data-selected="bitcoin"]{
+                            background-image: url(../img/icon1.png);
+                            background-size: auto 18px;
+                            background-position: 10px 7px;
+                        }
+                        &[data-selected="ethereum"]{
+                            background-image: url(../img/icon2.png);
+                            background-size: auto 22px;
+                            background-position: 10px 5px;
+                        }
+                        &[data-selected="litecoin"]{
+                            background-image: url(../img/icon3.png);
+                            background-size: auto 15px;
+                            background-position: 10px 8px;
+                        }
+                    }
+                    .select{
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        width: 40px;
+                        z-index: 2;
+                        border-left:  1px solid rgba(145,154,187,0.43);
+                        border-right: 1px solid rgba(145,154,187,0.43);
+                            background-color: #c2c9e2;
+                        border-top:  1px solid rgba(145,154,187,0.43);
+                        .item{
+                            height: 32px;
+                            border-bottom: 1px solid rgba(145,154,187,0.43);
+                            width: 100%;
+                            background-position: 10px center;
+                            cursor: pointer;
+                            background-color: transparent;
+                            transition: all 0.25s;
+                            &:hover{
+                                background-color: white;
+                            }
+                        }
+                        .bitcoin{
+                            background-image: url(../img/icon1.png);
+                            background-size: auto 18px;
+                            background-position: 11px 7px;
+                        }
+                        .efirium{
+                            background-image: url(../img/icon2.png);
+                            background-size: auto 21px;
+                            background-position: 12px 6px;
+                        }
+                        .litecoin{
+                            background-image: url(../img/icon3.png);
+                            background-size: auto 15px;
+                            background-position: 13px 8px;
+                        }
+                    }
+                }
+            }
+            .label2 {
+                    font-size: 14px;
+                    padding-top: 14px;
+                    margin-left: 6px;
+                
+            }
+            .line {
+                margin-top: 37px;
+                margin-bottom: 11px;
+                .curs {
+                            float: left;
+                            font-size: 21px;
+                            font-family: "MuseoCyrl", sans-serif;
+                            height: 34px;
+                            line-height: 34px;
+                            padding-right: 22px;
+                            padding-left: 5px;
+                }
+                .type {
+                    float: left;
+                    border-radius: 40px;
+                    overflow: hidden;
+                    border: 1px solid #c2c9e2;
+                    color: white;
+                    width: 288px;
+                    height: 34px;
+                    border-radius: 30px;
+                    .bitcoin {
+                        cursor: pointer;
+                        transition: all 0.25s;
+                        float: left;
+                        background-color: #e8edff;
+                        background-image: url(../img/icon1.png);
+                        background-position: 14px 6px;
+                        background-size: auto 18px;
+                        background-repeat: no-repeat;
+                        padding-left: 34px;
+                        font-size: 12px;
+                        color: #505568;
+                        opacity: 0.76;
+                        width: 89px;
+                        height: 34px;
+                        line-height: 34px;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .efirium { 
+                                 cursor: pointer;
+                                transition: all 0.25s;
+                                height: 34px;
+                                line-height: 34px;
+                                float: left;
+                                border-left: 1px solid #c2c9e2;
+                                background-color: #e8edff;
+                                background-image: url(../img/icon2.png);
+                                background-position: 8px 5px;
+                                background-size: auto 20px;
+                                background-repeat: no-repeat;
+                                padding-left: 28px;
+                                font-size: 12px;
+                                width: 97px;
+                                color: #505568;
+                                opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .litecoin {
+                        cursor: pointer;
+                        transition: all 0.25s;
+                        height: 34px;
+                        line-height: 34px;
+                        float: left;
+                        border-left: 1px solid #c2c9e2;
+                        background-color: #e8edff;
+                        background-image: url(../img/icon3.png);
+                        background-position: 10px 8px;
+                        background-repeat: no-repeat;
+                        background-size: auto 15px;
+                        padding-left: 30px;
+                        width: 100px;
+                        font-size: 12px;
+                        color: #505568;
+                        opacity: 0.76;
+                        &.active{
+                            opacity: 1;
+                            background-color: white;
+                            color: #0d2a66;
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .back{
+                        width: 76px;
+                            height: 41px;
+                            border: 1px solid rgba(145, 154, 187, 0.43);
+                            border-radius: 27px;
+                            margin-top: 25px;
+                            float: left;
+                            margin-left: 5px;
+                            color: #505568;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 39px;
+                            text-align: center;
+                            cursor: pointer;
+                            margin-right: 11px;
+                            background:#e8edff;
+
                         transition:all 0.25s;
                         &:hover{
                             background-color:#223172;

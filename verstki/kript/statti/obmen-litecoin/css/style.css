@@ -90,7 +90,8 @@ section {
 
 /* line 70, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
 .sec2 {
-  overflow: inherit; }
+  /* overflow: inherit; */
+  }
   /* line 72, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
   .sec2 > img {
     position: absolute;
@@ -104,7 +105,8 @@ section {
   .sec2 .main {
     margin-left: 56px;
     margin-right: 38px;
-    margin-top: -11px; }
+    /* margin-top: -11px; */
+    }
     /* line 87, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
     .sec2 .main h2 {
       font-size: 24px;
