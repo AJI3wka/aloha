@@ -251,6 +251,40 @@ button, input, textarea {
     height: 780px;
     position: relative;
     overflow: hidden;
+        .arr {
+            height: 44px;
+            width: 44px;
+            position: relative;
+            transition:all 0.25s;
+            &.left{
+                            background-image: url(../img/strelka.png);
+                            height: 44px;
+                            width: 44px;
+                            left: -50px;
+                            top: 95px;
+                            transition: all 0.25s;
+                            position: absolute;
+            }
+            &:hover{
+                left: -48px;
+                
+            }
+            &.right{
+                background-image: url(../img/strelka2.png);
+                height: 44px;
+                width: 44px;
+                right: -50px;
+                top: 95px;
+                transition: all 0.25s;
+                position: absolute;
+            }
+            &:hover{
+                right:48px;
+            }
+            
+          }
+    
+    
     h2 {
         color: #0d2a66;
         font-family: $fontfamily;
@@ -298,6 +332,9 @@ button, input, textarea {
         margin-left: -960px;
         list-style: none;
         max-width: 1920px;
+        
+      
+        
         ul {
             width:1920px;
             position: absolute;
@@ -337,6 +374,8 @@ button, input, textarea {
                     margin-left: -960px;
                     z-index: 1;
                     top: 0;
+                    
+                    
                     &.img1 {
                         background-image: url(../img/img1.png);
                         background-position: center 28%;
