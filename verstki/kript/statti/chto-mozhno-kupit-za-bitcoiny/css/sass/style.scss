@@ -1,0 +1,180 @@
+$fontfamily: 'GothamPro',sans-serif;;;
+$afont: 'MuseoCyrl',sans-serif;
+$wievport: 1000px;
+$dark: #141414;
+
+@mixin ibw() {
+    text-align: center;
+    font-size: 0;
+        &>*{
+        font-size: 1rem;
+        display: inline-block;
+        vertical-align: top;
+        }
+}
+@mixin sec() {
+    width: 100%;
+    min-width: $wievport;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    &>div{
+        max-width: $wievport;
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        margin: 0 auto;
+        
+    }
+}
+*{margin:0;padding:0;box-sizing:border-box;background-position:center;background-repeat:no-repeat}
+:after,:before{content:"";display:block;width:100%;height:0;clear:both}
+sup:after,sup:before,a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
+h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center;font-family: $fontfamily;font-weight: 300;letter-spacing: 0.01em}
+body{font-family:$fontfamily,sans-serif;font-weight:400;color: $dark;}
+a{text-decoration:none;color:inherit;outline:0!important}
+button,input,textarea{outline: none;}
+section{
+    @include sec();
+}
+
+#maket {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background: url(../maket.jpg) no-repeat top center;
+    height: 13200px;
+    opacity: 0.5;
+    z-index: 10;  
+}
+.sec1 {
+    img{
+        display: block;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+    }
+        h1 {
+            font-family: $fontfamily;
+            font-size: 33px;
+            color:white;
+            line-height: 40px;
+            height: 40px;
+            width: 100%;
+            position: absolute;
+            top:43%;
+            margin-top: -24px;
+    }
+}
+.sec2 {
+    overflow: inherit; 
+    &>img{
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+        top: 0;
+        
+    }
+    &>div{
+        padding-top: 1px;
+    }
+    .main {
+        margin-left: 56px;
+        margin-right: 38px;
+        margin-top: -11px;
+        
+            h2 {
+                font-size: 24px;
+                line-height: 30px;
+                color: #0d2a66;
+                font-weight: 400;
+                text-align: left;
+                margin-top: 50px;
+                &:nth-of-type(1){
+                    margin-top: 0;
+                }
+                
+                &:before,&:after{
+                    content: none;
+                }
+        }
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+            margin-bottom: 27px;
+            line-height: 25px;
+                letter-spacing: -0.6px;
+                &:before,&:after{
+                    content: none;
+                }
+        }
+        
+    
+        .right {
+                float: right;
+                width: 374px;
+                height: 220px;
+                background-color: #5c5c5c;
+                border: 11px solid white;
+                box-shadow: 0 6px 32px rgba(0, 0, 0, 0.44);
+                margin-top: 70px;
+                border-radius: 11px;
+                margin-left: 70px;
+                margin-bottom: 70px;
+                .video {
+                    width:352px;
+                    height: 198px;
+            }
+
+        }
+    
+        ul {
+            	font-size: 26px;
+            margin-left: 34px;
+            padding-top: 25px;
+            padding-right: 65px;
+                &:before,&:after{
+                    content: none;
+                }
+            
+            
+            .li {
+                font-size:17px;
+                padding-left: 5px;
+                margin-bottom:21px;
+                letter-spacing: -0.1px;
+                &:before,&:after{
+                    content: none;
+                }
+            }
+        }
+        .button {
+            width: 234px;
+            height: 54px;
+            border-radius: 27px;
+            color: white;
+            text-align: center;
+            line-height: 55px;
+            padding-left: 30px;
+            background-image: url(../img/arrowleft.png);
+            background-color: #283a83;
+            background-size: 23px 5px;
+            background-position: 35px 25px;
+            margin-top: 73px;
+            margin-left: 1px;
+            font-size: 17px;
+            transition: all 0.25s;
+            cursor: pointer;
+            font-family: $afont;
+            display: block;
+            margin-bottom: 50px;
+            &:hover{
+                background-color:#112e75;
+            }
+            }
+    }
+}
+
+    
+
