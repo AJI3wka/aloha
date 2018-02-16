@@ -925,7 +925,7 @@ header {
 
 .sec7 {
     padding-top: 43px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
     h2 {
         font-size: 38px;
@@ -1011,7 +1011,7 @@ header {
             }
 
             & > .right {
-                width: 1102px;
+                width: 1068px;
                 float: right;
                 display: none;
                 &.active{
@@ -1020,7 +1020,7 @@ header {
 
                 .top1 {
                     float: left;
-                    width: 420px;
+                    width: 386px;
 
                     span {
                         display: block;
@@ -1028,13 +1028,12 @@ header {
                         text-align: left;
                         font-size: 24px;
                         font-weight: 600;
-                        padding-left: 34px;
                         margin-top: 22px;
                     }
 
                     ul {
                         margin-top: 16px;
-                        padding-left: 53px;
+                        padding-left: 19px;
 
                         li {
                             font-size: 18px;
@@ -1128,7 +1127,6 @@ header {
                 .bottom {
                     clear: both;
                     padding-top: 19px;
-                    padding-left: 34px;
 
                     .left {
                         float: left;
@@ -1199,23 +1197,31 @@ header {
             display: inline-block;
             margin-top: 69px;
 
-            input {
-                padding-left: 25px;
-                border: 2px solid #fccd11;
+            .input-wrap{
                 width: 370px;
                 height: 54px;
-                background-color: white;
                 float: left;
-                font-size: 18px;
-                font-style: italic;
-                text-align: left;
-                font-family: $fontfamily;
                 margin-right: 30px;
+                span{
+                    top: 58px;
+                }
+                input {
+                    padding-left: 25px;
+                    border: 2px solid #fccd11;
+                    width: 370px;
+                    height: 54px;
+                    background-color: white;
+                    font-size: 18px;
+                    font-style: italic;
+                    text-align: left;
+                    display: block;
+                    font-family: $fontfamily;
 
-                // &::placeholder{
-                //     color:black;
-                // }
-           
+                    // &::placeholder{
+                    //     color:black;
+                    // }
+               
+                }
             }
 
             button {
@@ -1279,20 +1285,19 @@ header {
                 }
 
                 & > .right {
-                    width: 770px;
+                    width: 748px;
 
                     .top1 {
-                        width: 300px;
+                        width: 278px;
 
                         span {
                             margin-top: 13px;
-                            padding-left: 22px;
                             font-size: 17px;
                         }
 
                         ul {
                             margin-top: 11px;
-                            padding-left: 38px;
+                            padding-left: 16px;
 
                             li {
                                 font-size: 13px;
@@ -1365,7 +1370,6 @@ header {
 
                     .bottom {
                         padding-top: 13px;
-                        padding-left: 23px;
 
                         .left {
                             width: 240px;
@@ -1410,8 +1414,8 @@ header {
 }
 
 .sec8 {
-    padding-top: 72px;
-
+    padding-top: 62px;
+    padding-bottom: 10px;
     h2 {
         font-size: 38px;
     }
@@ -1422,7 +1426,7 @@ header {
         background-color: #fccd11;
         margin: 21px auto 0;
     }
-
+ 
     .left {
         margin-top: 67px;
         width: 730px;
@@ -1485,7 +1489,6 @@ header {
                 &.active, &:hover {
                     background: #fccd11;
                     border: 1px solid #fccd11;
-                    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
                 }
             }
 
@@ -1586,35 +1589,38 @@ header {
             width: 300px;
             margin: 8px auto 0;
 
-            & > input[type="text"] {
-                font-size: 18px;
-                font-style: italic;
-                text-align: left;
-                padding-left: 38px;
-                border: 1px solid rgba(116, 116, 116, 0.4);
-                box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
-                display: block;
-                width: 100%;
-                height: 40px;
-                margin-bottom: 25px;
-                font-family: $fontfamily;
-                transition: all 0.25s;
+            & > .input-wrap{
 
-                &[name="name"] {
-                    background: url(../img/face.png) no-repeat center;
-                    background-position: 8px 12px;
-                }
+                input[type="text"] {
+                    font-size: 18px;
+                    font-style: italic;
+                    text-align: left;
+                    padding-left: 38px;
+                    border: 1px solid rgba(116, 116, 116, 0.4);
+                    box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
+                    display: block;
+                    width: 100%;
+                    height: 40px;
+                    margin-bottom: 25px;
+                    font-family: $fontfamily;
+                    transition: all 0.25s;
 
-                &[name="phone"] {
-                    background: url(../img/phone2.png) no-repeat center;
-                    background-position: 10px 10px;
-                }
+                    &[name="name"] {
+                        background: url(../img/face.png) no-repeat center;
+                        background-position: 8px 12px;
+                    }
 
-                &:focus {
-                    border: 1px solid #f9c40b;
-                    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+                    &[name="phone"] {
+                        background: url(../img/phone2.png) no-repeat center;
+                        background-position: 10px 10px;
+                    }
+
+                    &:focus {
+                        border: 1px solid #f9c40b;
+                        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+                    }
                 }
-            }
+            } 
 
             .helper {
                 text-align: left;
@@ -1683,7 +1689,7 @@ header {
 }
 
 .sec9 {
-    padding-top: 98px;
+    padding-top: 88px;
 
     h2 {
         font-size: 38px;
@@ -2178,22 +2184,28 @@ header {
 
     form {
         margin-top: 37px;
-
-        input {
-            display: block;
+        
+        .input-wrap{
             float: left;
-            padding-left: 28px;
-            box-shadow: inset 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
             width: 370px;
-            height: 54px;
-            background-color: white;
-            float: left;
-            font-size: 18px;
-            font-style: italic;
-            text-align: left;
-            border: none;
-            font-family: $fontfamily;
             margin-right: 30px;
+            input {
+                display: block;
+                padding-left: 28px;
+                box-shadow: inset 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
+                height: 54px;
+                width: 370px;
+                background-color: white;
+                float: left;
+                font-size: 18px;
+                font-style: italic;
+                text-align: left;
+                border: none;
+                font-family: $fontfamily;
+            }
+            span{
+                top:58px;
+            }
         }
 
         button {
@@ -2324,21 +2336,26 @@ footer {
     }
 
     form {
-        input {
-            margin: 0 auto 25px;
+        .input-wrap{
+
+            margin: 0 auto;
             width: 304px;
-            height: 40px;
-            background-color: white;
-            border: 1px solid black;
-            text-align: left;
-            padding-left: 41px;
-            font-style: italic;
-            font-size: 16px;
-            background-image: url(../img/massage.png);
-            background-position: 9px 13px;
-            font-family: $fontfamily;
-            display: block;
-            margin-bottom: 25px;
+            input {
+                margin: 0 auto 25px;
+                width: 304px;
+                height: 40px;
+                background-color: white;
+                border: 1px solid black;
+                text-align: left;
+                padding-left: 41px;
+                font-style: italic;
+                font-size: 16px;
+                background-image: url(../img/massage.png);
+                background-position: 9px 13px;
+                font-family: $fontfamily;
+                display: block;
+                margin-bottom: 25px;
+            }
         }
 
         .button {
@@ -2522,10 +2539,341 @@ footer {
 
 .pop3 {
     width: 1170px;
-    height: 773px;
     border: 6px solid #fccd11;
     position: relative;
     background: white;
+    //height: 
+    height: 700px;
+    transition: height 0.5s;
+    overflow: hidden;
+    &.can_next{
+        height: 773px;
+        .nav{
+            z-index: 1;
+            opacity: 1;
+        }
+    }
+    &[data-status="form"]{
+        background-image: url(../img/banya.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -100px;
+        .left,.right{
+            display: none;
+        }
+        form{
+            display: block;
+        }
+    }
+    &[data-status="1"]{
+        .left{
+            .progress{
+                .current{
+                    width: 20%;
+                    span[data-status="1"]{
+                        display: block;
+                    }
+                }
+            }
+            p{
+                span[data-status="1"]{
+                    left: 0;
+                    opacity: 1;
+                }
+                
+            }
+            .select{
+                .wrap[data-status="1"]{
+                    opacity: 1;
+                    left: 0;                   
+                }
+            }
+        }
+        .right{
+            .status{
+                span[data-status="1"]{
+                    display: inline;
+                }
+            }
+            .question{
+                span[data-status="1"]{
+                    opacity: 1;
+                    left: 0;                    
+                }
+            }
+        }
+    }
+    &[data-status="2"]{
+        .left{
+            .progress{
+                .current{
+                    width: 40%;
+                    span[data-status="2"]{
+                        display: block;
+                    }
+                }
+            }
+            p{
+                span[data-status="1"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="2"]{
+                    opacity: 1;
+                    left: 0;
+                }
+                
+            }
+            .select{
+                .wrap[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="2"]{
+                    opacity: 1;
+                    left: 0;                 
+                }
+            }
+        }
+        .right{
+            .status{
+                span[data-status="2"]{
+                    display: inline;
+                }
+            }
+            .question{
+                span[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="2"]{
+                    opacity: 1;
+                    left: 0;                  
+                }
+            }
+        }
+    }
+    &[data-status="3"]{
+        .left{
+            .progress{
+                .current{
+                    width: 60%;
+                    span[data-status="3"]{
+                        display: block;
+                    }
+                }
+            }
+            p{
+                span[data-status="1"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="2"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="3"]{
+                    opacity: 1;
+                    left: 0;
+                }
+                
+            }
+            .select{
+                .wrap[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="3"]{
+                    opacity: 1;
+                    left: 0;                  
+                }
+            }
+        }
+        .right{
+            .status{
+                span[data-status="3"]{
+                    display: inline;
+                }
+            }
+            .question{
+                span[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="3"]{
+                    opacity: 1;
+                    left: 0;                   
+                }
+            }
+        }
+    }
+    &[data-status="4"]{
+        .left{
+            .progress{
+                .current{
+                    width: 80%;
+                    span[data-status="4"]{
+                        display: block;
+                    }
+                }
+            }
+            p{
+                span[data-status="1"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="2"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="3"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="4"]{
+                    opacity: 1;
+                    left: 0;
+                }
+                
+            }
+            .select{
+                .wrap[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="3"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="4"]{
+                    opacity: 1;
+                    left: 0;                 
+                }
+            }
+        }
+        .right{
+            .status{
+                span[data-status="4"]{
+                    display: inline;
+                }
+            }
+            .question{
+                span[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="3"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="4"]{
+                    opacity: 1;
+                    left: 0;                    
+                }
+            }
+        }
+    }
+    &[data-status="5"]{
+        .left{
+            .progress{
+                .current{
+                    width: 100%;
+                    span[data-status="5"]{
+                        display: block;
+                    }
+                }
+            }
+            p{
+                span[data-status="1"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="2"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="3"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="4"]{
+                    left: -100%;
+                    opacity: 0;
+                }
+                span[data-status="5"]{
+                    opacity: 1;
+                    left: 0;
+                }
+                
+            }
+            .select{
+                .wrap[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="3"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="4"]{
+                    opacity: 0;
+                    left: -100%;                 
+                }
+                .wrap[data-status="5"]{
+                    opacity: 1;
+                    left: 0;                   
+                }
+            }
+        }
+        .right{
+            .status{
+                span[data-status="5"]{
+                    display: inline;
+                }
+            }
+            .question{
+                span[data-status="1"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="2"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="3"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="4"]{
+                    opacity: 0;
+                    left: -100%;                  
+                }
+                span[data-status="5"]{
+                    opacity: 1;
+                    left: 0;                  
+                }
+            }
+        }
+    }
 
     .close {
         background: url(../img/close2.png) no-repeat center;
@@ -2547,16 +2895,29 @@ footer {
     }
 
     .left {
+        display: block;
         float: left;
         width: 730px;
         height: 644px;
         padding-left: 63px;
-        padding-top: 32px;
+        padding-top: 28px;
+
         p {
             font-size: 30px;
-            margin-bottom: 47px;
+            height: 84px;
             text-transform: uppercase;
-
+            position: relative;
+            overflow: hidden;
+            line-height: 34px;
+            span{
+                width: 100%;
+                position: absolute;
+                left: 100%;
+                top: 0;
+                transition:all 0.5s;
+                opacity: 0;
+                display: block;
+            }
         }
 
         .progress {
@@ -2573,80 +2934,105 @@ footer {
                 line-height: 19px;
                 padding-right: 8px;
                 transition:all 0.25s;
+                span{
+                    display: none;
+                }
             }
         }
         .select{
-            .var{
-                border:2px solid #fcc228;
-                width: 202px;
-                height: 202px;
-                margin-right: 12px;
-                margin-bottom: 12px;
-                float:left;
-                position: relative;
-                overflow: hidden;
-                background-color: white;
-                cursor: pointer;
-                &:after{
-                    content:'';
-                    display: block;
-                    position: absolute;
-                    width: 19px;
-                    height: 19px;
-                    left: 9px;
-                    top: 9px;
-                    background-color: #fcc228;
-                    border-radius: 100%;
-                    z-index: 3;
-                }
-                &.width{
-                    background-image: url(../img/otrezok.png);
-                    background-position: center 103px;
-                    text-align: center;
-                    padding-top: 78px;
-                    text-transform: uppercase;
-                    font-size: 24px;
-                }
-                &.img{
-
-                    img{
+            height: 410px;
+            position: relative;
+            overflow: hidden;
+            .wrap{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top:0;
+                left: 100%;
+                transition:all 0.5s;
+                opacity: 0;
+                display: block;
+                .var{
+                    border:2px solid #fcc228;
+                    width: 202px;
+                    height: 202px;
+                    margin-right: 12px;
+                    margin-bottom: 12px;
+                    float:left;
+                    position: relative;
+                    overflow: hidden;
+                    background-color: white;
+                    cursor: pointer;
+                    &:after{
+                        content:'';
                         display: block;
                         position: absolute;
-                        height: 100%;
-                        top: 0;
-                        left: 50%;
-                        transform:translate3d(-50%,0,0);
-                        z-index: 1;
-                    }
-                    
-                }
-                &.text{
-                    float:none;
-                    width: 430px;
-                    height: 55px;
-                    line-height: 50px;
-                    padding-left: 48px;
-                    font-size: 19px;
-                    &:after{
-                        top: 16px;
-                    }
-                }
-                &.active{
-                    &:after{
-                        background-image: url(../img/check-ico.png);
-                        background-position: -3px -3px;
+                        width: 19px;
+                        height: 19px;
+                        left: 9px;
+                        top: 9px;
+                        border-radius: 100%;
+                        z-index: 3;
+                        background-color: rgba(252, 194, 40, 0.66);
                     }
                     &.width{
-
+                        background-image: url(../img/otrezok.png);
+                        background-position: center 103px;
+                        text-align: center;
+                        padding-top: 78px;
+                        text-transform: uppercase;
+                        font-size: 24px;
                     }
                     &.img{
+
+                        img{
+                            display: block;
+                            position: absolute;
+                            height: 100%;
+                            top: 0;
+                            left: 50%;
+                            transform:translate3d(-50%,0,0);
+                            z-index: 1;
+                        }
                         
+                    }
+                    &.text{
+                        float:none;
+                        width: 430px;
+                        height: 55px;
+                        line-height: 50px;
+                        padding-left: 48px;
+                        font-size: 19px;
+                        &:after{
+                            top: 16px;
+                        }
+                    }
+                    &:hover{
+                        &:after{
+                            background-image: url(../img/check-ico.png);
+                            background-position: -3px -3px;
+                            background-color: #fcc228;
+                        }                        
+                    }
+                    &.active{
+                        &:after{
+                            background-image: url(../img/check-ico.png);
+                            background-position: -3px -3px;
+                            background-color: #fcc228;
+                        }
+                        &.width{
+
+                        }
+                        &.img{
+                            
+                        }
                     }
                 }
             }
         }
     }
     .right {
+        display: block;
         float: right;
         width: 362px;
         height: 563px;
@@ -2680,6 +3066,9 @@ footer {
             margin-top: 32px;
             height: 32px;
             border-bottom: 1px solid black;
+            span{
+                display: none;
+            }
         }
         .question{
             text-align: left;
@@ -2687,7 +3076,19 @@ footer {
             font-size: 17px;
             line-height: 24px;
             margin-right: -10px;
-            height: 27px;
+            height: 240px;
+            position: relative;
+            overflow: hidden;
+            span{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 100%;
+                top: 0;
+                opacity: 0;
+                display: block;
+                transition:all 0.5s;
+            }
 
         }
     }
@@ -2695,6 +3096,17 @@ footer {
     .nav {
         clear: both;
         border-top: 6px solid #fccd11;
+        position: relative;
+        z-index: -1;
+        transition: opacity 0.5s; 
+        opacity:0;
+        &:after{
+            content:'';
+            display: block;
+            width: 100%;
+            height: 0;
+            clear: both;
+        }
         a{
             float: left;
             height: 67px;
@@ -2715,6 +3127,53 @@ footer {
 
             }
         }
+    }
+    form{
+        display: none;
+        padding-left: 700px;
+        p{
+            font-size: 28px;
+            line-height: 36px;
+            margin-bottom: 30px;
+        }
+        input{
+            height: 40px;
+            width: 300px;
+            display: block;
+            font-style: italic;
+            text-align: left;
+            border: 1px solid rgba(116, 116, 116, 0.4);
+            box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
+            font-size: 16px;
+            padding-left: 35px;
+            background-color: white;
+            margin-bottom: 25px;
+            font-family: $fontfamily;
+            &[name="name"]{
+                background-image: url(../img/face.png);
+                background-position: 8px 12px;
+            }
+            &[name="phone"]{
+                background-image: url(../img/phone2.png);
+                background-position: 10px 10px;
+                
+            }
+            &[name="email"]{                
+                background-image: url(../img/massage.png);
+                background-position: 9px 13px;                
+            }
+        }
+        button{
+            background-color: #4b8903;
+            font-family: $fontfamily;
+            width: 300px;
+            color: white;
+            font-size: 22px;
+            text-align: center;
+            height: 45px;
+            display: block;
+            border:none;
+        }  
     }
 }
 .pop-mini{
@@ -2782,6 +3241,33 @@ footer {
     }
     100% {
         left: 140%
+    }
+}
+.input-wrap{
+    position: relative;
+    &:nth-of-type(1){
+        z-index: 4;
+
+    }
+    &:nth-of-type(2){
+        z-index: 3;
+        
+    }
+    &:nth-of-type(3){
+        z-index: 2;
+        
+    }
+    &:nth-of-type(4){
+        z-index: 1;
+    }
+    span{
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 43px;
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
     }
 }
 input.hidden{

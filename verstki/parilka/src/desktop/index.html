@@ -53,7 +53,7 @@
         <div class="download">
             <p>Скачайте полный<br>каталог на бани с ценами</p>
             <a class="pop-btn btn-animation" href="#katalog-pop">Скачать каталог<br> <span>Размер: 2.1 Мб</span></a>
-            <span class="update">Обновлено: 19.12.2017</span>
+            <span class="update">Обновлено: <span class="price-updated"></span></span>
         </div>
     
         <!-- <div class="slide-control">
@@ -580,8 +580,15 @@
     <div class="last">
         <p>Если вы найдете баню такой же комплектации и на таких же условиях как у нас, <br>свяжитесь с нами и мы сделаем Вам скидку 3% от цены конкурентов</p>
         <form action="#" method="post">
-            <input type="text" name="name" placeholder="Ваше имя">
-            <input type="text" name="phone" placeholder="Ваш телефон">
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation" type="submit">Оставить заявку</button>
         </form>
     </div>
@@ -637,13 +644,20 @@
             <p class="send-us">Пришлите нам проект<br> на почту <a href="mailto:79616080656@ya.ru?subject=Проект" target="_blank">79616080656@ya.ru</a>,<br>и мы сделаем расчет</p>
             <div class="img"></div>
             <form action="#" method="post">
-                <input type="text" name="name" placeholder="Ваше имя">
-                <input type="text" name="phone" placeholder="Ваш телефон">
+                <div class="input-wrap">
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <span>Пожалуйста, введите не меньше 2 символов.</span>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="phone" placeholder="Ваш телефон">
+                    <span>Пожалуйста, введите корректный телефон.</span>
+                </div>
                 <div class="helper">
                     <input type="file" name="upload" id="upload_hidden" onchange="document.getElementById('upload_visible').value = this.value.replace('C:\\fakepath\\','');" />
                     <div class="help-btn" onclick="document.getElementById('upload_hidden').click();">Выберите файл</div>
                     <input type="text" readonly="readonly" id="upload_visible" onclick="document.getElementById('upload_hidden').click();" placeholder="Дом баня1..."/>
                 </div>
+                <input type="hidden" name="submit_target" value="zayavka">
                 <button class="btn-animation" type="submit">Посчитайте мой проект</button>
             </form>
         </div>
@@ -853,8 +867,15 @@
     <div>
         <h2>Появились вопросы? <br>Задавайте!</h2>
         <form action="#" method="post">
-            <input type="text" name="name" placeholder="Ваше имя">
-            <input type="text" name="phone" placeholder="Ваш телефон">
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Оставить заявку</button>
         </form>
     </div>
@@ -904,8 +925,15 @@
             <div class="arrow right" id="arrr1"></div>
         </div>
         <form action="#" method="post">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
-            <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Заказать звонок</button>
         </form>
     </div>
@@ -941,8 +969,15 @@
             <div class="arrow right" id="arrr2"></div>
         </div>
         <form action="#" method="post">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
-            <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Получить консультацию</button>
         </form>
     </div>
@@ -952,19 +987,33 @@
         <div class="img"></div>
         <p class="descr">Введите вашу электронную почту<br>и мы отправим вам полный каталог<br>на бани с ценами</p>
         <form action="#" method="post">
-            <input type="email" name="email" placeholder="Ваш E-mail" class="active">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="email" placeholder="Ваш E-mail" class="active">
+                <span>Введите корректный адрес электронной почты.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="button">Скачать каталог<br><span>Размер: 2,1 Мб</span></button>
         </form>
-        <span class="update">Обновлен:12.12.2012</span>
+        <span class="update">Обновлен:<span class="price-updated"></span></span>
     </div>
     <div class="pop-box pop2 short" id="action-pop">
         <div class="close"></div>
         <p class="heading">Узнать подробности нашей акции</p>
         <p class="descr">Введите вашу электронную почту, <br>и мы направим вам подробное <br>описание нашей акции</p>
         <form action="#" method="post">
-            <input type="email" name="email" placeholder="Ваш email" class="active">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="email" placeholder="Ваш E-mail" class="active">
+                <span>Введите корректный адрес электронной почты.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Узнать подробности</button>
         </form>
     </div>
@@ -973,8 +1022,15 @@
         <p class="heading">Получить подробную спецификацию</p>
         <p class="descr">Введите вашу электронную почту, <br>и мы направим вам подробную <br>спецификацию на все бани</p>
         <form action="#" method="post">
-            <input type="email" name="email" placeholder="Ваш email" class="active">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="email" placeholder="Ваш E-mail" class="active">
+                <span>Введите корректный адрес электронной почты.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Получить спецификацию</button>
         </form>
     </div>
@@ -983,8 +1039,15 @@
         <p class="heading">Купить в кредит</p>
         <p class="descr">Введите Ваши контактные данные, <br>и мы свяжемся с вами <br>для обсуждения условий кредитования</p>
         <form action="#" method="post">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
-            <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Купить в кредит</button>
         </form>
     </div>
@@ -993,27 +1056,67 @@
         <p class="heading">Получить расчет</p>
         <p class="descr">Введите Ваши контактные данные, <br>для получения расчета цены <br>выбранной конфигурации бани</p>
         <form action="#" method="post">
-            <input type="text" name="phone" placeholder="Ваш телефон" class="active">
-            <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="active">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Вашe имя" class="hidden">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
             <input type="hidden" name="length">
             <input type="hidden" name="width">
             <input type="hidden" name="fundament">
             <input type="hidden" name="terasa">
             <input type="hidden" name="comment">
+            <input type="hidden" name="submit_target" value="zayavka">
             <button class="btn-animation">Получить расчет</button>
         </form>
     </div>
-    <div class="pop-box pop3" id="test-pop">
+    <div class="pop-box pop3" id="test-pop" data-status="1">
         <div class="close"></div>
-        <p class="heading">Узнайте стоимость и комплектацию вашей  будущей бани</p>
+        <p class="heading">Узнайте стоимость и комплектацию вашей будущей бани</p>
         <div class="left">
-            <p>Какую ширину бани вы бы выбрали?</p>
+            <p>
+                <span data-status="1">В какое время года вы планируете использовать баню?</span>
+                <span data-status="2">Когда вам нужна баня?</span>
+                <span data-status="3">Может ли к вам на участок проехать Камаз с манипулятором?</span>
+                <span data-status="4">Что для вас в бане самое главное?</span>
+                <span data-status="5">Пока не придумал?</span>
+            </p>
             <div class="progress">
-                <div class="current">15%</div>
+                <div class="current">
+                    <span data-status="1">20%</span>
+                    <span data-status="2">40%</span>
+                    <span data-status="3">60%</span>
+                    <span data-status="4">80%</span>
+                    <span data-status="5">100%</span>
+                </div>
             </div>
             <div class="select">
-                <div class="var text active">С крылечком</div>
-                <div class="var text">Без крылечка</div>
+                <div class="wrap" data-status="1">
+                    <div class="var text">Теплое время года</div>
+                    <div class="var text">Круглый год, включая зиму</div>
+                </div>
+                <div class="wrap" data-status="2">
+                    <div class="var text">Ближайшее время</div>
+                    <div class="var text">В течение месяца</div>
+                    <div class="var text">В течение трех месяцев</div>
+                    <div class="var text">В этом году</div>
+                </div>
+                <div class="wrap" data-status="3">
+                    <div class="var text">Да</div>
+                    <div class="var text">Нет, сложный заезд, требуется сборка на месте</div>
+                    <div class="var text">Не знаю, нужна консультация</div>
+                </div>
+                <div class="wrap" data-status="4">
+                    <div class="var text">Внешний вид</div>
+                    <div class="var text">Технические качества</div>
+                </div>
+                <div class="wrap" data-status="5">
+                    <div class="var text">Придумал</div>
+                    <div class="var text">Не придумал</div>
+                </div>
                 <!-- <div class="var width active">3 м</div>
                 <div class="var width">4 м</div>
                 <div class="var width">5 м</div>
@@ -1028,13 +1131,41 @@
                 <span class="name">МАРИЯ</span>
                 <span class="person">Эксперт по баням</span>
             </p>
-            <p class="status">Вопрос 1 из 5</p>
-            <p class="question">Стиль кухни влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</p>
+            <p class="status">Вопрос <span data-status="1">1</span><span data-status="2">2</span><span data-status="3">3</span><span data-status="4">4</span><span data-status="5">5</span> из 5</p>
+            <p class="question">
+                <span data-status="1">ТЕКСТ 1 влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</span>
+                <span data-status="2">ТЕКСТ 2 влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</span>
+                <span data-status="3">ТЕКСТ 3 влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</span>
+                <span data-status="4">ТЕКСТ 4 влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</span>
+                <span data-status="5">ТЕКСТ 5 влияет на её стоимость. <br>Например, декоративные <br>элементы увеличивают цену кухонь <br>в стиле ар-деко и классика. А для <br>кухонь в стилях лофт и минимализм <br>влияющим фактором будет <br>материал и качество отделки <br>фасадов, а так же количество <br>встроенной техники.</span>
+            </p>
         </div>
         <div class="nav">
             <a href="#" class="back">Назад</a>
             <a href="#" class="forward">Далее</a>
-        </div>        
+        </div>
+        <form action="#" method="post">
+            <p>Заполните форму для получения результатов теста</p>
+            <div class="input-wrap">                
+                <input type="text" name="email" placeholder="Ваш email" class="active">
+                <span>Введите корректный адрес электронной почты.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="name" placeholder="Ваше имя" class="hidden">
+                <span>Пожалуйста, введите не меньше 2 символов.</span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" name="phone" placeholder="Ваш телефон" class="hidden">
+                <span>Пожалуйста, введите корректный телефон.</span>
+            </div>
+            <input type="hidden" name="question_1">
+            <input type="hidden" name="question_2">
+            <input type="hidden" name="question_3">
+            <input type="hidden" name="question_4">
+            <input type="hidden" name="question_5">
+            <input type="hidden" name="submit_target" value="zayavka">
+            <button>Получить результаты</button>
+        </form>  
     </div>
     <div class="pop-box pop-mini" id="okgo">
         <div class="close"></div>        
@@ -1045,6 +1176,16 @@
         <p id="form-error-text"></p>
     </div>
 </div>
+<script>
+submit_target=function(target){
+    if(typeof yaCounter38471935 != 'undefined'){
+        yaCounter38471935.reachGoal(target);
+    }
+    if(typeof ga != 'undefined'){
+        ga('send', 'event', target, target);
+    }
+}
+</script>
 <script src="js/init.js"></script>
 </body>
 </html>

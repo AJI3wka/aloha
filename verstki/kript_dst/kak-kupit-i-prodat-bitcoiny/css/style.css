@@ -88,104 +88,102 @@ section {
   top: 43%;
   margin-top: -24px; }
 
-/* line 70, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-.sec2 {
-  overflow: inherit; }
-  /* line 72, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-  .sec2 > img {
-    position: absolute;
-    left: 50%;
-    margin-left: -960px;
-    top: 0; }
-  /* line 79, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-  .sec2 > div {
-    padding-top: 1px; }
-  /* line 82, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-  .sec2 .main {
-    margin-left: 56px;
-    margin-right: 38px;
-    margin-top: -11px; }
-    /* line 87, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-    .sec2 .main h2 {
-      font-size: 24px;
-      line-height: 30px;
-      color: #0d2a66;
-      font-weight: 400;
-      text-align: left;
-      margin-top: 50px; }
-      /* line 94, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main h2:nth-of-type(1) {
-        margin-top: 0; }
-      /* line 98, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main h2:before, .sec2 .main h2:after {
-        content: none; }
-    /* line 102, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-    .sec2 .main p {
-      margin-top: 20px;
-      font-size: 18px;
-      margin-bottom: 27px;
-      line-height: 25px;
-      letter-spacing: -0.6px; }
-      /* line 108, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main p:before, .sec2 .main p:after {
-        content: none; }
-    /* line 114, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-    .sec2 .main .right {
-      float: right;
-      width: 374px;
-      height: 220px;
-      background-color: #5c5c5c;
-      border: 11px solid white;
-      box-shadow: 0 6px 32px rgba(0, 0, 0, 0.44);
-      margin-top: 70px;
-      border-radius: 11px;
-      margin-left: 70px;
-      margin-bottom: 70px; }
-      /* line 125, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main .right .video {
-        width: 352px;
-        height: 198px; }
-    /* line 132, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-    .sec2 .main ul {
-      font-size: 26px;
-      margin-left: 34px;
-      padding-top: 25px;
-      padding-right: 65px; }
-      /* line 137, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main ul:before, .sec2 .main ul:after {
-        content: none; }
-      /* line 142, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main ul .li {
-        font-size: 17px;
-        padding-left: 5px;
-        margin-bottom: 21px;
-        letter-spacing: -0.1px; }
-        /* line 147, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-        .sec2 .main ul .li:before, .sec2 .main ul .li:after {
-          content: none; }
-    /* line 152, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-    .sec2 .main .button {
-      width: 234px;
-      height: 54px;
-      border-radius: 27px;
-      color: white;
-      text-align: center;
-      line-height: 55px;
-      padding-left: 30px;
-      background-image: url(../img/arrowleft.png);
-      background-color: #283a83;
-      background-size: 23px 5px;
-      background-position: 35px 25px;
-      margin-top: 73px;
-      margin-left: 1px;
+/* line 71, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+.sec2 > img {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  top: 0; }
+
+/* line 78, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+.sec2 > div {
+  padding-top: 1px; }
+
+/* line 81, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+.sec2 .main {
+  margin-left: 56px;
+  margin-right: 38px; }
+  /* line 85, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+  .sec2 .main h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #0d2a66;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 50px; }
+    /* line 92, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main h2:nth-of-type(1) {
+      margin-top: 0; }
+    /* line 96, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main h2:before, .sec2 .main h2:after {
+      content: none; }
+  /* line 100, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+  .sec2 .main p {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 27px;
+    line-height: 25px;
+    letter-spacing: -0.6px; }
+    /* line 106, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main p:before, .sec2 .main p:after {
+      content: none; }
+  /* line 112, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+  .sec2 .main .right {
+    float: right;
+    width: 374px;
+    height: 220px;
+    background-color: #5c5c5c;
+    border: 11px solid white;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.44);
+    margin-top: 70px;
+    border-radius: 11px;
+    margin-left: 70px;
+    margin-bottom: 70px; }
+    /* line 123, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main .right .video {
+      width: 352px;
+      height: 198px; }
+  /* line 130, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+  .sec2 .main ul {
+    font-size: 26px;
+    margin-left: 34px;
+    padding-top: 25px;
+    padding-right: 65px; }
+    /* line 135, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main ul:before, .sec2 .main ul:after {
+      content: none; }
+    /* line 140, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main ul .li {
       font-size: 17px;
-      transition: all 0.25s;
-      cursor: pointer;
-      font-family: "MuseoCyrl", sans-serif;
-      display: block;
-      margin-bottom: 50px; }
-      /* line 172, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
-      .sec2 .main .button:hover {
-        background-color: #112e75; }
+      padding-left: 5px;
+      margin-bottom: 21px;
+      letter-spacing: -0.1px; }
+      /* line 145, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+      .sec2 .main ul .li:before, .sec2 .main ul .li:after {
+        content: none; }
+  /* line 150, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+  .sec2 .main .button {
+    width: 234px;
+    height: 54px;
+    border-radius: 27px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    padding-left: 30px;
+    background-image: url(../img/arrowleft.png);
+    background-color: #283a83;
+    background-size: 23px 5px;
+    background-position: 35px 25px;
+    margin-top: 73px;
+    margin-left: 1px;
+    font-size: 17px;
+    transition: all 0.25s;
+    cursor: pointer;
+    font-family: "MuseoCyrl", sans-serif;
+    display: block;
+    margin-bottom: 50px; }
+    /* line 170, /Volumes/Workspace/CACHE/GITHUB/aloha/verstki/kript/statti/birzha-obmena-kriptovalut/css/sass/style.scss */
+    .sec2 .main .button:hover {
+      background-color: #112e75; }
 
 /*# sourceMappingURL=style.css.map */

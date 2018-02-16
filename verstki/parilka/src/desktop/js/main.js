@@ -156,8 +156,74 @@ function init_pop_slider2(){
         moveSlides: 1
     });
 }
+function show_form_error($form){
+    var eror_pop_text = '';
+
+    if ($form.find('input[name="name"]').hasClass('error-input') 
+        && !$form.find('input[name="phone"]').hasClass('error-input')
+        && !$form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите имя';
+    } else
+
+    if ($form.find('input[name="phone"]').hasClass('error-input') 
+        && !$form.find('input[name="name"]').hasClass('error-input')
+        && !$form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите телефон';
+    } else
+
+    if (!$form.find('input[name="phone"]').hasClass('error-input') 
+        && !$form.find('input[name="name"]').hasClass('error-input')
+        && $form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите email';
+    } else
+
+    if ($form.find('input[name="name"]').hasClass('error-input') 
+        && $form.find('input[name="phone"]').hasClass('error-input')
+        && !$form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите имя и телефон';
+    } else
+
+    if ($form.find('input[name="name"]').hasClass('error-input') 
+        && !$form.find('input[name="phone"]').hasClass('error-input')
+        && $form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите имя и email';
+    } else
+
+    if (!$form.find('input[name="name"]').hasClass('error-input') 
+        && $form.find('input[name="phone"]').hasClass('error-input')
+        && $form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите телефон и email';
+    } else
+
+    if ($form.find('input[name="name"]').hasClass('error-input') 
+        && $form.find('input[name="phone"]').hasClass('error-input')
+        && $form.find('input[name="email"]').hasClass('error-input')) {
+        eror_pop_text = 'Пожалуйста введите имя, телефон и email';
+    } 
+
+    $('#form-error-text').html(eror_pop_text);
+    $('#form-error-pop').arcticmodal();
+}
+function price_updated(){
+
+    var date = new Date();
+
+    date.setDate(date.getDate() - 1);
+
+    var date_s = 
+    ("0" + date.getUTCDate()).slice(-2) + "." +
+    ("0" + (date.getUTCMonth()+1)).slice(-2) + "." +
+    date.getUTCFullYear();
+
+
+
+    $('.price-updated').html(date_s);
+}
 
 $(document).ready(function () {
+
+    price_updated();
+
     $(document).on("scroll", onScroll);
     
     //smoothscroll
@@ -290,7 +356,8 @@ $(document).ready(function () {
     $('input[name="name"]').blur(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
       if ($(this).val().length < 2) {
-          $(this).addClass('error-input');
+            $(this).addClass('error-input');
+            $(this).parent().find('span').show();
       }else{
           $(this).addClass('correct-input');
               var _this = this;
@@ -301,13 +368,16 @@ $(document).ready(function () {
       });
       $('input[name="name"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
+        $(this).parent().find('span').hide();
       });
 
       $('input[name="phone"]').mask('+7 (999) 999-99-99');
       $('input[name="phone"]').blur(function() {
+
         $(this).removeClass('correct-input').removeClass('error-input');
-          if ($(this).val().length != 18) {
-              $(this).addClass('error-input');
+          if ($(this).val().length != 18 || $(this).val().indexOf('_') > -1) {
+                $(this).addClass('error-input');
+                $(this).parent().find('span').show();
           } else {
               $(this).addClass('correct-input');
               var _this = this;
@@ -315,9 +385,21 @@ $(document).ready(function () {
                 $(_this).closest('form').find('input.hidden').addClass('show');
               },150);
           }
+
+      });
+      $('input[name="phone"]').on('input keyup',function() {
+        console.log($(this).val().indexOf('_'));
+        if ($(this).val().length == 18 && $(this).val().indexOf('_') == -1) {     
+            $(this).addClass('correct-input');
+                var _this = this;
+                setTimeout(function(){
+                    $(_this).closest('form').find('input.hidden').addClass('show');
+            },150);
+        }
       });
       $('input[name="phone"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
+        $(this).parent().find('span').hide();
       });
 
       function validateEmail(email) {
@@ -326,11 +408,11 @@ $(document).ready(function () {
       };
 
 
-
       $('input[name="email"]').blur(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
           if (!validateEmail($(this).val())) {
-              $(this).addClass('error-input');
+                $(this).addClass('error-input');
+                $(this).parent().find('span').show();
           }else{
               $(this).addClass('correct-input');
               var _this = this;
@@ -339,47 +421,43 @@ $(document).ready(function () {
               },150);
           }
       });
+      $('input[name="email"]').on('input keyup',function() {
+        var val = $(this).val();
+        if (validateEmail(val)) {
+            if (val.indexOf(".ru") >= 0||val.indexOf(".net") >= 0||val.indexOf(".com") >= 0){
+                
+                $(this).addClass('correct-input');
+                var _this = this;
+                setTimeout(function(){
+                $(_this).closest('form').find('input.hidden').addClass('show');
+                },150);
+            
+            }
+        }
+      });
       $('input[name="email"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
+        $(this).parent().find('span').hide();
       });
 
 
 
     $('form').submit(function(e) {
         e.preventDefault();
+        $(this).find('input.hidden.show,input.active').trigger('blur');
         if ($(this).find('input.error-input').length>0) {
 
+            show_form_error($(this));
+                
 
-                var eror_pop_text = '';
-
-                if ($(this).find('input[name="name"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите имя';
-                } else
-
-                if ($(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name="name"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите телефон';
-                } else
-
-                if ($(this).find('input[name="phone"]').hasClass('error-input') && $(this).find('input[name="name"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите имя и телефон';
-                } else
-
-                if ($(this).find('input[name="email"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите емейл';
-                }
-
-                $('#form-error-text').html(eror_pop_text)
-                $('#form-error-pop').arcticmodal();
-
-                return
         }
-        if ($(this).find('input.hidden').length>0 && $(this).find('input.hidden').not(':visible')) return
-            
-
-            $(this).find('input[type="text"],input[type="email"]').trigger('blur');
-            if (!$(this).find('input[type="text"],input[type="email"]').hasClass('error-input')) {
+        if ($(this).find('input.hidden').length != $(this).find('input.hidden.show').length) return
+        
+        $(this).find('input[type="text"],input[type="email"]').trigger('blur');
+        if (!$(this).find('input[type="text"],input[type="email"]').hasClass('error-input')) {
                 var type = $(this).attr('method');
                 var url = $(this).attr('action');
+                var tar = $(this).find('input[name="submit_target"]').val();
                 var data = $(this).serialize();
                 $.ajax({
                     type: type,
@@ -391,31 +469,47 @@ $(document).ready(function () {
                         $('input[name="name"]').val('');
                         $('input[name="phone"]').val('');
                         $('input[name="email"]').val('');
+                        submit_target(tar);
                     }
                 });
             } else {
-
-                var eror_pop_text = '';
-
-                if ($(this).find('input[name="name"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите имя';
-                } else
-
-                if ($(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name="name"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите телефон';
-                } else
-
-                if ($(this).find('input[name="phone"]').hasClass('error-input') && $(this).find('input[name="name"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите имя и телефон';
-                } else
-
-                if ($(this).find('input[name="email"]').hasClass('error-input')) {
-                    eror_pop_text = 'Пожалуйста введите емейл';
-                }
-
-                $('#form-error-text').html(eror_pop_text)
-                $('#form-error-pop').arcticmodal();
+                
+                show_form_error($(this));
             }
+    });
+
+    $('.pop3').find('.var').click(function(){
+        $(this).closest('.wrap').find('.var').removeClass('active');
+        $(this).addClass('active');
+        $(this).closest('.pop3').addClass('can_next');
+    });
+
+    $('.pop3').find('.back').click(function(e){
+        e.preventDefault();
+        var $pop = $(this).closest('.pop3')
+        $pop.removeClass('can_next');
+        var status = parseInt($pop.attr('data-status'));
+        if (status>1) {
+            var new_status = status-1;
+            $pop.attr('data-status',new_status);
+            $pop.find('.wrap[data-status="'+new_status+'"]').find('.var').removeClass('active');
+        }
+
+    });
+    $('.pop3').find('.forward').click(function(e){
+        e.preventDefault();
+        var $pop = $(this).closest('.pop3')
+        $pop.removeClass('can_next');
+        var status = parseInt($pop.attr('data-status'));
+        var question_text = $pop.find('.left').find('p').find('span[data-status="'+status+'"]').text() + ' - ' + $pop.find('.left').find('.select').find('.wrap[data-status="'+status+'"]').find('.active').text();
+        $pop.find('form').find('input[name="question_'+status+'"]').val(question_text);
+        if (status<5) {
+            var new_status = status+1;
+            $pop.attr('data-status',new_status);
+            $pop.find('.wrap[data-status="'+new_status+'"]').find('.var').removeClass('active');
+        }else{            
+            $pop.attr('data-status','form');
+        }
     });
 
     Timer('2018-03-01 00:00:00');
