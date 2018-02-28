@@ -1,1 +1,0 @@
-$(function(){$(window).bind("load resize",function(){var n=$("header").height(),o=$("footer").height();$(".content").css({paddingTop:n,paddingBottom:o})})});

