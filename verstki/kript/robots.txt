@@ -1,0 +1,10 @@
+
+User-Agent: *
+Sitemap: http://obmennik-kriptovalyut.com/sitemap.xml
+
+User-Agent: Yandex
+Sitemap: http://obmennik-kriptovalyut.com/sitemap.xml
+
+User-Agent: Googlebot
+Sitemap: http://obmennik-kriptovalyut.com/sitemap.xml
+
