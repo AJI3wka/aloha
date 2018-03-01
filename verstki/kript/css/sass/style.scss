@@ -191,6 +191,18 @@ button, input, textarea {
         text-align: left;
         margin-top: 37px;
         letter-spacing: 0.7px;
+        position: relative;
+    }
+    .rub { 
+     background-image: url(../img/rub2.png);
+        background-size: 17px; 
+     height: 20px;
+     width: 20px;
+     clear:both;
+        position: absolute;
+        left:159px;
+        top:231px;
+        
     }
     p {
         color: #0d2a66;
@@ -2253,7 +2265,6 @@ footer {
             color: white;
             display: block; 
             text-align: left;
-            width: 198px;
         }
         .addr {
             font-size: 10px;
